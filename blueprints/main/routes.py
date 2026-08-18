@@ -3,7 +3,8 @@ from flask_login import login_required, current_user, logout_user
 from models.love_reading import LoveReading, DeepLoveReading
 from models.reading import Reading
 from extensions import db
-from datetime import date
+from datetime import date, timedelta
+from types import SimpleNamespace
 from flask import session
 from flask import abort
 from models.journal import Journal
@@ -48,13 +49,92 @@ from datetime import timedelta
 @main.route("/history")
 @login_required
 def history():
-
     readings = (
         Reading.query
         .filter_by(user_id=current_user.id)
         .order_by(Reading.created_at.desc())
         .all()
     )
+
+    love_readings = (
+        LoveReading.query
+        .filter_by(user_id=current_user.id)
+        .order_by(LoveReading.created_at.desc())
+        .all()
+    )
+
+    deep_love_readings = (
+        DeepLoveReading.query
+        .filter_by(user_id=current_user.id)
+        .order_by(DeepLoveReading.created_at.desc())
+        .all()
+    )
+
+    all_readings = (
+            [(r.created_at, "regular", r) for r in readings]
+            + [(r.created_at, "love", r) for r in love_readings]
+            + [(r.created_at, "deep-love", r) for r in deep_love_readings]
+    )
+
+    all_readings.sort(
+        key=lambda x: x[0],
+        reverse=True
+    )
+
+    history_items = []
+
+    for created_at, reading_type, reading in all_readings:
+
+        if reading_type == "regular":
+
+            history_items.append(
+                SimpleNamespace(
+                    id=reading.id,
+                    reading_type=reading.reading_type,
+                    question=reading.question,
+                    card_name=reading.card_name,
+                    orientation=reading.orientation,
+                    created_at=created_at,
+                    display_time=(
+                        created_at + timedelta(hours=5, minutes=30)
+                        if created_at else None
+                    )
+                )
+            )
+
+        elif reading_type == "love":
+
+            history_items.append(
+                SimpleNamespace(
+                    id=reading.id,
+                    reading_type="simple-love",
+                    question=reading.question,
+                    card_name="3-Card Love Reading",
+                    orientation="love",
+                    created_at=created_at,
+                    display_time=(
+                        created_at + timedelta(hours=5, minutes=30)
+                        if created_at else None
+                    )
+                )
+            )
+
+        elif reading_type == "deep-love":
+
+            history_items.append(
+                SimpleNamespace(
+                    id=reading.id,
+                    reading_type="deep-love",
+                    question=reading.question,
+                    card_name="5-Card Deep Love Reading",
+                    orientation="love",
+                    created_at=created_at,
+                    display_time=(
+                        created_at + timedelta(hours=5, minutes=30)
+                        if created_at else None
+                    )
+                )
+            )
 
     for reading in readings:
 
@@ -66,8 +146,9 @@ def history():
 
     return render_template(
         "history.html",
-        readings=readings
+        readings=history_items
     )
+
 @main.route("/delete-reading/<int:reading_id>", methods=["POST"])
 @login_required
 def delete_reading(reading_id):
