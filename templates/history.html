@@ -80,6 +80,32 @@
                                     PDF
                                 </a>
 
+                            {% elif reading.reading_type == "simple-love" %}
+
+                                <a href="{{ url_for('main.love_reading', reading_id=reading.id) }}"
+                                   class="history-btn">
+                                    👁 View Reading
+                                </a>
+
+                                <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
+                                   class="history-btn download-btn">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                    PDF
+                                </a>
+
+                            {% elif reading.reading_type == "deep-love" %}
+
+                                <a href="{{ url_for('main.deep_love_reading', reading_id=reading.id) }}"
+                                   class="history-btn">
+                                    👁 View Reading
+                                </a>
+
+                                <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
+                                   class="history-btn download-btn">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                    PDF
+                                </a>
+
                             {% else %}
 
                                 <a href="{{ url_for('main.guidance_reading', reading_id=reading.id) }}"
