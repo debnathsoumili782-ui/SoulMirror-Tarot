@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+
+{% block title %}Reading History{% endblock %}
+
+{% block content %}
+
+<section class="history-page">
+
+    <div class="container">
+
+        <div class="history-header">
+            <h1>Reading History</h1>
+            <p>Revisit your past readings and reflect on your journey.</p>
+        </div>
+
+        <div class="history-list">
+
+            {% if readings %}
+
+                {% for reading in readings %}
+
+                    <div class="history-card">
+
+                        <div class="history-top">
+
+                            <span class="history-type">
+                                {{ reading.reading_type|replace('-', ' ')|title }}
+                            </span>
+
+                            <span class="history-date">
+                                {{ reading.display_time.strftime('%d %b %Y • %I:%M %p') }}
+                            </span>
+
+                        </div>
+
+                        <h3 class="history-question">
+                            {{ reading.question }}
+                        </h3>
+
+                        <p class="history-card-name">
+                            🃏 {{ reading.card_name }}
+                            •
+                            {{ reading.orientation|title }}
+                        </p>
+
+                        <div class="history-actions">
+
+                            {% if reading.reading_type == "single" %}
+
+                                <a href="{{ url_for('main.single_reading', reading_id=reading.id) }}"
+                                   class="history-btn">
+                                    👁 View Reading
+                                </a>
+                                <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
+                                   class="history-btn download-btn">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                    PDF
+                                </a>
+
+                            {% elif reading.reading_type == "yes-no" %}
+                                <a href="{{ url_for('main.yes_no_reading', reading_id=reading.id) }}"
+                                   class="history-btn">
+                                    👁 View Reading
+                                </a>
+                                <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
+                                   class="history-btn download-btn">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                    PDF
+                                </a>
+
+                            {% elif reading.reading_type == "time-oracle" %}
+
+                                <a href="{{ url_for('main.time_reading', reading_id=reading.id) }}"
+                                   class="history-btn">
+                                    👁 View Reading
+                                </a>
+                                <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
+                                   class="history-btn download-btn">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                    PDF
+                                </a>
+
+                            {% else %}
+
+                                <a href="{{ url_for('main.guidance_reading', reading_id=reading.id) }}"
+                                   class="history-btn">
+                                    👁 View Reading
+                                </a>
+                                <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
+                                   class="history-btn download-btn">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                    PDF
+                                </a>
+
+                            {% endif %}
+
+                            <form
+                                action="{{ url_for('main.delete_reading', reading_id=reading.id) }}"
+                                method="POST"
+                                onsubmit="return confirm('Are you sure you want to delete this reading?');">
+
+                                <button
+                                    type="submit"
+                                    class="history-btn danger">
+                                    🗑 Delete
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                {% endfor %}
+
+            {% else %}
+
+                <p>No readings found.</p>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</section>
+
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/history.css') }}">
+
+{% endblock %}

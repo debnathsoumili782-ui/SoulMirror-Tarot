@@ -1,0 +1,84 @@
+{
+  "id": 17,
+  "name": "The Star",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 17,
+  "image": "cards/major/the-star.png",
+
+  "keywords": {
+    "upright": [
+      "Hope",
+      "Healing",
+      "Inspiration",
+      "Faith",
+      "Renewal",
+      "Optimism",
+      "Peace",
+      "Guidance"
+    ],
+    "reversed": [
+      "Hopelessness",
+      "Discouragement",
+      "Lack of Faith",
+      "Self-Doubt",
+      "Emotional Exhaustion",
+      "Disconnection",
+      "Pessimism",
+      "Delayed Healing"
+    ]
+  },
+
+  "overview": "The Star is one of the most uplifting cards in the Tarot. It represents hope, healing, renewal, and divine guidance after difficult times. Appearing after The Tower, it symbolizes the calm that follows the storm and reminds you that brighter days are ahead. This card encourages trusting yourself, believing in your dreams, and allowing emotional, physical, and spiritual healing to take place. The Star assures you that the universe is supporting your journey.",
+
+  "upright": {
+    "meaning": "The Star Upright represents hope, inspiration, healing, and renewed faith in the future. It suggests that difficult times are coming to an end and you are entering a period of peace, clarity, and personal growth. This card encourages optimism, self-belief, and trusting that everything is unfolding according to divine timing.",
+
+    "love": "In relationships, The Star signifies healing, forgiveness, emotional openness, and genuine love. Existing relationships become stronger through trust and honest communication, while singles may meet someone who brings emotional peace and long-term happiness. This is an excellent card for soulmate connections and reconciliation when both people have grown.",
+
+    "career": "Professionally, The Star indicates career success, inspiration, recognition, and exciting opportunities. Creative projects flourish, goals become achievable, and your hard work begins to receive the appreciation it deserves. Continue believing in your abilities because success is approaching.",
+
+    "finance": "Financially, The Star suggests gradual improvement, financial recovery, and positive opportunities for long-term stability. Wise planning, patience, and optimism will lead to lasting prosperity.",
+
+    "health": "The Star is one of the strongest healing cards in Tarot. It represents recovery, improved energy, emotional balance, and positive progress. Physical, emotional, and mental healing are all supported during this period.",
+
+    "spiritual": "Spiritually, The Star represents divine guidance, intuition, higher consciousness, inner peace, and a deep connection with the universe. Your spiritual gifts may become stronger, and meditation or prayer brings clarity and comfort.",
+
+    "advice": "Never lose hope. Trust yourself, remain optimistic, and continue moving toward your dreams. Healing is already happening, even if you cannot yet see the complete results."
+  },
+
+  "reversed": {
+    "meaning": "The Star Reversed suggests losing faith, feeling discouraged, or doubting your own abilities. Temporary setbacks or emotional exhaustion may cause you to forget how far you have already come. The card reminds you that hope has not disappeared—it simply needs to be rediscovered within yourself.",
+
+    "love": "In relationships, emotional distance, insecurity, or disappointment may create uncertainty. Healing is possible through honesty, forgiveness, and rebuilding trust. Singles should focus on self-love before seeking external validation.",
+
+    "career": "Career-wise, you may feel unmotivated, overlooked, or uncertain about your future. Continue improving your skills and don't let temporary disappointments convince you to give up. Better opportunities are still ahead.",
+
+    "finance": "Financial progress may seem slower than expected. Avoid making fear-based decisions and continue following a practical financial plan. Patience will gradually restore stability.",
+
+    "health": "Stress, anxiety, emotional fatigue, or loss of motivation may slow recovery. Prioritize rest, emotional healing, and healthy routines. Improvement will come gradually.",
+
+    "spiritual": "Spiritually, you may feel disconnected from your intuition or question your faith. Reconnect through meditation, gratitude, journaling, or spending time in nature. Your spiritual light has not disappeared—it only needs nurturing.",
+
+    "advice": "Believe in yourself again. Don't allow temporary disappointment to define your future. Every difficult season eventually passes, and hope will return if you remain patient."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Hope and Confidence Are Restored"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Uranus",
+    "zodiac": "Aquarius",
+    "numerology": 17
+  },
+
+  "affirmation": "I trust the universe, believe in my dreams, and welcome healing, hope, and endless possibilities into my life."
+}

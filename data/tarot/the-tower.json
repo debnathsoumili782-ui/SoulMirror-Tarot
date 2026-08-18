@@ -1,0 +1,84 @@
+{
+  "id": 16,
+  "name": "The Tower",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 16,
+  "image": "cards/major/the-tower.png",
+
+  "keywords": {
+    "upright": [
+      "Sudden Change",
+      "Transformation",
+      "Awakening",
+      "Revelation",
+      "Truth",
+      "Chaos",
+      "Breakthrough",
+      "Liberation"
+    ],
+    "reversed": [
+      "Avoiding Change",
+      "Fear of Transformation",
+      "Resistance",
+      "Delayed Upheaval",
+      "Personal Transformation",
+      "Recovery",
+      "Healing",
+      "Acceptance"
+    ]
+  },
+
+  "overview": "The Tower represents sudden change, unexpected revelations, and the collapse of unstable foundations. Although its appearance may seem frightening, The Tower ultimately removes false beliefs, unhealthy situations, and outdated structures to make room for lasting growth. This card reminds you that while unexpected events can feel uncomfortable, they often become the catalyst for freedom, truth, and personal transformation. What falls away was never truly secure, allowing something stronger to be built in its place.",
+
+  "upright": {
+    "meaning": "The Tower Upright signifies sudden change, shocking revelations, and the breakdown of situations that no longer serve your highest good. While these events may initially feel disruptive, they ultimately clear the path for new opportunities, personal growth, and a stronger future built on truth.",
+
+    "love": "In relationships, The Tower may indicate unexpected arguments, revelations, breakups, or dramatic changes that expose hidden truths. Although painful at first, these experiences ultimately lead to healthier relationships based on honesty and mutual respect. Existing relationships may survive if both partners embrace honesty and meaningful change.",
+
+    "career": "Professionally, The Tower can represent sudden career changes, resignations, layoffs, company restructuring, or unexpected opportunities that completely alter your professional path. Although unsettling, these events often redirect you toward a more fulfilling career.",
+
+    "finance": "Financially, unexpected expenses, losses, or major financial adjustments may occur. This card encourages careful budgeting, avoiding unnecessary risks, and preparing for temporary instability while trusting that better financial foundations can be created.",
+
+    "health": "The Tower advises paying attention to sudden health concerns, stress, or burnout. Unexpected challenges may require immediate attention, but they also encourage adopting healthier habits that improve long-term well-being.",
+
+    "spiritual": "Spiritually, The Tower represents awakening through truth. Old beliefs, illusions, and limiting perspectives fall away, allowing deeper wisdom, authenticity, and spiritual transformation to emerge.",
+
+    "advice": "Don't resist necessary change. Accept what is ending, remain adaptable, and trust that life's unexpected events are guiding you toward something stronger, healthier, and more authentic."
+  },
+
+  "reversed": {
+    "meaning": "The Tower Reversed suggests resisting inevitable change or experiencing inner transformation before external events force change upon you. It may also indicate recovering from a difficult period and gradually rebuilding your life with greater wisdom and stability.",
+
+    "love": "Relationship tensions may continue if difficult conversations are avoided. Honest communication and emotional healing can prevent larger problems from developing. Existing relationships may recover if both partners are willing to grow together.",
+
+    "career": "Career-wise, fear of change may prevent professional growth. You may hesitate to leave an unhealthy work environment or avoid opportunities that require stepping outside your comfort zone. Trust your abilities and embrace necessary change.",
+
+    "finance": "Financial recovery is possible, but only by correcting past mistakes, reducing unnecessary expenses, and creating a realistic long-term financial plan. Avoid repeating unhealthy financial habits.",
+
+    "health": "Recovery from stress, burnout, or emotional exhaustion begins when you acknowledge the need for rest and positive lifestyle changes. Healing is already underway if you remain consistent.",
+
+    "spiritual": "Spiritually, you are releasing old beliefs and emotional wounds at your own pace. Although transformation may feel uncomfortable, it is leading you toward greater authenticity, wisdom, and inner peace.",
+
+    "advice": "Don't postpone necessary changes out of fear. Accept what needs to end, rebuild with patience, and remember that every challenge contains the opportunity for profound personal growth."
+  },
+
+  "yes_no": {
+    "upright": "No — Major Changes First",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Unexpected — Very Soon",
+    "reversed": "Gradually Over the Next 3–6 Months"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Mars",
+    "zodiac": "Aries",
+    "numerology": 16
+  },
+
+  "affirmation": "I welcome transformation with courage, release what no longer serves me, and trust that every ending creates the foundation for a stronger and more authentic future."
+}

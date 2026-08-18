@@ -1,0 +1,84 @@
+{
+  "id": 59,
+  "name": "Ten of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 10,
+  "image": "cards/swords/ten-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Endings",
+      "Transformation",
+      "Recovery",
+      "Acceptance",
+      "Closure",
+      "Release",
+      "New Beginning",
+      "Resilience"
+    ],
+    "reversed": [
+      "Recovery",
+      "Survival",
+      "Renewal",
+      "Resistance to Change",
+      "Healing",
+      "Letting Go",
+      "Fresh Start",
+      "Second Chance"
+    ]
+  },
+
+  "overview": "The Ten of Swords represents the completion of a painful chapter and the beginning of transformation. While it often symbolizes endings, betrayal, or emotional exhaustion, its deeper message is one of hope. The worst has already happened, leaving nowhere to go but forward. Every ending creates space for a new beginning, and this card reminds you that healing, wisdom, and strength are born from life's greatest challenges. The sunrise in the traditional imagery reminds us that even after the darkest night, a new day always arrives.",
+
+  "upright": {
+    "meaning": "The Ten of Swords Upright signifies the end of a difficult cycle, emotional release, acceptance, and transformation. Although an ending may feel painful, it clears the path for healing and new opportunities. This card encourages letting go of what cannot be changed and trusting that your future will be brighter than your past.",
+
+    "love": "In relationships, the Ten of Swords may represent the end of a relationship, betrayal, emotional exhaustion, or accepting that something has run its course. While painful, this ending creates space for healthier love and emotional healing. Existing relationships may recover only through complete honesty and mutual willingness to rebuild trust. Singles are encouraged to heal fully before entering a new relationship.",
+
+    "career": "Professionally, this card may indicate the end of a job, project, partnership, or stressful work situation. Although change may feel difficult initially, it often opens the door to better career opportunities that align more closely with your true goals.",
+
+    "finance": "Financially, the Ten of Swords suggests learning from financial setbacks, clearing debts, or recovering after difficult financial circumstances. Avoid dwelling on past mistakes and focus instead on building a stronger financial future through careful planning.",
+
+    "health": "This card often represents recovery after illness, emotional burnout, or prolonged stress. Prioritize rest, emotional healing, and healthy habits. While recovery may require patience, your strength gradually returns as you release unnecessary burdens.",
+
+    "spiritual": "Spiritually, the Ten of Swords represents profound transformation through surrender. By releasing old beliefs, emotional pain, and fear, you make room for wisdom, peace, and a deeper connection with your higher self.",
+
+    "advice": "Accept what has ended without resisting it. Every ending creates space for something better. Release the past with gratitude, trust the healing process, and welcome the new chapter that is beginning."
+  },
+
+  "reversed": {
+    "meaning": "The Ten of Swords Reversed represents recovery, resilience, second chances, and rising stronger after adversity. You are beginning to heal, rebuild your confidence, and recognize that your past does not define your future. However, it may also suggest resisting necessary endings or delaying emotional healing by holding onto old pain.",
+
+    "love": "Relationships may experience healing, reconciliation, or rebuilding trust after significant difficulties. If reconciliation is not possible, emotional recovery allows you to move forward with greater wisdom. Singles become emotionally stronger and more prepared for healthy, lasting love.",
+
+    "career": "Career setbacks begin to fade as new opportunities emerge. You may recover from job loss, professional disappointment, or workplace conflict by applying the valuable lessons you've learned. Success returns through resilience and persistence.",
+
+    "finance": "Financial recovery becomes possible through responsible budgeting, wiser investments, and learning from previous mistakes. Gradually, stability and confidence return as you rebuild your financial foundation.",
+
+    "health": "Physical and emotional recovery accelerate as stress decreases and healing progresses. Continue following healthy routines, allow yourself time to recover, and recognize the progress you have already made.",
+
+    "spiritual": "Spiritually, this card represents renewal, personal rebirth, and releasing emotional baggage that has limited your growth. Every challenge has strengthened your soul and prepared you for a more meaningful future.",
+
+    "advice": "Don't allow yesterday's pain to control tomorrow's possibilities. Rise with confidence, embrace your fresh start, and trust that every ending has prepared you for something greater."
+  },
+
+  "yes_no": {
+    "upright": "No — A Chapter Must End First",
+    "reversed": "Yes — After Recovery"
+  },
+
+  "timing": {
+    "upright": "Within 10 Weeks",
+    "reversed": "A Fresh Start Is Very Near"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Sun",
+    "zodiac": "Gemini",
+    "numerology": 10
+  },
+
+  "affirmation": "I release the past with gratitude, embrace transformation with courage, and trust that every ending leads me toward a brighter, wiser, and more fulfilling future."
+}

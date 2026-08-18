@@ -1,0 +1,84 @@
+{
+  "id": 73,
+  "name": "Ten of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 10,
+  "image": "cards/pentacles/ten-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Legacy",
+      "Wealth",
+      "Family",
+      "Long-Term Success",
+      "Security",
+      "Abundance",
+      "Tradition",
+      "Stability"
+    ],
+    "reversed": [
+      "Family Conflict",
+      "Financial Loss",
+      "Instability",
+      "Broken Traditions",
+      "Inheritance Issues",
+      "Short-Term Thinking",
+      "Material Problems",
+      "Uncertainty"
+    ]
+  },
+
+  "overview": "The Ten of Pentacles is one of the most fortunate cards in the Tarot, symbolizing lasting wealth, family happiness, long-term security, and creating a meaningful legacy. It represents success that extends beyond personal achievement, benefiting future generations through stability, wisdom, and strong relationships. This card reminds you that true abundance includes not only financial prosperity but also love, family, community, and the lasting impact you leave behind. It encourages building a future founded on integrity, generosity, and lasting values.",
+
+  "upright": {
+    "meaning": "The Ten of Pentacles Upright signifies lasting success, financial security, family prosperity, and achieving long-term goals. Your efforts create stability not only for yourself but also for those around you. This card represents fulfillment, legacy, and enjoying the rewards of years of dedication and wise decisions.",
+
+    "love": "In relationships, the Ten of Pentacles represents marriage, lifelong commitment, family harmony, shared goals, and building a secure future together. Couples strengthen their bond through trust, loyalty, and mutual support. Singles may attract a partner interested in a serious, long-term relationship that leads to lasting happiness.",
+
+    "career": "Professionally, this card indicates career stability, successful businesses, leadership, promotions, family businesses, retirement security, or reaching major professional milestones. Your work creates long-term success and financial freedom.",
+
+    "finance": "Financially, the Ten of Pentacles is one of the strongest abundance cards in Tarot. It represents wealth, financial security, successful investments, inheritance, property ownership, and creating lasting financial stability for yourself and your family.",
+
+    "health": "Health remains stable through balanced living, healthy family support, emotional security, and maintaining consistent wellness habits. Strong relationships positively influence overall well-being.",
+
+    "spiritual": "Spiritually, the Ten of Pentacles reminds you that true wealth includes wisdom, meaningful relationships, gratitude, and leaving a positive impact on others. Your greatest legacy is the love, kindness, and guidance you share with the world.",
+
+    "advice": "Build for the future, not just for today. Protect your values, strengthen your relationships, and create a legacy that brings lasting happiness, security, and abundance for generations to come."
+  },
+
+  "reversed": {
+    "meaning": "The Ten of Pentacles Reversed suggests financial instability, family disagreements, inheritance issues, or focusing too heavily on material success while neglecting emotional well-being. It encourages reassessing your priorities and rebuilding stability through honesty, cooperation, and long-term planning.",
+
+    "love": "Relationships may experience family interference, disagreements about finances, differing long-term goals, or lack of emotional security. Honest communication and shared values are essential for restoring harmony. Singles should seek partners whose life goals genuinely align with their own.",
+
+    "career": "Career-wise, workplace instability, business challenges, poor long-term planning, or uncertainty about the future may arise. Review your goals carefully and focus on building sustainable success rather than seeking immediate rewards.",
+
+    "finance": "Financially, this card warns against risky investments, poor money management, inheritance disputes, or neglecting long-term financial planning. Careful budgeting and responsible decision-making will gradually restore stability.",
+
+    "health": "Stress related to family, finances, or uncertainty may affect your health. Prioritize emotional balance, healthy routines, and maintaining strong support systems during challenging periods.",
+
+    "spiritual": "Spiritually, attachment to material success may distract you from what truly matters. Reconnect with gratitude, family, compassion, and the deeper purpose behind your achievements.",
+
+    "advice": "Don't measure success by wealth alone. Strengthen your relationships, plan wisely for the future, and remember that the greatest legacy is built through love, integrity, and generosity."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 10 Months",
+    "reversed": "Delayed Until Stability Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Mercury",
+    "zodiac": "Virgo",
+    "numerology": 10
+  },
+
+  "affirmation": "I create lasting abundance through wisdom, love, and integrity. My actions today build a secure, prosperous future, and I leave behind a legacy of kindness, stability, and success."
+}

@@ -1,0 +1,84 @@
+{
+  "id": 43,
+  "name": "Eight of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 8,
+  "image": "cards/cups/eight-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Walking Away",
+      "Self-Discovery",
+      "Change",
+      "Emotional Growth",
+      "Letting Go",
+      "Seeking Purpose",
+      "Transition",
+      "Inner Journey"
+    ],
+    "reversed": [
+      "Fear of Change",
+      "Avoidance",
+      "Emotional Stagnation",
+      "Indecision",
+      "Returning",
+      "Unfinished Business",
+      "Attachment",
+      "Resistance"
+    ]
+  },
+
+  "overview": "The Eight of Cups represents the courage to leave behind what no longer fulfills your heart in search of something more meaningful. It symbolizes emotional maturity, personal growth, and recognizing that true happiness sometimes requires walking away from familiar situations. Although the journey may be difficult, this card reminds you that choosing inner peace over temporary comfort leads to lasting fulfillment. It encourages trusting your intuition, embracing change, and believing that what lies ahead is greater than what you leave behind.",
+
+  "upright": {
+    "meaning": "The Eight of Cups Upright signifies walking away from situations, relationships, or habits that no longer serve your emotional well-being. It represents personal growth, spiritual development, and choosing long-term fulfillment over temporary comfort. Although difficult, this decision leads to greater happiness and self-discovery.",
+
+    "love": "In relationships, the Eight of Cups may indicate leaving an unhealthy relationship, creating emotional distance, or recognizing that personal growth is needed before love can flourish. Existing relationships may require honest conversations and significant changes. Singles may choose healing and self-love before beginning a new relationship.",
+
+    "career": "Professionally, this card suggests leaving an unfulfilling job, changing careers, pursuing a passion, or seeking greater purpose in your work. While the transition may feel uncertain, it ultimately leads to greater satisfaction and personal success.",
+
+    "finance": "Financially, the Eight of Cups encourages releasing unhealthy financial habits, letting go of unprofitable investments, and focusing on long-term financial stability rather than temporary gains. Wise changes now create future security.",
+
+    "health": "Health improves through releasing unhealthy habits, reducing emotional stress, and prioritizing mental well-being. This card supports healing through lifestyle changes, emotional balance, and self-care.",
+
+    "spiritual": "Spiritually, the Eight of Cups is one of the strongest cards of spiritual awakening. It represents seeking deeper meaning, trusting your intuition, and leaving behind limiting beliefs to embrace personal transformation and inner peace.",
+
+    "advice": "Don't stay where your heart no longer belongs. Have the courage to release what no longer serves you, trust your inner guidance, and believe that greater fulfillment awaits beyond your comfort zone."
+  },
+
+  "reversed": {
+    "meaning": "The Eight of Cups Reversed suggests fear of letting go, emotional avoidance, or returning to situations that no longer support your growth. You may know that change is necessary but hesitate because of uncertainty or attachment. The card encourages facing your emotions honestly and making decisions that honor your long-term happiness.",
+
+    "love": "Relationships may experience repeated cycles, unresolved emotional issues, or difficulty moving on after heartbreak. Honest communication and emotional healing are necessary before lasting happiness can be achieved. Singles should avoid returning to unhealthy patterns simply because they feel familiar.",
+
+    "career": "Career-wise, fear of change may prevent you from pursuing better opportunities. You may feel stuck in an unfulfilling job because of comfort or security. Careful planning and self-belief will help you move toward a more rewarding path.",
+
+    "finance": "Financially, avoid holding onto investments, spending habits, or financial commitments that no longer benefit you. Review your priorities and be willing to make practical changes for greater stability.",
+
+    "health": "Emotional stress, anxiety, or avoiding necessary lifestyle changes may slow recovery. Accepting what needs to change is the first step toward improved physical and emotional well-being.",
+
+    "spiritual": "Spiritually, you may resist important life lessons or hesitate to trust your intuition. Release fear, embrace personal transformation, and remember that spiritual growth often begins with letting go.",
+
+    "advice": "Don't let fear keep you trapped in situations you've already outgrown. Trust yourself, embrace necessary endings, and allow change to guide you toward the life you truly deserve."
+  },
+
+  "yes_no": {
+    "upright": "No — A Change Is Needed First",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 8 Weeks to 8 Months",
+    "reversed": "Delayed Until You Let Go"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Saturn",
+    "zodiac": "Pisces",
+    "numerology": 8
+  },
+
+  "affirmation": "I courageously release what no longer serves me, trust my inner wisdom, and walk confidently toward a future filled with purpose, peace, and emotional fulfillment."
+}

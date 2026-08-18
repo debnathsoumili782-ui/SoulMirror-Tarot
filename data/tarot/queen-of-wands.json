@@ -1,0 +1,84 @@
+{
+  "id": 34,
+  "name": "Queen of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 13,
+  "image": "cards/wands/queen-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Confidence",
+      "Independence",
+      "Leadership",
+      "Charisma",
+      "Creativity",
+      "Passion",
+      "Optimism",
+      "Courage"
+    ],
+    "reversed": [
+      "Insecurity",
+      "Jealousy",
+      "Self-Doubt",
+      "Control",
+      "Arrogance",
+      "Manipulation",
+      "Low Confidence",
+      "Burnout"
+    ]
+  },
+
+  "overview": "The Queen of Wands represents confidence, independence, creativity, and magnetic leadership. She is warm, ambitious, and fearless, inspiring others through her actions rather than her words. This card encourages believing in yourself, expressing your authentic personality, and pursuing your goals with passion and determination. The Queen reminds you that true confidence comes from self-belief, kindness, and the courage to remain authentic even when facing challenges.",
+
+  "upright": {
+    "meaning": "The Queen of Wands Upright signifies confidence, personal power, creativity, and natural leadership. You possess the charisma, intelligence, and determination needed to achieve your goals. This card encourages trusting yourself, taking initiative, and inspiring others through your positive attitude and unwavering belief in your abilities.",
+
+    "love": "In relationships, the Queen of Wands represents passion, loyalty, confidence, and emotional warmth. Couples enjoy mutual respect, attraction, and honest communication. Singles are especially attractive during this period and may easily draw healthy, confident partners who appreciate their authentic personality.",
+
+    "career": "Professionally, this card signifies leadership, promotions, entrepreneurship, creative success, business growth, and earning the respect of colleagues. Your confidence and ability to motivate others create opportunities for long-term achievement.",
+
+    "finance": "Financially, the Queen of Wands represents stability achieved through intelligence, confidence, and careful planning. Creative talents, business ideas, or leadership abilities may generate additional income and long-term prosperity.",
+
+    "health": "The Queen of Wands symbolizes vitality, emotional strength, confidence, and positive energy. Maintaining healthy habits, exercise, and emotional balance supports excellent physical and mental well-being.",
+
+    "spiritual": "Spiritually, this card encourages embracing your authentic self, trusting your intuition, and using your natural gifts to inspire and uplift others. Personal confidence strengthens your spiritual journey and deepens your connection to your higher self.",
+
+    "advice": "Believe in yourself without seeking validation from others. Lead with confidence, kindness, and authenticity. Your passion, courage, and determination are your greatest strengths."
+  },
+
+  "reversed": {
+    "meaning": "The Queen of Wands Reversed suggests self-doubt, insecurity, jealousy, emotional exhaustion, or allowing fear to weaken your confidence. You may underestimate your abilities or compare yourself unfairly to others. The card encourages rebuilding self-worth and remembering your unique strengths.",
+
+    "love": "Relationships may experience insecurity, possessiveness, jealousy, or communication difficulties. Honest conversations and rebuilding self-confidence will restore emotional balance. Singles should focus on self-love before seeking validation through relationships.",
+
+    "career": "Career-wise, lack of confidence, workplace competition, or fear of leadership may prevent you from reaching your full potential. Trust your skills, avoid unnecessary comparisons, and allow your abilities to speak for themselves.",
+
+    "finance": "Financial progress may slow because of hesitation, poor confidence, or emotional spending. Make practical decisions based on facts rather than fear, and continue building long-term financial security.",
+
+    "health": "Stress, burnout, low energy, or emotional exhaustion may affect your well-being. Prioritize rest, self-care, and healthy routines before taking on additional responsibilities.",
+
+    "spiritual": "Spiritually, you may temporarily lose confidence in your intuition or personal abilities. Reconnect with practices that strengthen your inner wisdom, and remember that your spiritual gifts remain within you even during periods of uncertainty.",
+
+    "advice": "Stop comparing yourself to others. Your greatest strength lies in being authentically yourself. Rebuild your confidence, trust your intuition, and let your inner light shine without fear."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Confidence Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Water of Fire",
+    "zodiac": "Aries, Leo, Sagittarius",
+    "numerology": 13
+  },
+
+  "affirmation": "I am confident, courageous, and worthy of success. My authentic light inspires others, and I trust my inner power to create the life I truly desire."
+}

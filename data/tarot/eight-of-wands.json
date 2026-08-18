@@ -1,0 +1,84 @@
+{
+  "id": 29,
+  "name": "Eight of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 8,
+  "image": "cards/wands/eight-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Fast Progress",
+      "Movement",
+      "Communication",
+      "Momentum",
+      "Travel",
+      "Opportunity",
+      "Action",
+      "Quick Decisions"
+    ],
+    "reversed": [
+      "Delays",
+      "Miscommunication",
+      "Obstacles",
+      "Frustration",
+      "Slow Progress",
+      "Confusion",
+      "Missed Timing",
+      "Distraction"
+    ]
+  },
+
+  "overview": "The Eight of Wands represents rapid progress, swift communication, and opportunities arriving unexpectedly. It signifies a period where events begin moving quickly after a time of waiting. News, messages, travel, or important developments may happen sooner than expected. This card encourages acting decisively, staying focused, and taking advantage of momentum while it lasts. Success comes through quick thinking, confidence, and trusting your preparation.",
+
+  "upright": {
+    "meaning": "The Eight of Wands Upright signifies fast movement, exciting opportunities, positive communication, and rapid progress. Delays are ending, and situations begin moving in your favor. It encourages making timely decisions and embracing opportunities with confidence.",
+
+    "love": "In relationships, this card represents exciting conversations, romantic messages, long-distance communication, reconciliation, or relationships progressing quickly. Singles may unexpectedly meet someone who creates an instant connection. Honest communication strengthens emotional bonds.",
+
+    "career": "Professionally, the Eight of Wands indicates promotions, interview calls, business growth, successful projects, new opportunities, and career progress happening faster than expected. Stay organized because multiple opportunities may arrive at once.",
+
+    "finance": "Financially, this card suggests quick improvements, successful transactions, new income sources, or positive financial news. Stay alert and make informed decisions without unnecessary hesitation.",
+
+    "health": "Health improves rapidly through consistent effort. Recovery, renewed energy, and positive lifestyle changes begin producing noticeable results. This card also supports starting fitness or wellness routines.",
+
+    "spiritual": "Spiritually, this card represents rapid personal growth, intuitive insights, meaningful synchronicities, and accelerated spiritual development. Trust the signs the universe is sending you.",
+
+    "advice": "Act while opportunities are available. Stay focused, communicate clearly, and don't hesitate when positive changes begin unfolding. Momentum is working in your favor."
+  },
+
+  "reversed": {
+    "meaning": "The Eight of Wands Reversed suggests delays, poor communication, misunderstandings, or feeling that progress has unexpectedly slowed. Plans may require additional patience, and rushing decisions could create unnecessary complications. Slow down, organize your priorities, and wait for clearer timing.",
+
+    "love": "Relationships may experience communication problems, delayed messages, misunderstandings, or emotional distance. Honest conversations and patience will help restore trust and clarity. Singles should avoid rushing into relationships without truly understanding the other person.",
+
+    "career": "Career progress may temporarily slow due to delays, workplace confusion, postponed interviews, or changing priorities. Continue preparing because opportunities are likely to return once obstacles are removed.",
+
+    "finance": "Financial matters may experience delays in payments, investments, or expected income. Avoid impulsive financial decisions and carefully review important documents before committing.",
+
+    "health": "Recovery may progress more slowly than expected due to stress, lack of consistency, or emotional exhaustion. Remain patient and continue following healthy routines without becoming discouraged.",
+
+    "spiritual": "Spiritually, distractions or emotional confusion may temporarily weaken your connection to your intuition. Slow down, meditate, and allow yourself time to reconnect with your inner guidance.",
+
+    "advice": "Don't force progress when circumstances require patience. Improve communication, stay organized, and trust that the right opportunities will arrive at the proper time."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Not Yet"
+  },
+
+  "timing": {
+    "upright": "Within 8 Days to 8 Weeks",
+    "reversed": "Delayed Until Communication Improves"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Mercury",
+    "zodiac": "Sagittarius",
+    "numerology": 8
+  },
+
+  "affirmation": "I welcome positive change, trust divine timing, and confidently move forward as new opportunities flow effortlessly into my life."
+}

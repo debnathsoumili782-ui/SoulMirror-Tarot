@@ -1,0 +1,84 @@
+{
+  "id": 4,
+  "name": "The Emperor",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 4,
+  "image": "cards/major/the-emperor.png",
+
+  "keywords": {
+    "upright": [
+      "Authority",
+      "Leadership",
+      "Structure",
+      "Discipline",
+      "Stability",
+      "Responsibility",
+      "Protection",
+      "Control"
+    ],
+    "reversed": [
+      "Domination",
+      "Rigidity",
+      "Stubbornness",
+      "Misuse of Power",
+      "Lack of Discipline",
+      "Instability",
+      "Control Issues",
+      "Immaturity"
+    ]
+  },
+
+  "overview": "The Emperor represents strength, authority, discipline, and the ability to build lasting foundations. As the ruler of order and structure, he symbolizes leadership, responsibility, and logical decision-making. This card encourages you to take control of your life with confidence, establish healthy boundaries, and create stability through patience, planning, and determination. The Emperor reminds you that true power comes from wisdom, fairness, and self-control rather than force.",
+
+  "upright": {
+    "meaning": "The Emperor Upright signifies leadership, confidence, discipline, and long-term stability. It indicates that success comes through planning, organization, and taking responsibility for your actions. This card encourages logical thinking, self-control, and making decisions that create lasting security.",
+
+    "love": "In relationships, The Emperor represents commitment, loyalty, protection, and emotional security. It often indicates a mature partner or a relationship becoming more stable. While emotions may not always be openly expressed, genuine care is shown through actions, consistency, and responsibility.",
+
+    "career": "This is an excellent career card. It suggests promotions, leadership roles, authority, business success, government positions, management opportunities, and professional recognition. Your discipline and strategic thinking will bring long-term rewards.",
+
+    "finance": "Financially, The Emperor represents stability, careful planning, wealth accumulation, and responsible money management. It favors long-term investments, savings, property, and financial discipline over quick profits.",
+
+    "health": "The Emperor indicates physical strength, resilience, and steady recovery through discipline. Maintaining routines, regular exercise, balanced nutrition, and preventive care will support long-term health.",
+
+    "spiritual": "Spiritually, this card teaches self-mastery, discipline, responsibility, and inner strength. It encourages balancing logic with intuition while becoming the leader of your own spiritual journey.",
+
+    "advice": "Take charge of your life with confidence and responsibility. Create structure, make practical decisions, remain patient, and lead with integrity rather than ego."
+  },
+
+  "reversed": {
+    "meaning": "The Emperor Reversed suggests misuse of authority, stubbornness, lack of discipline, or difficulty maintaining stability. It may indicate either becoming overly controlling or avoiding responsibility altogether. The card encourages restoring balance through humility, flexibility, and mature decision-making.",
+
+    "love": "In love, The Emperor Reversed may indicate controlling behavior, emotional distance, power struggles, or lack of commitment. Healthy relationships require mutual respect, open communication, and emotional understanding rather than dominance.",
+
+    "career": "Professionally, this card warns of workplace conflicts, poor leadership, abuse of authority, or career stagnation due to inflexibility. Success requires adapting to change while maintaining professionalism.",
+
+    "finance": "Financially, poor planning, overspending, stubborn financial decisions, or refusing expert advice may create unnecessary stress. Focus on practical budgeting and long-term stability.",
+
+    "health": "Stress caused by excessive responsibility, rigid routines, or emotional suppression may affect overall well-being. Finding balance between work and rest is essential for maintaining health.",
+
+    "spiritual": "Spiritually, you may be relying too much on control and logic while ignoring your inner wisdom. Growth requires surrendering the need to control every outcome and trusting life's natural flow.",
+
+    "advice": "Lead with wisdom instead of force. Release unnecessary control, remain flexible, and remember that true strength includes compassion, patience, and the willingness to learn."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Likely No"
+  },
+
+  "timing": {
+    "upright": "Within 3–4 Months",
+    "reversed": "Delayed Until Greater Stability Is Achieved"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Mars",
+    "zodiac": "Aries",
+    "numerology": 4
+  },
+
+  "affirmation": "I lead my life with wisdom, discipline, confidence, and integrity, creating a strong foundation for lasting success."
+}

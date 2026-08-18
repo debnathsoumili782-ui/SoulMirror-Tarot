@@ -1,0 +1,84 @@
+{
+  "id": 15,
+  "name": "The Devil",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 15,
+  "image": "cards/major/the-devil.png",
+
+  "keywords": {
+    "upright": [
+      "Temptation",
+      "Attachment",
+      "Addiction",
+      "Obsession",
+      "Materialism",
+      "Desire",
+      "Control",
+      "Shadow Self"
+    ],
+    "reversed": [
+      "Freedom",
+      "Breaking Chains",
+      "Recovery",
+      "Self-Awareness",
+      "Releasing Attachments",
+      "Healing",
+      "Liberation",
+      "Transformation"
+    ]
+  },
+
+  "overview": "The Devil represents temptation, unhealthy attachments, limiting beliefs, and the illusion of being trapped. It highlights situations where fear, addiction, obsession, or material desires may be controlling your choices. However, this card also carries a powerful message: the chains that bind you are often weaker than they appear. Through self-awareness, courage, and conscious action, you have the ability to break free and reclaim your personal power.",
+
+  "upright": {
+    "meaning": "The Devil Upright signifies unhealthy attachments, toxic patterns, temptation, and feeling trapped by fear, habits, or external influences. It encourages honest self-reflection and recognizing what is preventing your personal freedom. Awareness is the first step toward transformation.",
+
+    "love": "In relationships, The Devil may indicate intense attraction, passion, jealousy, possessiveness, emotional dependence, or toxic relationship patterns. It encourages establishing healthy boundaries and recognizing whether love is based on genuine connection or unhealthy attachment.",
+
+    "career": "Professionally, this card may point to workplace pressure, unhealthy competition, manipulation, burnout, or feeling stuck in an unsatisfying job. It encourages regaining control over your career rather than allowing fear or comfort to dictate your decisions.",
+
+    "finance": "Financially, The Devil warns against overspending, gambling, debt, material obsession, or chasing money at the expense of long-term stability. Careful budgeting and responsible financial choices are essential.",
+
+    "health": "This card often highlights unhealthy habits, addictions, stress, emotional exhaustion, or neglecting physical well-being. Positive lifestyle changes and seeking support can significantly improve your health.",
+
+    "spiritual": "Spiritually, The Devil represents confronting your shadow self, healing past wounds, and recognizing limiting beliefs that prevent spiritual growth. Facing your fears honestly creates the opportunity for profound transformation.",
+
+    "advice": "Identify what is controlling you instead of what you are controlling. Release unhealthy habits, challenge limiting beliefs, and remember that your freedom begins with conscious choice."
+  },
+
+  "reversed": {
+    "meaning": "The Devil Reversed represents liberation, healing, recovery, and breaking free from unhealthy attachments. You are beginning to recognize your true strength and reclaim control over your life. Old fears, addictions, or toxic relationships lose their power as you move toward greater self-awareness.",
+
+    "love": "Relationships improve through honesty, healing, and releasing unhealthy emotional patterns. Singles may finally let go of past relationships, while couples have the opportunity to rebuild trust through healthier communication and mutual respect.",
+
+    "career": "Career-wise, this card suggests escaping toxic work environments, overcoming self-doubt, leaving limiting situations, or discovering new professional opportunities that better align with your values.",
+
+    "finance": "Financial recovery becomes possible through responsible budgeting, reducing debt, breaking unhealthy spending habits, and making wiser long-term financial decisions.",
+
+    "health": "Recovery from unhealthy habits, emotional healing, improved mental health, and healthier lifestyle choices are strongly supported. This card represents positive transformation and renewed self-care.",
+
+    "spiritual": "Spiritually, you are releasing fear, ego, and limiting beliefs that once blocked your growth. Greater self-awareness, forgiveness, and inner freedom lead to deeper spiritual understanding.",
+
+    "advice": "You are stronger than the habits or fears that once controlled you. Continue choosing healing, personal growth, and freedom one step at a time."
+  },
+
+  "yes_no": {
+    "upright": "No",
+    "reversed": "Yes — After Breaking Free"
+  },
+
+  "timing": {
+    "upright": "Progress Blocked Until Necessary Changes Are Made",
+    "reversed": "Within 1–3 Months"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Saturn",
+    "zodiac": "Capricorn",
+    "numerology": 15
+  },
+
+  "affirmation": "I release fear, break unhealthy patterns, and reclaim my freedom. My true power comes from conscious choices, self-awareness, and the courage to transform."
+}

@@ -1,0 +1,84 @@
+{
+  "id": 14,
+  "name": "Temperance",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 14,
+  "image": "cards/major/temperance.png",
+
+  "keywords": {
+    "upright": [
+      "Balance",
+      "Harmony",
+      "Moderation",
+      "Patience",
+      "Healing",
+      "Peace",
+      "Cooperation",
+      "Inner Calm"
+    ],
+    "reversed": [
+      "Imbalance",
+      "Excess",
+      "Impatience",
+      "Conflict",
+      "Disharmony",
+      "Stress",
+      "Extremes",
+      "Lack of Self-Control"
+    ]
+  },
+
+  "overview": "Temperance represents balance, harmony, patience, and the art of bringing different energies together. It teaches that lasting success and happiness come through moderation rather than extremes. This card encourages you to remain calm during challenges, trust divine timing, and blend logic with emotion to create stability. Temperance reminds you that healing, growth, and peace develop gradually through patience, cooperation, and self-control.",
+
+  "upright": {
+    "meaning": "Temperance Upright symbolizes balance, patience, emotional stability, and peaceful progress. It encourages finding harmony between different aspects of your life and making thoughtful decisions rather than reacting impulsively. Success comes through consistency, compromise, and trusting the natural flow of events.",
+
+    "love": "In relationships, Temperance signifies harmony, mutual understanding, emotional maturity, and long-term compatibility. Couples strengthen their bond through patience and healthy communication, while singles may attract a balanced and emotionally supportive partner.",
+
+    "career": "Professionally, Temperance indicates productive teamwork, career stability, successful collaborations, and gradual progress toward long-term goals. It encourages balancing ambition with patience and maintaining positive relationships with colleagues.",
+
+    "finance": "Financially, this card promotes moderation, careful budgeting, steady growth, and wise investments. Avoid impulsive spending and focus on creating long-term financial security through consistent planning.",
+
+    "health": "Temperance is an excellent health card that represents healing, recovery, emotional balance, and healthy lifestyle choices. It encourages moderation in diet, exercise, and daily routines for lasting well-being.",
+
+    "spiritual": "Spiritually, Temperance represents inner peace, divine guidance, healing, and harmony between mind, body, and soul. Meditation, mindfulness, and patience deepen your spiritual connection and personal growth.",
+
+    "advice": "Remain patient and avoid extremes. Balance your emotions with logic, trust the timing of your journey, and remember that lasting success is built through steady progress rather than rushing."
+  },
+
+  "reversed": {
+    "meaning": "Temperance Reversed suggests imbalance, impatience, emotional instability, or difficulty finding harmony. You may be overdoing one area of life while neglecting another. The card encourages restoring balance, practicing moderation, and avoiding impulsive decisions.",
+
+    "love": "Relationships may suffer from misunderstandings, emotional extremes, poor communication, or lack of compromise. Healing begins when both partners are willing to listen, respect boundaries, and work together toward harmony.",
+
+    "career": "Career-wise, workplace stress, poor teamwork, impatience, or conflicts may slow progress. Focus on cooperation, organization, and maintaining professional balance instead of reacting emotionally.",
+
+    "finance": "Financially, avoid overspending, risky investments, or making decisions based on temporary emotions. Careful planning and disciplined budgeting will help restore stability.",
+
+    "health": "Stress, unhealthy habits, or lack of balance may affect your physical or emotional well-being. Prioritize rest, nutrition, and emotional self-care before burnout develops.",
+
+    "spiritual": "Spiritually, you may feel disconnected or impatient with your personal growth. Slow down, reconnect with your inner peace, and trust that meaningful transformation happens gradually.",
+
+    "advice": "Restore balance before moving forward. Practice patience, avoid emotional extremes, and remember that harmony is created through consistent, mindful choices."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 2–4 Months",
+    "reversed": "Delayed Until Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Jupiter",
+    "zodiac": "Sagittarius",
+    "numerology": 14
+  },
+
+  "affirmation": "I embrace balance, patience, and harmony. Every step I take with calm confidence brings healing, peace, and lasting success into my life."
+}

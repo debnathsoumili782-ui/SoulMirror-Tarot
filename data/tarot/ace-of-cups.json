@@ -1,0 +1,84 @@
+{
+  "id": 36,
+  "name": "Ace of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 1,
+  "image": "cards/cups/ace-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "New Love",
+      "Emotional Fulfillment",
+      "Compassion",
+      "Joy",
+      "Healing",
+      "Intuition",
+      "Happiness",
+      "New Beginnings"
+    ],
+    "reversed": [
+      "Emotional Block",
+      "Heartbreak",
+      "Repressed Feelings",
+      "Sadness",
+      "Self-Doubt",
+      "Emotional Exhaustion",
+      "Disappointment",
+      "Missed Opportunity"
+    ]
+  },
+
+  "overview": "The Ace of Cups represents the beginning of emotional fulfillment, unconditional love, compassion, and spiritual blessings. It symbolizes an overflowing heart, inviting you to embrace love, forgiveness, healing, and deep emotional connections. Whether it appears in relationships, career, or personal growth, this card signals the start of a positive emotional chapter. It reminds you to keep your heart open, trust your intuition, and allow love and kindness to flow freely into every area of your life.",
+
+  "upright": {
+    "meaning": "The Ace of Cups Upright signifies emotional renewal, unconditional love, compassion, happiness, and fresh beginnings. It often appears when your heart is opening to new experiences, bringing emotional healing, joy, and meaningful relationships. Trust your feelings and welcome the positive opportunities entering your life.",
+
+    "love": "One of the strongest love cards in the Tarot, the Ace of Cups represents new romance, emotional fulfillment, deep affection, engagement, reconciliation, or the beginning of a soulmate connection. Existing relationships experience renewed intimacy, while singles may meet someone who offers genuine emotional security and lasting love.",
+
+    "career": "Professionally, this card suggests fulfilling work, positive workplace relationships, creative inspiration, and opportunities that align with your passions. A supportive work environment or exciting new opportunity may bring both emotional satisfaction and professional success.",
+
+    "finance": "Financially, the Ace of Cups indicates positive financial opportunities that bring peace of mind rather than simply material gain. It encourages making financial decisions that support both security and personal happiness.",
+
+    "health": "The Ace of Cups is a powerful healing card, representing emotional recovery, improved mental well-being, reduced stress, and renewed physical vitality. It encourages practicing self-care, emotional expression, and maintaining a healthy balance between mind and body.",
+
+    "spiritual": "Spiritually, this card symbolizes divine blessings, intuition, compassion, emotional awakening, and a stronger connection to your higher self. Meditation, prayer, gratitude, and acts of kindness deepen your spiritual journey.",
+
+    "advice": "Open your heart without fear. Allow yourself to receive love, express your emotions honestly, and embrace healing with trust and gratitude. Emotional openness creates space for beautiful new beginnings."
+  },
+
+  "reversed": {
+    "meaning": "The Ace of Cups Reversed suggests emotional blockages, suppressed feelings, disappointment, or difficulty giving and receiving love. You may be protecting your heart because of past pain or neglecting your emotional needs. Healing begins when you acknowledge your feelings instead of avoiding them.",
+
+    "love": "Relationships may experience emotional distance, misunderstandings, or difficulty expressing affection. Singles may struggle to trust after previous heartbreak. Honest communication, self-love, and emotional healing are essential before deeper connections can flourish.",
+
+    "career": "Career satisfaction may feel limited because of emotional exhaustion, lack of passion, or workplace stress. Reconnect with the reasons you chose your path and seek opportunities that genuinely fulfill you.",
+
+    "finance": "Emotional spending, financial stress, or fear of insecurity may influence your decisions. Avoid using money to fill emotional voids and focus on creating healthy financial habits that support long-term stability.",
+
+    "health": "Emotional stress, anxiety, sadness, or burnout may affect your overall health. Prioritize emotional healing, rest, mindfulness, and seeking support when needed. Caring for your emotional well-being positively affects your physical health.",
+
+    "spiritual": "Spiritually, you may feel disconnected from your intuition or struggle to experience inner peace. Spend time in meditation, self-reflection, or nature to reconnect with your heart and restore emotional balance.",
+
+    "advice": "Give yourself permission to heal. Release emotional pain, forgive what no longer serves you, and remember that opening your heart begins with showing compassion toward yourself."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1 Month",
+    "reversed": "Delayed Until Emotional Healing Begins"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Water",
+    "zodiac": "Cancer, Scorpio, Pisces",
+    "numerology": 1
+  },
+
+  "affirmation": "My heart is open to love, healing, and happiness. I welcome emotional abundance, trust my intuition, and allow unconditional love to flow freely into my life."
+}

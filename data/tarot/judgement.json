@@ -1,0 +1,84 @@
+{
+  "id": 20,
+  "name": "Judgement",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 20,
+  "image": "cards/major/judgement.png",
+
+  "keywords": {
+    "upright": [
+      "Awakening",
+      "Rebirth",
+      "Self-Reflection",
+      "Transformation",
+      "Redemption",
+      "Second Chance",
+      "Inner Calling",
+      "Life Purpose"
+    ],
+    "reversed": [
+      "Self-Doubt",
+      "Regret",
+      "Avoidance",
+      "Poor Judgment",
+      "Denial",
+      "Fear of Change",
+      "Ignoring Your Calling",
+      "Lack of Growth"
+    ]
+  },
+
+  "overview": "Judgement represents awakening, renewal, self-discovery, and answering your soul's higher calling. It signifies a time of reflection where past experiences, mistakes, and achievements come together to prepare you for a new chapter in life. This card encourages forgiveness, personal accountability, and embracing transformation without fear. It reminds you that every ending offers an opportunity for rebirth, allowing you to move forward with greater wisdom, purpose, and confidence.",
+
+  "upright": {
+    "meaning": "Judgement Upright symbolizes awakening, personal transformation, and recognizing your true purpose. It encourages honest self-evaluation, learning from past experiences, and making important life decisions with clarity. This card often marks a powerful turning point that leads to growth, freedom, and fulfillment.",
+
+    "love": "In relationships, Judgement represents forgiveness, reconciliation, emotional healing, and second chances. Couples can overcome past misunderstandings through honest communication, while singles may reconnect with someone from the past or attract a relationship that aligns with their personal growth.",
+
+    "career": "Professionally, Judgement indicates career advancement, successful interviews, promotions, discovering your true vocation, or making an important career decision. Your past efforts are finally being recognized, opening doors to new opportunities.",
+
+    "finance": "Financially, this card represents learning from past financial mistakes, improving money management, and creating a more stable future. Positive financial changes are possible through responsible planning and renewed confidence.",
+
+    "health": "Judgement suggests physical and emotional healing, recovery, renewed motivation, and making healthier lifestyle choices. It encourages listening to your body's needs and embracing positive change.",
+
+    "spiritual": "Spiritually, Judgement is one of the strongest awakening cards in Tarot. It signifies higher consciousness, karmic lessons, spiritual rebirth, forgiveness, and answering your soul's purpose with confidence and trust.",
+
+    "advice": "Reflect on your past without dwelling on it. Forgive yourself, embrace new opportunities, and confidently step into the next chapter of your life."
+  },
+
+  "reversed": {
+    "meaning": "Judgement Reversed suggests self-doubt, fear of change, avoiding important decisions, or refusing to learn from past experiences. You may be holding yourself back through guilt, regret, or fear of failure. The card encourages releasing self-judgment and trusting your ability to grow.",
+
+    "love": "In love, unresolved issues, fear of vulnerability, or difficulty forgiving may prevent emotional progress. Healing begins with honest communication and letting go of the past.",
+
+    "career": "Career-wise, opportunities may be missed because of hesitation, lack of confidence, or fear of change. Trust your abilities and don't allow past disappointments to prevent future success.",
+
+    "finance": "Financial uncertainty may continue if old habits remain unchanged. Learn from previous mistakes, seek practical advice, and make thoughtful long-term financial decisions.",
+
+    "health": "Ignoring emotional stress or delaying healthy lifestyle changes may slow recovery. Prioritize self-care, emotional healing, and consistency.",
+
+    "spiritual": "Spiritually, you may resist important lessons or ignore your intuition. Release guilt, practice self-forgiveness, and reconnect with your inner wisdom to continue your spiritual journey.",
+
+    "advice": "Stop judging yourself so harshly. Learn from the past, forgive what cannot be changed, and trust that every experience has prepared you for a brighter future."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Personal Growth Is Embraced"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Pluto",
+    "zodiac": "Scorpio",
+    "numerology": 20
+  },
+
+  "affirmation": "I release the past with gratitude, embrace my true purpose, and confidently answer the call of my highest self."
+}

@@ -1,0 +1,84 @@
+{
+  "id": 65,
+  "name": "Two of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 2,
+  "image": "cards/pentacles/two-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Balance",
+      "Adaptability",
+      "Time Management",
+      "Flexibility",
+      "Priorities",
+      "Resourcefulness",
+      "Multitasking",
+      "Harmony"
+    ],
+    "reversed": [
+      "Overwhelm",
+      "Imbalance",
+      "Poor Planning",
+      "Stress",
+      "Disorganization",
+      "Financial Pressure",
+      "Burnout",
+      "Overcommitment"
+    ]
+  },
+
+  "overview": "The Two of Pentacles represents balance, adaptability, and successfully managing multiple responsibilities. Life often requires juggling work, finances, relationships, and personal goals, and this card reminds you that flexibility is one of your greatest strengths. By staying organized, managing your time wisely, and remaining open to change, you can maintain stability even during busy periods. This card encourages finding harmony between your responsibilities without neglecting your own well-being.",
+
+  "upright": {
+    "meaning": "The Two of Pentacles Upright signifies balance, flexibility, and effectively managing multiple priorities. You may be handling several responsibilities at once, but your adaptability allows you to keep everything moving forward. Good planning and organization are the keys to long-term success.",
+
+    "love": "In relationships, this card suggests balancing love with work, family, or other commitments. Couples should make quality time for each other despite busy schedules. Singles may be balancing multiple romantic interests or focusing on personal responsibilities before fully committing to a relationship.",
+
+    "career": "Professionally, the Two of Pentacles represents multitasking, managing several projects, adapting to workplace changes, or balancing work with education or personal life. Success comes through organization, flexibility, and maintaining healthy priorities.",
+
+    "finance": "Financially, this card encourages careful budgeting, balancing income and expenses, and managing multiple financial responsibilities wisely. Small adjustments today create greater financial stability tomorrow.",
+
+    "health": "Health requires balancing physical activity, nutrition, work, rest, and emotional well-being. Avoid allowing stress or an overloaded schedule to interfere with healthy routines.",
+
+    "spiritual": "Spiritually, the Two of Pentacles teaches balance between the material and spiritual aspects of life. Growth comes from maintaining harmony between ambition, relationships, self-care, and inner peace.",
+
+    "advice": "Stay flexible, organize your priorities, and don't allow temporary stress to overwhelm you. Balance is created through consistent choices rather than perfection."
+  },
+
+  "reversed": {
+    "meaning": "The Two of Pentacles Reversed suggests imbalance, feeling overwhelmed, poor time management, or struggling to handle multiple responsibilities. You may be taking on more than you can realistically manage. Simplifying your priorities will restore stability.",
+
+    "love": "Relationships may suffer because work, finances, or other responsibilities receive more attention than emotional connection. Honest communication and making time for each other will strengthen your bond. Singles should avoid spreading their emotional energy too thin.",
+
+    "career": "Career-wise, excessive workload, missed deadlines, poor organization, or difficulty adapting to change may create unnecessary stress. Prioritize important tasks and don't hesitate to ask for support when needed.",
+
+    "finance": "Financial pressure may increase because of overspending, poor budgeting, or trying to manage too many financial commitments at once. Create a practical budget and focus on one financial goal at a time.",
+
+    "health": "Stress, exhaustion, burnout, or lack of work-life balance may affect your physical and emotional health. Rest, healthy boundaries, and proper self-care are essential for recovery.",
+
+    "spiritual": "Spiritually, becoming overly focused on external responsibilities may disconnect you from your inner peace. Slow down, reconnect with yourself, and remember that true balance includes caring for your spirit as well as your obligations.",
+
+    "advice": "You don't have to do everything at once. Simplify your priorities, ask for help when necessary, and create space for rest as well as productivity."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 2 Months",
+    "reversed": "Delayed Until Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Jupiter",
+    "zodiac": "Capricorn",
+    "numerology": 2
+  },
+
+  "affirmation": "I create balance in every area of my life. I manage my responsibilities with wisdom, remain flexible through change, and trust my ability to achieve lasting stability and success."
+}

@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}SoulMirror Tarot{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+
+    <div class="overlay"></div>
+    <img src="{{ url_for('static', filename='images/cards/the-fool.png') }}" class="floating-card card1">
+    <img src="{{ url_for('static', filename='images/cards/the-moon.png') }}" class="floating-card card2">
+    <img src="{{ url_for('static', filename='images/cards/the-star.png') }}" class="floating-card card3">
+    <img src="{{ url_for('static', filename='images/cards/the-lovers.png') }}" class="floating-card card4">
+    <!-- Moon -->
+    <img src="{{ url_for('static', filename='images/backgrounds/moon.png') }}"
+         class="moon"
+         alt="Moon">
+
+    <div class="hero-content">
+
+    <h1 class="hero-title">
+        SoulMirror Tarot
+    </h1>
+    <div class="hero-divider">
+        <span></span>
+        <i class="fa-solid fa-star"></i>
+        <span></span>
+    </div>
+    <div class="hero-divider">
+        <span></span>
+        <div>✦</div>
+        <span></span>
+    </div>
+
+    <p class="hero-subtitle">
+        Discover What Your Soul Already Knows
+    </p>
+
+    <div class="hero-buttons">
+
+        <a href="{{ url_for('main.reading_types') }}" class="btn btn-gold">
+            ✦ Begin Reading
+        </a>
+
+        <a href="{{ url_for('main.daily_card') }}" class="btn btn-outline-light">
+            🃏 Daily Card
+        </a>
+
+    </div>
+
+</div>
+
+</section>
+
+{% endblock %}

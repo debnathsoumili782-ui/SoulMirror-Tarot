@@ -1,0 +1,230 @@
+{% extends "base.html" %}
+
+{% block title %}
+Time Oracle
+{% endblock %}
+
+{% block content %}
+
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/time-oracle.css') }}"
+>
+
+<section class="time-page">
+
+    <div class="container">
+
+        <!-- =========================
+             QUESTION SECTION
+        ========================== -->
+        <section id="questionSection">
+
+            <h1 class="time-title">
+                Time Oracle
+            </h1>
+
+            <p class="time-subtitle">
+                Ask your timing question and let the oracle reveal
+                when the energy is most likely to unfold.
+            </p>
+
+            <form id="questionForm">
+
+                <div
+                    id="questionError"
+                    class="question-error"
+                ></div>
+
+                <textarea
+                    id="question"
+                    name="question"
+                    required
+                    maxlength="200"
+                    placeholder="Example: When will I get my new job?"
+                ></textarea>
+
+                <div class="reading-actions">
+
+                    <button
+                        type="button"
+                        id="startOracleBtn"
+                        class="btn btn-gold"
+                    >
+                        Draw a Time Card
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <!-- =========================
+             FOCUS SCREEN
+        ========================== -->
+        <div id="focusScreen">
+
+            <div class="focus-box">
+
+                <h2>
+                    ✨ Focus on Your Question
+                </h2>
+
+                <p>
+                    Close your eyes for a moment.<br>
+                    Think only about your timing question.<br><br>
+                    The oracle is preparing your answer...
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             SHUFFLE SECTION
+        ========================== -->
+        <section id="shuffleSection">
+
+            <div class="deck-wrapper">
+
+                <div id="deck"></div>
+
+            </div>
+
+            <h2>
+                Shuffle the deck as many times as you wish.
+            </h2>
+
+            <p>
+                Trust your intuition.<br>
+                When you feel the energy is right,
+                continue your reading.
+            </p>
+
+            <div class="shuffle-buttons">
+
+                <button
+                    id="shuffleBtn"
+                    class="btn btn-gold"
+                >
+                    🔀 Shuffle Again
+                </button>
+
+                <button
+                    id="readyBtn"
+                    class="btn btn-outline-light"
+                >
+                    ✨ I'm Ready
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FAN CARD SECTION
+        ========================== -->
+        <section id="fanSection">
+
+            <div class="fan-header">
+
+                <h2>
+                    Choose ONE Card
+                </h2>
+
+                <p>
+                    Let your intuition decide.
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 SELECTED CARD SLOT
+            ========================== -->
+
+            <div id="selectedSlotWrapper">
+
+                <div class="slot-title">
+                    ✨ YOUR TIME CARD ✨
+                </div>
+
+                <div class="selected-slot">
+
+                    <img
+                        id="selectedCard"
+                        src=""
+                        alt="Selected Time Oracle Card"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 FAN
+            ========================== -->
+
+            <div id="fanContainer">
+
+                <div id="fanOverlay"></div>
+
+                <div id="flashOverlay"></div>
+
+                <div id="fanCards"></div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     TIME ORACLE CARD DATA
+========================== -->
+
+<script>
+    const TIME_ORACLE_CARDS = {{ cards|tojson }};
+</script>
+
+
+<!-- =========================
+     READING LOADER
+========================== -->
+
+<div id="readingLoader">
+
+    <div class="loader-box">
+
+        <div class="loader-orb"></div>
+
+        <h3>
+            Preparing Your Reading
+        </h3>
+
+        <p id="loaderText">
+            ✨ The oracle has chosen your card...
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<script
+    src="{{ url_for('static', filename='js/time-oracle.js') }}"
+></script>
+
+{% endblock %}

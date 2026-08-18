@@ -1,0 +1,84 @@
+{
+  "id": 25,
+  "name": "Four of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 4,
+  "image": "cards/wands/four-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Celebration",
+      "Stability",
+      "Harmony",
+      "Home",
+      "Achievement",
+      "Community",
+      "Joy",
+      "Foundation"
+    ],
+    "reversed": [
+      "Instability",
+      "Conflict",
+      "Cancelled Plans",
+      "Lack of Support",
+      "Family Tension",
+      "Delayed Celebration",
+      "Disharmony",
+      "Uncertainty"
+    ]
+  },
+
+  "overview": "The Four of Wands is a joyful card representing celebration, stability, harmony, and important milestones. It symbolizes creating a secure foundation in your personal life, relationships, career, or home. Whether it represents a wedding, graduation, promotion, moving into a new home, or achieving a personal goal, this card reminds you to appreciate your accomplishments and celebrate with the people who support you. It marks a period of peace, gratitude, and emotional fulfillment before the next stage of growth begins.",
+
+  "upright": {
+    "meaning": "The Four of Wands Upright represents happiness, stability, celebration, and reaching an important milestone. It indicates that your hard work has created a solid foundation, allowing you to enjoy success, harmony, and emotional security.",
+
+    "love": "One of the strongest relationship cards in the Tarot, the Four of Wands often signifies commitment, engagement, marriage, moving in together, or celebrating an important relationship milestone. Singles may meet someone with long-term potential through social events or family gatherings.",
+
+    "career": "Professionally, this card represents successful project completion, promotions, recognition, teamwork, and positive workplace relationships. It may also indicate celebrating career achievements or beginning a stable new position.",
+
+    "finance": "Financially, the Four of Wands indicates stability, successful investments, property purchases, financial security, and enjoying the rewards of your hard work. It encourages responsible celebration without unnecessary overspending.",
+
+    "health": "Health improves through balance, emotional happiness, supportive relationships, and maintaining healthy routines. Recovery is progressing well, bringing renewed confidence and energy.",
+
+    "spiritual": "Spiritually, this card symbolizes gratitude, inner harmony, and recognizing how far you've come. Celebrating your personal growth strengthens your connection with yourself and the universe.",
+
+    "advice": "Take time to celebrate your achievements. Appreciate the people who support you, enjoy the present moment, and recognize the strong foundation you have built for your future."
+  },
+
+  "reversed": {
+    "meaning": "The Four of Wands Reversed suggests temporary instability, family disagreements, delayed celebrations, or feeling disconnected from your support system. Although challenges may arise, they are usually temporary and can be resolved through honest communication and patience.",
+
+    "love": "Relationship tension, postponed commitments, family interference, or misunderstandings may delay emotional progress. Open communication and mutual understanding will help restore harmony.",
+
+    "career": "Career-wise, workplace conflict, delayed recognition, project setbacks, or lack of appreciation may affect motivation. Continue working consistently because your efforts will eventually be recognized.",
+
+    "finance": "Financial uncertainty may temporarily affect plans involving property, celebrations, or major purchases. Careful budgeting and patience will help restore stability.",
+
+    "health": "Stress caused by family issues, emotional conflict, or overwork may affect your overall well-being. Prioritize emotional balance, proper rest, and self-care.",
+
+    "spiritual": "Spiritually, you may feel disconnected from your inner peace due to external stress. Returning to gratitude, meditation, and spending time with supportive people will help restore harmony.",
+
+    "advice": "Don't allow temporary challenges to overshadow your achievements. Strengthen your foundation, communicate openly, and trust that harmony will return with patience and understanding."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–2 Months",
+    "reversed": "Delayed Until Stability Returns"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Venus",
+    "zodiac": "Aries",
+    "numerology": 4
+  },
+
+  "affirmation": "I celebrate my achievements with gratitude, build strong foundations, and welcome lasting happiness, harmony, and abundance into my life."
+}

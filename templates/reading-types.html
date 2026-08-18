@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block title %}Choose Reading | SoulMirror Tarot{% endblock %}
+{% block content %}
+<section class="reading-types">
+    <div class="reading-grid">
+        <!-- YES / NO -->
+        <div class="reading-card">
+            <img src="{{ url_for('static', filename='images/yes-no.png') }}" alt="Yes No">
+            <div class="reading-overlay">
+                <a href="{{ url_for('main.yes_no') }}" class="reading-btn">
+                    Choose Reading →
+                </a>
+            </div>
+        </div>
+        <!-- SINGLE CARD -->
+        <div class="reading-card">
+            <img src="{{ url_for('static', filename='images/single-card.png') }}" alt="Single Card">
+            <div class="reading-overlay">
+                <a href="{{ url_for('main.single_card') }}" class="reading-btn">
+                    Choose Reading →
+                </a>
+            </div>
+        </div>
+        <!-- SIMPLE LOVE -->
+        <div class="reading-card">
+            <img src="{{ url_for('static', filename='images/simple-love.png') }}" alt="Simple Love">
+            <div class="reading-overlay">
+                <a href="{{ url_for('main.simple_love') }}" class="reading-btn">
+                    Choose Reading →
+                </a>
+            </div>
+        </div>
+        <!-- DEEP LOVE -->
+        <div class="reading-card">
+            <img src="{{ url_for('static', filename='images/deep-love.png') }}" alt="Deep Love">
+            <div class="reading-overlay">
+                <a href="{{ url_for('main.deep_love') }}" class="reading-btn">
+                    Choose Reading →
+                </a>
+            </div>
+        </div>
+        <!--Time-Oracle-->
+        <div class="reading-card">
+            <img src="{{ url_for('static', filename='images/time-oracle.png') }}" alt="Time Oracle">
+            <div class="reading-overlay">
+                <a href="{{ url_for('main.time_oracle') }}" class="reading-btn">
+                    Choose Reading →
+                </a>
+            </div>
+        </div>
+        <!-- CAREER -->
+        <div class="reading-card">
+            <img src="{{ url_for('static', filename='images/career.png') }}" alt="Career">
+            <div class="reading-overlay">
+                <a href="{{ url_for('main.career_reading') }}" class="reading-btn">
+                    Choose Reading →
+                </a>
+            </div>
+        </div>
+        <!-- MONEY -->
+        <div class="reading-card">
+            <img src="{{ url_for('static', filename='images/money.png') }}" alt="Money">
+            <div class="reading-overlay">
+                <a href="{{ url_for('main.money_reading') }}" class="reading-btn">
+                    Choose Reading →
+                </a>
+            </div>
+        </div>
+        <!-- SPIRITUAL -->
+        <div class="reading-card">
+            <img src="{{ url_for('static', filename='images/spiritual.png') }}" alt="Spiritual">
+            <div class="reading-overlay">
+                <a href="{{ url_for('main.spiritual_reading') }}" class="reading-btn">
+                    Choose Reading →
+                </a>
+            </div>
+        </div>
+        <!-- DECISION -->
+        <div class="reading-card">
+            <img src="{{ url_for('static', filename='images/decision.png') }}" alt="Decision">
+            <div class="reading-overlay">
+                <a href="{{ url_for('main.decision_reading') }}" class="reading-btn">
+                    Choose Reading →
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

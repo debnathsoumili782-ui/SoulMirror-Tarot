@@ -1,0 +1,128 @@
+/*=========================================
+        TIME READING
+=========================================*/
+
+.reading-container{
+    max-width:1400px;
+    align-items:flex-start;
+    gap:80px;
+}
+
+.reading-card-area{
+    position:sticky;
+    top:120px;
+    flex:0 0 420px;
+}
+
+.reading-card-area img{
+    width:100%;
+    max-width:420px;
+    display:block;
+    margin:auto;
+    border-radius:22px;
+    box-shadow:
+        0 0 40px rgba(212,175,55,.18);
+}
+
+.reading-content{
+    max-width:760px;
+}
+
+.reading-badge{
+    margin-bottom:18px;
+}
+
+.user-question{
+    margin-bottom:28px;
+}
+
+#cardTitle{
+    margin-bottom:28px;
+}
+
+.reading-section{
+    margin-top:22px;
+}
+
+.reading-section h2{
+    margin-bottom:10px;
+    line-height:1.2;
+}
+
+.ai-reading section{
+    margin-bottom:18px;
+}
+
+.ai-reading p{
+    line-height:2;
+}
+
+.reading-buttons{
+    margin-top:35px;
+}
+/*=========================================
+        AI READING
+=========================================*/
+
+.ai-reading{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(212,175,55,.28);
+    border-left:4px solid #D4AF37;
+    border-radius:18px;
+    padding:30px;
+    margin-top:15px;
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.25);
+}
+
+.ai-reading h2{
+    font-size:24px;
+    margin-bottom:12px;
+}
+
+.ai-reading p{
+    font-size:17px;
+    color:#ececec;
+    line-height:2;
+    margin-bottom:18px;
+}
+
+.ai-reading section:last-child p{
+    margin-bottom:0;
+
+}
+/* ===== AI Reading Layout ===== */
+
+.ai-reading section{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.ai-reading section + section{
+    margin-top:16px !important;
+}
+
+.ai-reading h2{
+    margin:0 0 6px !important;
+    padding:0 !important;
+    line-height:1.2;
+}
+
+.ai-reading p{
+    margin:0 !important;
+    padding:0 !important;
+    line-height:1.85;
+}
+
+.ai-reading p + p{
+    margin-top:10px !important;
+}
+
+.oracle-block{
+    margin-bottom:18px;
+}
+
+.oracle-block:last-child{
+    margin-bottom:0;
+}

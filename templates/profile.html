@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+
+{% block title %}
+Profile | SoulMirror Tarot
+{% endblock %}
+
+{% block content %}
+
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/profile.css') }}">
+
+<section class="profile-page">
+
+    <div class="profile-container">
+
+        <div class="profile-header">
+
+            <h1>Hello, {{ current_user.username }} 👋</h1>
+
+            <p>
+                Welcome back to your SoulMirror journey.
+            </p>
+
+        </div>
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <h3>Total Readings</h3>
+                <span>{{ total_readings }}</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Journal Entries</h3>
+                <span>{{ total_journals }}</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Yes / No</h3>
+                <span>{{ yes_no }}</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Single Card</h3>
+                <span>{{ single }}</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Time Oracle</h3>
+                <span>{{ time_oracle }}</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Career</h3>
+                <span>{{ career }}</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Money</h3>
+                <span>{{ money }}</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Spiritual</h3>
+                <span>{{ spiritual }}</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Decision</h3>
+                <span>{{ decision }}</span>
+            </div>
+            <div class="stat-card">
+                <h3>Simple Love</h3>
+                <span>{{ simple_love }}</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Deep Love</h3>
+                <span>{{ deep_love }}</span>
+            </div>
+
+        </div>
+
+        <div class="danger-zone">
+
+            <h2>Danger Zone</h2>
+            <p>
+                Permanently delete your account and all associated data.
+            </p>
+            <button class="delete-btn" id="openModal">
+                🗑 Delete Account
+            </button>
+        </div>
+    </div>
+</section>
+<!-- Delete Account Modal -->
+
+<div class="modal-overlay" id="deleteModal">
+
+    <div class="delete-modal">
+
+        <h2>Delete Account?</h2>
+
+        <p>
+            This action is permanent and cannot be undone.
+        </p>
+
+        <ul>
+
+            <li>🗑 Delete all readings</li>
+
+            <li>📖 Delete all journal entries</li>
+
+            <li>👤 Delete your account</li>
+
+        </ul>
+
+        <div class="modal-buttons">
+
+            <button class="cancel-btn" id="closeModal">
+                Cancel
+            </button>
+
+            <form action="{{ url_for('main.delete_account') }}"
+                  method="POST">
+
+                <button class="delete-btn">
+                    Delete Forever
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+<script src="{{ url_for('static',filename='js/profile.js') }}"></script>
+{% endblock %}

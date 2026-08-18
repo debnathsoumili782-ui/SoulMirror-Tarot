@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ reading_type|title }} Reading | SoulMirror Tarot
+{% endblock %}
+
+{% block content %}
+
+<section class="reading-page">
+
+    <div class="reading-container">
+
+        <div class="reading-card-area">
+
+            <img
+                src="{{ url_for('static', filename='images/' + card.image) }}"
+                class="{% if card.orientation == 'reversed' %}reversed-card{% endif %}"
+                alt="{{ card.name }}">
+
+        </div>
+
+        <div class="reading-content">
+
+            <span class="reading-badge">
+                ✨ {{ reading_type|replace('-', ' ')|title }} Reading
+            </span>
+
+            <div class="user-question">
+
+                <h3>Your Question</h3>
+
+                <p>{{ question }}</p>
+
+            </div>
+
+            <h1>{{ card.name }}</h1>
+
+            <p class="card-orientation">
+
+                {{ card.orientation|title }}
+
+            </p>
+
+            <div class="keywords">
+
+                {% for keyword in card.keywords[card.orientation] %}
+
+                    <span>{{ keyword }}</span>
+
+                {% endfor %}
+
+            </div>
+
+            <div class="reading-section">
+
+                <h2>AI Interpretation</h2>
+
+                <div class="ai-reading">
+
+                    {{ ai_reading|safe }}
+
+                </div>
+
+            </div>
+
+            <div class="reading-buttons">
+
+                <a href="{{ url_for('main.career_reading') }}"
+                   class="reading-btn">
+
+                    🔄 Draw Again
+
+                </a>
+
+                <a href="{{ url_for('main.home') }}"
+                   class="reading-btn secondary">
+
+                    🏠 Back Home
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/reading.css') }}">
+
+{% endblock %}

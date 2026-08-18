@@ -1,0 +1,84 @@
+{
+  "id": 72,
+  "name": "Nine of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 9,
+  "image": "cards/pentacles/nine-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Abundance",
+      "Independence",
+      "Luxury",
+      "Success",
+      "Self-Sufficiency",
+      "Confidence",
+      "Achievement",
+      "Gratitude"
+    ],
+    "reversed": [
+      "Financial Dependence",
+      "Setbacks",
+      "Overspending",
+      "Materialism",
+      "Insecurity",
+      "Self-Doubt",
+      "Unstable Success",
+      "Lack of Appreciation"
+    ]
+  },
+
+  "overview": "The Nine of Pentacles represents abundance, personal achievement, independence, and enjoying the rewards of your hard work. It symbolizes a life built through patience, discipline, and self-belief. This card reminds you that true success is not measured only by wealth, but also by confidence, inner peace, and the freedom to live life on your own terms. Appreciate how far you've come while remaining humble and grateful for the blessings you've created through consistent effort.",
+
+  "upright": {
+    "meaning": "The Nine of Pentacles Upright signifies financial independence, personal success, confidence, and enjoying the rewards of your dedication. You have worked hard to create stability and now deserve to appreciate your achievements. This card encourages self-reliance while remaining grateful for your journey.",
+
+    "love": "In relationships, the Nine of Pentacles represents healthy independence, mutual respect, and emotional maturity. Couples support each other's personal growth without becoming dependent. Singles often enjoy a fulfilling independent life and may attract a partner who values confidence, stability, and genuine commitment.",
+
+    "career": "Professionally, this card signifies career success, promotions, recognition, entrepreneurship, or reaching an important milestone. Your expertise and dedication earn respect, allowing you to enjoy greater freedom, stability, and long-term prosperity.",
+
+    "finance": "Financially, the Nine of Pentacles is one of the strongest prosperity cards in Tarot. It represents financial security, wise investments, luxury earned through hard work, and long-term wealth. Continue managing your resources responsibly while enjoying the rewards you've created.",
+
+    "health": "Health remains strong through disciplined routines, balanced living, self-care, and emotional stability. This card encourages enjoying the results of your healthy lifestyle while continuing to prioritize long-term well-being.",
+
+    "spiritual": "Spiritually, the Nine of Pentacles represents gratitude, self-mastery, inner peace, and recognizing that true abundance includes emotional fulfillment, wisdom, and meaningful experiences—not just material success.",
+
+    "advice": "Celebrate your accomplishments without guilt. Appreciate the life you've built, remain humble, continue growing, and trust that your dedication will keep attracting lasting abundance."
+  },
+
+  "reversed": {
+    "meaning": "The Nine of Pentacles Reversed suggests financial dependence, self-doubt, temporary setbacks, or relying too heavily on external validation. You may underestimate your abilities or struggle to appreciate your own achievements. Rebuilding confidence and trusting your capabilities will help restore lasting success.",
+
+    "love": "Relationships may become imbalanced if independence is lost or emotional dependency develops. Healthy love supports individual growth rather than limiting it. Singles should strengthen self-worth before seeking validation through relationships.",
+
+    "career": "Career-wise, progress may slow because of lack of confidence, fear of taking opportunities, or feeling unappreciated. Continue trusting your abilities, improving your skills, and recognizing the value of your work. Long-term success remains achievable.",
+
+    "finance": "Financially, avoid overspending to impress others or relying too heavily on outside support. Create a practical budget, rebuild savings if necessary, and focus on long-term financial independence rather than short-term appearances.",
+
+    "health": "Stress related to financial worries or self-esteem may affect your well-being. Prioritize self-care, healthy routines, and activities that strengthen both physical health and emotional confidence.",
+
+    "spiritual": "Spiritually, this card encourages recognizing your own worth beyond material achievements. Practice gratitude, release comparisons, and remember that genuine abundance begins with appreciating yourself.",
+
+    "advice": "Believe in your own abilities. Success doesn't require perfection or external approval. Value what you've accomplished, remain disciplined, and allow confidence—not comparison—to guide your future."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 9 Months",
+    "reversed": "Delayed Until Confidence Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Venus",
+    "zodiac": "Virgo",
+    "numerology": 9
+  },
+
+  "affirmation": "I honor my achievements, trust my abilities, and gratefully receive the abundance I have created. I am confident, independent, and fully deserving of success, peace, and prosperity."
+}

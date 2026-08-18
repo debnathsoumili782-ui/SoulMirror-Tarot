@@ -1,0 +1,84 @@
+{
+  "id": 51,
+  "name": "Two of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 2,
+  "image": "cards/swords/two-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Difficult Decision",
+      "Balance",
+      "Stalemate",
+      "Indecision",
+      "Logic",
+      "Inner Conflict",
+      "Patience",
+      "Truth"
+    ],
+    "reversed": [
+      "Confusion",
+      "Overthinking",
+      "Emotional Overload",
+      "Poor Judgment",
+      "Truth Revealed",
+      "Anxiety",
+      "Avoidance",
+      "Indecision Ending"
+    ]
+  },
+
+  "overview": "The Two of Swords represents difficult choices, inner conflict, and the need for careful decision-making. It often appears when you feel caught between two paths or when emotions and logic seem equally convincing. Rather than rushing toward a solution, this card encourages gathering all the facts, trusting your intuition, and remaining patient until clarity naturally arrives. Sometimes the greatest wisdom comes not from acting immediately, but from taking the time to truly understand the situation before making your choice.",
+
+  "upright": {
+    "meaning": "The Two of Swords Upright signifies indecision, balance, and carefully weighing your options. You may be avoiding an important decision because the outcome feels uncertain. This card encourages honesty, patience, and gathering all necessary information before moving forward.",
+
+    "love": "In relationships, the Two of Swords suggests emotional uncertainty, difficult conversations, or avoiding important issues. Honest communication is needed to restore trust and understanding. Singles may struggle to choose between two people or hesitate to open their heart after past experiences.",
+
+    "career": "Professionally, this card represents career decisions, job offers, workplace dilemmas, or choosing between different opportunities. Carefully evaluate the long-term consequences instead of making impulsive choices. Logical thinking will guide you toward the best outcome.",
+
+    "finance": "Financially, the Two of Swords advises postponing major financial decisions until you have complete information. Carefully compare options, review contracts, and avoid making choices based on pressure or emotion.",
+
+    "health": "Health may require seeking a second opinion, balancing work and rest, or making important lifestyle changes. Avoid ignoring symptoms or delaying decisions regarding your well-being.",
+
+    "spiritual": "Spiritually, this card represents finding balance between logic and intuition. Meditation and quiet reflection help reveal the answers that cannot be found through overthinking alone.",
+
+    "advice": "Don't avoid the decision forever. Give yourself time to reflect, gather the facts, trust your intuition, and move forward once your mind and heart are aligned."
+  },
+
+  "reversed": {
+    "meaning": "The Two of Swords Reversed suggests confusion, emotional overwhelm, mental stress, or finally reaching a decision after a long period of uncertainty. Hidden information may come to light, making your next step clearer. Release fear and trust your ability to choose wisely.",
+
+    "love": "Relationship confusion begins to surface, making honest conversations unavoidable. Although the truth may be uncomfortable, it creates the opportunity for healing and stronger emotional connections. Singles should stop avoiding their true feelings and embrace emotional honesty.",
+
+    "career": "Career-wise, workplace uncertainty, poor communication, or difficult decisions may become more stressful if ignored. Face challenges directly, seek advice when needed, and trust your professional judgment.",
+
+    "finance": "Financial uncertainty may result from overthinking or delaying necessary decisions. Review your finances carefully, seek expert guidance if necessary, and avoid making emotional purchases out of stress.",
+
+    "health": "Stress, anxiety, or mental exhaustion may affect your health. Prioritize rest, relaxation, and seeking professional guidance if emotional pressure becomes overwhelming.",
+
+    "spiritual": "Spiritually, emotional confusion begins clearing as you become more honest with yourself. Trust your inner wisdom and release the fear that has prevented your spiritual growth.",
+
+    "advice": "Stop delaying what you already know must be faced. The truth may be uncomfortable, but it will ultimately bring freedom, clarity, and peace of mind."
+  },
+
+  "yes_no": {
+    "upright": "Maybe",
+    "reversed": "No"
+  },
+
+  "timing": {
+    "upright": "Within 2 Months",
+    "reversed": "Delayed Until a Decision Is Made"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Moon",
+    "zodiac": "Libra",
+    "numerology": 2
+  },
+
+  "affirmation": "I trust my inner wisdom, remain calm in uncertainty, and make clear, confident decisions that align with my highest good."
+}

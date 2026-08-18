@@ -1,0 +1,84 @@
+{
+  "id": 50,
+  "name": "Ace of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 1,
+  "image": "cards/swords/ace-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Clarity",
+      "Truth",
+      "Breakthrough",
+      "New Ideas",
+      "Justice",
+      "Focus",
+      "Victory",
+      "Mental Strength"
+    ],
+    "reversed": [
+      "Confusion",
+      "Miscommunication",
+      "Deception",
+      "Mental Block",
+      "Poor Judgment",
+      "Lack of Clarity",
+      "Conflict",
+      "Dishonesty"
+    ]
+  },
+
+  "overview": "The Ace of Swords represents mental clarity, truth, new ideas, and powerful breakthroughs. It symbolizes the moment when confusion disappears and you gain the insight needed to move forward with confidence. This card encourages honesty, logical thinking, and making decisions based on facts rather than emotions. It often appears when a new opportunity requires intelligence, courage, and clear communication. The Ace of Swords reminds you that truth has the power to set you free and that every great achievement begins with a clear mind and decisive action.",
+
+  "upright": {
+    "meaning": "The Ace of Swords Upright signifies clarity, truth, intellectual breakthroughs, and new beginnings. You gain the wisdom and confidence needed to make important decisions. This card encourages honest communication, sharp thinking, and embracing opportunities that require intelligence and determination.",
+
+    "love": "In relationships, the Ace of Swords represents honest conversations, emotional clarity, resolving misunderstandings, and building trust through truth. Singles may begin a relationship based on open communication and mutual respect, while couples overcome difficulties by expressing their feelings honestly.",
+
+    "career": "Professionally, this card suggests new job opportunities, successful interviews, promotions, innovative ideas, important contracts, or solving complex problems. Clear thinking and confident communication lead to professional success.",
+
+    "finance": "Financially, the Ace of Swords encourages making informed decisions based on facts rather than emotions. Careful planning, research, and logical thinking create greater financial stability and long-term success.",
+
+    "health": "This card represents mental clarity, improved focus, successful diagnoses, and making healthier lifestyle decisions. It encourages seeking accurate information and maintaining a disciplined approach to your well-being.",
+
+    "spiritual": "Spiritually, the Ace of Swords symbolizes truth, awakening, higher awareness, and cutting through illusions. Meditation, self-reflection, and honest self-examination strengthen your connection to your higher self.",
+
+    "advice": "Seek the truth, communicate honestly, and trust your intellect. Clear thinking and decisive action will help you overcome obstacles and create lasting success."
+  },
+
+  "reversed": {
+    "meaning": "The Ace of Swords Reversed suggests confusion, poor communication, misinformation, or difficulty seeing the truth clearly. You may be making decisions based on assumptions rather than facts. Slow down, gather more information, and avoid rushing important choices.",
+
+    "love": "Relationships may suffer from misunderstandings, dishonesty, poor communication, or unresolved conflicts. Honest conversations and active listening are essential before making important emotional decisions. Singles should avoid ignoring red flags or idealizing someone without truly knowing them.",
+
+    "career": "Career-wise, unclear goals, workplace confusion, poor communication, or delays may temporarily slow progress. Double-check important documents, ask questions when necessary, and avoid making impulsive professional decisions.",
+
+    "finance": "Financial confusion, hidden details, or poor judgment may create unnecessary problems. Carefully review contracts, investments, and major purchases before committing. Seek professional advice if needed.",
+
+    "health": "Mental stress, anxiety, overthinking, or lack of accurate information may affect your well-being. Prioritize mental health, seek reliable medical advice, and avoid unnecessary worry caused by misinformation.",
+
+    "spiritual": "Spiritually, confusion or self-deception may temporarily block your intuition. Quiet reflection, meditation, and honest self-awareness help restore clarity and strengthen your spiritual path.",
+
+    "advice": "Don't make important decisions until you have all the facts. Clear your mind, communicate honestly, and allow truth—not assumptions—to guide your actions."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "No"
+  },
+
+  "timing": {
+    "upright": "Within 1 Month",
+    "reversed": "Delayed Until Clarity Is Achieved"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Air",
+    "zodiac": "Gemini, Libra, Aquarius",
+    "numerology": 1
+  },
+
+  "affirmation": "I embrace truth with courage, think with clarity, and communicate with honesty. My mind is focused, my decisions are wise, and every challenge becomes an opportunity for growth."
+}

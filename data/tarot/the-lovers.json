@@ -1,0 +1,84 @@
+{
+  "id": 6,
+  "name": "The Lovers",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 6,
+  "image": "cards/major/the-lovers.png",
+
+  "keywords": {
+    "upright": [
+      "Love",
+      "Partnership",
+      "Harmony",
+      "Commitment",
+      "Union",
+      "Choices",
+      "Trust",
+      "Alignment"
+    ],
+    "reversed": [
+      "Conflict",
+      "Separation",
+      "Disharmony",
+      "Poor Choices",
+      "Miscommunication",
+      "Temptation",
+      "Imbalance",
+      "Emotional Distance"
+    ]
+  },
+
+  "overview": "The Lovers represents meaningful relationships, deep emotional connections, harmony, and important life choices. Although commonly associated with romance, this card also symbolizes partnerships, shared values, trust, and decisions that shape your future. It encourages choosing with both your heart and your wisdom, reminding you that every meaningful connection is built on honesty, respect, and mutual understanding.",
+
+  "upright": {
+    "meaning": "The Lovers Upright signifies love, harmony, unity, and alignment between your heart and mind. It represents meaningful relationships, strong partnerships, and important decisions made with honesty and integrity. This card reminds you that genuine success comes when your actions reflect your true values.",
+
+    "love": "One of the strongest relationship cards in the Tarot, The Lovers signifies soulmate connections, romance, commitment, marriage, emotional intimacy, and mutual understanding. Existing relationships become stronger through trust and communication, while singles may encounter a meaningful romantic connection.",
+
+    "career": "Professionally, this card represents successful partnerships, teamwork, business collaborations, and making career decisions that align with your long-term goals. Working together with others will bring greater success than working alone.",
+
+    "finance": "Financially, The Lovers encourages balanced financial decisions, shared investments, and cooperation. Joint financial planning or partnerships may prove especially beneficial when built on trust and transparency.",
+
+    "health": "The Lovers suggests balance between physical, emotional, and mental well-being. Healthy relationships and emotional harmony positively influence overall health. It encourages self-care alongside caring for others.",
+
+    "spiritual": "Spiritually, this card represents inner harmony, self-love, and the union between your higher self and everyday life. It encourages living according to your authentic values and trusting your intuition when making important life decisions.",
+
+    "advice": "Choose what truly aligns with your heart and your highest values. Honest communication, mutual respect, and thoughtful decisions will create lasting happiness."
+  },
+
+  "reversed": {
+    "meaning": "The Lovers Reversed indicates disharmony, conflict, emotional distance, poor decisions, or relationships that are out of balance. It may suggest inner conflict between what you want and what you know is right. Honest reflection and communication are needed before moving forward.",
+
+    "love": "Relationship challenges, misunderstandings, trust issues, emotional distance, or incompatible values may arise. Healing begins through honest conversations, forgiveness, and willingness from both partners to work together.",
+
+    "career": "Career-wise, disagreements with colleagues, poor teamwork, or difficult business decisions may create obstacles. Carefully evaluate partnerships before making commitments.",
+
+    "finance": "Financial disagreements or poor judgment may affect stability. Avoid emotional spending and ensure all financial decisions are based on careful planning rather than impulse.",
+
+    "health": "Emotional stress or relationship difficulties may affect physical well-being. Finding emotional balance and reducing unnecessary stress will support overall health.",
+
+    "spiritual": "You may feel disconnected from your authentic self or struggle to make decisions that align with your values. Spend time reflecting on what truly matters before choosing your path.",
+
+    "advice": "Resolve conflicts with honesty and compassion. Don't ignore red flags, but don't make impulsive decisions either. Balance emotion with wisdom before making important choices."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Likely No"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Harmony Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Venus",
+    "zodiac": "Gemini",
+    "numerology": 6
+  },
+
+  "affirmation": "I choose love, honesty, and harmony. My relationships reflect my highest values, and every decision I make brings me closer to my authentic path."
+}

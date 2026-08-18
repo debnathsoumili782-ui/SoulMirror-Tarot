@@ -1,0 +1,270 @@
+/* ===========================
+   PROFILE PAGE
+=========================== */
+
+.profile-page {
+    min-height: 100vh;
+    padding: 120px 20px 60px;
+
+    background:
+        linear-gradient(
+            rgba(8, 5, 20, 0.82),
+            rgba(8, 5, 20, 0.90)
+        ),
+        url("../images/backgrounds/nebula-background.png") center center / cover no-repeat;
+
+    background-attachment: fixed;
+}
+
+.profile-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.profile-header h1 {
+    font-family: "Cinzel", serif;
+    font-size: 42px;
+    color: #FFD86B;
+    margin-bottom: 10px;
+}
+
+.profile-header p {
+    color: rgba(255,255,255,.75);
+    font-size: 17px;
+}
+
+
+/* ===========================
+   STATS GRID
+=========================== */
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 22px;
+}
+
+
+/* ===========================
+   CARD
+=========================== */
+
+.stat-card {
+
+    background: rgba(255,255,255,.05);
+    backdrop-filter: blur(16px);
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 22px;
+
+    padding: 28px 24px;
+
+    text-align: center;
+
+    transition: .35s ease;
+
+    box-shadow:
+        0 0 25px rgba(124,58,237,.08);
+}
+
+.stat-card:hover{
+
+    transform: translateY(-8px);
+
+    border-color:#b27cff;
+
+    box-shadow:
+        0 0 35px rgba(168,85,247,.28);
+
+}
+
+.stat-card h3{
+
+    color:#d9c9ff;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    margin-bottom:18px;
+
+}
+
+.stat-card span{
+
+    display:block;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#FFD86B;
+
+    font-family:"Cinzel", serif;
+
+}
+
+
+/* ===========================
+   DANGER ZONE
+=========================== */
+
+.danger-zone{
+
+    margin-top:70px;
+
+    background:rgba(255,70,70,.08);
+
+    border:1px solid rgba(255,70,70,.18);
+
+    border-radius:24px;
+
+    padding:35px;
+
+    text-align:center;
+
+}
+
+.danger-zone h2{
+
+    color:#ff6b6b;
+
+    margin-bottom:12px;
+
+    font-family:"Cinzel", serif;
+
+}
+
+.danger-zone p{
+
+    color:rgba(255,255,255,.72);
+
+    margin-bottom:28px;
+
+}
+
+.delete-btn{
+
+    border:none;
+
+    padding:14px 32px;
+
+    border-radius:999px;
+
+    background:linear-gradient(135deg,#ff4d4d,#d62828);
+
+    color:#fff;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.delete-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 0 25px rgba(255,0,0,.35);
+
+}
+
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+    .profile-header h1{
+        font-size:32px;
+    }
+    .stat-card span{
+        font-size:34px;
+    }
+    .danger-zone{
+        padding:25px;
+    }
+}
+/* ===========================
+   MODAL
+=========================== */
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0,0,0,.72);
+    backdrop-filter: blur(8px);
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: opacity .3s ease, visibility .3s ease;
+
+    z-index: 9999;
+}
+
+.modal-overlay.show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.delete-modal{
+    width:500px;
+    max-width:90%;
+    background:#16122c;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:24px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 0 45px rgba(128,0,255,.28);
+}
+.delete-modal h2{
+    color:#ff6666;
+    margin-bottom:15px;
+    font-family:"Cinzel", serif;
+}
+.delete-modal p{
+    color:#ddd;
+    margin-bottom:20px;
+}
+.delete-modal ul{
+    list-style:none;
+    padding:0;
+    margin-bottom:28px;
+}
+.delete-modal li{
+    margin:10px 0;
+    color:#f3f3f3;
+}
+.modal-buttons{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+}
+.cancel-btn{
+    padding:12px 24px;
+    border:none;
+    border-radius:999px;
+    background:#444;
+    color:white;
+    cursor:pointer;
+}
+.cancel-btn:hover{
+    background:#666;
+}

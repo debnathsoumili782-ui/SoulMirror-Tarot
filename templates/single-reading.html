@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block title %}
+Single Card Reading
+{% endblock %}
+
+{% block content %}
+
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/single-reading.css') }}">
+
+<section class="single-reading-page">
+
+    <div class="container">
+
+        <!-- ================= HERO ================= -->
+
+        <section class="single-reading-hero">
+
+            <div class="single-left">
+
+                <img
+                    class="single-reading-card {% if card.orientation == 'reversed' %}reversed{% endif %}"
+                    src="{{ url_for('static', filename='images/' ~ card.image) }}"
+                    alt="{{ card.name }}">
+
+            </div>
+
+            <div class="single-right">
+
+                <span class="reading-pill">
+                    ✨ Your Reading
+                </span>
+
+                <div class="question-block">
+
+                    <h3>
+                        ❓ Your Question
+                    </h3>
+
+                    <p>
+                        {{ question }}
+                    </p>
+
+                </div>
+
+                <h1 class="card-title">
+                    {{ card.name }}
+                </h1>
+
+                <div class="orientation">
+
+                    {{ card.orientation|upper }}
+
+                </div>
+
+                <div class="keyword-list">
+
+                    {% for keyword in card.keywords[card.orientation] %}
+
+                        <span>
+                            {{ keyword }}
+                        </span>
+
+                    {% endfor %}
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= AI READING ================= -->
+
+        <section class="reading-content">
+
+            <div class="reading-box">
+
+                {{ ai_reading|safe }}
+
+            </div>
+
+        </section>
+
+        <!-- ================= REFLECTION ================= -->
+
+        <section class="reflection-box">
+
+            <h2>
+                ✨ Reflection Prompt
+            </h2>
+
+            <p>
+
+                Take a quiet moment and ask yourself:
+
+            </p>
+
+            <blockquote>
+
+                "How can I apply this message in my life today?"
+
+            </blockquote>
+
+        </section>
+
+        <!-- ================= BUTTON ================= -->
+
+        <div class="reading-actions">
+
+        <a href="{{ url_for('main.single_card') }}"
+           class="btn btn-gold">
+
+            Draw Another Card
+
+        </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

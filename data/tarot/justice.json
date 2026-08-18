@@ -1,0 +1,84 @@
+{
+  "id": 11,
+  "name": "Justice",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 11,
+  "image": "cards/major/justice.png",
+
+  "keywords": {
+    "upright": [
+      "Justice",
+      "Truth",
+      "Balance",
+      "Fairness",
+      "Integrity",
+      "Responsibility",
+      "Accountability",
+      "Cause and Effect"
+    ],
+    "reversed": [
+      "Dishonesty",
+      "Unfairness",
+      "Bias",
+      "Avoiding Responsibility",
+      "Injustice",
+      "Imbalance",
+      "Poor Judgment",
+      "Lack of Accountability"
+    ]
+  },
+
+  "overview": "Justice represents truth, fairness, honesty, and the law of cause and effect. Every action has consequences, and this card encourages taking responsibility for your choices. It reminds you to make decisions with logic, integrity, and objectivity rather than emotion. Justice often appears when important legal matters, contracts, ethical decisions, or life-changing choices require honesty and balance. What you give to the world eventually returns to you.",
+
+  "upright": {
+    "meaning": "Justice Upright represents fairness, truth, balance, and accountability. It suggests that honesty and integrity will lead to positive outcomes. Decisions should be based on facts rather than emotions. If you have acted with sincerity, fairness will ultimately work in your favor.",
+
+    "love": "In relationships, Justice signifies honesty, equality, commitment, and mutual respect. Healthy communication and accountability strengthen emotional bonds. Existing relationships may move toward engagement or marriage, while singles are encouraged to seek partners who share similar values and integrity.",
+
+    "career": "Professionally, Justice favors promotions earned through merit, legal careers, government jobs, contracts, interviews, and ethical leadership. Your hard work and professionalism will be recognized if you remain honest and responsible.",
+
+    "finance": "Financially, Justice encourages careful budgeting, honest financial dealings, and responsible decision-making. Legal agreements, loans, taxes, or investments are likely to work in your favor if handled properly.",
+
+    "health": "Justice suggests balance in both physical and mental health. Consistent routines, healthy habits, and following professional medical advice will lead to gradual improvement and long-term wellness.",
+
+    "spiritual": "Spiritually, Justice represents karma, personal responsibility, and living according to your highest values. Every action creates energy that eventually returns. Growth comes through honesty, self-awareness, and ethical living.",
+
+    "advice": "Speak the truth, act with integrity, and accept responsibility for your choices. Fairness, patience, and balanced judgment will lead you toward the best possible outcome."
+  },
+
+  "reversed": {
+    "meaning": "Justice Reversed suggests dishonesty, unfair treatment, denial of responsibility, or poor judgment. You may feel misunderstood or experience situations that seem unjust. The card encourages honest self-reflection, accepting accountability, and correcting mistakes before moving forward.",
+
+    "love": "In relationships, imbalance, broken trust, dishonesty, or unresolved conflicts may create emotional distance. Open communication and mutual accountability are necessary to restore harmony.",
+
+    "career": "Career-wise, workplace politics, unfair criticism, legal complications, or unethical behavior may create challenges. Stay professional, avoid dishonest actions, and allow facts to speak for themselves.",
+
+    "finance": "Financially, avoid risky agreements, hidden clauses, dishonest transactions, or impulsive financial decisions. Carefully review contracts and maintain transparency in all financial matters.",
+
+    "health": "Ignoring health issues or failing to maintain balance may delay recovery. Pay attention to your body's signals and seek appropriate guidance before problems become more serious.",
+
+    "spiritual": "Spiritually, Justice Reversed encourages taking responsibility for past actions and learning from mistakes. Healing begins when you stop blaming circumstances and focus on personal growth.",
+
+    "advice": "Accept responsibility where necessary, seek the truth even when it's uncomfortable, and avoid making emotional decisions without considering the facts. Integrity will always lead to lasting peace."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Likely No"
+  },
+
+  "timing": {
+    "upright": "Within 2–4 Months",
+    "reversed": "Delayed Until Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Venus",
+    "zodiac": "Libra",
+    "numerology": 11
+  },
+
+  "affirmation": "I act with honesty, integrity, and fairness. Every decision I make reflects my highest truth, and balance naturally follows my actions."
+}

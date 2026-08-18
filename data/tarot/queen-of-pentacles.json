@@ -1,0 +1,84 @@
+{
+  "id": 76,
+  "name": "Queen of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 13,
+  "image": "cards/pentacles/queen-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Nurturing",
+      "Abundance",
+      "Practicality",
+      "Security",
+      "Generosity",
+      "Comfort",
+      "Responsibility",
+      "Prosperity"
+    ],
+    "reversed": [
+      "Self-Neglect",
+      "Work-Life Imbalance",
+      "Financial Worry",
+      "Overgiving",
+      "Materialism",
+      "Insecurity",
+      "Disorganization",
+      "Burnout"
+    ]
+  },
+
+  "overview": "The Queen of Pentacles represents warmth, generosity, abundance, and creating a secure, comfortable life for yourself and those you love. She combines practical wisdom with compassion, showing that success is measured not only by wealth but also by kindness, stability, and the ability to care for others without neglecting yourself. This card encourages balancing work, family, finances, and self-care while appreciating the simple joys of everyday life. True prosperity grows from gratitude, responsibility, and love.",
+
+  "upright": {
+    "meaning": "The Queen of Pentacles Upright signifies stability, generosity, responsibility, and creating abundance through practical wisdom. You are capable of managing your responsibilities while offering support and comfort to others. This card encourages maintaining balance between achieving success and enjoying the life you have built.",
+
+    "love": "In relationships, the Queen of Pentacles represents loyalty, nurturing, emotional security, and lasting commitment. Couples create a loving and stable home together through mutual care and support. Singles may attract a dependable, kind, and emotionally mature partner who values commitment, family, and long-term happiness.",
+
+    "career": "Professionally, this card represents career success through organization, leadership, responsibility, and reliability. It favors careers involving business, education, healthcare, finance, counseling, entrepreneurship, or any profession where practical wisdom and compassion are equally important.",
+
+    "finance": "Financially, the Queen of Pentacles indicates prosperity, financial stability, wise investments, careful budgeting, and responsible money management. Your practical approach creates long-term abundance while allowing you to enjoy the rewards of your efforts.",
+
+    "health": "Health improves through balanced routines, nourishing food, proper rest, emotional stability, and self-care. The Queen reminds you that caring for yourself is just as important as caring for others.",
+
+    "spiritual": "Spiritually, this card teaches gratitude, grounding, generosity, and recognizing abundance in everyday life. True spiritual wealth comes from balancing material success with compassion, kindness, and meaningful relationships.",
+
+    "advice": "Create a life that feels both successful and peaceful. Care for others, but don't forget your own needs. Stability, gratitude, and balance are the foundations of lasting happiness."
+  },
+
+  "reversed": {
+    "meaning": "The Queen of Pentacles Reversed suggests neglecting yourself while caring for others, financial stress, poor work-life balance, or becoming overly focused on material concerns. You may be giving too much without allowing yourself time to rest and recharge. Restoring balance begins with prioritizing your own well-being.",
+
+    "love": "Relationships may become strained if one person carries too many responsibilities or feels emotionally unsupported. Healthy partnerships require equal effort, appreciation, and open communication. Singles should strengthen self-worth and emotional balance before seeking a serious relationship.",
+
+    "career": "Career-wise, excessive work, burnout, poor organization, or difficulty balancing professional and personal responsibilities may reduce productivity. Set healthy boundaries and remember that sustainable success requires proper rest and self-care.",
+
+    "finance": "Financially, avoid overspending, emotional spending, or becoming overly anxious about money. Create a realistic budget, focus on long-term stability, and avoid comparing your financial journey to others.",
+
+    "health": "Stress, exhaustion, poor nutrition, or neglecting your own health while caring for others may affect your well-being. Prioritize rest, healthy routines, and regular self-care without guilt.",
+
+    "spiritual": "Spiritually, attachment to material success or constant responsibility may disconnect you from inner peace. Slow down, practice gratitude, reconnect with nature, and remember that abundance begins within.",
+
+    "advice": "Take care of yourself with the same love and dedication you offer others. Balance generosity with healthy boundaries, and remember that true abundance includes peace, health, and emotional well-being."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Water of Earth",
+    "zodiac": "Capricorn",
+    "numerology": 13
+  },
+
+  "affirmation": "I create abundance with wisdom, nurture myself as deeply as I nurture others, and welcome prosperity, peace, and stability into every area of my life."
+}

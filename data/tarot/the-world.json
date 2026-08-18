@@ -1,0 +1,84 @@
+{
+  "id": 21,
+  "name": "The World",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 21,
+  "image": "cards/major/the-world.png",
+
+  "keywords": {
+    "upright": [
+      "Completion",
+      "Success",
+      "Achievement",
+      "Fulfillment",
+      "Harmony",
+      "Wholeness",
+      "Travel",
+      "Celebration"
+    ],
+    "reversed": [
+      "Incomplete Goals",
+      "Delays",
+      "Lack of Closure",
+      "Stagnation",
+      "Unfinished Business",
+      "Short-Term Setbacks",
+      "Missed Opportunities",
+      "Resistance to Completion"
+    ]
+  },
+
+  "overview": "The World is the final card of the Major Arcana and represents completion, fulfillment, accomplishment, and the successful conclusion of an important life cycle. It signifies achieving your goals, celebrating your hard work, and entering a new phase filled with wisdom and confidence. This card reminds you that every experience has contributed to your personal growth, and you are now ready for greater opportunities. It symbolizes harmony, success, travel, expansion, and the realization of your highest potential.",
+
+  "upright": {
+    "meaning": "The World Upright represents success, completion, achievement, and reaching an important milestone. Your hard work is paying off, and you are entering a period of fulfillment, confidence, and well-deserved rewards. This card indicates that one chapter is successfully ending, allowing an exciting new journey to begin.",
+
+    "love": "In relationships, The World signifies happiness, commitment, emotional fulfillment, marriage, long-term partnerships, and shared dreams becoming reality. Couples experience deeper harmony and stability, while singles may meet someone who brings lasting love and emotional completeness.",
+
+    "career": "Professionally, The World is one of the strongest success cards in the Tarot. It indicates promotions, career achievements, graduation, business success, international opportunities, recognition, and reaching long-term professional goals. Your dedication is finally being rewarded.",
+
+    "finance": "Financially, this card represents prosperity, financial stability, successful investments, and achieving important financial milestones. Careful planning and consistent effort have created lasting security.",
+
+    "health": "The World suggests recovery, vitality, emotional well-being, and achieving balance in both physical and mental health. It represents the successful completion of a healing journey and renewed energy.",
+
+    "spiritual": "Spiritually, The World symbolizes enlightenment, inner peace, spiritual fulfillment, and understanding your place within the greater universe. You have learned important life lessons and are ready to begin a new stage of spiritual evolution.",
+
+    "advice": "Celebrate your accomplishments and acknowledge how far you've come. Complete unfinished tasks with confidence, remain grateful for your journey, and welcome the exciting opportunities waiting beyond this chapter."
+  },
+
+  "reversed": {
+    "meaning": "The World Reversed suggests delays, unfinished goals, lack of closure, or feeling that something important remains incomplete. Although success is close, final obstacles or self-doubt may temporarily prevent full achievement. This card encourages patience, persistence, and completing unfinished responsibilities before moving forward.",
+
+    "love": "Relationships may feel incomplete due to unresolved issues, emotional distance, or uncertainty about the future. Honest communication and mutual effort are needed to create lasting harmony and closure.",
+
+    "career": "Career-wise, success may be delayed by unfinished projects, lack of confidence, or missed opportunities. Stay committed, complete your responsibilities, and trust that recognition will come through perseverance.",
+
+    "finance": "Financial goals may require additional planning or patience before reaching full stability. Avoid unnecessary spending and remain focused on your long-term financial objectives.",
+
+    "health": "Recovery may take slightly longer than expected due to inconsistency or unresolved emotional stress. Continue following healthy routines, and avoid becoming discouraged by temporary setbacks.",
+
+    "spiritual": "Spiritually, you may feel that an important lesson remains unfinished. Reflect on recent experiences, release lingering emotional baggage, and trust that true completion comes through personal growth and acceptance.",
+
+    "advice": "Finish what you've started. Don't allow impatience or self-doubt to stop you at the final stage of your journey. Completion, success, and fulfillment are much closer than they appear."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Yes — After Completion"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Current Cycle Is Completed"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Saturn",
+    "zodiac": "Capricorn",
+    "numerology": 21
+  },
+
+  "affirmation": "I celebrate my journey, honor my achievements, and confidently embrace the limitless opportunities that await me. I am whole, complete, and ready for the next beautiful chapter of my life."
+}

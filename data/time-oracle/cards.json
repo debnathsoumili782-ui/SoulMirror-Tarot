@@ -1,0 +1,443 @@
+[
+  {
+    "slug": "right-now",
+    "name": "Right Now",
+    "image": "cards/time-oracle/right-now.png",
+    "category": "Immediate Timing",
+    "meaning": "The energy surrounding your question is already active. Events may already be unfolding or are ready to unfold very soon."
+  },
+  {
+    "slug": "within-hours",
+    "name": "Within Hours",
+    "image": "cards/time-oracle/within-hours.png",
+    "category": "Immediate Timing",
+    "meaning": "Movement is very close. Remain alert, as meaningful developments may arrive within hours."
+  },
+  {
+    "slug": "today",
+    "name": "Today",
+    "image": "cards/time-oracle/today.png",
+    "category": "Immediate Timing",
+    "meaning": "Today's energy supports progress. Pay attention to opportunities, conversations, or signs appearing now."
+  },
+  {
+    "slug": "tonight",
+    "name": "Tonight",
+    "image": "cards/time-oracle/tonight.png",
+    "category": "Immediate Timing",
+    "meaning": "The evening hours carry strong energy for movement, clarity, or emotional insight."
+  },
+  {
+    "slug": "tomorrow",
+    "name": "Tomorrow",
+    "image": "cards/time-oracle/tomorrow.png",
+    "category": "Immediate Timing",
+    "meaning": "The next day brings fresh momentum. Be ready for a new opportunity or meaningful progress."
+  },
+  {
+    "slug": "dawn-approaches",
+    "name": "Dawn Approaches",
+    "image": "cards/time-oracle/dawn-approaches.png",
+    "category": "Immediate Timing",
+    "meaning": "A new beginning is close. The waiting period is nearly over."
+  },
+  {
+    "slug": "sunset-calls",
+    "name": "Sunset Calls",
+    "image": "cards/time-oracle/sunset-calls.png",
+    "category": "Immediate Timing",
+    "meaning": "The energy reaches completion before another chapter begins. Watch the closing of today's cycle."
+  },
+  {
+    "slug": "midnight-shift",
+    "name": "Midnight Shift",
+    "image": "cards/time-oracle/midnight-shift.png",
+    "category": "Immediate Timing",
+    "meaning": "Hidden movement takes place behind the scenes. Unexpected changes may happen overnight."
+  },
+  {
+    "slug": "before-the-week-ends",
+    "name": "Before the Week Ends",
+    "image": "cards/time-oracle/before-the-week-ends.png",
+    "category": "Immediate Timing",
+    "meaning": "The answer may unfold before the current week comes to a close."
+  },
+  {
+    "slug": "within-7-days",
+    "name": "Within Seven Days",
+    "image": "cards/time-oracle/within-7-days.png",
+    "category": "Immediate Timing",
+    "meaning": "The coming week carries strong timing energy. Remain open to new developments."
+  },
+  {
+    "slug": "next-week",
+    "name": "Next Week",
+    "image": "cards/time-oracle/next-week.png",
+    "category": "Short & Medium Timing",
+    "meaning": "Next week brings greater momentum and opportunities connected to your question."
+  },
+  {
+    "slug": "within-two-weeks",
+    "name": "Within Two Weeks",
+    "image": "cards/time-oracle/within-two-weeks.png",
+    "category": "Short & Medium Timing",
+    "meaning": "Meaningful progress is likely within the next two weeks."
+  },
+  {
+    "slug": "this-month",
+    "name": "This Month",
+    "image": "cards/time-oracle/this-month.png",
+    "category": "Short & Medium Timing",
+    "meaning": "The current month holds the strongest window for movement around your question."
+  },
+  {
+    "slug": "next-month",
+    "name": "Next Month",
+    "image": "cards/time-oracle/next-month.png",
+    "category": "Short & Medium Timing",
+    "meaning": "Patience through the present cycle may lead to meaningful progress next month."
+  },
+  {
+    "slug": "two-months",
+    "name": "Two Months",
+    "image": "cards/time-oracle/two-months.png",
+    "category": "Short & Medium Timing",
+    "meaning": "Allow time for growth. The coming two months support steady progress."
+  },
+  {
+    "slug": "three-months",
+    "name": "Three Months",
+    "image": "cards/time-oracle/three-months.png",
+    "category": "Short & Medium Timing",
+    "meaning": "A gradual unfolding points toward a three-month timeline."
+  },
+  {
+    "slug": "six-months",
+    "name": "Six Months",
+    "image": "cards/time-oracle/six-months.png",
+    "category": "Short & Medium Timing",
+    "meaning": "Longer preparation is needed before the situation fully matures."
+  },
+  {
+    "slug": "nine-months",
+    "name": "Nine Months",
+    "image": "cards/time-oracle/nine-months.png",
+    "category": "Short & Medium Timing",
+    "meaning": "This outcome grows slowly, requiring patience and natural development."
+  },
+  {
+    "slug": "before-year-ends",
+    "name": "Before Year Ends",
+    "image": "cards/time-oracle/before-year-ends.png",
+    "category": "Short & Medium Timing",
+    "meaning": "The current year still holds an important opportunity before it concludes."
+  },
+  {
+    "slug": "by-next-year",
+    "name": "By Next Year",
+    "image": "cards/time-oracle/by-next-year.png",
+    "category": "Short & Medium Timing",
+    "meaning": "The energy points toward a fresh chapter opening by next year."
+  },
+  {
+    "slug": "spring-awakening",
+    "name": "Spring Awakening",
+    "image": "cards/time-oracle/spring-awakening.png",
+    "category": "Seasonal Timing",
+    "meaning": "Fresh beginnings emerge during a season of growth and renewal."
+  },
+  {
+    "slug": "summer-fire",
+    "name": "Summer Fire",
+    "image": "cards/time-oracle/summer-fire.png",
+    "category": "Seasonal Timing",
+    "meaning": "Summer carries bold, active energy that supports visible progress."
+  },
+  {
+    "slug": "autumn-harvest",
+    "name": "Autumn Harvest",
+    "image": "cards/time-oracle/autumn-harvest.png",
+    "category": "Seasonal Timing",
+    "meaning": "Your efforts may bear fruit during the autumn season."
+  },
+  {
+    "slug": "winter-silence",
+    "name": "Winter Silence",
+    "image": "cards/time-oracle/winter-silence.png",
+    "category": "Seasonal Timing",
+    "meaning": "A quieter season allows preparation before new movement begins."
+  },
+  {
+    "slug": "new-moon",
+    "name": "New Moon",
+    "image": "cards/time-oracle/new-moon.png",
+    "category": "Seasonal Timing",
+    "meaning": "A fresh cycle begins under the energy of the New Moon."
+  },
+  {
+    "slug": "waxing-moon",
+    "name": "Waxing Moon",
+    "image": "cards/time-oracle/waxing-moon.png",
+    "category": "Seasonal Timing",
+    "meaning": "Steady growth builds as the energy gradually increases."
+  },
+  {
+    "slug": "full-moon",
+    "name": "Full Moon",
+    "image": "cards/time-oracle/full-moon.png",
+    "category": "Seasonal Timing",
+    "meaning": "The Full Moon brings illumination, completion, and important revelations."
+  },
+  {
+    "slug": "waning-moon",
+    "name": "Waning Moon",
+    "image": "cards/time-oracle/waning-moon.png",
+    "category": "Seasonal Timing",
+    "meaning": "Release and closure create space for what comes next."
+  },
+  {
+    "slug": "eclipse-portal",
+    "name": "Eclipse Portal",
+    "image": "cards/time-oracle/eclipse-portal.png",
+    "category": "Seasonal Timing",
+    "meaning": "Unexpected shifts may accelerate the timeline during a powerful transition."
+  },
+  {
+    "slug": "solstice-light",
+    "name": "Solstice Light",
+    "image": "cards/time-oracle/solstice-light.png",
+    "category": "Seasonal Timing",
+    "meaning": "The turning point arrives around a period of balance and transformation."
+  },
+  {
+    "slug": "divine-timing",
+    "name": "Divine Timing",
+    "image": "cards/time-oracle/divine-timing.png",
+    "category": "Divine Timing",
+    "meaning": "The universe is aligning events naturally. Trust that the right moment will reveal itself."
+  },
+  {
+    "slug": "trust-the-process",
+    "name": "Trust the Process",
+    "image": "cards/time-oracle/trust-the-process.png",
+    "category": "Divine Timing",
+    "meaning": "Progress is happening beneath the surface even if you cannot yet see it."
+  },
+  {
+    "slug": "patience-required",
+    "name": "Patience Required",
+    "image": "cards/time-oracle/patience-required.png",
+    "category": "Divine Timing",
+    "meaning": "More time is needed before events naturally unfold. Avoid forcing the outcome."
+  },
+  {
+    "slug": "destiny-awakens",
+    "name": "Destiny Awakens",
+    "image": "cards/time-oracle/destiny-awakens.png",
+    "category": "Divine Timing",
+    "meaning": "A destined path is beginning to awaken. Trust the process as events align."
+  },
+  {
+    "slug": "cosmic-green-light",
+    "name": "Cosmic Green Light",
+    "image": "cards/time-oracle/cosmic-green-light.png",
+    "category": "Divine Timing",
+    "meaning": "The universe is giving you permission to move forward. The timing is favorable."
+  },
+  {
+    "slug": "almost-there",
+    "name": "Almost There",
+    "image": "cards/time-oracle/almost-there.png",
+    "category": "Divine Timing",
+    "meaning": "You are very close to the outcome. Keep going without losing faith."
+  },
+  {
+    "slug": "worth-the-wait",
+    "name": "Worth the Wait",
+    "image": "cards/time-oracle/worth-the-wait.png",
+    "category": "Divine Timing",
+    "meaning": "Although delayed, the final outcome will be more rewarding than expected."
+  },
+  {
+    "slug": "hidden-delay",
+    "name": "Hidden Delay",
+    "image": "cards/time-oracle/hidden-delay.png",
+    "category": "Divine Timing",
+    "meaning": "Unseen circumstances are slowing the timeline. Patience is essential."
+  },
+  {
+    "slug": "time-is-ripening",
+    "name": "Time is Ripening",
+    "image": "cards/time-oracle/time-is-ripening.png",
+    "category": "Divine Timing",
+    "meaning": "The situation is developing naturally. The perfect moment is approaching."
+  },
+  {
+    "slug": "the-universe-decides",
+    "name": "The Universe Decides",
+    "image": "cards/time-oracle/the-universe-decides.png",
+    "category": "Divine Timing",
+    "meaning": "Some outcomes cannot be controlled. Trust the greater timing at work."
+  },
+  {
+    "slug": "after-healing",
+    "name": "After Healing",
+    "image": "cards/time-oracle/after-healing.png",
+    "category": "Event-Based Timing",
+    "meaning": "The timing begins after emotional, physical, or spiritual healing has taken place."
+  },
+  {
+    "slug": "after-letting-go",
+    "name": "After Letting Go",
+    "image": "cards/time-oracle/after-letting-go.png",
+    "category": "Event-Based Timing",
+    "meaning": "Release what no longer serves you. Then the path will begin to open."
+  },
+  {
+    "slug": "after-communication",
+    "name": "After Communication",
+    "image": "cards/time-oracle/after-communication.png",
+    "category": "Event-Based Timing",
+    "meaning": "A conversation, message, or important discussion unlocks the next stage."
+  },
+  {
+    "slug": "after-forgiveness",
+    "name": "After Forgiveness",
+    "image": "cards/time-oracle/after-forgiveness.png",
+    "category": "Event-Based Timing",
+    "meaning": "Once forgiveness is offered or accepted, movement begins."
+  },
+  {
+    "slug": "after-a-journey",
+    "name": "After a Journey",
+    "image": "cards/time-oracle/after-a-journey.png",
+    "category": "Event-Based Timing",
+    "meaning": "Travel, relocation, or an important life journey marks the turning point."
+  },
+  {
+    "slug": "after-the-storm",
+    "name": "After the Storm",
+    "image": "cards/time-oracle/after-the-storm.png",
+    "category": "Event-Based Timing",
+    "meaning": "Difficulties settle first. Calm returns before the answer arrives."
+  },
+  {
+    "slug": "new-beginning",
+    "name": "New Beginning",
+    "image": "cards/time-oracle/new-beginning.png",
+    "category": "Event-Based Timing",
+    "meaning": "A fresh chapter creates the conditions for your desired outcome."
+  },
+  {
+    "slug": "unexpected-arrival",
+    "name": "Unexpected Arrival",
+    "image": "cards/time-oracle/unexpected-arrival.png",
+    "category": "Event-Based Timing",
+    "meaning": "The answer arrives suddenly when you least expect it."
+  },
+  {
+    "slug": "sacred-reunion",
+    "name": "Sacred Reunion",
+    "image": "cards/time-oracle/sacred-reunion.png",
+    "category": "Event-Based Timing",
+    "meaning": "Timing is connected to an important reunion or meaningful encounter."
+  },
+  {
+    "slug": "final-chapter",
+    "name": "Final Chapter",
+    "image": "cards/time-oracle/final-chapter.png",
+    "category": "Event-Based Timing",
+    "meaning": "One chapter must fully close before another can begin."
+  },
+  {
+    "slug": "fated-encounter",
+    "name": "Fated Encounter",
+    "image": "cards/time-oracle/fated-encounter.png",
+    "category": "Fate & Destiny",
+    "meaning": "A destined meeting changes the timeline surrounding your question."
+  },
+  {
+    "slug": "soul-contract",
+    "name": "Soul Contract",
+    "image": "cards/time-oracle/soul-contract.png",
+    "category": "Fate & Destiny",
+    "meaning": "The timing is connected to a deeper soul agreement beyond conscious control."
+  },
+  {
+    "slug": "karmic-cycle-ends",
+    "name": "Karmic Cycle Ends",
+    "image": "cards/time-oracle/karmic-cycle-ends.png",
+    "category": "Fate & Destiny",
+    "meaning": "An old karmic lesson must complete before the next chapter begins."
+  },
+  {
+    "slug": "wheel-turns",
+    "name": "Wheel Turns",
+    "image": "cards/time-oracle/wheel-turns.png",
+    "category": "Fate & Destiny",
+    "meaning": "Fortune is shifting. A change in circumstances is approaching."
+  },
+  {
+    "slug": "opportunity-knocks",
+    "name": "Opportunity Knocks",
+    "image": "cards/time-oracle/opportunity-knocks.png",
+    "category": "Fate & Destiny",
+    "meaning": "A new opportunity opens the exact door needed for your question."
+  },
+  {
+    "slug": "doors-open",
+    "name": "Doors Open",
+    "image": "cards/time-oracle/doors-open.png",
+    "category": "Fate & Destiny",
+    "meaning": "Several possibilities become available at once. Choose wisely."
+  },
+  {
+    "slug": "miracles-unfold",
+    "name": "Miracles Unfold",
+    "image": "cards/time-oracle/miracles-unfold.png",
+    "category": "Fate & Destiny",
+    "meaning": "Unexpected blessings reshape the timeline in your favor."
+  },
+  {
+    "slug": "signs-appear",
+    "name": "Signs Appear",
+    "image": "cards/time-oracle/signs-appear.png",
+    "category": "Fate & Destiny",
+    "meaning": "Watch for repeated signs and synchronicities guiding the correct moment."
+  },
+  {
+    "slug": "perfect-timing",
+    "name": "Perfect Timing",
+    "image": "cards/time-oracle/perfect-timing.png",
+    "category": "Fate & Destiny",
+    "meaning": "Everything aligns exactly when it should. Trust the divine schedule."
+  },
+  {
+    "slug": "the-hour-has-come",
+    "name": "The Hour Has Come",
+    "image": "cards/time-oracle/the-hour-has-come.png",
+    "category": "Fate & Destiny",
+    "meaning": "The waiting period is over. The moment to act or receive has arrived."
+  },
+  {
+    "slug": "alignment-within",
+    "name": "Alignment Within",
+    "image": "cards/time-oracle/alignment-within.png",
+    "category": "Divine Timing",
+    "meaning": "Inner harmony prepares the outer world to move. When your energy aligns, the right timing naturally follows."
+  },
+  {
+    "slug": "pathways-ahead",
+    "name": "Pathways Ahead",
+    "image": "cards/time-oracle/pathways-ahead.png",
+    "category": "Fate & Destiny",
+    "meaning": "Several possible futures are opening before you. Your next choice will shape which path unfolds."
+  },
+  {
+    "slug": "unwritten-destiny",
+    "name": "Unwritten Destiny",
+    "image": "cards/time-oracle/unwritten-destiny.png",
+    "category": "Fate & Destiny",
+    "meaning": "Your future is still being written. The choices you make now will shape the timing and direction of what unfolds."
+  }
+]

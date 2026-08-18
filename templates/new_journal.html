@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}New Journal{% endblock %}
+
+{% block content %}
+
+<section class="journal-page">
+
+    <div class="container">
+
+        <div class="journal-header">
+
+            <h1>New Journal Entry</h1>
+
+            <p>
+                Write down your thoughts, emotions, and reflections.
+            </p>
+
+        </div>
+
+        <form method="POST" class="journal-form">
+
+            <label>Title</label>
+
+            <input
+                type="text"
+                name="title"
+                placeholder="Give your journal a title..."
+                required>
+
+            <label>Journal</label>
+
+            <textarea
+                name="content"
+                placeholder="Write about your thoughts, emotions, dreams, today's tarot reading, or anything your heart wants to remember..."
+                required></textarea>
+
+            <button type="submit">
+                💾 Save Entry
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/journal.css') }}">
+
+{% endblock %}

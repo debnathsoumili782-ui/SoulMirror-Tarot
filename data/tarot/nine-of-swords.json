@@ -1,0 +1,84 @@
+{
+  "id": 58,
+  "name": "Nine of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 9,
+  "image": "cards/swords/nine-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Anxiety",
+      "Worry",
+      "Fear",
+      "Overthinking",
+      "Nightmares",
+      "Stress",
+      "Guilt",
+      "Mental Exhaustion"
+    ],
+    "reversed": [
+      "Hope",
+      "Recovery",
+      "Healing",
+      "Facing Fears",
+      "Relief",
+      "Acceptance",
+      "Inner Peace",
+      "Improvement"
+    ]
+  },
+
+  "overview": "The Nine of Swords represents anxiety, excessive worry, and the emotional burden created by fear or overthinking. It often appears when your mind magnifies problems, making them feel far worse than they truly are. Although this card acknowledges genuine emotional pain, it also reminds you that healing begins by facing your fears instead of avoiding them. You are not as powerless as your worries suggest. Support, clarity, and hope become available once you allow yourself to seek help and release unnecessary mental burdens.",
+
+  "upright": {
+    "meaning": "The Nine of Swords Upright signifies anxiety, fear, guilt, stress, sleepless nights, and excessive overthinking. You may be carrying emotional burdens alone or imagining worst-case scenarios. While your concerns may feel overwhelming, this card reminds you that many fears lose their power once they are faced honestly.",
+
+    "love": "In relationships, the Nine of Swords may indicate anxiety about the future, trust issues, guilt, misunderstandings, or fear of losing someone you love. Honest communication and emotional reassurance are essential. Singles may struggle with fear of rejection or emotional vulnerability because of past experiences.",
+
+    "career": "Professionally, this card represents workplace stress, fear of failure, burnout, perfectionism, or worrying excessively about your performance. Avoid allowing self-doubt to overshadow your abilities. Taking one step at a time reduces unnecessary pressure.",
+
+    "finance": "Financial anxiety, debt worries, or fear about future security may occupy your thoughts. Avoid making panic-driven financial decisions. Careful planning and seeking professional guidance when necessary will help restore confidence.",
+
+    "health": "This card strongly highlights mental health, including stress, anxiety, insomnia, emotional exhaustion, and the physical effects of prolonged worry. Prioritize rest, emotional support, mindfulness, and professional care if needed. Healing begins by acknowledging your emotional needs.",
+
+    "spiritual": "Spiritually, the Nine of Swords teaches that fear often creates illusions stronger than reality itself. Meditation, prayer, self-forgiveness, and trusting your higher guidance help release emotional burdens and restore inner peace.",
+
+    "advice": "Don't suffer in silence. Share your worries with someone you trust, challenge fearful thoughts with facts, and remember that every difficult night is eventually followed by a new sunrise."
+  },
+
+  "reversed": {
+    "meaning": "The Nine of Swords Reversed represents healing, emotional recovery, overcoming anxiety, and gradually finding peace after a difficult period. Although challenges may not disappear overnight, your mindset becomes stronger, allowing hope and confidence to replace fear. This is a card of resilience and emotional renewal.",
+
+    "love": "Relationships begin healing through honest conversations, forgiveness, and emotional openness. Couples rebuild trust after periods of stress, while singles become emotionally healthier and more prepared for meaningful love.",
+
+    "career": "Career-related stress begins to decrease as confidence grows and practical solutions replace fear. You recognize your strengths, regain motivation, and begin moving forward with greater emotional resilience.",
+
+    "finance": "Financial worries gradually improve through careful budgeting, responsible planning, and releasing unnecessary fear about the future. Confidence replaces panic as your situation becomes more manageable.",
+
+    "health": "Mental health improves as anxiety decreases, sleep becomes more restful, and emotional healing progresses. Continue practicing self-care, healthy routines, and seeking support whenever needed.",
+
+    "spiritual": "Spiritually, this card represents releasing fear, trusting divine timing, and recognizing your inner resilience. Every challenge has strengthened your wisdom and prepared you for greater peace and spiritual growth.",
+
+    "advice": "Your fears do not define your future. Let go of unnecessary worry, trust your ability to overcome challenges, and allow yourself to receive the support, healing, and peace you deserve."
+  },
+
+  "yes_no": {
+    "upright": "No",
+    "reversed": "Yes — After Healing"
+  },
+
+  "timing": {
+    "upright": "Delayed Until Fear Is Released",
+    "reversed": "Within 9 Weeks"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Mars",
+    "zodiac": "Gemini",
+    "numerology": 9
+  },
+
+  "affirmation": "I release fear, trust my inner strength, and welcome peace into my mind and heart. Every day I become calmer, wiser, and more confident in my ability to overcome life's challenges."
+}

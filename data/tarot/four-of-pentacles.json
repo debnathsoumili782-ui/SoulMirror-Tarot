@@ -1,0 +1,84 @@
+{
+  "id": 67,
+  "name": "Four of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 4,
+  "image": "cards/pentacles/four-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Security",
+      "Stability",
+      "Saving",
+      "Control",
+      "Responsibility",
+      "Protection",
+      "Discipline",
+      "Possessions"
+    ],
+    "reversed": [
+      "Greed",
+      "Fear of Loss",
+      "Overspending",
+      "Materialism",
+      "Insecurity",
+      "Letting Go",
+      "Financial Instability",
+      "Generosity"
+    ]
+  },
+
+  "overview": "The Four of Pentacles represents financial security, stability, and protecting what you have worked hard to build. It reminds you that careful planning and responsible management create lasting success. However, it also warns against becoming overly attached to money, possessions, or control. True abundance comes from balancing security with generosity and understanding that life flows best when you know both how to protect and how to share your blessings.",
+
+  "upright": {
+    "meaning": "The Four of Pentacles Upright signifies stability, financial security, careful planning, and protecting your resources. It encourages saving wisely, maintaining healthy boundaries, and appreciating what you have. While caution is beneficial, avoid allowing fear of loss to prevent growth or new opportunities.",
+
+    "love": "In relationships, this card may indicate emotional security and commitment, but it can also suggest becoming emotionally guarded or possessive. Healthy relationships thrive through trust, openness, and balancing independence with emotional closeness. Singles may hesitate to open their heart because of past experiences.",
+
+    "career": "Professionally, the Four of Pentacles suggests career stability, job security, and responsible leadership. It encourages maintaining consistent performance while remaining open to professional growth rather than resisting change out of fear.",
+
+    "finance": "Financially, this is a positive card for saving money, building wealth, and creating long-term security. However, avoid becoming overly focused on accumulating wealth at the expense of enjoying life or helping others. Wise financial balance is the key to lasting prosperity.",
+
+    "health": "Health remains stable through disciplined routines, balanced nutrition, regular exercise, and preventive care. Avoid allowing stress related to work or finances to create physical tension.",
+
+    "spiritual": "Spiritually, the Four of Pentacles encourages releasing attachment to material possessions and recognizing that true security comes from inner peace rather than external wealth. Gratitude and generosity strengthen spiritual abundance.",
+
+    "advice": "Protect what you've built, but don't allow fear to control your decisions. Create security while remaining open to growth, generosity, and positive change."
+  },
+
+  "reversed": {
+    "meaning": "The Four of Pentacles Reversed suggests releasing unhealthy attachments, overcoming fear of loss, improving financial flexibility, or recognizing that excessive control creates unnecessary stress. It may also warn against overspending or financial instability caused by poor planning.",
+
+    "love": "Relationships improve through greater emotional openness and letting go of possessiveness or fear. Couples strengthen trust by giving each other space while remaining emotionally connected. Singles become more willing to trust again after releasing past emotional barriers.",
+
+    "career": "Career-wise, resisting change or holding too tightly to familiar routines may limit future success. Be open to learning new skills, accepting promotions, or exploring opportunities that support long-term growth.",
+
+    "finance": "Financially, this card advises reviewing your spending habits. Avoid both excessive saving driven by fear and reckless spending caused by impulse. Balanced financial management creates lasting stability.",
+
+    "health": "Stress related to control, perfectionism, or financial worries may affect your health. Practice relaxation, maintain healthy routines, and remember that emotional flexibility supports physical well-being.",
+
+    "spiritual": "Spiritually, releasing attachment to material possessions allows greater inner peace. Trust that abundance flows naturally when gratitude replaces fear and generosity replaces scarcity thinking.",
+
+    "advice": "Release the need to control everything. Balance saving with enjoying life, remain open to positive change, and trust that true abundance grows through wisdom, gratitude, and generosity."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 4 Months",
+    "reversed": "Delayed Until Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Sun",
+    "zodiac": "Capricorn",
+    "numerology": 4
+  },
+
+  "affirmation": "I create lasting security through wisdom, gratitude, and balance. I trust that abundance flows freely into my life, and I welcome both stability and growth with an open heart."
+}

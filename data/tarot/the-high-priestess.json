@@ -1,0 +1,84 @@
+{
+  "id": 2,
+  "name": "The High Priestess",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 2,
+  "image": "cards/major/the-high-priestess.png",
+
+  "keywords": {
+    "upright": [
+      "Intuition",
+      "Wisdom",
+      "Mystery",
+      "Inner Knowing",
+      "Patience",
+      "Spiritual Insight",
+      "Secrets",
+      "Divine Feminine"
+    ],
+    "reversed": [
+      "Hidden Truth",
+      "Confusion",
+      "Ignoring Intuition",
+      "Emotional Block",
+      "Secrets Revealed",
+      "Self-Doubt",
+      "Isolation",
+      "Dishonesty"
+    ]
+  },
+
+  "overview": "The High Priestess represents intuition, hidden wisdom, and spiritual awareness. She reminds you that not every answer comes from logic; some truths are discovered through silence, observation, and inner knowing. This card encourages patience, self-reflection, and trusting your instincts before making important decisions. It often appears when unseen knowledge or hidden information is about to be revealed.",
+
+  "upright": {
+    "meaning": "The High Priestess Upright encourages you to trust your intuition and pay attention to your inner voice. It suggests that answers already exist within you, even if they are not yet obvious. Rather than forcing action, this card recommends patience, observation, and allowing events to unfold naturally. Hidden truths, spiritual growth, and emotional wisdom are highlighted.",
+
+    "love": "In love, this card suggests a deep emotional or spiritual connection. Feelings may exist beneath the surface, and honest communication will strengthen relationships. Singles are encouraged to trust their instincts before entering a new relationship. Patience is often more valuable than rushing.",
+
+    "career": "Professionally, The High Priestess advises gathering information before making decisions. You may be working behind the scenes or developing important skills quietly. Trust your judgment, avoid workplace gossip, and wait until the right moment to act.",
+
+    "finance": "Financially, avoid impulsive spending or investments. Carefully research opportunities and trust your instincts if something feels wrong. Long-term planning will be more beneficial than seeking quick profits.",
+
+    "health": "This card encourages listening carefully to your body and emotional well-being. Rest, mindfulness, meditation, and preventive care may be more beneficial than ignoring subtle signs. Emotional balance contributes greatly to physical health.",
+
+    "spiritual": "Spiritually, this is one of the strongest cards in the deck. It represents psychic awareness, intuition, meditation, dreams, divine guidance, and deeper spiritual understanding. Your connection to your higher self becomes stronger during this period.",
+
+    "advice": "Slow down, observe carefully, and trust your intuition. Not every situation requires immediate action. Sometimes wisdom comes from patience and quiet reflection."
+  },
+
+  "reversed": {
+    "meaning": "The High Priestess Reversed suggests ignoring your intuition, emotional confusion, hidden motives, or refusing to acknowledge the truth. You may be overthinking while neglecting your inner guidance. The card encourages reconnecting with yourself and addressing what has been avoided.",
+
+    "love": "In relationships, misunderstandings, emotional distance, or hidden feelings may create confusion. Honest communication is essential. Avoid making assumptions without knowing the complete truth.",
+
+    "career": "Career-wise, important information may be hidden or overlooked. Office politics, poor communication, or uncertainty could delay progress. Trust verified facts rather than rumors.",
+
+    "finance": "Financial confusion or hidden expenses may arise. Double-check agreements, avoid risky investments, and be cautious when sharing financial information.",
+
+    "health": "Ignoring symptoms, emotional stress, or mental exhaustion may affect overall well-being. Listen to both your body and your intuition, and seek guidance when necessary.",
+
+    "spiritual": "You may currently feel disconnected from your intuition or spiritual path. Meditation, self-reflection, and reducing outside distractions can help restore inner clarity.",
+
+    "advice": "Be honest with yourself. Stop ignoring what your intuition has been trying to tell you. Clarity comes when you slow down and face the truth."
+  },
+
+  "yes_no": {
+    "upright": "Uncertain",
+    "reversed": "Likely No"
+  },
+
+  "timing": {
+    "upright": "Within 2–3 Months",
+    "reversed": "Delayed Until Hidden Matters Are Resolved"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Moon",
+    "zodiac": "Cancer",
+    "numerology": 2
+  },
+
+  "affirmation": "I trust my intuition, honor my inner wisdom, and allow divine guidance to illuminate my path."
+}

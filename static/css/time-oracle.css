@@ -1,0 +1,1027 @@
+/*==================================================
+                    TIME ORACLE
+==================================================*/
+
+:root{
+
+    --gold:#D4AF37;
+    --gold-light:#F4DA7A;
+
+    --bg-dark:#080614;
+    --bg-panel:rgba(20,14,35,.72);
+
+    --text:#FFFFFF;
+    --muted:#CFCFCF;
+
+    --radius:22px;
+
+    --shadow:0 18px 40px rgba(0,0,0,.45);
+
+    --transition:.35s cubic-bezier(.22,.61,.36,1);
+}
+
+
+/*==================================================
+                    PAGE
+==================================================*/
+
+.time-page{
+
+    min-height:100vh;
+
+    padding:120px 20px 80px;
+
+    background:
+        linear-gradient(
+            rgba(8,6,18,.72),
+            rgba(8,6,18,.78)
+        ),
+        url("../images/backgrounds/nebula-background.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+}
+
+.time-page .container{
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+
+/*==================================================
+                  QUESTION
+==================================================*/
+
+#questionSection{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.time-title{
+
+    font-family:"Cinzel",serif;
+
+    font-size:64px;
+
+    color:#fff;
+
+    margin-bottom:18px;
+
+    text-shadow:
+        0 0 25px rgba(212,175,55,.25);
+
+}
+
+.time-subtitle{
+
+    color:#d5d5d5;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    margin-bottom:45px;
+
+}
+
+
+/*==================================================
+                    FORM
+==================================================*/
+
+#questionForm{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+
+}
+
+
+#question{
+
+    width:100%;
+
+    min-height:170px;
+
+    padding:24px 28px;
+
+    resize:none;
+
+    outline:none;
+
+    border-radius:24px;
+
+    border:1px solid rgba(212,175,55,.35);
+
+    background:rgba(18,12,34,.75);
+
+    backdrop-filter:blur(18px);
+
+    color:#fff;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    transition:var(--transition);
+
+    box-sizing:border-box;
+
+}
+
+
+#question::placeholder{
+
+    color:rgba(255,255,255,.45);
+
+    font-style:italic;
+
+}
+
+
+#question:focus{
+
+    border-color:var(--gold);
+
+    box-shadow:
+
+        0 0 0 2px rgba(212,175,55,.15),
+
+        0 0 35px rgba(212,175,55,.18);
+
+}
+
+
+/*==================================================
+                    ERROR
+==================================================*/
+
+.question-error{
+
+    display:none;
+
+    width:fit-content;
+
+    margin:auto;
+
+    padding:12px 20px;
+
+    background:#281B39;
+
+    border-radius:14px;
+
+    border:1px solid rgba(212,175,55,.35);
+
+    color:#fff;
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+
+
+/*==================================================
+                 FOCUS SCREEN
+==================================================*/
+
+#focusScreen{
+
+    position:fixed;
+
+    inset:0;
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    z-index:9999;
+
+    background:
+        linear-gradient(
+            rgba(7,5,18,.82),
+            rgba(7,5,18,.82)
+        ),
+        url("../images/backgrounds/hero-bg.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    backdrop-filter:blur(4px);
+
+}
+
+
+.focus-box{
+
+    text-align:center;
+
+    max-width:800px;
+
+}
+
+
+.focus-box h2{
+
+    font-size:54px;
+
+    color:#fff;
+
+    font-family:"Cinzel",serif;
+
+    margin-bottom:24px;
+
+}
+
+
+.focus-box p{
+
+    margin-top:24px;
+
+    color:#d6d6d6;
+
+    font-size:21px;
+
+    line-height:2;
+
+}
+
+
+/*==================================================
+                  SHUFFLE
+==================================================*/
+
+#shuffleSection{
+
+    display:none;
+
+    text-align:center;
+
+}
+
+
+.deck-wrapper{
+
+    width:250px;
+
+    height:390px;
+
+    margin:45px auto;
+
+    position:relative;
+
+    perspective:1500px;
+
+}
+
+
+#deck{
+
+    width:100%;
+
+    height:100%;
+
+    position:relative;
+
+    cursor:pointer;
+
+    transform-style:preserve-3d;
+
+}
+
+
+.deck-card{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+
+    border-radius:18px;
+
+    box-shadow:var(--shadow);
+
+    user-select:none;
+
+    pointer-events:none;
+
+    transition:
+        transform .45s cubic-bezier(.22,.61,.36,1),
+        filter .35s;
+
+}
+
+
+#shuffleSection h2{
+
+    color:#fff;
+
+    font-size:34px;
+
+    font-family:"Cinzel",serif;
+
+    margin-top:25px;
+
+}
+
+
+#shuffleSection p{
+
+    color:#d0d0d0;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    margin-top:18px;
+
+}
+
+
+.shuffle-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:22px;
+
+    margin-top:42px;
+
+}
+
+
+#shuffleBtn,
+#readyBtn{
+
+    display:none;
+
+}
+
+
+/*==================================================
+             FAN HEADER + SECTION
+==================================================*/
+
+#fanSection{
+
+    display:none;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+
+.fan-header{
+
+    text-align:center;
+
+    margin-bottom:22px;
+
+}
+
+
+.fan-header h2{
+
+    color:#fff;
+
+    font-size:42px;
+
+    font-family:"Cinzel",serif;
+
+    margin-bottom:8px;
+
+}
+
+
+.fan-header p{
+
+    color:#d2d2d2;
+
+    font-size:18px;
+
+    opacity:.85;
+
+}
+
+
+/*==================================================
+                 SELECTED SLOT
+==================================================*/
+
+#selectedSlotWrapper{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-top:25px;
+
+    margin-bottom:28px;
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(18px);
+
+    transition:
+        opacity .45s ease,
+        transform .45s ease,
+        visibility .45s;
+
+}
+
+
+#selectedSlotWrapper.active{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+
+.slot-title{
+
+    font-family:"Cinzel",serif;
+
+    font-size:14px;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    color:#e9d7a5;
+
+    margin-bottom:14px;
+
+}
+
+
+.selected-slot{
+
+    width:190px;
+
+    height:285px;
+
+    border:2px dashed rgba(230,196,109,.35);
+
+    border-radius:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(255,255,255,.03);
+
+    backdrop-filter:blur(8px);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+#selectedCard{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    opacity:0;
+
+    transform:scale(.92);
+
+    transition:
+        opacity .45s,
+        transform .45s;
+
+    pointer-events:none;
+
+}
+
+
+#selectedCard.show{
+
+    opacity:1;
+
+    transform:scale(1);
+
+}
+
+
+/*==================================================
+                     FAN
+==================================================*/
+
+#fanContainer{
+
+    width:100%;
+
+    position:relative;
+
+    margin-top:0;
+
+}
+
+
+#fanCards{
+
+    position:relative;
+
+    width:min(1400px,100%);
+
+    height:480px;
+
+    margin:32px auto 0;
+
+    overflow:visible;
+
+    user-select:none;
+
+}
+
+
+#fanOverlay{
+
+    position:absolute;
+
+    inset:0;
+
+    border-radius:24px;
+
+    background:rgba(0,0,0,.45);
+
+    backdrop-filter:blur(3px);
+
+    opacity:0;
+
+    pointer-events:none;
+
+    transition:.6s ease;
+
+    z-index:90;
+
+}
+
+
+#fanOverlay.active{
+
+    opacity:1;
+
+}
+
+
+/*==================================================
+                    FAN CARDS
+==================================================*/
+
+.fan-card{
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:6px;
+
+    width:170px;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    opacity:0;
+
+    user-select:none;
+
+    backface-visibility:hidden;
+
+    transform-style:preserve-3d;
+
+    transform-origin:50% 98%;
+
+    will-change:transform;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.45);
+
+    transition:
+        transform .45s cubic-bezier(.22,.61,.36,1),
+        filter .35s,
+        opacity .35s,
+        box-shadow .35s;
+
+}
+
+
+.fan-card:hover{
+
+    filter:
+        drop-shadow(0 15px 25px rgba(0,0,0,.28));
+
+}
+
+
+.fan-card.selected{
+
+    z-index:5000;
+
+    animation:selectedGlow 1.8s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes selectedGlow{
+
+    from{
+
+        filter:
+            drop-shadow(
+                0 0 8px rgba(212,175,55,.25)
+            )
+            drop-shadow(
+                0 0 20px rgba(212,175,55,.20)
+            );
+
+    }
+
+    to{
+
+        filter:
+            drop-shadow(
+                0 0 20px rgba(212,175,55,.55)
+            )
+            drop-shadow(
+                0 0 50px rgba(212,175,55,.45)
+            );
+
+    }
+
+}
+
+
+/*==================================================
+                     FLASH
+==================================================*/
+
+#flashOverlay{
+
+    position:absolute;
+
+    inset:0;
+
+    pointer-events:none;
+
+    opacity:0;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,245,190,.85) 0%,
+            rgba(255,230,120,.35) 22%,
+            transparent 70%
+        );
+
+    mix-blend-mode:screen;
+
+    transition:opacity .25s ease;
+
+    z-index:120;
+
+}
+
+
+#flashOverlay.active{
+
+    opacity:1;
+
+}
+
+
+/*==================================================
+                  READING LOADER
+==================================================*/
+
+#readingLoader{
+
+    position:fixed;
+
+    inset:0;
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:99999;
+
+    background:
+        linear-gradient(
+            rgba(5,3,15,.88),
+            rgba(5,3,15,.94)
+        ),
+        url("../images/backgrounds/hero-bg.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    backdrop-filter:blur(12px);
+
+}
+
+
+#readingLoader.show{
+
+    display:flex;
+
+}
+
+
+.loader-box{
+
+    width:min(90%,520px);
+
+    text-align:center;
+
+    padding:55px 35px;
+
+    border-radius:26px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(25,15,45,.82),
+            rgba(10,7,25,.88)
+        );
+
+    border:1px solid rgba(212,175,55,.30);
+
+    box-shadow:
+        0 25px 80px rgba(0,0,0,.55),
+        0 0 60px rgba(212,175,55,.08);
+
+}
+
+
+.loader-orb{
+
+    width:92px;
+
+    height:92px;
+
+    margin:0 auto 30px;
+
+    border-radius:50%;
+
+    border:2px solid rgba(212,175,55,.20);
+
+    border-top-color:#D4AF37;
+
+    border-right-color:#F4DA7A;
+
+    box-shadow:
+        0 0 25px rgba(212,175,55,.18),
+        inset 0 0 20px rgba(212,175,55,.08);
+
+    animation:
+        loaderSpin 1.4s linear infinite;
+
+}
+
+
+.loader-box h3{
+
+    margin:0 0 18px;
+
+    color:#F4DA7A;
+
+    font-family:"Cinzel",serif;
+
+    font-size:30px;
+
+    letter-spacing:1px;
+
+}
+
+
+#loaderText{
+
+    margin:0;
+
+    color:#D8D8D8;
+
+    opacity:.88;
+
+    line-height:1.8;
+
+    font-size:17px;
+
+}
+
+
+@keyframes loaderSpin{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+
+/*==================================================
+                  RESPONSIVE
+==================================================*/
+
+@media(max-width:900px){
+
+    .time-title{
+
+        font-size:40px;
+
+    }
+
+    .focus-box h2{
+
+        font-size:36px;
+
+    }
+
+    .deck-wrapper{
+
+        width:180px;
+
+        height:285px;
+
+    }
+
+    #fanCards{
+
+        height:430px;
+
+    }
+
+    .fan-card{
+
+        width:145px;
+
+    }
+
+    .selected-slot{
+
+        width:160px;
+
+        height:280px;
+
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .time-page{
+
+        padding:100px 14px 60px;
+
+    }
+
+    .time-title{
+
+        font-size:32px;
+
+    }
+
+    .time-subtitle{
+
+        font-size:17px;
+
+    }
+
+    .focus-box p{
+
+        font-size:18px;
+
+    }
+
+    .fan-header h2{
+
+        font-size:32px;
+
+    }
+
+    .fan-header p{
+
+        font-size:16px;
+
+        margin-bottom:28px;
+
+    }
+
+    #fanCards{
+
+        height:390px;
+
+    }
+
+    .fan-card{
+
+        width:120px;
+
+        bottom:0;
+
+    }
+
+    #selectedSlotWrapper{
+
+        margin-top:16px;
+
+        margin-bottom:22px;
+
+    }
+
+    .selected-slot{
+
+        width:136px;
+
+        height:232px;
+
+    }
+
+    .slot-title{
+
+        font-size:12px;
+
+        letter-spacing:2px;
+
+    }
+
+    .loader-box{
+
+        padding:34px 20px;
+
+    }
+
+    .loader-box h3{
+
+        font-size:22px;
+
+    }
+
+    #loaderText{
+
+        font-size:16px;
+
+    }
+
+}

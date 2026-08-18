@@ -1,0 +1,84 @@
+{
+  "id": 9,
+  "name": "The Hermit",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 9,
+  "image": "cards/major/the-hermit.png",
+
+  "keywords": {
+    "upright": [
+      "Wisdom",
+      "Introspection",
+      "Soul Searching",
+      "Guidance",
+      "Patience",
+      "Reflection",
+      "Inner Truth",
+      "Solitude"
+    ],
+    "reversed": [
+      "Isolation",
+      "Loneliness",
+      "Withdrawal",
+      "Avoidance",
+      "Closed Mind",
+      "Lack of Direction",
+      "Overthinking",
+      "Disconnection"
+    ]
+  },
+
+  "overview": "The Hermit represents wisdom gained through experience, self-discovery, and quiet reflection. This card encourages stepping back from distractions to reconnect with your inner self and seek deeper understanding. It reminds you that some answers cannot be found in the outside world—they are discovered through patience, introspection, and trusting your own inner guidance. The Hermit appears when personal growth requires silence, learning, and thoughtful reflection rather than immediate action.",
+
+  "upright": {
+    "meaning": "The Hermit Upright signifies inner wisdom, spiritual growth, self-reflection, and seeking truth. It encourages slowing down, evaluating your life carefully, and trusting your own judgment. Rather than rushing toward answers, this card teaches that clarity comes through patience and thoughtful observation.",
+
+    "love": "In relationships, The Hermit suggests taking time to understand yourself before making important emotional decisions. Couples may benefit from honest reflection and meaningful conversations, while singles are encouraged to focus on personal growth before seeking a new relationship.",
+
+    "career": "Professionally, this card encourages continuous learning, skill development, research, and careful planning. Success comes from experience, patience, and improving your knowledge rather than rushing toward immediate results.",
+
+    "finance": "Financially, The Hermit advises cautious planning, saving money, avoiding unnecessary expenses, and making thoughtful long-term decisions. Patience will create greater financial security.",
+
+    "health": "The Hermit encourages rest, emotional healing, mindfulness, and paying close attention to your mental and physical well-being. Recovery may require patience and consistent self-care.",
+
+    "spiritual": "Spiritually, this is one of the most powerful cards for enlightenment. It represents meditation, self-awareness, inner peace, and discovering your life's deeper purpose through quiet reflection.",
+
+    "advice": "Take time to reflect before acting. Trust your inner wisdom, embrace solitude when necessary, and remember that personal growth often happens in moments of quiet self-discovery."
+  },
+
+  "reversed": {
+    "meaning": "The Hermit Reversed suggests excessive isolation, loneliness, avoidance, or becoming disconnected from others. You may be spending too much time withdrawing instead of seeking support or taking action. The card encourages balancing reflection with meaningful human connection.",
+
+    "love": "In relationships, emotional distance, lack of communication, or fear of vulnerability may create difficulties. Open your heart and allow honest conversations to strengthen your relationships.",
+
+    "career": "Career-wise, The Hermit Reversed warns against becoming stuck, resisting collaboration, or overthinking important decisions. Seeking advice from trusted mentors may help you move forward.",
+
+    "finance": "Financial uncertainty may result from hesitation or avoiding important financial decisions. Review your plans carefully and don't be afraid to seek professional guidance.",
+
+    "health": "Mental exhaustion, loneliness, stress, or emotional burnout may affect your overall well-being. Reaching out for support and maintaining healthy routines can help restore balance.",
+
+    "spiritual": "You may feel disconnected from your spiritual path or ignore your intuition. Reconnect with yourself through meditation, journaling, or spending time in nature while remaining open to guidance from others.",
+
+    "advice": "Don't isolate yourself completely. Reflection is valuable, but healing and growth also require connection, communication, and taking practical action when the time is right."
+  },
+
+  "yes_no": {
+    "upright": "Maybe",
+    "reversed": "Likely No"
+  },
+
+  "timing": {
+    "upright": "Within 4–6 Months",
+    "reversed": "Delayed Until Inner Clarity Is Found"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Mercury",
+    "zodiac": "Virgo",
+    "numerology": 9
+  },
+
+  "affirmation": "I trust my inner wisdom, embrace quiet reflection, and allow my soul to guide me toward truth, purpose, and lasting peace."
+}

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}
+Insights | SoulMirror Tarot
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/insights.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<section class="insights-page">
+
+    <div class="container">
+
+        <div class="insights-header">
+
+            <span class="badge">
+                ✨ Your Personal Statistics
+            </span>
+
+            <h1>
+                Insights
+            </h1>
+
+            <p>
+
+                Discover patterns hidden within your tarot journey.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

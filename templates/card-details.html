@@ -1,0 +1,315 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ card.name }} | SoulMirror Tarot
+{% endblock %}
+
+{% block content %}
+
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/card-details.css') }}">
+
+<section class="card-details-page">
+
+    <div class="card-details-container">
+
+        <!-- Left -->
+
+        <div class="card-image-area">
+
+            <img
+                id="cardImage"
+                src="{{ url_for('static', filename='images/' + card.image) }}"
+                alt="{{ card.name }}">
+
+        </div>
+
+        <!-- Right -->
+
+        <div class="card-content">
+
+            <span class="details-badge">
+
+                ✨ Card Library
+
+            </span>
+
+            <h1>{{ card.name }}</h1>
+            <div class="orientation-switch">
+
+    <button
+        class="orientation-btn active"
+        id="uprightBtn">
+
+        Upright
+
+    </button>
+
+    <button
+        class="orientation-btn"
+        id="reversedBtn">
+
+        Reversed
+
+    </button>
+
+</div>
+
+            <p class="card-type">
+
+                {{ card.arcana }}
+
+            </p>
+
+            <div
+    class="overview-box"
+    id="meaningText">
+
+    {{ card.upright.meaning }}
+
+</div>
+            <!-- ========================= -->
+<!-- KEYWORDS -->
+<!-- ========================= -->
+
+<div class="keywords-box">
+
+    <h3>✨ Keywords</h3>
+
+         <div
+            class="keyword-list"
+            id="keywordList">
+
+            {% for keyword in card.keywords.upright %}
+
+                <span>{{ keyword }}</span>
+
+            {% endfor %}
+
+        </div>
+
+</div>
+
+
+<!-- ========================= -->
+<!-- ACCORDION -->
+<!-- ========================= -->
+
+<div class="accordion">
+
+    <div class="accordion-item">
+
+        <button class="accordion-header">
+
+            💖 Love
+
+        </button>
+
+        <div class="accordion-body">
+
+            <div id="loveText">
+                {{ card.upright.love }}
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="accordion-item">
+
+        <button class="accordion-header">
+
+            💼 Career
+
+        </button>
+
+        <div class="accordion-body">
+
+            <div id="careerText">
+                {{ card.upright.career }}
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="accordion-item">
+
+        <button class="accordion-header">
+
+            💰 Finance
+
+        </button>
+
+        <div class="accordion-body">
+
+            <div id="financeText">
+                {{ card.upright.finance }}
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="accordion-item">
+
+        <button class="accordion-header">
+
+            ❤️ Health
+
+        </button>
+
+        <div class="accordion-body">
+
+            <div id="healthText">
+                {{ card.upright.health }}
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="accordion-item">
+
+        <button class="accordion-header">
+
+            🔮 Spiritual
+
+        </button>
+
+        <div class="accordion-body">
+
+            <div id="spiritualText">
+                {{ card.upright.spiritual }}
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="accordion-item">
+
+        <button class="accordion-header">
+
+            💡 Advice
+
+        </button>
+
+        <div class="accordion-body">
+            <div id="adviceText">
+                {{ card.upright.advice }}
+            </div>
+        </div>
+        </div>
+        <div class="info-grid">
+
+    <div class="info-card">
+        <h4>✅ Yes / No</h4>
+        <p id="yesNoText">{{ card.yes_no.upright }}</p>
+    </div>
+
+    <div class="info-card">
+        <h4>⏳ Timing</h4>
+        <p id="timingText">{{ card.timing.upright }}</p>
+    </div>
+
+</div>
+
+<div class="affirmation-box">
+
+    <h3>🌙 Affirmation</h3>
+
+    <p id="affirmationText">
+
+        {{ card.affirmation }}
+
+    </p>
+
+</div>
+
+<div class="correspondence-box">
+
+    <h3>✨ Correspondence</h3>
+
+    <div class="correspondence-grid">
+
+        <div>
+            <strong>Element</strong>
+            <span>{{ card.correspondence.element }}</span>
+        </div>
+
+        <div>
+            <strong>Planet</strong>
+            <span>{{ card.correspondence.planet }}</span>
+        </div>
+
+        <div>
+            <strong>Zodiac</strong>
+            <span>{{ card.correspondence.zodiac }}</span>
+        </div>
+
+        <div>
+            <strong>Numerology</strong>
+            <span>{{ card.correspondence.numerology }}</span>
+        </div>
+
+    </div>
+
+    </div>
+
+</div>
+
+</div>
+    </div>
+    </div>
+
+</section>
+<script>
+
+const upright={
+
+meaning:`{{ card.upright.meaning|escape }}`,
+
+love:`{{ card.upright.love|escape }}`,
+
+career:`{{ card.upright.career|escape }}`,
+
+finance:`{{ card.upright.finance|escape }}`,
+
+health:`{{ card.upright.health|escape }}`,
+
+spiritual:`{{ card.upright.spiritual|escape }}`,
+
+advice:`{{ card.upright.advice|escape }}`,
+yesNo: `{{ card.yes_no.upright|escape }}`,
+timing: `{{ card.timing.upright|escape }}`,
+keywords: {{ card.keywords.upright|tojson }}
+
+};
+
+const reversed={
+
+meaning:`{{ card.reversed.meaning|escape }}`,
+
+love:`{{ card.reversed.love|escape }}`,
+
+career:`{{ card.reversed.career|escape }}`,
+
+finance:`{{ card.reversed.finance|escape }}`,
+
+health:`{{ card.reversed.health|escape }}`,
+
+spiritual:`{{ card.reversed.spiritual|escape }}`,
+
+advice:`{{ card.reversed.advice|escape }}`,
+yesNo: `{{ card.yes_no.reversed|escape }}`,
+timing: `{{ card.timing.reversed|escape }}`,
+
+keywords: {{ card.keywords.reversed|tojson }}
+
+};
+
+</script>
+<script src="{{ url_for('static', filename='js/card-details.js') }}"></script>
+{% endblock %}

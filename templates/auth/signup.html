@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up | SoulMirror</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/auth.css') }}">
+</head>
+
+<body>
+
+<div class="auth-container">
+
+    <div class="auth-card">
+
+        <h1>SoulMirror Tarot</h1>
+
+        <p class="subtitle">
+            Create Your Account
+        </p>
+
+        <form method="POST" action="/signup">
+
+            <input
+                    type="text"
+                    name="username"
+                    placeholder="Username">
+
+            <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address">
+
+            <div class="password-box">
+
+                <input
+                        type="password"
+                        id="signupPassword"
+                        name="password"
+                        placeholder="Password">
+
+                <span
+                        id="toggleSignupPassword"
+                        class="toggle-password">
+
+                    👁
+
+                </span>
+
+            </div>
+
+            <div class="password-box">
+
+                <input
+                        type="password"
+                        id="confirmPassword"
+                        name="confirm_password"
+                        placeholder="Confirm Password">
+
+                <span
+                        id="toggleConfirmPassword"
+                        class="toggle-password">
+
+                    👁
+
+                </span>
+
+            </div>
+
+            <button type="submit">
+                Create Account
+            </button>
+
+        </form>
+
+        <div class="divider">
+            OR
+        </div>
+
+        <div id="googleButton"></div>
+
+        <p class="bottom-text">
+
+            Already have an account?
+
+            <a href="/login">
+                Login
+            </a>
+
+        </p>
+
+    </div>
+
+</div>
+
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+
+<script>
+
+function handleGoogleSignup(response) {
+
+    fetch("/google-login", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            credential: response.credential
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+
+        if (data.success) {
+
+            if (data.new_user) {
+
+                window.location.href = "/account-created";
+
+            } else {
+
+                window.location.href = "/login";
+
+            }
+
+        } else {
+
+            alert(
+                data.message ||
+                "Google signup failed."
+            );
+
+        }
+
+    })
+    .catch(error => {
+
+        console.error(
+            "Google Signup Error:",
+            error
+        );
+
+        alert("Google signup failed.");
+
+    });
+
+}
+
+
+window.onload = function () {
+
+    google.accounts.id.initialize({
+
+        client_id:
+            "728346101532-lcr0fn678gadem474nvi2qddojm49a3n.apps.googleusercontent.com",
+
+        callback:
+            handleGoogleSignup
+
+    });
+
+
+    google.accounts.id.renderButton(
+
+        document.getElementById(
+            "googleButton"
+        ),
+
+        {
+            theme: "outline",
+            size: "large",
+            width: 350,
+            text: "continue_with"
+        }
+
+    );
+
+};
+
+</script>
+<script src="{{ url_for('static', filename='js/auth.js') }}"></script>
+</body>
+</html>

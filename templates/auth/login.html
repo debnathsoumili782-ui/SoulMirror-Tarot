@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | SoulMirror</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/auth.css') }}">
+</head>
+
+<body>
+
+<div class="auth-container">
+
+    <div class="auth-card">
+
+        <h1>SoulMirror Tarot</h1>
+
+        <p class="subtitle">
+            Welcome Back
+        </p>
+
+        <form method="POST" action="/login">
+
+            <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address">
+
+            <div class="password-box">
+                <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password">
+                <span
+                    id="togglePassword"
+                    class="toggle-password">
+                    👁
+                </span>
+            </div>
+
+            <div class="forgot-box">
+                <a href="#">Forgot Password?</a>
+            </div>
+            <div class="remember-box">
+                <label>
+                    <input
+                        type="checkbox"
+                        name="remember">
+                    <span>Remember Me</span>
+                </label>
+            </div>
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+        <div class="divider">
+            OR
+        </div>
+
+        <div id="googleButton"></div>
+
+        <p class="bottom-text">
+
+            Don't have an account?
+
+            <a href="/signup">
+
+                Sign Up
+
+            </a>
+
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+
+<script>
+function handleGoogleLogin(response) {
+
+    fetch("/google-login", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            credential: response.credential
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+
+        if (data.success) {
+
+            window.location.href = "/login-success";
+
+        } else {
+
+            alert(
+                data.message ||
+                "Google login failed."
+            );
+
+        }
+
+    })
+    .catch(error => {
+
+        console.error(
+            "Google Login Error:",
+            error
+        );
+
+        alert("Google login failed.");
+
+    });
+}
+
+
+window.onload = function () {
+
+    google.accounts.id.initialize({
+
+        client_id:
+            "728346101532-lcr0fn678gadem474nvi2qddojm49a3n.apps.googleusercontent.com",
+
+        callback:
+            handleGoogleLogin
+
+    });
+
+
+    google.accounts.id.renderButton(
+
+        document.getElementById(
+            "googleButton"
+        ),
+
+        {
+            theme: "outline",
+            size: "large",
+            width: 350,
+            text: "continue_with"
+        }
+
+    );
+
+};
+</script>
+
+<script src="{{ url_for('static', filename='js/auth.js') }}"></script>
+
+</html>

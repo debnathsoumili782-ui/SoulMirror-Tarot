@@ -1,0 +1,72 @@
+{
+  "id": 0,
+  "name": "The Fool",
+  "arcana": "Major Arcana",
+  "number": 0,
+  "image": "cards/major/the-fool.png",
+  "keywords": {
+      "upright": [
+        "New Beginnings",
+        "Freedom",
+        "Adventure",
+        "Faith",
+        "Potential",
+        "Innocence",
+        "Spontaneity",
+        "Optimism"
+      ],
+      "reversed": [
+        "Recklessness",
+        "Naivety",
+        "Hesitation",
+        "Poor Planning",
+        "Impulsiveness",
+        "Missed Opportunities",
+        "Carelessness",
+        "Self-Doubt"
+      ]
+    },
+  "tags": [
+      "beginnings",
+      "journey",
+      "risk",
+      "faith",
+      "optimism",
+      "growth",
+      "change"
+    ],
+  "overview": "The Fool represents the beginning of a new journey filled with limitless possibilities. It symbolizes stepping into the unknown with curiosity, optimism, and trust in the path ahead. Rather than acting carelessly, The Fool encourages embracing new experiences with an open mind while remaining aware of the lessons each step brings. This card reminds you that every great adventure begins with the courage to take the very first step.",
+  "upright": {
+    "meaning": "The Fool Upright represents fresh beginnings, limitless potential, and the courage to embrace the unknown. It encourages you to trust yourself, welcome new opportunities, and move forward with confidence instead of fear. This card reminds you that growth often begins outside your comfort zone, and every new experience offers valuable lessons. While optimism is a strength, balancing enthusiasm with awareness will help you make the most of the journey ahead.",
+    "love": "The Fool Upright often points to new beginnings in love. It may represent the start of a new relationship, renewed excitement in an existing one, or the courage to open your heart. The card encourages honesty, trust, and embracing love without letting past fears hold you back.",
+    "career": "This card suggests fresh career opportunities, new projects, learning experiences, or even a change in professional direction. It encourages taking calculated risks, believing in your abilities, and remaining open to unexpected opportunities.",
+    "finance": "The Fool indicates financial opportunities but also reminds you to spend wisely. It supports investing in your future, learning new skills, or starting something meaningful, while avoiding impulsive financial decisions.",
+    "health": "The Fool suggests renewed energy and a positive mindset. It encourages adopting healthier habits, exploring new wellness routines, and trusting the body's ability to recover with proper care.",
+    "spiritual": "Spiritually, The Fool represents awakening, curiosity, and the beginning of a deeper journey of self-discovery. It invites you to trust the universe and remain open to new spiritual experiences.",
+    "advice": "Don't allow fear or overthinking to stop you from moving forward. Stay optimistic, remain aware of your surroundings, and take the first step with confidence."
+  },
+  "reversed": {
+    "meaning": "The Fool Reversed suggests hesitation, poor planning, or acting without considering the consequences. It may indicate fear of taking the next step or, conversely, rushing into situations without enough preparation. The card encourages slowing down, reflecting on your choices, and finding a balance between caution and confidence.",
+    "love": "In relationships, The Fool Reversed can point to emotional immaturity, mixed signals, or fear of commitment. It encourages honest communication and avoiding impulsive decisions driven by emotions.",
+    "career": "Professionally, this card may indicate missed opportunities, lack of preparation, or unnecessary risks. Review your plans carefully before making important career decisions.",
+    "finance": "Be cautious with money. Avoid impulsive purchases, risky investments, or financial decisions made without proper planning.",
+    "health": "Pay attention to your physical and mental well-being. Small issues ignored today may become larger problems later if left unchecked.",
+    "spiritual": "You may be disconnected from your intuition or doubting your spiritual path. Take time for reflection before seeking answers externally.",
+    "advice": "Pause before acting. Learn from past experiences, prepare well, and trust yourself without being reckless."
+  },
+    "yes_no": {
+    "upright": "Likely Yes",
+    "reversed": "Likely No"
+    },
+    "timing": {
+    "upright": "1–3 Months",
+    "reversed": "Delayed"
+    },
+    "correspondence": {
+    "element": "Air",
+    "planet": "Uranus",
+    "zodiac": "Aquarius",
+    "numerology": 0
+    },
+    "affirmation": "I trust my journey, embrace new beginnings, and move forward with courage and wisdom."
+}

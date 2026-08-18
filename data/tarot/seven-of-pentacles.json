@@ -1,0 +1,84 @@
+{
+  "id": 70,
+  "name": "Seven of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 7,
+  "image": "cards/pentacles/seven-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Patience",
+      "Long-Term Growth",
+      "Perseverance",
+      "Investment",
+      "Progress",
+      "Evaluation",
+      "Rewards",
+      "Planning"
+    ],
+    "reversed": [
+      "Impatience",
+      "Delays",
+      "Frustration",
+      "Lack of Progress",
+      "Poor Planning",
+      "Wasted Effort",
+      "Discouragement",
+      "Short-Term Thinking"
+    ]
+  },
+
+  "overview": "The Seven of Pentacles represents patience, long-term planning, and trusting the process of growth. Like a gardener waiting for crops to mature, this card reminds you that meaningful success takes time, consistent effort, and dedication. Although progress may seem slow, your hard work is creating a solid foundation for future rewards. This card encourages reviewing your progress, making necessary adjustments, and continuing forward with confidence, knowing that persistence eventually leads to lasting success.",
+
+  "upright": {
+    "meaning": "The Seven of Pentacles Upright signifies patience, steady progress, and long-term rewards. Your efforts are beginning to produce results, even if success isn't immediate. Continue investing your time and energy wisely because the foundation you're building today will support future abundance.",
+
+    "love": "In relationships, the Seven of Pentacles represents commitment, patience, and nurturing love over time. Healthy relationships require consistent effort and mutual understanding. Couples benefit from building their future together, while singles are encouraged to trust that meaningful love develops naturally rather than being rushed.",
+
+    "career": "Professionally, this card indicates gradual career growth, promotions earned through persistence, skill development, education, or business expansion. Your hard work is being noticed, even if recognition takes time. Stay committed to your long-term goals.",
+
+    "finance": "Financially, the Seven of Pentacles encourages saving, investing wisely, and focusing on long-term financial security rather than quick profits. Responsible planning and patience will produce greater rewards in the future.",
+
+    "health": "Health improves steadily through consistency, healthy routines, and patience. Lasting results come from maintaining good habits rather than expecting immediate changes. Trust your body's natural healing process.",
+
+    "spiritual": "Spiritually, this card teaches patience, faith, and trusting divine timing. Personal growth unfolds gradually, and every experience contributes to your wisdom, even when progress isn't immediately visible.",
+
+    "advice": "Be patient with yourself and your journey. Continue investing in what truly matters, review your progress regularly, and trust that your consistent efforts will produce lasting success."
+  },
+
+  "reversed": {
+    "meaning": "The Seven of Pentacles Reversed suggests impatience, frustration, lack of progress, or feeling that your efforts are not producing the desired results. You may be tempted to give up too soon or pursue shortcuts. This card encourages reassessing your strategy instead of abandoning your goals.",
+
+    "love": "Relationships may feel stagnant if one or both partners become impatient with the pace of growth. Honest conversations about expectations and future goals can restore harmony. Singles should avoid rushing into relationships simply because they feel pressured by time.",
+
+    "career": "Career-wise, delayed promotions, slow business growth, or frustration with your current progress may test your patience. Review your plans, strengthen your skills, and remain focused instead of becoming discouraged by temporary setbacks.",
+
+    "finance": "Financially, avoid expecting instant profits or making impulsive investment decisions. Poor planning or impatience may create unnecessary losses. Focus on sustainable financial habits that support long-term stability.",
+
+    "health": "Recovery may feel slower than expected, but consistency remains essential. Avoid abandoning healthy routines simply because results are taking time. Small improvements eventually create significant long-term benefits.",
+
+    "spiritual": "Spiritually, impatience may prevent you from appreciating how much you've already grown. Trust divine timing, remain committed to your personal development, and remember that meaningful transformation cannot be rushed.",
+
+    "advice": "Don't mistake slow progress for failure. Review your approach, make improvements where necessary, and continue moving forward with patience and confidence. Success often arrives just after the point where most people give up."
+  },
+
+  "yes_no": {
+    "upright": "Yes — With Patience",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 7 Months",
+    "reversed": "Delayed Until Greater Patience Is Practiced"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Saturn",
+    "zodiac": "Taurus",
+    "numerology": 7
+  },
+
+  "affirmation": "I trust the timing of my life. Every effort I make today plants the seeds of tomorrow's abundance, and I patiently welcome the success that is growing for me."
+}

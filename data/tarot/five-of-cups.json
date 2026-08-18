@@ -1,0 +1,84 @@
+{
+  "id": 40,
+  "name": "Five of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 5,
+  "image": "cards/cups/five-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Loss",
+      "Grief",
+      "Disappointment",
+      "Regret",
+      "Healing",
+      "Acceptance",
+      "Emotional Pain",
+      "Reflection"
+    ],
+    "reversed": [
+      "Recovery",
+      "Forgiveness",
+      "Moving On",
+      "Emotional Healing",
+      "Hope",
+      "Acceptance",
+      "Renewal",
+      "Second Chances"
+    ]
+  },
+
+  "overview": "The Five of Cups represents emotional loss, disappointment, grief, and learning to heal after difficult experiences. While it acknowledges sadness and regret, it also carries a powerful reminder that not everything has been lost. Opportunities, love, support, and hope still remain—you simply need to lift your eyes from the past to recognize them. This card teaches acceptance, forgiveness, and emotional resilience, encouraging you to honor your feelings while gradually embracing a brighter future.",
+
+  "upright": {
+    "meaning": "The Five of Cups Upright signifies disappointment, emotional loss, regret, or focusing too heavily on what has gone wrong. Although pain is real, this card reminds you that healing is possible and new opportunities still exist. Don't allow temporary sorrow to prevent you from recognizing future happiness.",
+
+    "love": "In relationships, this card may indicate heartbreak, separation, regret, or emotional disappointment. Existing relationships require forgiveness and honest communication to heal. Singles may still be carrying emotional pain from the past and should focus on healing before beginning a new relationship.",
+
+    "career": "Professionally, the Five of Cups suggests disappointment over missed opportunities, career setbacks, rejected applications, or workplace frustration. While things may not have gone as planned, valuable opportunities remain available if you remain open to new possibilities.",
+
+    "finance": "Financially, this card may indicate temporary financial loss, unexpected expenses, or regret over previous money decisions. Learn from past mistakes, avoid dwelling on them, and focus on rebuilding financial stability through practical planning.",
+
+    "health": "The Five of Cups often reflects emotional stress, sadness, anxiety, or grief affecting overall well-being. Prioritize emotional healing, seek support when needed, and allow yourself time to recover without self-judgment.",
+
+    "spiritual": "Spiritually, this card encourages accepting painful experiences as valuable life lessons. Healing comes through forgiveness, gratitude, and recognizing that even difficult endings often create space for meaningful new beginnings.",
+
+    "advice": "Allow yourself to grieve, but don't remain trapped in the past. Notice the opportunities, support, and love that still surround you. Healing begins the moment you choose to look forward."
+  },
+
+  "reversed": {
+    "meaning": "The Five of Cups Reversed represents emotional healing, forgiveness, acceptance, and finally moving forward after a period of sadness. You are releasing old pain, embracing hope, and becoming emotionally stronger through your experiences.",
+
+    "love": "Relationships improve through forgiveness, renewed trust, and emotional openness. Reconciliation may be possible if both people have genuinely grown. Singles become emotionally ready to welcome healthy new love after letting go of the past.",
+
+    "career": "Career setbacks begin to fade as new opportunities appear. Confidence returns, allowing you to apply lessons learned and move toward more fulfilling professional goals.",
+
+    "finance": "Financial recovery becomes possible through wiser decisions, careful budgeting, and learning from previous mistakes. Gradual improvement brings renewed confidence and stability.",
+
+    "health": "Emotional recovery, reduced stress, and improved mental well-being positively influence your physical health. Continue practicing self-care and allow healing to happen naturally.",
+
+    "spiritual": "Spiritually, you are releasing emotional burdens, practicing forgiveness, and discovering deeper inner peace. Past experiences become sources of wisdom rather than pain.",
+
+    "advice": "Forgive yourself, release what cannot be changed, and trust that brighter days are ahead. Your future deserves more attention than your past."
+  },
+
+  "yes_no": {
+    "upright": "No",
+    "reversed": "Yes — After Healing"
+  },
+
+  "timing": {
+    "upright": "Within 5 Weeks to 5 Months",
+    "reversed": "Healing Begins Soon"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Mars",
+    "zodiac": "Scorpio",
+    "numerology": 5
+  },
+
+  "affirmation": "I release the pain of the past, embrace healing with an open heart, and trust that every ending leads me toward greater peace, wisdom, and happiness."
+}

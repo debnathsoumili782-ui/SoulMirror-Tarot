@@ -1,0 +1,84 @@
+{
+  "id": 60,
+  "name": "Page of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 11,
+  "image": "cards/swords/page-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Curiosity",
+      "Learning",
+      "Communication",
+      "New Ideas",
+      "Truth",
+      "Observation",
+      "Mental Agility",
+      "Awareness"
+    ],
+    "reversed": [
+      "Gossip",
+      "Miscommunication",
+      "Immaturity",
+      "Impulsiveness",
+      "Dishonesty",
+      "Lack of Focus",
+      "Rumors",
+      "Poor Judgment"
+    ]
+  },
+
+  "overview": "The Page of Swords represents curiosity, intelligence, clear thinking, and the desire to learn. This card symbolizes a fresh perspective, encouraging you to ask questions, gather knowledge, and remain open-minded. It often appears when important information is on its way or when you are beginning a new intellectual journey. The Page reminds you that knowledge becomes true wisdom only when combined with patience, honesty, and thoughtful communication.",
+
+  "upright": {
+    "meaning": "The Page of Swords Upright signifies curiosity, sharp thinking, learning, and honest communication. You may discover new information, develop valuable skills, or gain important insights that help you move forward. Stay observant and continue expanding your knowledge with confidence and humility.",
+
+    "love": "In relationships, the Page of Swords represents honest conversations, curiosity about one another, and improving communication. Couples strengthen their relationship by expressing thoughts openly and listening carefully. Singles may meet someone intelligent, witty, or emotionally curious. Avoid making assumptions before fully understanding the other person.",
+
+    "career": "Professionally, this card indicates learning new skills, interviews, education, research, training, networking, or receiving important work-related news. Your willingness to learn and adapt creates excellent opportunities for long-term success.",
+
+    "finance": "Financially, the Page of Swords encourages researching investments, reviewing contracts carefully, learning financial management, and making informed decisions. Knowledge will protect your financial future more than quick action.",
+
+    "health": "Health improves through learning more about your body, following professional advice, and maintaining healthy routines. Mental clarity and emotional awareness also contribute positively to your overall well-being.",
+
+    "spiritual": "Spiritually, the Page of Swords encourages seeking knowledge, asking meaningful questions, and remaining open to spiritual growth. Your curiosity becomes the foundation for deeper wisdom and personal understanding.",
+
+    "advice": "Stay curious, ask questions, and never stop learning. Think before speaking, communicate honestly, and remember that knowledge grows stronger through patience and experience."
+  },
+
+  "reversed": {
+    "meaning": "The Page of Swords Reversed suggests poor communication, gossip, impulsive thinking, misinformation, or acting before understanding the full situation. You may be jumping to conclusions or allowing fear and assumptions to cloud your judgment. Slow down and verify the facts before taking action.",
+
+    "love": "Relationships may suffer because of misunderstandings, suspicion, poor communication, or unnecessary arguments. Avoid making accusations without evidence, and focus on building trust through honest conversation. Singles should avoid judging potential partners too quickly.",
+
+    "career": "Career-wise, workplace gossip, poor planning, communication errors, or lack of preparation may temporarily create obstacles. Double-check your work, remain professional, and continue improving your skills before making major career decisions.",
+
+    "finance": "Financial mistakes may result from acting on rumors, incomplete information, or impulsive decisions. Carefully review financial documents, avoid risky shortcuts, and seek reliable advice when necessary.",
+
+    "health": "Mental stress, overthinking, or misinformation regarding health may create unnecessary anxiety. Trust qualified professionals, maintain healthy routines, and avoid self-diagnosing without proper guidance.",
+
+    "spiritual": "Spiritually, you may become distracted by conflicting beliefs or superficial information. Slow down, reflect carefully, and focus on genuine wisdom rather than collecting endless knowledge without applying it.",
+
+    "advice": "Don't believe everything you hear. Verify the facts, remain patient, and allow wisdom—not impulse—to guide your decisions and conversations."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within a Few Weeks",
+    "reversed": "Delayed Until More Information Is Available"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Earth of Air",
+    "zodiac": "Gemini, Libra, Aquarius",
+    "numerology": 11
+  },
+
+  "affirmation": "I embrace knowledge with curiosity, communicate with honesty, and trust my growing wisdom to guide every decision I make."
+}

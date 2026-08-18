@@ -1,0 +1,84 @@
+{
+  "id": 44,
+  "name": "Nine of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 9,
+  "image": "cards/cups/nine-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Wish Fulfillment",
+      "Contentment",
+      "Happiness",
+      "Satisfaction",
+      "Abundance",
+      "Gratitude",
+      "Success",
+      "Joy"
+    ],
+    "reversed": [
+      "Unfulfilled Wishes",
+      "Dissatisfaction",
+      "Greed",
+      "Overindulgence",
+      "Emptiness",
+      "Unrealistic Expectations",
+      "Lack of Gratitude",
+      "Disappointment"
+    ]
+  },
+
+  "overview": "The Nine of Cups is often called the 'Wish Card' because it represents emotional fulfillment, happiness, gratitude, and dreams coming true. It signifies a time when your efforts are rewarded, allowing you to enjoy the abundance you have created. This card encourages appreciating your achievements without becoming complacent. True happiness comes not only from receiving your desires but also from gratitude, emotional balance, and sharing your blessings with others.",
+
+  "upright": {
+    "meaning": "The Nine of Cups Upright signifies wishes coming true, emotional satisfaction, confidence, and enjoying the rewards of your hard work. It represents a period of happiness, comfort, and fulfillment where you can appreciate how far you've come while continuing to grow.",
+
+    "love": "In relationships, the Nine of Cups represents emotional happiness, romance, deep affection, and satisfying partnerships. Couples enjoy harmony, trust, and mutual appreciation, while singles may attract a loving relationship that fulfills their emotional desires. This is a wonderful card for engagement, commitment, or finding lasting love.",
+
+    "career": "Professionally, this card indicates career success, recognition, promotions, achieving important goals, and feeling genuinely satisfied with your work. Your efforts are paying off, bringing confidence and new opportunities for continued success.",
+
+    "finance": "Financially, the Nine of Cups represents abundance, financial stability, successful investments, and enjoying the rewards of wise decisions. While prosperity is indicated, maintaining gratitude and responsible spending ensures lasting security.",
+
+    "health": "Health improves through emotional balance, reduced stress, and positive lifestyle choices. This card often represents recovery, vitality, and enjoying greater physical and emotional well-being.",
+
+    "spiritual": "Spiritually, the Nine of Cups symbolizes inner peace, gratitude, emotional healing, and recognizing the abundance already present in your life. Practicing thankfulness deepens your connection with yourself and the universe.",
+
+    "advice": "Celebrate your accomplishments with gratitude. Enjoy the blessings you've earned while remaining humble, generous, and mindful that lasting happiness comes from appreciation rather than constant pursuit."
+  },
+
+  "reversed": {
+    "meaning": "The Nine of Cups Reversed suggests temporary dissatisfaction, unrealistic expectations, emotional emptiness, or discovering that external success alone cannot create lasting happiness. It encourages looking inward and appreciating what truly matters rather than chasing endless desires.",
+
+    "love": "Relationships may feel emotionally unbalanced if expectations are unrealistic or communication is lacking. Focus on gratitude, honesty, and appreciating your partner rather than seeking perfection. Singles should develop self-love before expecting another person to create happiness.",
+
+    "career": "Career success may not feel as satisfying as expected, or professional goals may be delayed. Reflect on whether your ambitions truly align with your personal values and long-term fulfillment.",
+
+    "finance": "Financially, avoid overspending, chasing luxury for validation, or believing money alone guarantees happiness. Wise financial planning and gratitude will bring greater long-term satisfaction.",
+
+    "health": "Emotional stress, overindulgence, or unhealthy coping habits may affect your well-being. Focus on moderation, self-care, and emotional balance rather than temporary pleasures.",
+
+    "spiritual": "Spiritually, this card encourages shifting your focus from external achievements to inner fulfillment. Gratitude, mindfulness, and self-awareness help restore emotional peace and spiritual alignment.",
+
+    "advice": "True fulfillment begins within. Appreciate what you already have, release unrealistic expectations, and remember that lasting happiness comes from gratitude, purpose, and emotional balance."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 9 Weeks",
+    "reversed": "Delayed Until Emotional Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Jupiter",
+    "zodiac": "Pisces",
+    "numerology": 9
+  },
+
+  "affirmation": "I am grateful for the abundance in my life. My heart is full, my wishes unfold in divine timing, and I welcome lasting happiness, love, and fulfillment with gratitude."
+}

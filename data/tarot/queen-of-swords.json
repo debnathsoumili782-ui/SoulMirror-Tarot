@@ -1,0 +1,84 @@
+{
+  "id": 62,
+  "name": "Queen of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 13,
+  "image": "cards/swords/queen-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Wisdom",
+      "Independence",
+      "Truth",
+      "Honesty",
+      "Perception",
+      "Clarity",
+      "Fairness",
+      "Intelligence"
+    ],
+    "reversed": [
+      "Coldness",
+      "Bitterness",
+      "Harsh Judgment",
+      "Emotional Distance",
+      "Criticism",
+      "Pessimism",
+      "Isolation",
+      "Manipulation"
+    ]
+  },
+
+  "overview": "The Queen of Swords represents intelligence, honesty, independence, and emotional maturity. She has gained wisdom through life's experiences and isn't afraid to speak the truth with fairness and integrity. This card encourages making decisions based on logic while remaining compassionate. The Queen teaches that clear boundaries, honest communication, and objective thinking create lasting success and healthy relationships. She reminds you that kindness and truth can exist together when expressed with wisdom.",
+
+  "upright": {
+    "meaning": "The Queen of Swords Upright signifies clarity, wisdom, independence, and excellent judgment. You are encouraged to trust your intellect, communicate honestly, and make fair decisions without allowing emotions to cloud your judgment. Your experience has given you valuable insight that others respect.",
+
+    "love": "In relationships, the Queen of Swords represents honest communication, emotional maturity, mutual respect, and healthy boundaries. Couples strengthen their relationship through openness and trust. Singles may attract an intelligent, independent, and emotionally mature partner who values honesty above games or manipulation.",
+
+    "career": "Professionally, this card represents leadership, strategic thinking, excellent communication, legal matters, education, writing, consulting, or management. Your intelligence and fairness help you solve complex problems while earning the respect of colleagues and superiors.",
+
+    "finance": "Financially, the Queen of Swords encourages practical budgeting, objective financial planning, and making decisions based on facts rather than emotions. Careful analysis leads to long-term financial security.",
+
+    "health": "Health improves through informed decisions, disciplined routines, and seeking reliable medical advice when necessary. Mental clarity and emotional balance contribute to overall well-being.",
+
+    "spiritual": "Spiritually, the Queen of Swords encourages self-awareness, honesty, discernment, and seeking truth above illusion. Wisdom grows through experience, reflection, and the courage to face reality without fear.",
+
+    "advice": "Speak your truth with kindness. Trust your wisdom, establish healthy boundaries, and allow logic and compassion to work together in every important decision."
+  },
+
+  "reversed": {
+    "meaning": "The Queen of Swords Reversed suggests emotional distance, bitterness, harsh criticism, poor communication, or allowing past disappointments to influence present decisions. You may become overly guarded or struggle to trust others. Healing begins by balancing honesty with compassion.",
+
+    "love": "Relationships may suffer because of emotional walls, criticism, unresolved resentment, or difficulty expressing vulnerability. Honest communication and forgiveness are necessary to rebuild emotional closeness. Singles should avoid allowing past heartbreak to create unrealistic barriers to new love.",
+
+    "career": "Career-wise, communication problems, workplace tension, poor leadership, or inflexible thinking may create unnecessary obstacles. Listen carefully to others, remain open to constructive feedback, and avoid making decisions based solely on pride or frustration.",
+
+    "finance": "Financial decisions influenced by fear, distrust, or pessimism may limit your opportunities. Review situations objectively and avoid allowing past financial disappointments to prevent future growth.",
+
+    "health": "Stress, emotional suppression, or excessive mental pressure may affect your health. Prioritize emotional expression, relaxation, and balancing work with proper rest and self-care.",
+
+    "spiritual": "Spiritually, emotional pain or rigid thinking may temporarily block your intuition. Practice forgiveness, release old resentment, and allow compassion to soften your perspective without sacrificing wisdom.",
+
+    "advice": "Don't let past pain harden your heart. Speak honestly, but with compassion. True wisdom comes from balancing clear judgment with understanding and emotional openness."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Communication Improves"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Water of Air",
+    "zodiac": "Libra",
+    "numerology": 13
+  },
+
+  "affirmation": "I trust my wisdom, speak my truth with kindness, and make clear, balanced decisions that honor both my intellect and my heart."
+}

@@ -1,0 +1,84 @@
+{
+  "id": 35,
+  "name": "King of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 14,
+  "image": "cards/wands/king-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Leadership",
+      "Vision",
+      "Confidence",
+      "Authority",
+      "Success",
+      "Entrepreneurship",
+      "Inspiration",
+      "Determination"
+    ],
+    "reversed": [
+      "Arrogance",
+      "Impulsiveness",
+      "Domination",
+      "Stubbornness",
+      "Poor Leadership",
+      "Aggression",
+      "Lack of Vision",
+      "Control Issues"
+    ]
+  },
+
+  "overview": "The King of Wands represents visionary leadership, confidence, ambition, and the ability to turn dreams into reality. He is a natural leader who inspires others through courage, wisdom, and decisive action. This card symbolizes mastering the fiery energy of passion and transforming it into lasting success. Rather than simply having great ideas, the King of Wands knows how to execute them with discipline, integrity, and determination. He encourages you to think boldly, lead confidently, and inspire those around you through your actions.",
+
+  "upright": {
+    "meaning": "The King of Wands Upright signifies leadership, ambition, confidence, and long-term success. You are in a position to influence others positively through your vision and determination. This card encourages taking control of your goals, making bold decisions, and trusting your experience to achieve lasting success.",
+
+    "love": "In relationships, the King of Wands represents loyalty, confidence, protection, and passionate commitment. A mature and dependable partner may enter your life, or an existing relationship becomes stronger through trust, mutual respect, and shared ambitions. Singles may attract someone charismatic, successful, and emotionally confident.",
+
+    "career": "Professionally, this is one of the strongest leadership cards in Tarot. It signifies promotions, entrepreneurship, business success, executive roles, management positions, public recognition, and achieving major career goals. Your leadership abilities inspire confidence in others.",
+
+    "finance": "Financially, the King of Wands represents wealth built through wise decisions, strategic planning, and confident leadership. Successful investments, business expansion, and long-term financial security are strongly supported.",
+
+    "health": "The King of Wands symbolizes vitality, resilience, physical strength, and disciplined self-care. Maintaining consistent healthy habits and balancing ambition with rest will support excellent well-being.",
+
+    "spiritual": "Spiritually, this card represents mastering your personal power, living authentically, and becoming a source of inspiration for others. Wisdom gained through experience allows you to guide both yourself and those around you with integrity.",
+
+    "advice": "Lead with confidence, but never lose your humility. Trust your vision, take decisive action, and inspire others through your integrity, courage, and unwavering commitment to your goals."
+  },
+
+  "reversed": {
+    "meaning": "The King of Wands Reversed suggests arrogance, impatience, misuse of authority, or allowing ego to interfere with good judgment. You may become overly controlling, stubborn, or act without considering the consequences. The card encourages balancing confidence with humility and thoughtful leadership.",
+
+    "love": "In relationships, control issues, emotional distance, stubbornness, or unrealistic expectations may create conflict. Healthy partnerships require respect, equality, and open communication rather than dominance. Singles should avoid being attracted solely to status or appearance.",
+
+    "career": "Career-wise, workplace conflicts, poor leadership, impulsive decisions, or resistance to feedback may slow progress. Great leadership comes through listening, adapting, and supporting others rather than controlling them.",
+
+    "finance": "Financially, avoid overconfidence, risky investments, or believing you are immune to mistakes. Review important financial decisions carefully and seek advice when necessary before making major commitments.",
+
+    "health": "Stress caused by overwork, excessive responsibility, or neglecting rest may affect your health. Balance ambition with proper self-care to prevent burnout and maintain long-term vitality.",
+
+    "spiritual": "Spiritually, pride or attachment to external success may distance you from your authentic self. Return to humility, gratitude, and self-awareness to restore balance and reconnect with your higher purpose.",
+
+    "advice": "True leadership inspires rather than controls. Remain humble, listen carefully, and allow wisdom—not ego—to guide your decisions. Lasting success comes from empowering others while staying true to your values."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Leadership Improves"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Fire of Fire",
+    "zodiac": "Aries, Leo, Sagittarius",
+    "numerology": 14
+  },
+
+  "affirmation": "I lead with confidence, wisdom, and integrity. My vision inspires others, my actions create lasting success, and I courageously turn my dreams into reality."
+}

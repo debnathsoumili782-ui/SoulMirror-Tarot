@@ -1,0 +1,84 @@
+{
+  "id": 5,
+  "name": "The Hierophant",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 5,
+  "image": "cards/major/the-hierophant.png",
+
+  "keywords": {
+    "upright": [
+      "Tradition",
+      "Wisdom",
+      "Spiritual Guidance",
+      "Learning",
+      "Beliefs",
+      "Mentorship",
+      "Commitment",
+      "Knowledge"
+    ],
+    "reversed": [
+      "Rebellion",
+      "Nonconformity",
+      "Questioning Beliefs",
+      "Restriction",
+      "Poor Advice",
+      "Stubborn Thinking",
+      "Unconventional Path",
+      "Isolation"
+    ]
+  },
+
+  "overview": "The Hierophant represents wisdom passed through tradition, education, spiritual guidance, and shared beliefs. This card symbolizes learning from trusted teachers, respecting proven methods, and building a strong foundation through knowledge and discipline. While it values tradition, it also reminds you to understand the deeper meaning behind rules rather than following them blindly. The Hierophant encourages growth through education, mentorship, faith, and lifelong learning.",
+
+  "upright": {
+    "meaning": "The Hierophant Upright represents wisdom, guidance, structure, and learning. It encourages seeking advice from experienced mentors, following ethical principles, and trusting knowledge gained through education or tradition. This card often appears during important life milestones involving commitment, study, or spiritual growth.",
+
+    "love": "In relationships, The Hierophant represents commitment, trust, shared values, and long-term stability. It often signifies marriage, engagement, or taking a relationship to the next level. Strong communication and mutual respect strengthen emotional bonds.",
+
+    "career": "Professionally, this card indicates education, promotions through experience, teaching, government jobs, corporate organizations, law, counseling, or careers built on knowledge and responsibility. Learning from experienced people will accelerate your success.",
+
+    "finance": "Financially, The Hierophant favors conservative planning, long-term investments, savings, and following proven financial strategies. Avoid unnecessary risks and trust practical financial advice from reliable sources.",
+
+    "health": "The Hierophant suggests improving health through discipline, consistency, and professional medical guidance. Following established treatment plans and maintaining healthy routines will support long-term well-being.",
+
+    "spiritual": "Spiritually, this card symbolizes faith, higher learning, sacred traditions, meditation, and guidance from spiritual teachers. It encourages deepening your understanding through study, prayer, or meaningful spiritual practices.",
+
+    "advice": "Seek wisdom before making important decisions. Learn from experienced people, remain open to guidance, and remember that true knowledge comes from understanding rather than simply following rules."
+  },
+
+  "reversed": {
+    "meaning": "The Hierophant Reversed suggests questioning traditions, breaking outdated beliefs, or feeling restricted by rigid rules. It may indicate that old methods no longer serve your personal growth. This card encourages independent thinking while remaining respectful of genuine wisdom.",
+
+    "love": "In love, differing beliefs, commitment issues, or conflicting values may create tension. Honest conversations and mutual understanding are necessary to build a healthy relationship.",
+
+    "career": "Career-wise, you may feel limited by workplace rules or outdated systems. Innovation and independent thinking can lead to growth, but avoid unnecessary conflict with authority.",
+
+    "finance": "Financially, be cautious of accepting advice without proper research. Avoid following trends blindly and make decisions based on your own understanding and long-term goals.",
+
+    "health": "Ignoring professional advice or becoming inconsistent with healthy routines may delay recovery. Balance independent thinking with evidence-based medical guidance.",
+
+    "spiritual": "Spiritually, you may be questioning old beliefs or searching for a more personal path. This is an opportunity to develop a genuine spiritual connection based on your own experiences rather than external expectations.",
+
+    "advice": "Respect tradition, but don't be afraid to think for yourself. Keep learning, ask questions, and choose the path that genuinely aligns with your values and personal truth."
+  },
+
+  "yes_no": {
+    "upright": "Likely Yes",
+    "reversed": "Uncertain"
+  },
+
+  "timing": {
+    "upright": "Within 3–6 Months",
+    "reversed": "Delayed Until Greater Understanding Is Gained"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Taurus",
+    "zodiac": "Taurus",
+    "numerology": 5
+  },
+
+  "affirmation": "I welcome wisdom, remain open to learning, and build my future upon knowledge, integrity, and inner truth."
+}

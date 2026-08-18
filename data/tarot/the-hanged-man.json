@@ -1,0 +1,84 @@
+{
+  "id": 12,
+  "name": "The Hanged Man",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 12,
+  "image": "cards/major/the-hanged-man.png",
+
+  "keywords": {
+    "upright": [
+      "Surrender",
+      "Patience",
+      "Perspective",
+      "Sacrifice",
+      "Acceptance",
+      "Reflection",
+      "Letting Go",
+      "Inner Growth"
+    ],
+    "reversed": [
+      "Resistance",
+      "Stagnation",
+      "Indecision",
+      "Delay",
+      "Self-Sacrifice",
+      "Procrastination",
+      "Fear of Change",
+      "Avoidance"
+    ]
+  },
+
+  "overview": "The Hanged Man represents surrender, patience, and seeing life from a completely new perspective. Rather than forcing progress, this card encourages slowing down, letting go of control, and trusting that temporary pauses serve a greater purpose. It teaches that true wisdom often comes through sacrifice, acceptance, and viewing situations differently. Although progress may appear delayed, important inner transformation is taking place beneath the surface.",
+
+  "upright": {
+    "meaning": "The Hanged Man Upright encourages patience, self-reflection, and accepting that some situations cannot be rushed. Instead of resisting delays, this card advises embracing them as opportunities for personal growth and gaining deeper understanding. A change in perspective will reveal solutions that were previously hidden.",
+
+    "love": "In relationships, The Hanged Man suggests patience, compromise, and understanding your partner's perspective. Singles may need time for self-growth before entering a meaningful relationship. Existing relationships benefit from empathy, honest communication, and emotional maturity.",
+
+    "career": "Professionally, career progress may temporarily slow, but this pause allows valuable learning and preparation. Reconsider your goals, improve your skills, and avoid making impulsive career decisions during uncertain periods.",
+
+    "finance": "Financially, avoid rushing into major investments or purchases. This card favors careful planning, patience, and reviewing long-term financial strategies before taking action.",
+
+    "health": "The Hanged Man encourages slowing down, resting, and allowing your body time to recover. Recovery may take longer than expected, but patience and consistent care will bring improvement.",
+
+    "spiritual": "Spiritually, this is a powerful card of awakening and transformation. Meditation, mindfulness, surrender, and releasing attachment help you discover deeper spiritual truths and inner peace.",
+
+    "advice": "Don't fight the pause. Step back, observe the situation from a new perspective, and trust that this period of waiting is preparing you for future success."
+  },
+
+  "reversed": {
+    "meaning": "The Hanged Man Reversed suggests resistance to change, procrastination, unnecessary delays, or refusing to let go of situations that no longer serve you. Fear of change may keep you stuck. Progress begins when you accept reality and take responsibility for moving forward.",
+
+    "love": "Relationships may feel stagnant due to poor communication, unwillingness to compromise, or fear of emotional vulnerability. Let go of unrealistic expectations and address unresolved issues honestly.",
+
+    "career": "Career-wise, opportunities may be delayed because of hesitation, lack of preparation, or fear of making decisions. Stop overthinking and begin taking practical steps toward your goals.",
+
+    "finance": "Financial progress may stall due to indecision or avoiding important responsibilities. Review your budget, reduce unnecessary spending, and create a clear financial plan.",
+
+    "health": "Ignoring stress, delaying treatment, or neglecting self-care may affect your well-being. Prioritize rest and seek support before small issues become more serious.",
+
+    "spiritual": "Spiritually, you may be resisting important lessons or avoiding personal growth. Release fear, trust the process, and allow yourself to evolve naturally.",
+
+    "advice": "Stop resisting change. Accept what cannot be controlled, release the past, and move forward with greater wisdom and clarity."
+  },
+
+  "yes_no": {
+    "upright": "Maybe",
+    "reversed": "Likely No"
+  },
+
+  "timing": {
+    "upright": "Within 3–6 Months",
+    "reversed": "Delayed Until Perspective Changes"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Neptune",
+    "zodiac": "Pisces",
+    "numerology": 12
+  },
+
+  "affirmation": "I trust divine timing, release what no longer serves me, and welcome new perspectives that guide me toward growth and inner peace."
+}

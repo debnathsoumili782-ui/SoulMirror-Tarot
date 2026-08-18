@@ -1,0 +1,165 @@
+.history-page{
+    min-height:100vh;
+    padding:120px 0 80px;
+
+    background:
+        linear-gradient(
+            rgba(8,6,16,.82),
+            rgba(8,6,16,.90)
+        ),
+        url("../images/backgrounds/nebula-background.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.history-header{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.history-header h1{
+    font-size:3rem;
+    color:var(--gold);
+    margin-bottom:12px;
+}
+
+.history-header p{
+    color:#c9c2da;
+    font-size:1.05rem;
+}
+
+.history-list{
+    display:grid;
+    gap:24px;
+}
+
+.history-card{
+    background:rgba(36,18,58,.88);
+    border:1px solid rgba(212,175,55,.22);
+    border-radius:24px;
+    padding:32px;
+
+    backdrop-filter:blur(8px);
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,.35);
+}
+
+.history-card:hover{
+    transform:translateY(-4px);
+    border-color:var(--gold);
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+}
+
+.history-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:18px;
+    gap:20px;
+}
+
+.history-type{
+    display:inline-block;
+    padding:6px 14px;
+    border-radius:999px;
+
+    background:rgba(212,175,55,.15);
+    color:var(--gold);
+
+    font-size:.8rem;
+    letter-spacing:1px;
+}
+
+.history-date{
+    color:#aaa;
+    font-size:.9rem;
+    min-width:180px;
+}
+
+.history-question{
+    color:#fff;
+    margin-bottom:18px 0;
+    font-size:1.45rem;
+    line-height:1.35;
+}
+
+.history-card-name{
+    font-size:1rem;
+    color:#d0c7e6;
+    margin-bottom:0;
+}
+
+.history-card{
+    display:block;
+    gap:24px;
+    align-items:flex-start;
+}
+.history-actions{
+    display:flex;
+    gap:14px;
+    margin-top:20px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+.history-actions form{
+    margin:0;
+}
+.history-image img{
+    width:120px;
+    border-radius:16px;
+    border:2px solid rgba(212,175,55,.3);
+    transition:.3s;
+}
+
+.history-image img:hover{
+    transform:scale(1.04);
+    border-color:var(--gold);
+}
+
+.history-content{
+    flex:1;
+}
+.history-actions{
+    display:flex;
+    gap:16px;
+    margin-top:22px;
+}
+
+.history-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:10px 20px;
+
+    border-radius:999px;
+
+    background:var(--gold);
+    color:#111;
+
+    text-decoration:none;
+    font-weight:600;
+
+    transition: all .25s ease;
+}
+
+.history-btn:hover{
+    transform:translateY(-2px);
+    opacity:.95;
+}
+
+.history-btn.danger{
+    background:transparent;
+    color:#ff6b6b;
+    border:1px solid rgba(255,107,107,.45);
+    transition:.25s;
+}
+
+.history-btn.danger:hover{
+    background:#d32f2f;
+    color:#fff;
+    transform:translateY(-2px);
+}

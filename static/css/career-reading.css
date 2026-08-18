@@ -1,0 +1,351 @@
+/*======================================
+        YES / NO PAGE
+======================================*/
+.yesno-page{
+    min-height:100vh;
+    padding:120px 20px 80px;
+}
+.container{
+    max-width:1300px;
+    margin:auto;
+}
+/*======================================
+            QUESTION
+======================================*/
+#questionSection{
+    text-align:center;
+    max-width:850px;
+    margin:auto;
+}
+.yesno-title{
+    font-family:"Cinzel",serif;
+    font-size:58px;
+    color:white;
+    margin-bottom:20px;
+}
+.yesno-subtitle{
+    color:#d4d4d4;
+    font-size:20px;
+    margin-bottom:45px;
+}
+#questionForm{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+#questionInput{
+    width:100%;
+    height:180px;
+    padding:25px;
+    resize:none;
+    border:none;
+    outline:none;
+    border-radius:22px;
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(18px);
+    color:white;
+    font-size:18px;
+}
+#questionInput::placeholder{
+    color:#999;
+}
+/*======================================
+            FOCUS
+======================================*/
+#focusScreen{
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:
+        linear-gradient(
+            rgba(8,6,20,.75),
+            rgba(8,6,20,.75)
+        ),
+        url("../images/backgrounds/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+    z-index: 9999;
+}
+.focus-box{
+    text-align:center;
+}
+.focus-box h2{
+    color:white;
+    font-size:54px;
+    font-family:"Cinzel",serif;
+}
+.focus-box p{
+    margin-top:25px;
+    color:#d6d6d6;
+    font-size:21px;
+    line-height:2;
+}
+/*======================================
+            SHUFFLE
+======================================*/
+#shuffleSection{
+    display:none;
+    text-align:center;
+}
+.deck-wrapper{
+    width:260px;
+    height:420px;
+    margin:40px auto;
+    position:relative;
+}
+#deck{
+    position:relative;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}
+.deck-card{
+    position:absolute;
+    width:100%;
+    left:0;
+    top:0;
+    border-radius:18px;
+    transition:.45s;
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.45);
+}
+#shuffleSection h2{
+    color:white;
+    font-family:"Cinzel",serif;
+    font-size:34px;
+    margin-top:20px;
+}
+#shuffleSection p{
+    margin-top:20px;
+    color:#cfcfcf;
+    font-size:18px;
+    line-height:1.8;
+}
+/*======================================
+        BUTTONS
+======================================*/
+.shuffle-buttons{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:45px;
+}
+#shuffleBtn,
+#readyBtn{
+    display:none;
+}
+/*======================================
+        FAN
+======================================*/
+#fanSection{
+    display:none;
+    text-align:center;
+}
+#fanSection h2{
+    color:white;
+    font-size:42px;
+    font-family:"Cinzel",serif
+}
+#fanSection p{
+    color:#d0d0d0;
+    margin:20px 0 50px;
+}
+#fanCards{
+    position:relative;
+    width:1200px;
+    max-width:100%;
+    height:520px;
+    margin:auto;
+}
+/*======================================
+        RESULT
+======================================*/
+#resultSection{
+    display:none;
+    text-align:center;
+    padding:50px 0;
+}
+/*======================================
+        RESPONSIVE
+======================================*/
+@media(max-width:768px){
+    .yesno-title{
+        font-size:42px;
+    }
+    .focus-box h2{
+        font-size:38px;
+    }
+    .deck-wrapper{
+        width:190px;
+        height:310px;
+    }
+}
+.fan-card{
+    position:absolute;
+    width:180px;
+    left:50%;
+    bottom:0;
+    opacity:0;
+    transform-origin:center 420px;
+    transition:.25s ease;
+
+    cursor:pointer;
+    border-radius:18px;
+    box-shadow:0 12px 30px rgba(0,0,0,.45);
+}
+/*#fanCards{
+    position:relative;
+    width:1100px;
+    height:520px;
+    margin:auto;
+}*/
+
+/*.fan-card{
+    position:absolute;
+    width:170px;
+    left:50%;
+    bottom:0;
+
+    transform-origin:center 520px;
+
+    cursor:pointer;
+
+    transition:
+        transform .28s ease,
+        filter .28s ease;
+}
+.fan-card:hover{
+    transform:
+        translateY(-18px)
+        rotate(var(--rot))
+        scale(1.04);
+    z-index:999;
+}
+.fan-card:not(.selected):hover{
+    transform:translateY(-40px) scale(1.08) !important;
+    z-index:999;
+    box-shadow:0 0 35px rgba(212,175,55,.7);
+}*/
+#selectedCard{
+    display:flex;
+    justify-content:center;
+    margin:40px auto;
+}
+#revealedCard{
+    width:260px;
+    display:none;
+    border-radius:18px;
+    box-shadow:
+    0 0 40px rgba(212,175,55,.45);
+    transition:.7s;
+}
+.question-error{
+    display:none;
+    width:fit-content;
+    margin:0 auto 15px;
+    padding:10px 18px;
+
+    background:#251734;
+    color:#fff;
+
+    border:1px solid rgba(212,175,55,.4);
+    border-radius:12px;
+
+    font-size:15px;
+    font-weight:600;
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+    animation:fadeDown .25s ease;
+}
+
+@keyframes fadeDown{
+    from{
+        opacity:0;
+        transform:translateY(-10px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+#question{
+    width:100%;
+    min-height:140px;
+
+    padding:20px 24px;
+
+    background:rgba(18,12,32,.75);
+    backdrop-filter:blur(12px);
+
+    border:1.5px solid rgba(212,175,55,.35);
+    border-radius:22px;
+
+    color:#ffffff;
+    font-size:18px;
+    line-height:1.7;
+    font-family:"Inter",sans-serif;
+
+    resize:none;
+    outline:none;
+
+    transition:.35s;
+}
+#question::placeholder{
+    color:rgba(255,255,255,.45);
+    font-style:italic;
+}
+#question:focus{
+
+    border-color:#D4AF37;
+
+    box-shadow:
+        0 0 0 2px rgba(212,175,55,.18),
+        0 0 35px rgba(212,175,55,.25);
+}
+
+/*.question-box textarea{
+    width:100%;
+    min-height:140px;
+    padding:20px 24px;
+
+    background:rgba(22,14,35,.72);
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(212,175,55,.35);
+    border-radius:22px;
+
+    color:#fff;
+
+    font-size:18px;
+    line-height:1.8;
+    font-family:"Inter",sans-serif;
+
+    resize:none;
+
+    transition:.35s;
+}
+
+.question-box textarea:focus{
+
+    outline:none;
+
+    border-color:#D4AF37;
+
+    box-shadow:
+        0 0 0 2px rgba(212,175,55,.15),
+        0 0 30px rgba(212,175,55,.25);
+}
+
+.question-box textarea::placeholder{
+
+    color:rgba(255,255,255,.45);
+
+    font-style:italic;
+}*/

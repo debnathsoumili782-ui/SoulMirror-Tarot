@@ -1,0 +1,84 @@
+{
+  "id": 27,
+  "name": "Six of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 6,
+  "image": "cards/wands/six-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Victory",
+      "Success",
+      "Recognition",
+      "Achievement",
+      "Confidence",
+      "Leadership",
+      "Public Praise",
+      "Triumph"
+    ],
+    "reversed": [
+      "Delayed Success",
+      "Self-Doubt",
+      "Lack of Recognition",
+      "Ego",
+      "Disappointment",
+      "Failure",
+      "Pride",
+      "Setbacks"
+    ]
+  },
+
+  "overview": "The Six of Wands is a powerful card of victory, achievement, and well-earned recognition. It represents overcoming obstacles through determination and receiving appreciation for your hard work. Whether in love, career, finances, or personal growth, this card signals that your efforts are finally being noticed. It encourages confidence without arrogance and reminds you to celebrate your accomplishments while remaining humble and grateful for those who supported your journey.",
+
+  "upright": {
+    "meaning": "The Six of Wands Upright signifies success, public recognition, confidence, and reaching important milestones. Your persistence and dedication have brought positive results, and others are beginning to acknowledge your achievements. This card encourages believing in yourself while continuing to lead with humility and integrity.",
+
+    "love": "In relationships, the Six of Wands represents happiness, mutual appreciation, trust, and emotional security. Couples overcome past challenges and enjoy a stronger bond, while singles may attract admiration or begin a relationship with someone who genuinely values them.",
+
+    "career": "Professionally, this is an excellent career card indicating promotions, awards, successful interviews, leadership opportunities, business growth, and professional recognition. Your hard work earns respect and opens new doors for future success.",
+
+    "finance": "Financially, the Six of Wands represents financial progress, successful investments, increased income, and achieving important money goals. Responsible planning continues to produce rewarding results.",
+
+    "health": "Health improves steadily through discipline and consistency. Recovery, increased energy, improved confidence, and positive lifestyle changes contribute to overall well-being.",
+
+    "spiritual": "Spiritually, this card represents confidence in your personal journey, recognizing your growth, and inspiring others through your example. Gratitude and humility deepen your spiritual development.",
+
+    "advice": "Celebrate your achievements without becoming overconfident. Accept recognition with gratitude, continue working toward your goals, and remember that true success is sustained through humility and perseverance."
+  },
+
+  "reversed": {
+    "meaning": "The Six of Wands Reversed suggests delayed recognition, self-doubt, disappointment, or relying too heavily on external validation. Success may still come, but patience and self-confidence are required. Avoid allowing pride or fear of failure to limit your potential.",
+
+    "love": "Relationships may experience insecurity, lack of appreciation, or emotional distance. Honest communication and expressing gratitude toward one another help rebuild confidence and trust. Singles should focus on self-worth rather than seeking validation through relationships.",
+
+    "career": "Career-wise, your efforts may temporarily go unnoticed, promotions could be delayed, or workplace competition may affect confidence. Continue doing your best because recognition often arrives later than expected.",
+
+    "finance": "Financial goals may progress more slowly than anticipated. Avoid comparing yourself to others, remain disciplined with budgeting, and trust that consistent effort will eventually bring success.",
+
+    "health": "Stress, burnout, or low self-esteem may affect your physical or emotional health. Focus on steady improvement instead of expecting immediate results, and celebrate small victories along the way.",
+
+    "spiritual": "Spiritually, you may doubt your progress or seek approval from others. Remember that genuine spiritual growth comes from inner confidence rather than external recognition.",
+
+    "advice": "Believe in yourself even when others don't immediately recognize your efforts. Stay humble, remain patient, and continue working with integrity because lasting success is built through persistence."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Not Yet"
+  },
+
+  "timing": {
+    "upright": "Within 6 Weeks",
+    "reversed": "Delayed Until Recognition Arrives"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Jupiter",
+    "zodiac": "Leo",
+    "numerology": 6
+  },
+
+  "affirmation": "I celebrate my achievements with gratitude, trust my abilities, and continue moving toward success with confidence, humility, and determination."
+}

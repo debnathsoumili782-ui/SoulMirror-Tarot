@@ -1,0 +1,266 @@
+/* ===========================
+   READING PAGE
+=========================== */
+
+.reading-page{
+    min-height:100vh;
+    padding:130px 0 80px;
+    background:url("../images/backgrounds/hero-bg.png") center/cover no-repeat fixed;
+    position:relative;
+}
+
+.reading-page::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(8,4,18,.72);
+    backdrop-filter:blur(2px);
+}
+
+.reading-container{
+    position:relative;
+    z-index:2;
+    width:min(1200px,92%);
+    margin:auto;
+    display:grid;
+    grid-template-columns:430px 1fr;
+    gap:70px;
+    align-items:start;
+}
+
+
+/* ===========================
+CARD
+=========================== */
+
+.reading-card-area{
+    position:sticky;
+    top:120px;
+    display:flex;
+    justify-content:center;
+}
+
+.reading-card-area img{
+    width:100%;
+    max-width:380px;
+    border-radius:22px;
+    box-shadow:
+    0 0 25px rgba(212,175,55,.25),
+    0 0 80px rgba(139,92,246,.18);
+    transition:.45s;
+}
+
+.reading-card-area img:hover{
+    transform:scale(1.03);
+    box-shadow:
+    0 0 40px rgba(212,175,55,.45),
+    0 0 120px rgba(168,85,247,.28);
+}
+
+
+/* ===========================
+CONTENT
+=========================== */
+
+.reading-content{
+    background:rgba(18,11,34,.68);
+    border:1px solid rgba(212,175,55,.18);
+    border-radius:26px;
+    padding:42px;
+    backdrop-filter:blur(18px);
+    box-shadow:
+    0 0 35px rgba(0,0,0,.45);
+}
+
+
+/* Badge */
+
+.reading-badge{
+    display:inline-block;
+    background:rgba(212,175,55,.14);
+    color:#D4AF37;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:.9rem;
+    margin-bottom:18px;
+}
+
+
+/* Title */
+
+.reading-content h1{
+    color:#F6E7B8;
+    font-size:3rem;
+    margin-bottom:8px;
+    font-family:"Cinzel",serif;
+}
+
+
+/* Upright */
+
+.card-orientation{
+    color:#D4AF37;
+    font-weight:700;
+    margin-bottom:30px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+
+/* Keywords */
+
+.keywords{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-bottom:35px;
+}
+
+.keywords span{
+    padding:10px 18px;
+    border-radius:50px;
+    background:#221535;
+    border:1px solid rgba(212,175,55,.22);
+    color:#F6E7B8;
+    font-size:.9rem;
+}
+
+
+/* Sections */
+
+.reading-section{
+    margin-bottom:32px;
+}
+
+.reading-section h2{
+    color:#D4AF37;
+    margin-top: 35px;
+    margin-bottom:12px;
+    font-size:1.35rem;
+    font-family:"Cinzel",serif;
+}
+
+.reading-section p{
+    color:#ddd;
+    line-height:1.9;
+    font-size:1.03rem;
+}
+
+
+/* YES NO */
+
+.yesno-box{
+    margin-top:20px;
+    text-align:center;
+    padding:35px;
+    border-radius:22px;
+    background:#1A102C;
+    border:1px solid rgba(212,175,55,.25);
+}
+
+.yesno-box h2{
+    color:#D4AF37;
+    margin-bottom:20px;
+    font-family:"Cinzel",serif;
+}
+
+.answer{
+    display:inline-block;
+    padding:16px 48px;
+    border-radius:999px;
+    font-size:1.8rem;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.answer.yes{
+    background:#D4AF37;
+    color:#111;
+}
+
+.answer.no{
+    background:#8B1E2D;
+    color:#fff;
+}
+
+
+/* Buttons */
+
+.reading-buttons{
+    margin-top:45px;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.reading-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:14px 34px;
+    border-radius:999px;
+    text-decoration:none;
+    font-weight:700;
+    background:#D4AF37;
+    color:#111;
+    transition:.35s;
+}
+
+.reading-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 25px rgba(212,175,55,.45);
+}
+
+.reading-btn.secondary{
+    background:transparent;
+    color:#D4AF37;
+    border:1px solid #D4AF37;
+}
+
+
+/* ===========================
+RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+    .reading-container{
+        grid-template-columns:1fr;
+        gap:50px;
+    }
+    .reading-card-area{
+        position:relative;
+        top:0;
+    }
+    .reading-card-area img{
+        max-width:320px;
+        margin:auto;
+        display:block;
+    }
+    .reading-content{
+        padding:30px;
+    }
+    .reading-content h1{
+        font-size:2.3rem;
+    }
+}
+.reversed-card{
+    transform: rotate(180deg);
+}
+.ai-reading{
+    margin-top:15px;
+    padding:22px;
+    background:rgba(255,255,255,.05);
+    border-left:4px solid #D4AF37;
+    border-radius:12px;
+    color:#f2f2f2;
+    line-height:1.9;
+    font-size:17px;
+}
+
+.reading-card-image{
+    width:100%;
+    max-width:300px;
+    height:auto;
+    display:block;
+    border-radius:20px;
+}

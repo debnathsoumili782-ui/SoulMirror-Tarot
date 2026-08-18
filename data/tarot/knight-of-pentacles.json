@@ -1,0 +1,84 @@
+{
+  "id": 75,
+  "name": "Knight of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 12,
+  "image": "cards/pentacles/knight-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Hard Work",
+      "Responsibility",
+      "Reliability",
+      "Discipline",
+      "Patience",
+      "Persistence",
+      "Steady Progress",
+      "Dedication"
+    ],
+    "reversed": [
+      "Stagnation",
+      "Boredom",
+      "Laziness",
+      "Perfectionism",
+      "Resistance to Change",
+      "Procrastination",
+      "Routine",
+      "Lack of Motivation"
+    ]
+  },
+
+  "overview": "The Knight of Pentacles represents dedication, reliability, patience, and the steady pursuit of long-term success. Unlike knights who rush ahead, this knight moves carefully, ensuring every step is solid before taking the next. It symbolizes consistency, responsibility, and understanding that lasting achievements are built through persistence rather than shortcuts. This card reminds you that even slow progress is meaningful when it moves you closer to your goals. Trust your steady efforts, remain disciplined, and success will naturally follow.",
+
+  "upright": {
+    "meaning": "The Knight of Pentacles Upright signifies persistence, discipline, responsibility, and dependable progress. Your hard work may not produce instant results, but your consistent efforts are building lasting success. Stay focused on your goals, maintain your routines, and trust the process.",
+
+    "love": "In relationships, the Knight of Pentacles represents loyalty, commitment, trust, and long-term stability. Couples build a secure future through consistency and mutual support. Singles may attract someone dependable, patient, hardworking, and genuinely interested in a lasting relationship rather than temporary excitement.",
+
+    "career": "Professionally, this card indicates steady career growth, promotions earned through dedication, reliable employment, business success, and professional recognition. Your persistence and strong work ethic earn the respect of colleagues and supervisors.",
+
+    "finance": "Financially, the Knight of Pentacles encourages careful budgeting, disciplined saving, responsible investing, and long-term financial planning. Consistency, rather than risk-taking, creates lasting financial security and prosperity.",
+
+    "health": "Health improves through consistent routines, regular exercise, balanced nutrition, and following professional advice. Lasting wellness comes from discipline and patience rather than quick fixes.",
+
+    "spiritual": "Spiritually, this card teaches patience, grounded living, and steady personal growth. Small daily spiritual practices create profound long-term transformation. Trust the journey even when progress feels slow.",
+
+    "advice": "Remain patient, disciplined, and committed to your goals. Success is built through consistency, responsibility, and refusing to give up even when progress seems slow."
+  },
+
+  "reversed": {
+    "meaning": "The Knight of Pentacles Reversed suggests stagnation, lack of motivation, perfectionism, procrastination, or becoming trapped in repetitive routines. You may resist necessary change or lose enthusiasm for your goals. Reevaluate your priorities and take practical steps to regain momentum.",
+
+    "love": "Relationships may become predictable, emotionally stagnant, or affected by lack of effort. Couples should introduce new experiences and communicate openly about their needs. Singles may need to release rigid expectations or unhealthy routines before welcoming new love.",
+
+    "career": "Career-wise, progress may slow because of procrastination, burnout, fear of change, or becoming too comfortable. Continue improving your skills, remain adaptable, and avoid allowing routine to limit future opportunities.",
+
+    "finance": "Financially, avoid becoming careless with budgeting or resisting necessary financial changes. Review your financial habits, eliminate wasteful spending, and remain committed to long-term financial stability.",
+
+    "health": "Poor routines, inactivity, stress, or neglecting healthy habits may affect your well-being. Small, consistent improvements are more effective than unrealistic goals or temporary motivation.",
+
+    "spiritual": "Spiritually, your growth may feel slow because you're relying on routine without deeper reflection. Refresh your spiritual practices, remain open to new perspectives, and trust that meaningful growth often requires change.",
+
+    "advice": "Don't confuse comfort with progress. Stay disciplined, but remain flexible enough to adapt when change is necessary. Consistency is powerful, but growth also requires openness to new opportunities."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 3–6 Months",
+    "reversed": "Delayed Until Consistent Action Is Taken"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Air of Earth",
+    "zodiac": "Taurus, Virgo, Capricorn",
+    "numerology": 12
+  },
+
+  "affirmation": "I trust the power of patience, discipline, and consistent effort. Every step I take builds a strong foundation for lasting success, abundance, and personal fulfillment."
+}

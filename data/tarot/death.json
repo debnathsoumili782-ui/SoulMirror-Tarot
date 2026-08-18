@@ -1,0 +1,84 @@
+{
+  "id": 13,
+  "name": "Death",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 13,
+  "image": "cards/major/death.png",
+
+  "keywords": {
+    "upright": [
+      "Transformation",
+      "Endings",
+      "New Beginnings",
+      "Rebirth",
+      "Change",
+      "Release",
+      "Transition",
+      "Renewal"
+    ],
+    "reversed": [
+      "Resistance to Change",
+      "Fear of Endings",
+      "Stagnation",
+      "Holding On",
+      "Delayed Transformation",
+      "Avoidance",
+      "Emotional Block",
+      "Unfinished Business"
+    ]
+  },
+
+  "overview": "Death is one of the most misunderstood cards in the Tarot. Rarely does it represent physical death. Instead, it symbolizes transformation, endings that make way for new beginnings, and the release of what no longer serves you. This card appears when an important chapter of life is ending so another, more meaningful one can begin. It encourages acceptance, personal growth, and trusting that every ending creates space for something better.",
+
+  "upright": {
+    "meaning": "Death Upright represents profound transformation, personal growth, and necessary endings. Although change can feel uncomfortable, it ultimately leads to renewal, healing, and fresh opportunities. This card asks you to let go of outdated beliefs, unhealthy relationships, or situations that prevent your progress.",
+
+    "love": "In relationships, Death may indicate the end of an unhealthy relationship, a major transformation within an existing partnership, or emotional healing after heartbreak. Singles are encouraged to release the past before welcoming new love.",
+
+    "career": "Professionally, Death often signifies career changes, promotions, changing industries, leaving an unsatisfying job, or beginning a completely new professional journey. While change may seem uncertain, it usually leads to long-term improvement.",
+
+    "finance": "Financially, this card suggests rebuilding your financial habits, paying off debts, changing investment strategies, or learning healthier money management. Temporary adjustments create lasting stability.",
+
+    "health": "Death indicates healing through lifestyle changes, recovery after difficult periods, and letting go of unhealthy habits. It encourages embracing healthier routines that support long-term well-being.",
+
+    "spiritual": "Spiritually, Death represents awakening, inner transformation, releasing old emotional wounds, and evolving into a wiser version of yourself. Deep personal growth is taking place beneath the surface.",
+
+    "advice": "Don't fear change. Accept endings with gratitude, release what no longer belongs in your life, and trust that transformation is leading you toward something better."
+  },
+
+  "reversed": {
+    "meaning": "Death Reversed suggests resisting necessary change, remaining attached to the past, or fearing transformation. Holding onto situations that have already ended may create unnecessary suffering. Growth begins when you accept change instead of resisting it.",
+
+    "love": "Relationships may remain stuck due to fear of letting go, unresolved emotions, or repeating unhealthy patterns. Honest conversations and emotional healing are necessary before progress can occur.",
+
+    "career": "Career-wise, you may resist necessary professional changes, remain in an unsatisfying position, or fear taking new opportunities. Growth requires leaving your comfort zone.",
+
+    "finance": "Financial progress may be delayed because of outdated habits, fear of change, or refusing to adapt. Review your financial strategy and remain open to healthier approaches.",
+
+    "health": "Ignoring lifestyle changes or delaying treatment may slow recovery. The card encourages taking responsibility for your health and embracing positive habits.",
+
+    "spiritual": "Spiritually, unresolved emotional wounds or fear of personal transformation may block your growth. Release old fears, forgive yourself, and trust the process of renewal.",
+
+    "advice": "Accept that change is a natural part of life. Let go of what no longer serves you, embrace new beginnings, and allow transformation to guide your future."
+  },
+
+  "yes_no": {
+    "upright": "Yes — After Major Change",
+    "reversed": "Not Yet"
+  },
+
+  "timing": {
+    "upright": "Within 3–6 Months",
+    "reversed": "Delayed Until Transformation Is Accepted"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Pluto",
+    "zodiac": "Scorpio",
+    "numerology": 13
+  },
+
+  "affirmation": "I release the past with gratitude, welcome transformation with courage, and trust that every ending leads me toward a brighter new beginning."
+}

@@ -1,0 +1,84 @@
+{
+  "id": 56,
+  "name": "Seven of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 7,
+  "image": "cards/swords/seven-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Strategy",
+      "Independence",
+      "Cleverness",
+      "Planning",
+      "Caution",
+      "Discretion",
+      "Resourcefulness",
+      "Hidden Truth"
+    ],
+    "reversed": [
+      "Honesty",
+      "Confession",
+      "Accountability",
+      "Truth Revealed",
+      "Self-Reflection",
+      "Integrity",
+      "Exposure",
+      "Second Chances"
+    ]
+  },
+
+  "overview": "The Seven of Swords represents intelligence, careful planning, and using strategy rather than force to achieve your goals. It reminds you that success sometimes requires patience, discretion, and thinking several steps ahead. While this card can occasionally warn of deception or hidden motives, it more often encourages acting wisely, protecting your interests, and avoiding unnecessary conflict. Integrity remains important—true success comes through clever decisions without compromising your values.",
+
+  "upright": {
+    "meaning": "The Seven of Swords Upright signifies strategic thinking, independence, careful planning, and using intelligence to solve problems. It encourages working smart rather than simply working harder. At times, it may also warn you to stay alert for hidden information or dishonest behavior from yourself or others.",
+
+    "love": "In relationships, this card advises honesty and clear communication. Hidden feelings, avoidance, or secrecy can create misunderstandings if left unresolved. Couples should rebuild trust through openness. Singles should take time to truly know someone before placing complete trust in them.",
+
+    "career": "Professionally, the Seven of Swords encourages strategic planning, protecting your ideas, and thinking carefully before revealing your next move. It can also warn against workplace politics, unethical behavior, or colleagues who may not have your best interests at heart.",
+
+    "finance": "Financially, this card encourages careful budgeting, protecting your assets, reviewing contracts thoroughly, and avoiding financial shortcuts. Smart planning and attention to detail will protect your long-term financial stability.",
+
+    "health": "Health requires paying close attention to symptoms, following medical advice carefully, and avoiding neglecting small issues that could become larger concerns. Mental stress may also require conscious stress-management techniques.",
+
+    "spiritual": "Spiritually, this card encourages honest self-reflection. Examine where fear, avoidance, or self-deception may be limiting your growth. Greater wisdom develops through personal accountability and inner truth.",
+
+    "advice": "Think before you act. Use wisdom, strategy, and careful planning to achieve your goals while remaining honest with yourself and others. Intelligence guided by integrity creates lasting success."
+  },
+
+  "reversed": {
+    "meaning": "The Seven of Swords Reversed represents truth coming to light, accountability, honesty, and correcting past mistakes. Secrets may be revealed, misunderstandings cleared, or you may finally choose integrity over avoidance. This card encourages taking responsibility and learning from previous experiences.",
+
+    "love": "Relationships improve through honest conversations, rebuilding trust, and resolving hidden issues. Couples who communicate openly can heal old wounds. Singles may finally release unhealthy relationship patterns and become ready for genuine emotional connection.",
+
+    "career": "Career-wise, workplace misunderstandings, hidden information, or previous mistakes may finally come to light. This creates an opportunity to rebuild trust through honesty, professionalism, and ethical decision-making.",
+
+    "finance": "Financially, reviewing past mistakes, correcting budgeting errors, or becoming more transparent with financial planning leads to greater long-term stability. Avoid repeating old habits and focus on responsible money management.",
+
+    "health": "Recovery improves as underlying health issues become clearer and appropriate treatment begins. Emotional honesty also contributes to improved mental well-being and reduced stress.",
+
+    "spiritual": "Spiritually, this card represents releasing self-deception, embracing personal responsibility, and aligning your actions with your authentic values. Truth becomes the foundation of lasting spiritual growth.",
+
+    "advice": "Choose honesty even when it's uncomfortable. Accept responsibility for your actions, learn from the past, and move forward with integrity. Transparency will ultimately bring greater peace and success."
+  },
+
+  "yes_no": {
+    "upright": "Maybe",
+    "reversed": "Yes — If You Act Honestly"
+  },
+
+  "timing": {
+    "upright": "Within 7 Weeks",
+    "reversed": "Soon After the Truth Is Revealed"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Moon",
+    "zodiac": "Aquarius",
+    "numerology": 7
+  },
+
+  "affirmation": "I trust my wisdom, act with integrity, and make thoughtful decisions that align with my highest good. Truth and honesty guide every step of my journey."
+}

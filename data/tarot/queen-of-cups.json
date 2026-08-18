@@ -1,0 +1,84 @@
+{
+  "id": 48,
+  "name": "Queen of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 13,
+  "image": "cards/cups/queen-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Compassion",
+      "Intuition",
+      "Empathy",
+      "Emotional Wisdom",
+      "Kindness",
+      "Healing",
+      "Inner Peace",
+      "Nurturing"
+    ],
+    "reversed": [
+      "Emotional Insecurity",
+      "Over-Sensitivity",
+      "Mood Swings",
+      "Emotional Dependency",
+      "Self-Neglect",
+      "Manipulation",
+      "Confusion",
+      "Boundary Issues"
+    ]
+  },
+
+  "overview": "The Queen of Cups represents emotional intelligence, compassion, intuition, and unconditional love. She is deeply connected to her heart and inner wisdom, offering support, understanding, and healing to those around her. This card encourages balancing empathy with healthy boundaries, trusting your intuition, and leading with kindness without losing yourself in the emotions of others. It reminds you that true strength often comes through compassion, patience, and emotional maturity.",
+
+  "upright": {
+    "meaning": "The Queen of Cups Upright signifies emotional wisdom, intuition, compassion, and deep inner peace. You are encouraged to trust your instincts, nurture meaningful relationships, and approach situations with understanding rather than judgment. Your emotional intelligence becomes one of your greatest strengths.",
+
+    "love": "In relationships, the Queen of Cups represents unconditional love, loyalty, emotional security, and deep understanding. Couples strengthen their bond through compassion and honest communication. Singles may attract a caring, emotionally mature partner or become ready for a healthy and deeply fulfilling relationship.",
+
+    "career": "Professionally, this card suggests success through empathy, creativity, counseling, teaching, healing professions, or leadership that values people as much as results. Trust your intuition when making important career decisions and maintain positive workplace relationships.",
+
+    "finance": "Financially, the Queen of Cups encourages balanced financial decisions guided by both wisdom and intuition. Avoid emotional spending and focus on building long-term financial security while remaining generous within your means.",
+
+    "health": "This card represents emotional healing, reduced stress, inner balance, and overall well-being. Listening to your emotional needs, practicing self-care, and maintaining healthy boundaries contribute to lasting physical and mental health.",
+
+    "spiritual": "Spiritually, the Queen of Cups symbolizes heightened intuition, psychic awareness, compassion, and a deep connection with your higher self. Meditation, dream work, prayer, and creative expression strengthen your spiritual gifts.",
+
+    "advice": "Trust your intuition without ignoring practical reality. Care for others with compassion, but remember to protect your own emotional well-being. Healthy boundaries allow your kindness to remain a source of strength."
+  },
+
+  "reversed": {
+    "meaning": "The Queen of Cups Reversed suggests emotional overwhelm, insecurity, poor boundaries, or becoming overly influenced by the emotions of others. You may be neglecting your own needs while trying to care for everyone else. Emotional balance begins with self-care and honest self-reflection.",
+
+    "love": "Relationships may suffer from emotional dependency, jealousy, insecurity, or difficulty expressing feelings honestly. Healthy communication and stronger emotional boundaries help restore trust and stability. Singles should prioritize self-love before seeking emotional fulfillment through another person.",
+
+    "career": "Career-wise, emotional stress, workplace tension, or difficulty separating personal feelings from professional responsibilities may affect your performance. Maintain healthy boundaries and trust your abilities without taking every criticism personally.",
+
+    "finance": "Financial decisions influenced by guilt, emotional pressure, or impulsive generosity may create instability. Make thoughtful choices based on practicality rather than temporary emotions.",
+
+    "health": "Stress, anxiety, emotional exhaustion, or neglecting your own needs may affect your health. Prioritize rest, emotional healing, therapy if needed, and healthy daily routines to restore balance.",
+
+    "spiritual": "Spiritually, you may feel disconnected from your intuition because emotional noise has become overwhelming. Spend quiet time alone, meditate, and reconnect with your inner wisdom before seeking answers externally.",
+
+    "advice": "Take care of yourself before trying to heal everyone else. Your compassion is a gift, but it must be balanced with healthy boundaries, self-respect, and emotional honesty."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Emotional Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Water of Water",
+    "zodiac": "Cancer, Scorpio, Pisces",
+    "numerology": 13
+  },
+
+  "affirmation": "I honor my intuition, nurture myself with compassion, and create healthy boundaries that allow love, peace, and emotional wisdom to flow freely through my life."
+}

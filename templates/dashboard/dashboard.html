@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block title %}
+Dashboard | SoulMirror
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/dashboard.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<div class="dashboard-container">
+    <div class="dashboard-hero">
+    <div class="hero-left">
+        <span class="welcome-badge">
+            🌙 Welcome Back
+        </span>
+        <h1>
+            {{ current_user.username }}
+        </h1>
+        <p>
+            The universe always has a message for those who are willing to listen.
+        </p>
+         <div class="hero-insight">
+
+            <h3>✨ Today's Insight</h3>
+
+            <p>
+                Every card you draw is a reflection of your inner wisdom.
+                Trust your intuition and let the journey unfold naturally.
+            </p>
+
+        </div>
+    </div>
+    <div class="hero-right">
+        <img
+            src="{{ url_for('static', filename='images/8.png') }}"
+            class="hero-card"
+            alt="Tarot Card">
+        <h3 class="journey-title">
+            Your Journey Awaits
+        </h3>
+
+        <a href="{{ url_for('main.reading_types') }}" class="start-reading-btn">
+            ✦ Start Reading
+        </a>
+    </div>
+
+</div>
+
+
+<!--<div class="quick-actions">
+
+    <a href="/reading-types" class="action-card">
+        <div class="icon">🃏</div>
+        <h3>Start Reading</h3>
+        <p>Begin a new tarot journey.</p>
+    </a>
+
+    <a href="#" class="action-card">
+        <div class="icon">📖</div>
+        <h3>Reading History</h3>
+        <p>View your previous readings.</p>
+    </a>
+
+    <a href="#" class="action-card">
+        <div class="icon">📔</div>
+        <h3>Journal</h3>
+        <p>Reflect on your spiritual path.</p>
+    </a>
+
+    <a href="#" class="action-card">
+        <div class="icon">👤</div>
+        <h3>Profile</h3>
+        <p>Manage your account.</p>
+    </a>
+
+</div>
+<div class="recent-reading">
+    <h2>📖 Recent Reading</h2>
+    <div class="reading-placeholder">
+        <h3>No readings yet</h3>
+        <p>
+            Start your first tarot reading to see your journey here.
+        </p>
+        <a href="{{ url_for('main.reading_types') }}" class="begin-btn">
+            ✦ Begin Your First Reading
+        </a>
+    </div>
+</div>
+-->
+{% endblock %}

@@ -1,0 +1,84 @@
+{
+  "id": 66,
+  "name": "Three of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 3,
+  "image": "cards/pentacles/three-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Teamwork",
+      "Collaboration",
+      "Skill",
+      "Learning",
+      "Achievement",
+      "Recognition",
+      "Planning",
+      "Craftsmanship"
+    ],
+    "reversed": [
+      "Poor Teamwork",
+      "Lack of Recognition",
+      "Miscommunication",
+      "Low Quality",
+      "Conflict",
+      "Disorganization",
+      "Lack of Effort",
+      "Inexperience"
+    ]
+  },
+
+  "overview": "The Three of Pentacles represents teamwork, collaboration, skill development, and building something meaningful through shared effort. It reminds you that great achievements rarely happen alone. By combining knowledge, communication, and dedication, success becomes stronger and more sustainable. This card encourages learning from others, valuing different perspectives, and taking pride in producing quality work. Every small contribution matters when everyone works toward the same goal.",
+
+  "upright": {
+    "meaning": "The Three of Pentacles Upright signifies teamwork, cooperation, learning, and recognition for your abilities. Your skills are being noticed, and working with others creates opportunities for growth and long-term success. This is an excellent card for education, career advancement, and collaborative projects.",
+
+    "love": "In relationships, the Three of Pentacles represents partners working together to build a stable future. Healthy communication, mutual respect, and shared responsibilities strengthen the relationship. Singles may meet someone through work, studies, or a shared interest, creating a connection built on friendship and trust.",
+
+    "career": "Professionally, this card is highly favorable for teamwork, promotions, successful projects, apprenticeships, education, networking, and developing expertise. Your dedication and willingness to learn earn the respect of colleagues and supervisors.",
+
+    "finance": "Financially, the Three of Pentacles encourages careful planning, seeking expert advice, and working together toward financial goals. Collaborative business ventures and long-term investments are supported when built on trust and preparation.",
+
+    "health": "Health improves through consistency, professional guidance, and following structured treatment plans. Working with qualified healthcare providers and maintaining healthy routines supports steady progress.",
+
+    "spiritual": "Spiritually, this card reminds you that growth comes through learning, sharing knowledge, and remaining humble. Teachers, mentors, or supportive communities may help deepen your spiritual understanding.",
+
+    "advice": "Work with others instead of trying to do everything alone. Continue improving your skills, stay open to learning, and remember that consistent effort creates lasting success."
+  },
+
+  "reversed": {
+    "meaning": "The Three of Pentacles Reversed suggests poor communication, lack of teamwork, underappreciated efforts, or declining work quality. Misunderstandings or unwillingness to cooperate may delay progress. Success becomes possible when everyone commits to working together respectfully.",
+
+    "love": "Relationships may experience communication problems, unequal effort, or disagreements about responsibilities. Honest conversations and teamwork are necessary to restore harmony. Singles should focus on building healthy communication skills before entering a serious relationship.",
+
+    "career": "Career-wise, conflicts with coworkers, poor planning, lack of recognition, or inconsistent effort may slow progress. Continue developing your skills, remain professional, and don't allow temporary setbacks to discourage your long-term goals.",
+
+    "finance": "Financial difficulties may result from poor planning, lack of cooperation, or ignoring expert advice. Review your financial strategy carefully and remain disciplined when making important financial decisions.",
+
+    "health": "Ignoring professional advice, inconsistency with healthy habits, or lack of motivation may delay recovery. Commit to your treatment plan and maintain patience throughout the healing process.",
+
+    "spiritual": "Spiritually, pride or unwillingness to learn may slow your personal growth. Remain open to guidance, accept constructive feedback, and recognize that every experience offers valuable lessons.",
+
+    "advice": "Success requires cooperation, humility, and continuous learning. Improve communication, appreciate the contributions of others, and focus on producing your best work rather than seeking immediate recognition."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 3 Months",
+    "reversed": "Delayed Until Cooperation Improves"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Mars",
+    "zodiac": "Capricorn",
+    "numerology": 3
+  },
+
+  "affirmation": "I grow through learning, collaboration, and consistent effort. My skills are valuable, my work creates lasting success, and together we build something greater than we could alone."
+}

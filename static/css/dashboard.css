@@ -1,0 +1,247 @@
+body{
+    background:
+    linear-gradient(rgba(8,5,18,.72),
+    rgba(8,5,18,.82)),
+    url("../images/backgrounds/hero-bg.png");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+.dashboard-container{
+    max-width:1200px;
+    margin:140px auto 60px;
+    padding:0 20px;
+}
+.dashboard-hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:40px;
+    padding:50px;
+    border-radius:28px;
+    background:rgba(24,16,40,.82);
+    backdrop-filter:blur(16px);
+    border:1px solid rgba(212,175,55,.18);
+}
+.hero-right{
+
+    display:flex;
+
+    align-items:flex-end;
+
+    height:100%;
+}
+/*.hero-left h1{
+    font-family:"Cinzel",serif;
+    color:#D4AF37;
+    font-size:58px;
+    margin:18px 0 14px;
+}*/
+.hero-right{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+    gap:25px;
+}
+
+.journey-title{
+
+    color:#d4af37;
+
+    font-family:"Cinzel", serif;
+
+    font-size:22px;
+
+    text-align:center;
+
+    margin:0;
+}
+.hero-left p{
+    color:#d9d9d9;
+    max-width:520px;
+    line-height:1.8;
+    font-size:18px;
+}
+.welcome-badge{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:50px;
+    background:rgba(212,175,55,.12);
+    color:#D4AF37;
+    font-weight:600;
+}
+.start-reading-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#D4AF37;
+    color:#111;
+    padding:18px 34px;
+    border-radius:14px;
+    font-weight:700;
+    transition:.3s;
+}
+.start-reading-btn:hover{
+    transform:translateY(-4px);
+    color:#111;
+}
+.quick-actions{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:22px;
+    margin-top:35px;
+}
+.action-card{
+    text-decoration:none;
+    color:white;
+    background:rgba(26,16,44,.88);
+    border:1px solid rgba(212,175,55,.22);
+    border-radius:20px;
+    padding:30px 22px;
+    text-align:center;
+    transition:.35s;
+}
+.action-card:hover{
+    transform:translateY(-8px);
+    border-color:#D4AF37;
+    box-shadow:0 15px 35px rgba(212,175,55,.18);
+}
+.action-card .icon{
+    font-size:42px;
+    margin-bottom:18px;
+}
+.action-card h3{
+    color:#D4AF37;
+    font-family:"Cinzel",serif;
+    font-size:24px;
+    margin-bottom:12px;
+}
+.action-card p{
+    color:#d8d8d8;
+    font-size:15px;
+    line-height:1.6;
+}
+.daily-insight{
+    margin-top:28px;
+    padding:26px 30px;
+    border-radius:20px;
+    background:rgba(18,12,34,.85);
+    border-left:4px solid #D4AF37;
+    backdrop-filter:blur(10px);
+    margin-bottom:30px;
+}
+.insight-header{
+    color:#D4AF37;
+    font-size:24px;
+    font-family:"Cinzel",serif;
+    margin-bottom:14px;
+}
+.daily-insight p{
+    color:#dddddd;
+    line-height:1.8;
+    font-size:17px;
+}
+.recent-reading{
+    margin-top:40px;
+}
+.recent-reading h2{
+    color:#D4AF37;
+    font-family:"Cinzel",serif;
+    margin-bottom:20px;
+}
+.reading-placeholder{
+    background:rgba(26,16,44,.88);
+    border:1px solid rgba(212,175,55,.22);
+    border-radius:20px;
+    padding:45px;
+    text-align:center;
+}
+.reading-placeholder h3{
+    color:#fff;
+    margin-bottom:15px;
+}
+.reading-placeholder p{
+    color:#d0d0d0;
+    margin-bottom:28px;
+}
+.begin-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#D4AF37;
+    color:#111;
+    padding:14px 28px;
+    border-radius:12px;
+    font-weight:700;
+    transition:.3s;
+}
+.begin-btn:hover{
+    transform:translateY(-3px);
+    color:#111;
+    box-shadow:0 10px 25px rgba(212,175,55,.25);
+}
+.hero-insight{
+
+    margin-top:32px;
+
+    padding-top:24px;
+
+    border-top:1px solid rgba(212,175,55,.15);
+
+    max-width:600px;
+}
+
+.hero-insight h3{
+
+    color:#D4AF37;
+
+    font-family:"Cinzel", serif;
+
+    font-size:24px;
+
+    margin-bottom:12px;
+}
+
+.hero-insight p{
+
+    color:#d7d7d7;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    margin:0;
+}
+.hero-card{
+
+    width:175px;
+
+    transform:rotate(8deg);
+
+    transition:.4s;
+
+    filter:
+        drop-shadow(0 0 18px rgba(212,175,55,.25))
+        drop-shadow(0 0 45px rgba(165,95,255,.18));
+
+    margin-bottom:20px;
+}
+
+.hero-card:hover{
+
+    transform:rotate(0deg) scale(1.05);
+}
+.dashboard-hero{
+
+    background:
+    radial-gradient(circle at 80% 25%,
+    rgba(125,80,255,.10),
+    transparent 35%),
+
+    rgba(24,16,40,.85);
+}

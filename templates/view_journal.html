@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}{{ journal.title }}{% endblock %}
+{% block content %}
+<section class="journal-page">
+    <div class="container">
+        <div class="journal-card">
+            <h1>{{ journal.title }}</h1>
+            <p class="journal-date">
+                {{ journal.created_at.strftime('%d %b %Y • %I:%M %p') }}
+            </p>
+            <p class="journal-quote">
+                ✦ Every page you write becomes a mirror of your soul.
+            </p>
+            <hr>
+            <div class="journal-content">{{ journal.content }}</div>
+            <div class="journal-actions">
+                <a href="{{ url_for('main.journal') }}"
+                   class="journal-btn">
+                    ← Back
+                </a>
+                <a href="{{ url_for('main.edit_journal', journal_id=journal.id) }}"
+                   class="journal-btn">
+                    ✏ Edit
+                </a>
+                <form action="{{ url_for('main.delete_journal', journal_id=journal.id) }}"
+                      method="POST"
+                      onsubmit="return confirm('Delete this journal permanently?');">
+                    <button type="submit"
+                            class="journal-btn danger">
+                        🗑 Delete
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/journal.css') }}">
+
+{% endblock %}

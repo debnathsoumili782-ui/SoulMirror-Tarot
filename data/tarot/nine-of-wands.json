@@ -1,0 +1,84 @@
+{
+  "id": 30,
+  "name": "Nine of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 9,
+  "image": "cards/wands/nine-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Resilience",
+      "Perseverance",
+      "Determination",
+      "Courage",
+      "Persistence",
+      "Preparation",
+      "Boundaries",
+      "Last Challenge"
+    ],
+    "reversed": [
+      "Exhaustion",
+      "Burnout",
+      "Giving Up",
+      "Paranoia",
+      "Defensiveness",
+      "Fatigue",
+      "Overwhelmed",
+      "Lack of Trust"
+    ]
+  },
+
+  "overview": "The Nine of Wands represents resilience, determination, and the strength to continue despite past hardships. It appears when you have faced many obstacles but are closer to success than you realize. Although you may feel tired or cautious because of previous experiences, this card reminds you that your persistence will soon be rewarded. Stay alert, trust your experience, and don't give up when victory is within reach.",
+
+  "upright": {
+    "meaning": "The Nine of Wands Upright signifies perseverance, inner strength, and resilience. Challenges may still remain, but you have gained valuable wisdom from past experiences. This card encourages protecting your progress, maintaining healthy boundaries, and continuing forward with confidence.",
+
+    "love": "In relationships, the Nine of Wands suggests emotional healing, rebuilding trust, and remaining committed despite past difficulties. Couples can overcome challenges through patience and understanding. Singles may be cautious because of previous heartbreak but should remain open to genuine love without letting fear control future relationships.",
+
+    "career": "Professionally, this card represents determination through workplace challenges, demanding projects, or career setbacks. Your persistence and experience will help you succeed. Recognition and achievement are closer than they appear, so avoid giving up now.",
+
+    "finance": "Financially, the Nine of Wands encourages protecting your savings, remaining disciplined, and avoiding risky financial decisions. Continue following your long-term financial plan because stability is approaching.",
+
+    "health": "Health may improve gradually after a period of stress or recovery. The card encourages balancing hard work with adequate rest, maintaining healthy routines, and listening carefully to your body's needs.",
+
+    "spiritual": "Spiritually, the Nine of Wands represents wisdom gained through life's challenges. Every obstacle has strengthened your character and deepened your understanding of yourself. Trust your spiritual resilience and continue moving forward.",
+
+    "advice": "Don't give up now. You are much closer to success than you think. Protect what you've built, trust your experience, and keep moving forward with courage and determination."
+  },
+
+  "reversed": {
+    "meaning": "The Nine of Wands Reversed suggests exhaustion, burnout, emotional fatigue, or feeling overwhelmed by continuous challenges. You may be carrying unnecessary emotional burdens or allowing fear to prevent progress. The card encourages resting, seeking support, and releasing the belief that you must handle everything alone.",
+
+    "love": "Relationships may suffer from emotional walls, trust issues, or fear of vulnerability. Healing requires honest communication, patience, and allowing yourself to become emotionally available again. Singles should release past hurts before entering a new relationship.",
+
+    "career": "Career-wise, workplace stress, burnout, or constant pressure may reduce motivation. Consider delegating responsibilities, improving work-life balance, and asking for help when necessary instead of carrying every burden yourself.",
+
+    "finance": "Financial anxiety may result from worrying too much about the future. Continue budgeting responsibly, but avoid making fear-based financial decisions. Small, steady progress is still progress.",
+
+    "health": "Chronic stress, fatigue, or emotional exhaustion may affect both physical and mental well-being. Prioritize sleep, relaxation, and self-care before pushing yourself further.",
+
+    "spiritual": "Spiritually, you may feel drained or disconnected because of prolonged emotional struggles. Give yourself permission to rest, meditate, and reconnect with your inner peace before continuing your journey.",
+
+    "advice": "Strength doesn't always mean pushing harder. Sometimes true courage means resting, accepting support, and allowing yourself time to heal before continuing forward."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 9 Weeks",
+    "reversed": "Delayed Until Energy Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Moon",
+    "zodiac": "Sagittarius",
+    "numerology": 9
+  },
+
+  "affirmation": "I am stronger than every challenge I have faced. My resilience, wisdom, and determination guide me toward lasting success, and I never give up on what truly matters."
+}

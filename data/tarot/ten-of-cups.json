@@ -1,0 +1,84 @@
+{
+  "id": 45,
+  "name": "Ten of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 10,
+  "image": "cards/cups/ten-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Emotional Fulfillment",
+      "Family Happiness",
+      "Harmony",
+      "True Love",
+      "Peace",
+      "Blessings",
+      "Lasting Joy",
+      "Unity"
+    ],
+    "reversed": [
+      "Family Conflict",
+      "Emotional Distance",
+      "Broken Harmony",
+      "Misunderstanding",
+      "Unrealistic Expectations",
+      "Relationship Stress",
+      "Disconnection",
+      "Temporary Unhappiness"
+    ]
+  },
+
+  "overview": "The Ten of Cups is one of the happiest cards in the Tarot, representing emotional fulfillment, lasting happiness, loving relationships, family harmony, and dreams realized. It symbolizes a life built on genuine love, trust, gratitude, and emotional security rather than material success alone. This card reminds you that true abundance comes from meaningful relationships, inner peace, and appreciating the blessings already present in your life. It is a powerful sign of long-term happiness and emotional completion.",
+
+  "upright": {
+    "meaning": "The Ten of Cups Upright signifies complete emotional fulfillment, loving relationships, family harmony, peace, and lasting happiness. It represents reaching a stage where your emotional, personal, and spiritual life feels deeply satisfying. This card encourages gratitude and sharing your happiness with those you love.",
+
+    "love": "One of the strongest love cards in Tarot, the Ten of Cups represents soulmate relationships, marriage, lifelong commitment, emotional security, family happiness, and unconditional love. Existing relationships become stronger through trust and mutual respect, while singles may attract a deeply compatible long-term partner.",
+
+    "career": "Professionally, the Ten of Cups suggests finding a healthy work-life balance, supportive colleagues, fulfilling work, and long-term career satisfaction. Success is measured not only by achievements but also by personal happiness and meaningful relationships in the workplace.",
+
+    "finance": "Financially, this card represents stability, security, and using financial success to create a happy, comfortable life for yourself and your loved ones. It encourages gratitude, generosity, and responsible financial planning.",
+
+    "health": "Health is supported by emotional peace, loving relationships, reduced stress, and a balanced lifestyle. Emotional happiness positively influences both physical and mental well-being.",
+
+    "spiritual": "Spiritually, the Ten of Cups represents inner peace, gratitude, unconditional love, and complete alignment with your higher purpose. It reminds you that true fulfillment comes from living with compassion, authenticity, and appreciation for life's blessings.",
+
+    "advice": "Appreciate the love and happiness already surrounding you. Nurture your relationships, express gratitude often, and remember that lasting joy comes from emotional connection rather than material possessions."
+  },
+
+  "reversed": {
+    "meaning": "The Ten of Cups Reversed suggests temporary disharmony, family tension, emotional disappointment, or unrealistic expectations affecting your happiness. Although challenges exist, they are usually repairable through honest communication, forgiveness, and mutual understanding.",
+
+    "love": "Relationships may experience misunderstandings, family interference, emotional distance, or unmet expectations. Open communication, empathy, and willingness to compromise can restore harmony. Singles should avoid idealizing relationships and instead seek genuine emotional compatibility.",
+
+    "career": "Career-wise, work-life imbalance or workplace stress may affect your personal happiness. Reassess your priorities and remember that professional success should support—not replace—your emotional well-being.",
+
+    "finance": "Financial pressure may create stress within the family or relationship. Careful budgeting, teamwork, and honest discussions about money will help rebuild stability and reduce unnecessary conflict.",
+
+    "health": "Emotional stress, family worries, or unresolved relationship issues may affect your overall well-being. Prioritize emotional healing, healthy communication, and maintaining balance in your daily life.",
+
+    "spiritual": "Spiritually, you may feel temporarily disconnected from your sense of peace or gratitude. Reconnecting with loved ones, practicing forgiveness, and appreciating life's simple blessings will help restore inner harmony.",
+
+    "advice": "Don't expect perfection from yourself or others. Lasting happiness grows through understanding, forgiveness, and choosing love even during difficult moments."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 10 Weeks to 10 Months",
+    "reversed": "Delayed Until Harmony Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Mars",
+    "zodiac": "Pisces",
+    "numerology": 10
+  },
+
+  "affirmation": "I am surrounded by love, peace, and emotional abundance. My relationships flourish with trust and gratitude, and I welcome lasting happiness into every area of my life."
+}

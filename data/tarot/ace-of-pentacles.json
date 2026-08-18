@@ -1,0 +1,84 @@
+{
+  "id": 64,
+  "name": "Ace of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 1,
+  "image": "cards/pentacles/ace-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "New Opportunity",
+      "Prosperity",
+      "Abundance",
+      "Success",
+      "Stability",
+      "Manifestation",
+      "Growth",
+      "Security"
+    ],
+    "reversed": [
+      "Missed Opportunity",
+      "Financial Delay",
+      "Poor Planning",
+      "Instability",
+      "Greed",
+      "Short-Term Thinking",
+      "Lost Potential",
+      "Scarcity"
+    ]
+  },
+
+  "overview": "The Ace of Pentacles represents new beginnings in the material world, bringing opportunities for prosperity, financial stability, career growth, and long-term success. It symbolizes planting a seed that has the potential to grow into lasting abundance through patience, dedication, and practical action. Whether it appears in career, finances, education, or personal development, this card reminds you that success begins with a single opportunity. Take practical steps today, and your efforts will create a secure and rewarding future.",
+
+  "upright": {
+    "meaning": "The Ace of Pentacles Upright signifies new opportunities, financial growth, career advancement, and the beginning of a stable foundation. It encourages you to embrace practical opportunities that can lead to long-term prosperity. Hard work combined with patience will produce lasting rewards.",
+
+    "love": "In relationships, the Ace of Pentacles represents stability, commitment, and building a secure future together. Couples may discuss marriage, moving in together, or creating long-term plans. Singles may meet someone dependable, loyal, and interested in a meaningful relationship rather than temporary romance.",
+
+    "career": "Professionally, this card is highly favorable, indicating job offers, promotions, successful business ventures, scholarships, new projects, or educational opportunities. It encourages investing your energy into opportunities that promise steady long-term growth.",
+
+    "finance": "Financially, the Ace of Pentacles is one of the strongest abundance cards in Tarot. It represents increased income, profitable investments, financial stability, and opportunities to build long-term wealth through wise planning and disciplined action.",
+
+    "health": "Health improves through practical lifestyle changes, healthy routines, balanced nutrition, and consistent self-care. Recovery is supported by patience and maintaining positive daily habits.",
+
+    "spiritual": "Spiritually, the Ace of Pentacles reminds you that abundance exists in both the physical and spiritual worlds. Gratitude, generosity, and mindful living strengthen your connection with the universe while attracting greater prosperity.",
+
+    "advice": "Recognize the opportunities appearing before you and act on them with confidence. Build a strong foundation through patience, discipline, and consistent effort. Today's small step can become tomorrow's great success."
+  },
+
+  "reversed": {
+    "meaning": "The Ace of Pentacles Reversed suggests missed opportunities, financial delays, poor planning, or failing to recognize valuable possibilities. You may be focusing too much on short-term rewards while overlooking lasting success. Slow down, organize your plans, and remain open to new opportunities.",
+
+    "love": "Relationships may experience insecurity because of financial concerns, differing long-term goals, or lack of commitment. Honest discussions about the future help restore stability. Singles should avoid choosing relationships based solely on financial security or material success.",
+
+    "career": "Career-wise, delays, rejected opportunities, or lack of preparation may temporarily slow progress. Continue improving your skills because another opportunity is likely to appear. Careful planning will produce better long-term results.",
+
+    "finance": "Financially, avoid risky investments, impulsive spending, or neglecting long-term planning. Focus on budgeting, saving, and creating financial stability before pursuing major opportunities.",
+
+    "health": "Poor routines, neglecting self-care, or inconsistency may affect your well-being. Small improvements in daily habits can produce significant long-term health benefits.",
+
+    "spiritual": "Spiritually, attachment to material success may distract you from inner fulfillment. Remember that true abundance includes gratitude, emotional peace, meaningful relationships, and spiritual growth.",
+
+    "advice": "Don't let impatience or poor planning prevent long-term success. Prepare carefully, remain disciplined, and trust that the right opportunity will arrive when you are ready to receive it."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1 Month",
+    "reversed": "Delayed Until Proper Preparation"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Earth",
+    "zodiac": "Taurus, Virgo, Capricorn",
+    "numerology": 1
+  },
+
+  "affirmation": "I welcome abundance, opportunity, and lasting prosperity into my life. Every step I take builds a strong foundation for my future, and I trust that my consistent efforts create lasting success."
+}

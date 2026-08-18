@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block title %}
+Simple Love Reading
+{% endblock %}
+
+{% block content %}
+
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/simple-love-reading.css') }}">
+<section class="love-reading-page">
+    <section class="love-reading-hero">
+
+        <div class="love-question">
+
+            <span class="reading-pill">
+                ❤️ Love Reading
+            </span>
+
+            <h1>
+                Your Relationship Reading
+            </h1>
+
+            <div class="question-pill">
+                {{ question }}
+            </div>
+
+        </div>
+
+        <div class="love-cards">
+
+            <div class="love-card">
+
+                <img
+                    class="single-reading-card {% if card1.orientation=='reversed' %}reversed{% endif %}"
+                    src="{{ url_for('static', filename='images/' ~ card1.image) }}">
+
+                <h3>Your Energy</h3>
+
+                <h4 class="card-name">{{ card1.name }}</h4>
+
+                <div class="orientation-badge
+                {% if card1.orientation == 'upright' %}
+                upright
+                {% else %}
+                reversed
+                {% endif %}">
+                    {{ card1.orientation|upper }}
+                </div>
+            </div>
+
+            <div class="love-card">
+
+                <img
+                    class="single-reading-card {% if card2.orientation=='reversed' %}reversed{% endif %}"
+                    src="{{ url_for('static', filename='images/' ~ card2.image) }}">
+
+                <h3>Their Energy</h3>
+
+                <h4 class="card-name">{{ card2.name }}</h4>
+
+                <div class="orientation-badge
+                {% if card2.orientation == 'upright' %}
+                upright
+                {% else %}
+                reversed
+                {% endif %}">
+                    {{ card2.orientation|upper }}
+                </div>
+            </div>
+
+            <div class="love-card">
+
+                <img
+                    class="single-reading-card {% if card3.orientation=='reversed' %}reversed{% endif %}"
+                    src="{{ url_for('static', filename='images/' ~ card3.image) }}">
+
+                <h3>Relationship Guidance</h3>
+
+                <h4 class="card-name">{{ card3.name }}</h4>
+
+                <div class="orientation-badge
+                {% if card3.orientation == 'upright' %}
+                upright
+                {% else %}
+                reversed
+                {% endif %}">
+                    {{ card3.orientation|upper }}
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+</section>
+        <!-- ================= AI READING ================= -->
+
+        <section class="reading-content">
+            <div class="reading-box">
+                <div class="reading-header">
+                    ✨ Your Relationship Reading
+                </div>
+                <div class="reading-body">
+                    {{ ai_reading|safe }}
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= REFLECTION ================= -->
+
+        <section class="reflection-box">
+            <h2>
+                ✨ Reflection Prompt
+            </h2>
+            <p>
+                Take a quiet moment and ask yourself:
+            </p>
+            <blockquote>
+                "How can I apply this message in my life today?"
+            </blockquote>
+
+            <!-- ================= BUTTON ================= -->
+            <div class="reading-actions">
+                <a href="{{ url_for('main.single_card') }}"
+                   class="btn btn-gold">
+                    Draw Another Card
+                </a>
+            </div></section>
+{% endblock %}

@@ -1,0 +1,84 @@
+{
+  "id": 3,
+  "name": "The Empress",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 3,
+  "image": "cards/major/the-empress.png",
+
+  "keywords": {
+    "upright": [
+      "Abundance",
+      "Nurturing",
+      "Motherhood",
+      "Creativity",
+      "Beauty",
+      "Prosperity",
+      "Growth",
+      "Compassion"
+    ],
+    "reversed": [
+      "Creative Block",
+      "Dependency",
+      "Neglect",
+      "Smothering",
+      "Insecurity",
+      "Emotional Emptiness",
+      "Lack of Self-Care",
+      "Stagnation"
+    ]
+  },
+
+  "overview": "The Empress symbolizes unconditional love, abundance, creativity, fertility, and the nurturing energy of nature. She represents growth in every form—relationships, career, finances, personal development, and spiritual life. This card encourages you to care for yourself and others while creating beauty, harmony, and stability around you. The Empress reminds you that true abundance begins within and naturally expands into every area of life.",
+
+  "upright": {
+    "meaning": "The Empress Upright represents abundance, emotional fulfillment, creativity, and personal growth. She encourages you to nurture your dreams with patience and kindness. Success comes through love, compassion, and allowing things to develop naturally rather than forcing outcomes.",
+
+    "love": "The Empress is one of the strongest love cards in the Tarot. It signifies deep affection, romance, emotional security, commitment, fertility, and harmonious relationships. Singles may attract a caring partner, while existing relationships often become stronger and more emotionally fulfilling.",
+
+    "career": "Career opportunities flourish under The Empress. Creative work, leadership through kindness, teamwork, promotions, and successful business growth are highlighted. Your ideas are likely to receive appreciation and support.",
+
+    "finance": "Financially, this card indicates prosperity, stability, profitable investments, and gradual wealth accumulation. It encourages balancing enjoyment with responsible financial planning.",
+
+    "health": "The Empress suggests vitality, healing, emotional balance, and overall well-being. It encourages nourishing your body with healthy habits, proper rest, and self-care. Pregnancy or fertility may also be significant when relevant.",
+
+    "spiritual": "Spiritually, The Empress represents harmony with nature, gratitude, compassion, and the divine feminine. She encourages connecting with the natural world, practicing mindfulness, and trusting life's nurturing energy.",
+
+    "advice": "Take care of yourself with the same kindness you offer others. Trust the natural timing of growth, remain patient, and allow abundance to unfold without unnecessary pressure."
+  },
+
+  "reversed": {
+    "meaning": "The Empress Reversed suggests neglecting your own needs, creative blocks, emotional imbalance, or becoming overly dependent on external validation. It reminds you to restore self-worth and prioritize self-care before trying to nurture others.",
+
+    "love": "Relationships may suffer from emotional distance, insecurity, possessiveness, or lack of appreciation. Honest communication and rebuilding emotional connection are essential.",
+
+    "career": "Professionally, you may experience creative frustration, lack of motivation, workplace stress, or feeling undervalued. Reconnect with your strengths before making major career decisions.",
+
+    "finance": "Financial instability may arise through overspending, poor budgeting, or emotional purchases. Focus on practical financial planning and avoid unnecessary expenses.",
+
+    "health": "Stress, emotional exhaustion, hormonal imbalance, or neglecting personal well-being may affect your health. Prioritize rest, nutrition, and emotional healing.",
+
+    "spiritual": "You may feel disconnected from your inner peace or creative energy. Spending time in nature, practicing gratitude, and reconnecting with yourself will restore balance.",
+
+    "advice": "Care for yourself first. Healing begins when you recognize your own worth and stop seeking constant validation from others."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Uncertain"
+  },
+
+  "timing": {
+    "upright": "Within 2–3 Months",
+    "reversed": "Delayed Until Emotional Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Venus",
+    "zodiac": "Taurus",
+    "numerology": 3
+  },
+
+  "affirmation": "I nurture myself with love, welcome abundance into my life, and allow my creativity to flourish naturally."
+}

@@ -1,0 +1,84 @@
+{
+  "id": 7,
+  "name": "The Chariot",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 7,
+  "image": "cards/major/the-chariot.png",
+
+  "keywords": {
+    "upright": [
+      "Victory",
+      "Determination",
+      "Willpower",
+      "Success",
+      "Discipline",
+      "Ambition",
+      "Control",
+      "Forward Movement"
+    ],
+    "reversed": [
+      "Lack of Direction",
+      "Loss of Control",
+      "Obstacles",
+      "Aggression",
+      "Delays",
+      "Self-Doubt",
+      "Failure to Focus",
+      "Frustration"
+    ]
+  },
+
+  "overview": "The Chariot symbolizes determination, confidence, self-discipline, and the power to overcome obstacles through focused action. It represents victory earned through persistence rather than luck. This card appears when you are being challenged to take control of your life, remain committed to your goals, and move forward despite distractions or setbacks. Success comes from balancing confidence with discipline and maintaining a clear sense of direction.",
+
+  "upright": {
+    "meaning": "The Chariot Upright represents triumph through determination, discipline, and unwavering focus. It indicates that obstacles can be overcome by staying committed to your goals and maintaining confidence in your abilities. Progress is achieved through self-control, courage, and decisive action.",
+
+    "love": "In relationships, The Chariot represents commitment, mutual effort, and overcoming challenges together. Singles may meet someone while pursuing personal goals or traveling. Existing relationships become stronger when both partners work toward a common future with trust and determination.",
+
+    "career": "Professionally, The Chariot is an excellent success card. It signifies promotions, career advancement, competitive victories, successful interviews, business expansion, and achieving ambitious goals. Your discipline and persistence will be rewarded.",
+
+    "finance": "Financially, this card indicates steady progress, successful investments, and improving financial stability through careful planning and disciplined spending. Long-term goals are favored over short-term gains.",
+
+    "health": "The Chariot suggests strong physical energy, recovery, motivation, and successful health improvements through consistency and self-discipline. Maintaining routines will produce lasting benefits.",
+
+    "spiritual": "Spiritually, this card represents mastering your emotions, balancing opposing forces within yourself, and moving confidently along your spiritual journey. Inner discipline leads to greater wisdom and personal growth.",
+
+    "advice": "Stay focused on your destination. Ignore distractions, trust your abilities, remain disciplined, and continue moving forward with confidence. Persistence will ultimately lead to victory."
+  },
+
+  "reversed": {
+    "meaning": "The Chariot Reversed suggests delays, lack of direction, frustration, or losing control over a situation. You may feel overwhelmed by obstacles or uncertain about your next step. Rather than forcing progress, reassess your goals, regain balance, and move forward with renewed clarity.",
+
+    "love": "Relationship conflicts may arise from control issues, stubbornness, or poor communication. Slow down, listen carefully, and work together instead of trying to dominate the situation.",
+
+    "career": "Career-wise, The Chariot Reversed warns of setbacks, workplace conflicts, lack of focus, or delays in achieving goals. Review your strategy before pushing ahead. Success remains possible with better planning.",
+
+    "finance": "Financial challenges may result from impulsive decisions, poor planning, or lack of discipline. Avoid unnecessary risks and create a practical financial strategy before making major commitments.",
+
+    "health": "Stress, exhaustion, or lack of balance may affect your overall well-being. Rest, consistency, and managing emotional pressure are essential for recovery.",
+
+    "spiritual": "You may feel disconnected from your purpose or uncertain about your spiritual direction. Slow down, reconnect with your inner guidance, and remember that meaningful progress begins within.",
+
+    "advice": "Don't allow frustration or impatience to control your decisions. Regain your focus, remain disciplined, and remember that steady progress is more valuable than reckless speed."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Uncertain"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Focus Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Moon",
+    "zodiac": "Cancer",
+    "numerology": 7
+  },
+
+  "affirmation": "I move forward with confidence, discipline, and unwavering determination. Every obstacle I overcome brings me closer to my greatest success."
+}

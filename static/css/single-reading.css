@@ -1,0 +1,891 @@
+/*==========================================
+        SINGLE READING PAGE
+==========================================*/
+
+.single-reading-page{
+    min-height:100vh;
+    padding:120px 20px 90px;
+
+    background:
+        linear-gradient(rgba(8,8,18,.82),rgba(8,8,18,.95)),
+        url("../images/backgrounds/nebula-background.png");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+.single-reading-page .container{
+    max-width:1320px;
+    margin:auto;
+}
+
+/*==========================================
+            HERO
+==========================================*/
+
+.single-reading-hero{
+
+    display:grid;
+    grid-template-columns:430px 1fr;
+    gap:70px;
+
+    align-items:center;
+
+    padding:48px;
+
+    border-radius:30px;
+
+    background:rgba(26,16,42,.82);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(212,175,55,.18);
+
+    box-shadow:
+        0 18px 60px rgba(0,0,0,.45);
+
+}
+
+/*==========================================
+            LEFT
+==========================================*/
+
+.single-left{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+/*==========================================
+            CARD
+==========================================*/
+
+.single-reading-card{
+
+    width:100%;
+    max-width:340px;
+
+    display:block;
+
+    border-radius:20px;
+
+    cursor:pointer;
+
+    transition:
+        transform .45s ease,
+        filter .45s ease;
+
+    filter:
+        drop-shadow(0 15px 35px rgba(0,0,0,.55));
+
+}
+
+/* hover */
+
+.single-reading-card:hover{
+
+    transform:
+        perspective(1400px)
+        rotateY(-8deg)
+        rotateX(4deg)
+        translateY(-12px)
+        scale(1.03);
+
+    filter:
+        drop-shadow(0 0 18px rgba(212,175,55,.35))
+        drop-shadow(0 0 35px rgba(150,90,255,.25))
+        drop-shadow(0 25px 55px rgba(0,0,0,.65));
+
+}
+
+/* reversed */
+
+.single-reading-card.reversed{
+
+    transform:rotate(180deg);
+
+}
+
+.single-reading-card.reversed:hover{
+
+    transform:
+        rotate(180deg)
+        perspective(1400px)
+        rotateY(-8deg)
+        rotateX(4deg)
+        translateY(-12px)
+        scale(1.03);
+
+}
+
+/*==========================================
+            RIGHT
+==========================================*/
+
+.single-right{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+
+/*==========================================
+            PILL
+==========================================*/
+
+.reading-pill{
+
+    width:fit-content;
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    background:rgba(212,175,55,.12);
+
+    border:1px solid rgba(212,175,55,.25);
+
+    color:#FFD86B;
+
+    font-size:15px;
+    font-weight:600;
+
+    margin-bottom:26px;
+
+}
+
+/*==========================================
+        QUESTION
+==========================================*/
+
+.question-block{
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:24px;
+
+    margin-bottom:30px;
+
+}
+
+.question-block h3{
+
+    color:#D4AF37;
+
+    font-family:"Cinzel",serif;
+
+    font-size:18px;
+
+    margin-bottom:12px;
+
+}
+
+.question-block p{
+
+    color:#F2F2F2;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+}
+
+/*==========================================
+            TITLE
+==========================================*/
+
+.card-title{
+
+    font-family:"Cinzel", serif;
+
+    font-size:70px;
+
+    font-weight:600;
+
+    line-height:1.08;
+
+    letter-spacing:.5px;
+
+    color:#D4AF37;
+
+    text-shadow:
+        0 0 8px rgba(212,175,55,.20),
+        0 0 18px rgba(212,175,55,.10);
+
+    margin-bottom:18px;
+
+}
+
+/*==========================================
+        ORIENTATION
+==========================================*/
+
+.orientation{
+
+    display:inline-flex;
+
+    width:fit-content;
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    background:#3A2958;
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    margin-bottom:30px;
+
+}
+
+/*==========================================
+            KEYWORDS
+==========================================*/
+
+.keyword-list{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.keyword-list span{
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(212,175,55,.18);
+
+    color:#ECECEC;
+
+    font-size:14px;
+
+    transition:.35s;
+
+}
+
+.keyword-list span:hover{
+
+    background:#D4AF37;
+
+    color:#1A102B;
+
+    transform:translateY(-2px);
+
+}
+/*==========================================
+            AI READING
+==========================================*/
+
+.reading-content{
+
+    margin-top:42px;
+
+}
+
+.reading-box{
+
+    background:rgba(23,14,38,.88);
+
+    border:1px solid rgba(212,175,55,.20);
+
+    border-radius:28px;
+
+    padding:55px 60px;
+
+    box-shadow:
+        0 18px 60px rgba(0,0,0,.35);
+
+}
+
+/*==========================================
+        SECTION SPACING
+==========================================*/
+
+.reading-box section{
+
+    margin-bottom:42px;
+
+}
+
+.reading-box section:last-child{
+
+    margin-bottom:0;
+
+}
+
+/*==========================================
+            HEADINGS
+==========================================*/
+
+.reading-box h2{
+
+    font-family:"Cinzel",serif;
+
+    font-size:40px;
+
+    color:#E8C86A;
+
+    margin-bottom:24px;
+
+    letter-spacing:.5px;
+
+    position:relative;
+
+    padding-bottom:16px;
+
+}
+
+.reading-box h2::after{
+
+    width:180px;
+
+    height:2px;
+
+    background:linear-gradient(
+        to right,
+        #D4AF37,
+        rgba(212,175,55,.45),
+        transparent
+    );
+
+}
+
+/*==========================================
+            PARAGRAPHS
+==========================================*/
+
+.reading-box p{
+
+    font-size:18px;
+
+    line-height:2.15;
+
+    font-weight:400;
+
+    color:#ECECEC;
+
+    margin-bottom:24px;
+
+}
+
+.reading-box p:last-child{
+
+    margin-bottom:0;
+
+}
+
+/*==========================================
+            STRONG
+==========================================*/
+
+.reading-box strong{
+
+    color:#FFD86B;
+
+    font-weight:700;
+
+}
+
+/*==========================================
+            EMPHASIS
+==========================================*/
+
+.reading-box em{
+
+    color:#F2D980;
+
+    font-style:italic;
+
+}
+
+/*==========================================
+        BLOCKQUOTE
+==========================================*/
+
+.reading-box blockquote{
+
+    margin:28px 0;
+
+    padding:22px 28px;
+
+    border-left:4px solid #D4AF37;
+
+    background:rgba(255,255,255,.03);
+
+    border-radius:14px;
+
+    color:#F6F6F6;
+
+    line-height:1.9;
+
+}
+
+/*==========================================
+        LISTS
+==========================================*/
+
+.reading-box ul{
+
+    margin:18px 0 18px 24px;
+
+}
+
+.reading-box li{
+
+    margin-bottom:10px;
+
+    color:#E8E8E8;
+
+    line-height:1.8;
+
+}
+
+/*==========================================
+        REFLECTION
+==========================================*/
+
+.reflection-box{
+
+    margin-top:38px;
+
+    padding:34px;
+
+    background:rgba(60,35,82,.78);
+
+    border:1px solid rgba(212,175,55,.18);
+
+    border-radius:24px;
+
+    text-align:center;
+
+}
+
+.reflection-box h2{
+
+    color:#E8C86A;
+
+    font-family:"Cinzel",serif;
+
+    margin-bottom:18px;
+
+}
+
+.reflection-box p{
+
+    color:#E6E6E6;
+
+    margin-bottom:18px;
+
+}
+
+.reflection-box blockquote{
+
+    color:#FFFFFF;
+
+    font-size:24px;
+
+    line-height:1.7;
+
+    font-style:italic;
+
+    font-family:"Cormorant Garamond",serif;
+
+}
+
+/*==========================================
+            BUTTON
+==========================================*/
+
+.reading-actions{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-top:42px;
+
+}
+
+.reading-actions .btn{
+
+    padding:15px 38px;
+
+    border-radius:16px;
+
+    transition:.35s;
+
+}
+
+.reading-actions .btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 0 24px rgba(212,175,55,.35);
+
+}
+
+/*part3*/
+
+/*==========================================
+        SMOOTH ANIMATIONS
+==========================================*/
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes fadeCardIn{
+
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity:1;
+    }
+
+}
+
+.single-reading-hero{
+
+    animation:fadeUp .7s ease;
+
+}
+
+.reading-content{
+
+    animation:fadeUp .85s ease;
+
+}
+
+.reflection-box{
+
+    animation:fadeUp 1s ease;
+
+}
+
+.single-reading-card{
+    animation:fadeCardIn .8s ease;
+}
+
+/*==========================================
+        SCROLLBAR
+==========================================*/
+
+.reading-box::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.reading-box::-webkit-scrollbar-thumb{
+
+    background:#D4AF37;
+
+    border-radius:20px;
+
+}
+
+/*==========================================
+        TEXT SELECTION
+==========================================*/
+
+::selection{
+
+    background:rgba(212,175,55,.35);
+
+    color:#fff;
+
+}
+
+/*==========================================
+        CARD GLOW
+==========================================*/
+
+.single-left{
+
+    position:relative;
+
+}
+
+.single-left::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:330px;
+    height:470px;
+
+    background:radial-gradient(
+
+        rgba(170,120,255,.22),
+
+        transparent 70%
+
+    );
+
+    filter:blur(40px);
+
+    z-index:0;
+
+    pointer-events:none;
+
+}
+
+.single-reading-card{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+/*==========================================
+        AI SECTION HOVER
+==========================================*/
+
+.reading-box{
+
+    transition:.35s;
+
+}
+
+.reading-box:hover{
+
+    border-color:rgba(212,175,55,.35);
+
+    box-shadow:
+
+        0 0 35px rgba(212,175,55,.08),
+
+        0 25px 70px rgba(0,0,0,.45);
+
+}
+
+/*==========================================
+        KEYWORD HOVER
+==========================================*/
+
+.keyword-list span{
+
+    transition:
+
+        background .3s,
+
+        transform .3s,
+
+        box-shadow .3s;
+
+}
+
+.keyword-list span:hover{
+
+    box-shadow:
+
+        0 0 15px rgba(212,175,55,.28);
+
+}
+
+/*==========================================
+        RESPONSIVE
+==========================================*/
+
+@media(max-width:1200px){
+
+    .single-reading-hero{
+
+        grid-template-columns:360px 1fr;
+
+        gap:45px;
+
+    }
+
+    .card-title{
+
+        font-size:52px;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .single-reading-hero{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .single-left{
+
+        order:1;
+
+    }
+
+    .single-right{
+
+        order:2;
+
+        align-items:center;
+
+    }
+
+    .question-block{
+
+        width:100%;
+
+    }
+
+    .keyword-list{
+
+        justify-content:center;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .single-reading-page{
+
+        padding:100px 15px 60px;
+
+    }
+
+    .single-reading-hero{
+
+        padding:30px;
+
+    }
+
+    .single-reading-card{
+
+        max-width:280px;
+
+    }
+
+    .card-title{
+
+        font-size:42px;
+
+    }
+
+    .reading-box{
+
+        padding:30px;
+
+    }
+
+    .reading-box h2{
+
+        font-size:28px;
+
+    }
+
+    .reflection-box blockquote{
+
+        font-size:20px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .single-reading-card{
+
+        max-width:230px;
+
+    }
+
+    .card-title{
+
+        font-size:70px;
+
+        font-weight:600;
+
+        letter-spacing:.5px;
+
+    }
+
+    .reading-box{
+
+        padding:24px;
+
+    }
+
+    .keyword-list{
+
+        gap:8px;
+
+    }
+
+    .keyword-list span{
+
+        font-size:13px;
+
+        padding:8px 14px;
+
+    }
+}
+
+.reading-box section{
+
+    padding-bottom:35px;
+
+    margin-bottom:35px;
+
+    border-bottom:1px solid rgba(212,175,55,.12);
+
+}
+
+.reading-box section:last-child{
+
+    border:none;
+
+    margin-bottom:0;
+
+    padding-bottom:0;
+
+}

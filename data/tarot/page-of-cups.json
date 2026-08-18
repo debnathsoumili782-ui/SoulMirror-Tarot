@@ -1,0 +1,84 @@
+{
+  "id": 46,
+  "name": "Page of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 11,
+  "image": "cards/cups/page-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "New Feelings",
+      "Creativity",
+      "Intuition",
+      "Good News",
+      "Compassion",
+      "Curiosity",
+      "Imagination",
+      "Emotional Growth"
+    ],
+    "reversed": [
+      "Emotional Immaturity",
+      "Insecurity",
+      "Creative Block",
+      "Moodiness",
+      "Disappointment",
+      "Emotional Confusion",
+      "Self-Doubt",
+      "Avoidance"
+    ]
+  },
+
+  "overview": "The Page of Cups represents emotional openness, creativity, curiosity, and intuitive messages. It often appears when your heart is ready to experience something new, whether it is love, friendship, inspiration, or spiritual growth. This card encourages approaching life with childlike wonder while remaining emotionally honest and receptive. Unexpected news, heartfelt conversations, or creative opportunities may arrive when you least expect them, inviting you to trust both your heart and your intuition.",
+
+  "upright": {
+    "meaning": "The Page of Cups Upright signifies emotional renewal, intuitive insight, creative inspiration, and positive surprises. It encourages expressing your feelings honestly, embracing new experiences, and trusting your intuition even when logic cannot explain everything.",
+
+    "love": "In love, the Page of Cups often represents new romance, heartfelt messages, emotional vulnerability, or the beginning of a meaningful relationship. Existing relationships benefit from open communication, affection, and playful emotional connection. Singles may receive an unexpected romantic opportunity or message.",
+
+    "career": "Professionally, this card suggests creative projects, positive news, learning opportunities, interviews, or discovering work that feels emotionally rewarding. Stay open-minded because unexpected opportunities may appear through creativity or networking.",
+
+    "finance": "Financially, the Page of Cups encourages thoughtful financial decisions while remaining open to new income opportunities. Creative talents or hobbies may develop into profitable ventures with patience and dedication.",
+
+    "health": "Health improves through emotional balance, stress reduction, creative expression, and maintaining a positive outlook. Listening to both your body and emotions supports long-term well-being.",
+
+    "spiritual": "Spiritually, the Page of Cups symbolizes heightened intuition, psychic sensitivity, vivid dreams, and emotional awakening. Meditation, journaling, and creative activities strengthen your connection with your higher self.",
+
+    "advice": "Keep your heart open to new experiences. Trust your intuition, express your emotions honestly, and don't be afraid to explore creative or emotional opportunities that inspire genuine happiness."
+  },
+
+  "reversed": {
+    "meaning": "The Page of Cups Reversed suggests emotional immaturity, insecurity, creative blocks, or difficulty expressing feelings. You may ignore your intuition or allow fear of rejection to prevent emotional growth. Honest self-reflection and self-compassion will help restore emotional balance.",
+
+    "love": "Relationships may experience emotional misunderstandings, immaturity, mixed signals, or difficulty communicating feelings. Patience and honest conversations help rebuild trust. Singles should focus on emotional healing before pursuing new relationships.",
+
+    "career": "Career-wise, creative blocks, lack of confidence, or emotional distractions may slow progress. Continue developing your skills, trust your abilities, and avoid letting temporary setbacks discourage you.",
+
+    "finance": "Financial uncertainty may result from emotional spending or unrealistic expectations. Avoid impulsive purchases and focus on creating practical, long-term financial habits.",
+
+    "health": "Emotional stress, anxiety, or ignoring your emotional needs may affect your overall health. Prioritize self-care, emotional expression, and healthy coping strategies to restore balance.",
+
+    "spiritual": "Spiritually, you may doubt your intuition or feel disconnected from your inner guidance. Spend quiet time reflecting, meditating, and allowing your inner voice to become clear again.",
+
+    "advice": "Don't suppress your emotions or ignore your intuition. Emotional growth comes through honesty, patience, and believing that vulnerability is a strength rather than a weakness."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within a Few Weeks",
+    "reversed": "Delayed Until Emotional Clarity Returns"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Earth of Water",
+    "zodiac": "Cancer, Scorpio, Pisces",
+    "numerology": 11
+  },
+
+  "affirmation": "I trust my heart, honor my intuition, and welcome new emotional and creative opportunities with openness, courage, and joy."
+}

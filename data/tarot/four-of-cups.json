@@ -1,0 +1,84 @@
+{
+  "id": 39,
+  "name": "Four of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 4,
+  "image": "cards/cups/four-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Contemplation",
+      "Reflection",
+      "Meditation",
+      "Introspection",
+      "Apathy",
+      "Missed Opportunity",
+      "Emotional Withdrawal",
+      "Reevaluation"
+    ],
+    "reversed": [
+      "New Perspective",
+      "Awakening",
+      "Acceptance",
+      "Motivation",
+      "Emotional Renewal",
+      "New Opportunities",
+      "Optimism",
+      "Moving Forward"
+    ]
+  },
+
+  "overview": "The Four of Cups represents a period of reflection, emotional evaluation, and looking inward before making important decisions. It often appears when you feel emotionally disconnected, dissatisfied, or too focused on what is missing to notice the opportunities already surrounding you. This card encourages slowing down, reconnecting with your true feelings, and remaining open to unexpected blessings. Sometimes the opportunity you have been waiting for is already within reach—you simply need a fresh perspective to recognize it.",
+
+  "upright": {
+    "meaning": "The Four of Cups Upright signifies contemplation, emotional withdrawal, and reevaluating your priorities. You may feel uncertain, bored, or emotionally disconnected despite having opportunities available. This card encourages taking time for self-reflection while remaining open to new possibilities instead of becoming trapped by dissatisfaction.",
+
+    "love": "In relationships, the Four of Cups may indicate emotional distance, taking your partner for granted, or feeling uncertain about your emotions. Honest communication and appreciation can strengthen existing relationships. Singles may overlook a genuine romantic opportunity because they remain focused on the past or unrealistic expectations.",
+
+    "career": "Professionally, this card suggests feeling unfulfilled, uninspired, or questioning your current career path. Rather than making impulsive decisions, carefully evaluate your goals because a valuable opportunity may already be available within your current situation.",
+
+    "finance": "Financially, the Four of Cups encourages reviewing your financial priorities instead of making emotional purchases. A new opportunity to improve your financial situation may appear if you remain attentive and open-minded.",
+
+    "health": "This card suggests paying attention to emotional well-being, stress, or lack of motivation. Mindfulness, rest, and reconnecting with activities that bring genuine happiness can improve both mental and physical health.",
+
+    "spiritual": "Spiritually, the Four of Cups encourages meditation, introspection, and reconnecting with your inner self. Answers may not come through external searching but through quiet reflection and trusting your intuition.",
+
+    "advice": "Don't become so focused on what you lack that you overlook the blessings already present. Take time to reflect, but remain open to new opportunities and unexpected gifts from the universe."
+  },
+
+  "reversed": {
+    "meaning": "The Four of Cups Reversed represents renewed motivation, emotional awakening, fresh perspectives, and recognizing opportunities that were previously overlooked. You are becoming ready to move forward with greater optimism and appreciation for what life has to offer.",
+
+    "love": "Relationships begin improving through renewed emotional openness and honest communication. Couples rediscover appreciation for one another, while singles become emotionally ready to welcome new love after letting go of the past.",
+
+    "career": "Career-wise, new motivation, exciting opportunities, or a change in perspective helps restore enthusiasm for your professional life. Job offers, promotions, or creative inspiration may appear unexpectedly.",
+
+    "finance": "Financial opportunities become easier to recognize. Improved confidence and practical decision-making support long-term financial stability. Remain open to new ideas and avoid repeating past financial mistakes.",
+
+    "health": "Energy, motivation, and emotional well-being improve significantly. Positive lifestyle changes, healthier habits, and renewed optimism contribute to overall recovery and long-term wellness.",
+
+    "spiritual": "Spiritually, you are reconnecting with your intuition, appreciating life's blessings, and becoming more receptive to divine guidance. Gratitude and mindfulness strengthen your spiritual journey.",
+
+    "advice": "Open your heart to new possibilities. Release emotional stagnation, embrace fresh opportunities, and trust that positive changes are already beginning to unfold."
+  },
+
+  "yes_no": {
+    "upright": "Maybe",
+    "reversed": "Yes"
+  },
+
+  "timing": {
+    "upright": "Within 4 Weeks to 4 Months",
+    "reversed": "Very Soon"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Moon",
+    "zodiac": "Cancer",
+    "numerology": 4
+  },
+
+  "affirmation": "I release emotional stagnation, welcome new opportunities with an open heart, and trust that every experience guides me toward greater happiness, clarity, and fulfillment."
+}

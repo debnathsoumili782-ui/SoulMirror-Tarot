@@ -1,0 +1,84 @@
+{
+  "id": 37,
+  "name": "Two of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 2,
+  "image": "cards/cups/two-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Partnership",
+      "Love",
+      "Harmony",
+      "Unity",
+      "Mutual Respect",
+      "Connection",
+      "Trust",
+      "Soulmate"
+    ],
+    "reversed": [
+      "Separation",
+      "Misunderstanding",
+      "Conflict",
+      "Broken Trust",
+      "Disharmony",
+      "Imbalance",
+      "Emotional Distance",
+      "Communication Issues"
+    ]
+  },
+
+  "overview": "The Two of Cups represents deep emotional connections, mutual respect, and balanced partnerships. Although often associated with romantic love, this card also symbolizes meaningful friendships, successful business partnerships, reconciliation, and relationships built on trust and equality. It reminds you that genuine connections flourish through honesty, communication, compassion, and mutual support. The Two of Cups encourages opening your heart while maintaining healthy boundaries and emotional balance.",
+
+  "upright": {
+    "meaning": "The Two of Cups Upright signifies harmony, mutual understanding, emotional balance, and meaningful partnerships. It represents relationships built on trust, respect, and genuine affection. This card often indicates the beginning of a significant emotional connection or the strengthening of an existing one.",
+
+    "love": "One of the most positive relationship cards in the Tarot, the Two of Cups represents soulmate connections, mutual attraction, commitment, reconciliation, engagement, and emotional fulfillment. Existing relationships deepen through trust and honest communication, while singles may meet someone who shares their values and emotional maturity.",
+
+    "career": "Professionally, this card signifies successful teamwork, business partnerships, productive collaborations, and supportive workplace relationships. Mutual respect and shared goals create excellent opportunities for long-term success.",
+
+    "finance": "Financially, the Two of Cups encourages cooperative financial planning, joint investments, business partnerships, and shared financial goals. Trust and transparency are essential for lasting financial success.",
+
+    "health": "Health improves through emotional balance, supportive relationships, reduced stress, and positive self-care. Healing is accelerated when you accept help and maintain healthy emotional connections.",
+
+    "spiritual": "Spiritually, the Two of Cups represents inner harmony, emotional healing, self-love, and the balance between your heart and soul. It encourages compassion toward yourself and others while strengthening your connection to the universe.",
+
+    "advice": "Value relationships built on trust, honesty, and equality. Open your heart without losing your sense of self, and remember that true partnerships help both people grow together."
+  },
+
+  "reversed": {
+    "meaning": "The Two of Cups Reversed suggests misunderstandings, emotional distance, imbalance, or conflict within a relationship. Communication may be lacking, or trust may need rebuilding. The card encourages honest conversations, forgiveness where appropriate, and restoring emotional balance before making important decisions.",
+
+    "love": "Relationships may experience disagreements, emotional distance, trust issues, or temporary separation. Healing is possible through patience, honesty, and mutual effort. Singles should focus on self-love before seeking validation through another person.",
+
+    "career": "Career-wise, workplace disagreements, communication problems, or unbalanced partnerships may affect productivity. Focus on cooperation, active listening, and resolving misunderstandings professionally.",
+
+    "finance": "Financial disagreements with partners, family members, or business associates may require careful discussion. Review agreements thoroughly and maintain complete transparency before making financial commitments.",
+
+    "health": "Emotional stress, relationship tension, or unresolved feelings may affect overall well-being. Prioritize emotional healing, stress management, and healthy communication to restore balance.",
+
+    "spiritual": "Spiritually, you may feel disconnected from yourself or others. Rebuilding inner harmony through meditation, forgiveness, gratitude, and self-compassion will strengthen your spiritual growth.",
+
+    "advice": "Don't ignore relationship problems. Address misunderstandings with honesty, rebuild trust patiently, and remember that healthy relationships require effort from both sides."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 2 Months",
+    "reversed": "Delayed Until Harmony Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Venus",
+    "zodiac": "Cancer",
+    "numerology": 2
+  },
+
+  "affirmation": "I attract healthy, loving, and balanced relationships. My heart is open to trust, mutual respect, and meaningful connections that nurture my soul."
+}

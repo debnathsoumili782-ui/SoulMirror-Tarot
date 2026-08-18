@@ -1,0 +1,84 @@
+{
+  "id": 8,
+  "name": "Strength",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 8,
+  "image": "cards/major/strength.png",
+
+  "keywords": {
+    "upright": [
+      "Inner Strength",
+      "Courage",
+      "Compassion",
+      "Patience",
+      "Confidence",
+      "Self-Control",
+      "Resilience",
+      "Determination"
+    ],
+    "reversed": [
+      "Self-Doubt",
+      "Weakness",
+      "Fear",
+      "Insecurity",
+      "Lack of Confidence",
+      "Emotional Instability",
+      "Impatience",
+      "Low Energy"
+    ]
+  },
+
+  "overview": "Strength represents inner courage, resilience, compassion, and emotional mastery. Unlike physical power, this card symbolizes quiet confidence, patience, and the ability to overcome challenges through kindness rather than force. It reminds you that true strength comes from controlling your emotions, believing in yourself, and facing life's difficulties with courage and determination. This card often appears when you are stronger than you realize and encourages trusting your inner power.",
+
+  "upright": {
+    "meaning": "Strength Upright represents courage, emotional balance, confidence, and perseverance. It indicates that you possess the inner strength needed to overcome obstacles through patience and wisdom rather than aggression. This card encourages self-belief, resilience, and gentle determination in every aspect of life.",
+
+    "love": "In relationships, Strength represents trust, patience, emotional maturity, and unconditional support. Difficulties can be overcome through understanding and honest communication. Singles may attract someone who appreciates their genuine confidence and kindness.",
+
+    "career": "Professionally, Strength indicates leadership through calmness, persistence, and reliability. Challenges at work can be successfully managed by remaining patient and confident. Promotions and recognition often come through consistent effort rather than competition.",
+
+    "finance": "Financially, this card suggests stability achieved through discipline and responsible planning. Avoid emotional spending and continue building your financial future with patience and consistency.",
+
+    "health": "Strength is a positive health card, indicating recovery, improved vitality, emotional healing, and growing physical endurance. Small, consistent improvements will produce lasting results.",
+
+    "spiritual": "Spiritually, Strength symbolizes mastering your emotions, trusting your intuition, and recognizing your inner resilience. Personal growth comes through self-acceptance, forgiveness, and compassion toward yourself and others.",
+
+    "advice": "Trust your inner strength. Stay calm under pressure, believe in yourself, and remember that patience often accomplishes more than force or anger."
+  },
+
+  "reversed": {
+    "meaning": "Strength Reversed suggests self-doubt, fear, emotional exhaustion, or feeling overwhelmed by life's challenges. You may underestimate your abilities or allow negative thoughts to weaken your confidence. The card reminds you that your strength has not disappeared—it simply needs to be rediscovered.",
+
+    "love": "In love, insecurity, jealousy, emotional distance, or lack of confidence may create tension. Honest communication and rebuilding self-worth are essential for healthier relationships.",
+
+    "career": "Career-wise, you may question your abilities, avoid new opportunities, or struggle with workplace pressure. Believe in your skills and don't let fear prevent you from reaching your potential.",
+
+    "finance": "Financial worries may arise due to uncertainty or lack of confidence. Avoid making decisions based on fear, and focus instead on practical planning and steady progress.",
+
+    "health": "Stress, anxiety, burnout, or emotional exhaustion may affect your overall well-being. Prioritize rest, self-care, and seeking support when needed.",
+
+    "spiritual": "You may feel disconnected from your inner power or lose faith in yourself. Meditation, self-reflection, and practicing self-compassion will help restore balance and confidence.",
+
+    "advice": "Be gentle with yourself. Healing takes time, and true courage often means asking for help, accepting your imperfections, and continuing to move forward despite fear."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Likely No"
+  },
+
+  "timing": {
+    "upright": "Within 2–4 Months",
+    "reversed": "Delayed Until Confidence Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Sun",
+    "zodiac": "Leo",
+    "numerology": 8
+  },
+
+  "affirmation": "I am stronger than my fears. I face every challenge with courage, patience, compassion, and unwavering confidence."
+}

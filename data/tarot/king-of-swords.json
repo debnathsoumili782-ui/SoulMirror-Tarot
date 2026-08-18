@@ -1,0 +1,84 @@
+{
+  "id": 63,
+  "name": "King of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 14,
+  "image": "cards/swords/king-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Authority",
+      "Wisdom",
+      "Truth",
+      "Leadership",
+      "Discipline",
+      "Logic",
+      "Justice",
+      "Integrity"
+    ],
+    "reversed": [
+      "Manipulation",
+      "Coldness",
+      "Abuse of Power",
+      "Rigid Thinking",
+      "Harsh Judgment",
+      "Dishonesty",
+      "Control",
+      "Poor Communication"
+    ]
+  },
+
+  "overview": "The King of Swords represents wisdom, authority, truth, and intellectual mastery. He is a leader who makes decisions based on logic, fairness, and experience rather than emotion alone. Calm under pressure and guided by integrity, he values honesty, discipline, and justice above personal gain. This card encourages you to think objectively, communicate clearly, and lead with both intelligence and responsibility. True power comes not from control, but from wisdom, fairness, and unwavering integrity.",
+
+  "upright": {
+    "meaning": "The King of Swords Upright signifies wisdom, clear judgment, authority, and rational decision-making. You possess the knowledge and experience to solve difficult problems objectively. This card encourages using both intelligence and integrity while remaining fair, honest, and emotionally balanced.",
+
+    "love": "In relationships, the King of Swords represents loyalty, honesty, emotional maturity, and mutual respect. Partners value open communication and trust. Singles may meet someone intelligent, dependable, emotionally mature, and capable of building a stable long-term relationship.",
+
+    "career": "Professionally, this is one of the strongest leadership cards in Tarot. It represents executive positions, management, law, education, consulting, government, research, or strategic leadership. Your knowledge, professionalism, and fairness earn respect and long-term success.",
+
+    "finance": "Financially, the King of Swords encourages disciplined planning, wise investments, careful budgeting, and making decisions based on facts rather than emotions. Long-term financial security is achieved through patience and intelligent strategy.",
+
+    "health": "Health improves through discipline, proper diagnosis, informed medical decisions, and maintaining consistent healthy habits. Mental clarity and emotional stability contribute greatly to overall well-being.",
+
+    "spiritual": "Spiritually, this card represents higher wisdom, truth, discernment, and mastering the balance between intellect and intuition. Seeking knowledge with humility strengthens your spiritual journey and allows you to guide others wisely.",
+
+    "advice": "Lead with wisdom, fairness, and integrity. Speak honestly, think clearly, and make decisions based on truth rather than emotion. Your greatest strength lies in disciplined thinking and ethical leadership."
+  },
+
+  "reversed": {
+    "meaning": "The King of Swords Reversed suggests misuse of authority, manipulation, excessive criticism, emotional detachment, or making decisions without compassion. Intelligence may be used unfairly, or rigid thinking may prevent growth. Balance logic with empathy and remember that true leadership serves others rather than controlling them.",
+
+    "love": "Relationships may suffer because of emotional distance, controlling behavior, harsh words, or lack of empathy. Honest communication, emotional openness, and mutual respect are essential for rebuilding trust. Singles should avoid emotionally unavailable or manipulative partners.",
+
+    "career": "Career-wise, workplace politics, abuse of authority, poor leadership, or communication problems may create tension. Remain professional, avoid power struggles, and lead through fairness rather than intimidation.",
+
+    "finance": "Financially, avoid making decisions based solely on pride, overconfidence, or rigid thinking. Carefully review contracts, seek trusted advice, and remain flexible when circumstances change.",
+
+    "health": "Stress caused by overwork, perfectionism, emotional suppression, or mental pressure may affect your well-being. Balance discipline with self-care and allow yourself time to rest and recover.",
+
+    "spiritual": "Spiritually, excessive attachment to logic may block intuitive wisdom. Practice humility, compassion, and open-mindedness while allowing both intellect and intuition to work together harmoniously.",
+
+    "advice": "Power without compassion becomes control. Lead with integrity, remain open to different perspectives, and allow wisdom—not ego—to guide your actions and decisions."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "No"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Better Judgment Is Applied"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Fire of Air",
+    "zodiac": "Aquarius",
+    "numerology": 14
+  },
+
+  "affirmation": "I lead with wisdom, integrity, and clarity. My decisions are guided by truth, my words create understanding, and my knowledge serves the highest good."
+}

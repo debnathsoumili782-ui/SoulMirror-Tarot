@@ -1,0 +1,84 @@
+{
+  "id": 24,
+  "name": "Three of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 3,
+  "image": "cards/wands/three-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Expansion",
+      "Growth",
+      "Progress",
+      "Opportunity",
+      "Exploration",
+      "Success",
+      "Vision",
+      "Confidence"
+    ],
+    "reversed": [
+      "Delays",
+      "Obstacles",
+      "Limited Progress",
+      "Frustration",
+      "Missed Opportunities",
+      "Poor Planning",
+      "Lack of Direction",
+      "Setbacks"
+    ]
+  },
+
+  "overview": "The Three of Wands represents expansion, progress, and the exciting stage where your efforts begin producing visible results. It symbolizes looking toward the future with optimism, exploring new opportunities, and preparing for greater success. This card often appears when your hard work is beginning to pay off, encouraging you to continue thinking big and embracing new experiences. It reminds you that patience, planning, and confidence will lead to even greater achievements.",
+
+  "upright": {
+    "meaning": "The Three of Wands Upright signifies expansion, forward movement, and successful long-term planning. Your efforts are beginning to produce results, and new opportunities may arrive through travel, education, business, or international connections. Continue building on your progress with confidence.",
+
+    "love": "In relationships, this card suggests growth, future planning, and stronger commitment. Couples may discuss marriage, moving together, or building a shared future. Singles may meet someone through travel, work, or expanding their social circle.",
+
+    "career": "Professionally, the Three of Wands indicates career growth, successful business expansion, international opportunities, promotions, networking, and achieving important milestones. Your long-term vision is beginning to become reality.",
+
+    "finance": "Financially, this card represents increasing income, profitable investments, expanding business opportunities, and steady financial growth. Continue making thoughtful long-term financial decisions.",
+
+    "health": "Health steadily improves through consistency and patience. Positive lifestyle changes begin producing noticeable results, increasing both physical energy and emotional well-being.",
+
+    "spiritual": "Spiritually, this card represents expanding awareness, exploring new beliefs, and trusting your personal journey. Growth comes through remaining open to new experiences while staying connected to your inner wisdom.",
+
+    "advice": "Keep looking ahead. Continue building upon your progress, stay optimistic, and remain open to opportunities beyond your current comfort zone."
+  },
+
+  "reversed": {
+    "meaning": "The Three of Wands Reversed suggests delays, frustration, limited progress, or feeling that your plans are not developing as expected. Temporary obstacles may require adjusting your strategy before moving forward successfully.",
+
+    "love": "Relationships may experience delays in reaching shared goals or misunderstandings about the future. Honest communication and patience will help restore alignment. Singles should avoid rushing relationships that lack a solid foundation.",
+
+    "career": "Career progress may temporarily slow due to poor planning, external obstacles, or missed opportunities. Reassess your goals, strengthen your preparation, and remain patient while circumstances improve.",
+
+    "finance": "Financial growth may be slower than expected because of delays, unexpected expenses, or cautious investments. Stay disciplined and avoid making emotional financial decisions.",
+
+    "health": "Recovery or fitness goals may take longer than anticipated. Remain consistent with healthy routines and avoid becoming discouraged by slow progress.",
+
+    "spiritual": "Spiritually, you may feel disconnected from your long-term purpose or question your direction. Trust that delays often provide valuable lessons before greater expansion becomes possible.",
+
+    "advice": "Don't allow temporary setbacks to discourage you. Review your plans, remain flexible, and continue moving forward with patience and determination."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 3 Months",
+    "reversed": "Delayed Until Obstacles Are Resolved"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Sun",
+    "zodiac": "Aries",
+    "numerology": 3
+  },
+
+  "affirmation": "I confidently expand my horizons, trust the journey ahead, and welcome every opportunity that brings growth, success, and abundance into my life."
+}

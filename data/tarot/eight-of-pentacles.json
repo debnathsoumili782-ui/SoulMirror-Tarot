@@ -1,0 +1,84 @@
+{
+  "id": 71,
+  "name": "Eight of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 8,
+  "image": "cards/pentacles/eight-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Hard Work",
+      "Mastery",
+      "Skill Development",
+      "Dedication",
+      "Learning",
+      "Craftsmanship",
+      "Discipline",
+      "Achievement"
+    ],
+    "reversed": [
+      "Perfectionism",
+      "Lack of Focus",
+      "Poor Quality",
+      "Burnout",
+      "Carelessness",
+      "Laziness",
+      "Lack of Progress",
+      "Routine"
+    ]
+  },
+
+  "overview": "The Eight of Pentacles represents dedication, continuous learning, and mastering your craft through patience and consistent effort. It symbolizes the satisfaction that comes from improving your skills and taking pride in your work. Success is not achieved overnight but through discipline, persistence, and attention to detail. This card encourages you to remain committed to your goals, embrace opportunities to learn, and trust that every small improvement brings you closer to lasting success and personal fulfillment.",
+
+  "upright": {
+    "meaning": "The Eight of Pentacles Upright signifies hard work, discipline, skill development, and commitment to excellence. Your consistent efforts are helping you grow professionally and personally. This card encourages staying focused, practicing your craft, and understanding that mastery comes through patience and dedication.",
+
+    "love": "In relationships, the Eight of Pentacles represents putting effort into strengthening your connection. Healthy relationships grow through communication, patience, and mutual commitment. Couples who work together overcome challenges successfully, while singles may attract someone who values loyalty, stability, and personal growth.",
+
+    "career": "Professionally, this is one of the strongest career cards in the Tarot. It indicates promotions, career advancement, apprenticeships, education, certifications, successful projects, and recognition earned through dedication. Your willingness to learn will create long-term success.",
+
+    "finance": "Financially, the Eight of Pentacles encourages disciplined saving, careful budgeting, and building wealth gradually through consistent effort. Investments in education, skills, or long-term financial planning are especially favorable.",
+
+    "health": "Health improves through consistent healthy habits, regular exercise, proper nutrition, and following professional advice. Small daily improvements produce lasting physical and emotional well-being.",
+
+    "spiritual": "Spiritually, this card teaches that personal growth is built through daily practice, mindfulness, self-discipline, and continuous learning. Every experience contributes to your wisdom and spiritual development.",
+
+    "advice": "Stay committed to your goals and continue improving your skills. Success belongs to those who remain patient, disciplined, and willing to learn every day."
+  },
+
+  "reversed": {
+    "meaning": "The Eight of Pentacles Reversed suggests lack of focus, poor workmanship, perfectionism, or becoming discouraged by slow progress. You may either be avoiding effort or demanding unrealistic perfection from yourself. Find a healthy balance between excellence and self-compassion.",
+
+    "love": "Relationships may suffer if one or both partners stop putting in consistent effort. Routine, neglect, or lack of communication can create emotional distance. Reinvest time, energy, and appreciation into your relationship. Singles should focus on personal growth before expecting lasting love.",
+
+    "career": "Career-wise, distractions, poor preparation, lack of motivation, or burnout may reduce productivity. Review your goals, strengthen your skills, and avoid cutting corners. Quality work will always outperform rushed results.",
+
+    "finance": "Financially, inconsistent planning, careless spending, or unrealistic expectations may delay progress. Create a structured financial plan, remain disciplined, and focus on long-term stability rather than quick rewards.",
+
+    "health": "Neglecting healthy routines, overworking, or perfectionism may affect your well-being. Balance discipline with rest, and remember that consistency matters more than perfection.",
+
+    "spiritual": "Spiritually, becoming distracted or expecting instant growth may slow your progress. Return to regular spiritual practices, remain patient, and appreciate the gradual nature of personal transformation.",
+
+    "advice": "Don't give up because success takes time. Improve one step at a time, avoid perfectionism, and remember that consistent effort always produces greater results than occasional bursts of motivation."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 8 Months",
+    "reversed": "Delayed Until Consistent Effort Is Applied"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Sun",
+    "zodiac": "Virgo",
+    "numerology": 8
+  },
+
+  "affirmation": "I improve through consistent effort, patience, and dedication. Every skill I develop and every step I take brings me closer to lasting success, abundance, and personal mastery."
+}

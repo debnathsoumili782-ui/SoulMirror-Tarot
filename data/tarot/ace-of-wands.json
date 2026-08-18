@@ -1,0 +1,84 @@
+{
+  "id": 22,
+  "name": "Ace of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 1,
+  "image": "cards/wands/ace-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "New Opportunity",
+      "Inspiration",
+      "Passion",
+      "Creativity",
+      "Growth",
+      "Motivation",
+      "Potential",
+      "Action"
+    ],
+    "reversed": [
+      "Creative Block",
+      "Delay",
+      "Lack of Motivation",
+      "Missed Opportunity",
+      "Frustration",
+      "Self-Doubt",
+      "Low Energy",
+      "False Start"
+    ]
+  },
+
+  "overview": "The Ace of Wands represents exciting new beginnings, creative inspiration, and limitless potential. It symbolizes the spark that starts a new journey, whether in your career, relationships, personal goals, or spiritual life. This card encourages taking bold action, trusting your abilities, and embracing opportunities with enthusiasm. It reminds you that every great achievement begins with a single inspired idea and the courage to act upon it.",
+
+  "upright": {
+    "meaning": "The Ace of Wands Upright signifies fresh starts, powerful inspiration, and the courage to pursue new opportunities. Your creativity and enthusiasm are at their highest, making this an excellent time to begin new projects or follow your passions.",
+
+    "love": "In love, this card represents excitement, attraction, passion, and the beginning of a promising relationship. Existing relationships experience renewed energy, while singles may meet someone who sparks genuine excitement and emotional connection.",
+
+    "career": "Professionally, the Ace of Wands signals new job opportunities, promotions, business ideas, creative projects, or leadership roles. It encourages taking initiative and confidently pursuing your ambitions.",
+
+    "finance": "Financially, this card suggests new income opportunities, profitable ideas, or investments with strong growth potential. Careful planning combined with confidence can produce excellent long-term results.",
+
+    "health": "The Ace of Wands represents renewed vitality, physical energy, motivation, and beginning healthier habits. It is an excellent time to improve your fitness, nutrition, and overall lifestyle.",
+
+    "spiritual": "Spiritually, this card symbolizes awakening, inspiration, and discovering a new purpose. It encourages exploring your spiritual gifts and trusting the path that excites your soul.",
+
+    "advice": "Take action while inspiration is strong. Believe in yourself, trust your instincts, and don't allow fear to prevent you from pursuing exciting new opportunities."
+  },
+
+  "reversed": {
+    "meaning": "The Ace of Wands Reversed suggests delays, creative blocks, lack of motivation, or hesitation in pursuing new opportunities. Fear of failure or uncertainty may prevent progress. Regaining confidence and clarity will help reignite your passion.",
+
+    "love": "Relationships may temporarily lose excitement due to poor communication or emotional hesitation. Singles may struggle to open their hearts because of past disappointments. Honest communication and patience will restore connection.",
+
+    "career": "Career plans may experience delays, cancelled opportunities, or lack of inspiration. Review your goals carefully, improve your preparation, and avoid giving up because of temporary setbacks.",
+
+    "finance": "Financial opportunities may take longer than expected to develop. Avoid impulsive investments and focus on strengthening your financial foundation before making major commitments.",
+
+    "health": "Low energy, burnout, stress, or lack of motivation may affect your well-being. Prioritize rest, proper nutrition, and rebuilding healthy routines before pushing yourself too hard.",
+
+    "spiritual": "Spiritually, you may feel disconnected from your purpose or creative energy. Spend time reconnecting with yourself through meditation, journaling, or nature before seeking external answers.",
+
+    "advice": "Don't mistake temporary delays for failure. Rebuild your confidence, refine your plans, and remember that every successful journey sometimes requires a fresh start."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Not Yet"
+  },
+
+  "timing": {
+    "upright": "Within 1 Month",
+    "reversed": "Delayed Until Motivation Returns"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Mars",
+    "zodiac": "Aries, Leo, Sagittarius",
+    "numerology": 1
+  },
+
+  "affirmation": "I confidently embrace new opportunities, trust my creative power, and take inspired action toward the life I truly desire."
+}

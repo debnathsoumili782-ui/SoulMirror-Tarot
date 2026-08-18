@@ -1,0 +1,84 @@
+{
+  "id": 18,
+  "name": "The Moon",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 18,
+  "image": "cards/major/the-moon.png",
+
+  "keywords": {
+    "upright": [
+      "Intuition",
+      "Illusion",
+      "Dreams",
+      "Mystery",
+      "Subconscious",
+      "Uncertainty",
+      "Hidden Truths",
+      "Imagination"
+    ],
+    "reversed": [
+      "Clarity",
+      "Truth Revealed",
+      "Overcoming Fear",
+      "Emotional Healing",
+      "Confusion Clearing",
+      "Revelation",
+      "Self-Awareness",
+      "Release of Anxiety"
+    ]
+  },
+
+  "overview": "The Moon represents mystery, intuition, dreams, emotions, and the hidden parts of the subconscious mind. It reminds you that not everything is as it appears on the surface. This card often appears during periods of uncertainty when emotions, fears, or illusions make it difficult to see the complete truth. Rather than acting impulsively, The Moon encourages trusting your intuition, observing carefully, and allowing hidden information to reveal itself naturally. It is also strongly connected to psychic abilities, dreams, imagination, and spiritual insight.",
+
+  "upright": {
+    "meaning": "The Moon Upright signifies uncertainty, intuition, hidden truths, and emotional complexity. You may not have all the information you need right now. Instead of forcing answers, trust your instincts and remain patient until clarity naturally emerges. This card reminds you that your intuition is often more reliable than appearances.",
+
+    "love": "In relationships, The Moon may indicate confusion, misunderstandings, hidden emotions, or uncertainty about someone's intentions. Honest communication is essential. Singles should avoid idealizing new partners too quickly and instead allow trust to develop naturally over time.",
+
+    "career": "Professionally, this card suggests unclear situations, workplace politics, hidden information, or uncertainty about future opportunities. Avoid making major career decisions until you have all the facts. Trust your instincts but verify important details.",
+
+    "finance": "Financially, The Moon advises caution. Hidden expenses, misleading opportunities, or uncertain investments may appear attractive but require careful research. Avoid making emotional financial decisions.",
+
+    "health": "The Moon often points to emotional health, stress, anxiety, hormonal balance, sleep quality, and subconscious influences on physical well-being. Rest, relaxation, and emotional healing are especially important during this period.",
+
+    "spiritual": "Spiritually, this is one of the strongest intuitive cards in the Tarot. Dreams, meditation, psychic development, moon rituals, and inner reflection may provide powerful guidance. Trust the quiet voice within rather than external distractions.",
+
+    "advice": "Trust your intuition, but don't rush important decisions. Observe carefully, remain patient, and allow hidden truths to reveal themselves before taking action."
+  },
+
+  "reversed": {
+    "meaning": "The Moon Reversed represents clarity returning after confusion, hidden truths being revealed, emotional healing, and overcoming fear or anxiety. Illusions begin to fade, allowing you to see situations more realistically. This card encourages trusting the lessons learned during uncertain times.",
+
+    "love": "In love, misunderstandings begin to clear, secrets may come to light, and emotional honesty creates stronger relationships. Singles become more confident in recognizing healthy relationships and avoiding emotional illusions.",
+
+    "career": "Professionally, confusion begins to disappear as important information becomes available. Workplace misunderstandings are resolved, allowing better decisions and clearer career direction.",
+
+    "finance": "Financial uncertainty improves through better planning, careful research, and increased awareness. Hidden expenses become visible, allowing you to regain control over your financial situation.",
+
+    "health": "Emotional recovery, reduced stress, improved sleep, and greater mental clarity support healing. Continue prioritizing self-care and emotional balance.",
+
+    "spiritual": "Spiritually, The Moon Reversed represents awakening, stronger intuition, emotional release, and trusting your inner guidance with greater confidence. Fear gradually transforms into wisdom.",
+
+    "advice": "Release unnecessary fear and trust the truth as it becomes clear. Don't allow past uncertainty to prevent you from moving forward with confidence and self-awareness."
+  },
+
+  "yes_no": {
+    "upright": "Uncertain",
+    "reversed": "Yes — After Clarity Arrives"
+  },
+
+  "timing": {
+    "upright": "Within the Next Lunar Cycle (About 1 Month)",
+    "reversed": "Within 1–2 Months"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Moon",
+    "zodiac": "Pisces",
+    "numerology": 18
+  },
+
+  "affirmation": "I trust my intuition, release fear, and allow truth to reveal itself at the perfect time. My inner wisdom always guides me toward clarity."
+}

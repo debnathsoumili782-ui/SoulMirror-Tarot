@@ -1,0 +1,84 @@
+{
+  "id": 54,
+  "name": "Five of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 5,
+  "image": "cards/swords/five-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Conflict",
+      "Disagreement",
+      "Tension",
+      "Winning at a Cost",
+      "Ego",
+      "Competition",
+      "Defeat",
+      "Arguments"
+    ],
+    "reversed": [
+      "Reconciliation",
+      "Forgiveness",
+      "Compromise",
+      "Making Peace",
+      "Moving On",
+      "Ending Conflict",
+      "Acceptance",
+      "Healing"
+    ]
+  },
+
+  "overview": "The Five of Swords represents conflict, disagreements, and the consequences of pursuing victory at any cost. It reminds you that not every battle is worth fighting, and being right is sometimes less important than preserving peace and healthy relationships. This card encourages examining your motives, choosing your battles wisely, and seeking solutions that benefit everyone involved. True strength is found in wisdom, humility, and knowing when to walk away from unnecessary conflict.",
+
+  "upright": {
+    "meaning": "The Five of Swords Upright signifies conflict, arguments, unhealthy competition, or situations where someone wins while others lose. It may indicate misunderstandings, power struggles, or tension caused by pride and poor communication. This card encourages thinking carefully before engaging in unnecessary battles.",
+
+    "love": "In relationships, the Five of Swords suggests frequent arguments, emotional distance, stubbornness, or unresolved conflicts. Honest communication and mutual respect are needed to prevent small disagreements from becoming larger problems. Singles should avoid relationships based on manipulation, ego, or emotional games.",
+
+    "career": "Professionally, this card may indicate workplace competition, office politics, conflicts with colleagues, or disagreements with management. Stay professional, avoid unnecessary drama, and focus on long-term success rather than proving yourself right in every situation.",
+
+    "finance": "Financial disagreements, legal matters, business conflicts, or arguments over money may arise. Avoid making financial decisions based on anger or pride. Careful negotiation and compromise produce better long-term results.",
+
+    "health": "Stress caused by conflict, anger, or mental exhaustion may affect your overall well-being. Prioritize emotional balance, relaxation, and healthy ways of managing frustration before it impacts your physical health.",
+
+    "spiritual": "Spiritually, the Five of Swords teaches humility, forgiveness, and learning from difficult experiences. It reminds you that inner peace is more valuable than winning external conflicts.",
+
+    "advice": "Ask yourself whether the battle is truly worth fighting. Protect your peace, choose wisdom over ego, and remember that lasting success comes through cooperation rather than unnecessary conflict."
+  },
+
+  "reversed": {
+    "meaning": "The Five of Swords Reversed represents reconciliation, forgiveness, resolving conflicts, and letting go of resentment. It signals the opportunity to heal damaged relationships, learn from past mistakes, and move forward with greater maturity and understanding.",
+
+    "love": "Relationships begin healing through honest conversations, forgiveness, and mutual effort. Couples may overcome previous disagreements, while singles become emotionally ready to release past conflicts and welcome healthier love into their lives.",
+
+    "career": "Career conflicts begin to settle as communication improves and teamwork replaces competition. Workplace relationships become healthier through cooperation, compromise, and mutual respect.",
+
+    "finance": "Financial disputes or disagreements gradually resolve through negotiation and practical decision-making. Avoid dwelling on past financial mistakes and focus on rebuilding long-term stability.",
+
+    "health": "Reduced stress, emotional healing, and releasing anger positively affect both physical and mental well-being. Forgiveness and emotional balance support overall recovery.",
+
+    "spiritual": "Spiritually, this card represents releasing resentment, practicing forgiveness, and understanding that inner peace is achieved by letting go of unnecessary emotional burdens rather than holding onto them.",
+
+    "advice": "Choose peace over pride. Forgive where possible, learn from past conflicts, and move forward without carrying resentment. Your energy is better invested in building your future than reliving old battles."
+  },
+
+  "yes_no": {
+    "upright": "No",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 5 Weeks",
+    "reversed": "After Conflict Is Resolved"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Venus",
+    "zodiac": "Aquarius",
+    "numerology": 5
+  },
+
+  "affirmation": "I release conflict, choose wisdom over ego, and create peace through honesty, compassion, and understanding. My greatest strength is found in calmness, forgiveness, and inner balance."
+}

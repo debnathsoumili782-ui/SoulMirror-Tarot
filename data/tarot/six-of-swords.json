@@ -1,0 +1,84 @@
+{
+  "id": 55,
+  "name": "Six of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 6,
+  "image": "cards/swords/six-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Transition",
+      "Healing",
+      "Moving Forward",
+      "Recovery",
+      "Peace",
+      "Journey",
+      "Hope",
+      "Progress"
+    ],
+    "reversed": [
+      "Resistance",
+      "Stagnation",
+      "Emotional Baggage",
+      "Delayed Progress",
+      "Difficulty Letting Go",
+      "Unfinished Business",
+      "Stress",
+      "Returning to the Past"
+    ]
+  },
+
+  "overview": "The Six of Swords represents transition, healing, and leaving behind difficult circumstances in search of peace and stability. It symbolizes moving away from emotional pain, conflict, or uncertainty toward a brighter future. Although the journey may not be easy, this card reassures you that every step forward brings greater wisdom, clarity, and emotional healing. It reminds you that growth often requires leaving behind what no longer serves you and trusting that calmer waters lie ahead.",
+
+  "upright": {
+    "meaning": "The Six of Swords Upright signifies recovery, progress, healing, and positive transitions. You are moving away from challenges toward greater peace, even if the journey feels slow. This card encourages trusting the process, accepting necessary changes, and believing that better days are ahead.",
+
+    "love": "In relationships, the Six of Swords represents healing after conflict, rebuilding trust, reconciliation, or moving into a healthier phase together. Couples overcome past difficulties through patience and communication. Singles are leaving behind emotional wounds and becoming ready for healthier, more stable relationships.",
+
+    "career": "Professionally, this card suggests career transitions, changing jobs, relocating, improving workplace conditions, or gradually overcoming professional challenges. Progress may be slow, but each step leads toward greater satisfaction and long-term success.",
+
+    "finance": "Financially, the Six of Swords indicates gradual improvement after financial difficulties. Responsible budgeting, patience, and practical decisions help restore stability and confidence. Recovery may take time, but the overall direction is positive.",
+
+    "health": "Health improves steadily through proper treatment, rest, emotional healing, and healthy lifestyle changes. Recovery may happen gradually, but consistent effort brings lasting results.",
+
+    "spiritual": "Spiritually, this card represents moving beyond limiting beliefs, emotional healing, and finding greater inner peace. Your spiritual journey is leading you toward wisdom, acceptance, and a deeper understanding of yourself.",
+
+    "advice": "Leave the past behind without fear. Trust that every step forward brings greater peace, healing, and personal growth. Progress is still progress, even when it happens slowly."
+  },
+
+  "reversed": {
+    "meaning": "The Six of Swords Reversed suggests difficulty moving forward, emotional resistance, unresolved issues, or repeatedly returning to situations that no longer support your growth. Fear of change may be keeping you stuck. Healing begins when you accept what must be released.",
+
+    "love": "Relationships may remain trapped in repeating arguments, unresolved emotional wounds, or difficulty letting go of past mistakes. Honest communication and forgiveness are necessary before true healing can occur. Singles should release emotional baggage before pursuing new love.",
+
+    "career": "Career-wise, fear of change or reluctance to leave an unhealthy work environment may delay progress. Staying in your comfort zone may feel safe, but it could prevent valuable opportunities from entering your life.",
+
+    "finance": "Financial recovery may be delayed because of repeating old habits or avoiding necessary changes. Review your financial plans carefully, eliminate unhealthy spending patterns, and remain committed to long-term stability.",
+
+    "health": "Recovery may slow because of stress, emotional resistance, or neglecting necessary lifestyle changes. Accepting support and remaining consistent with healthy habits will improve overall well-being.",
+
+    "spiritual": "Spiritually, unresolved emotional wounds or attachment to the past may block your growth. Forgiveness, acceptance, and trusting the journey will help restore inner peace and spiritual clarity.",
+
+    "advice": "Don't let fear of the unknown keep you trapped in the familiar. Release what no longer serves you, trust the healing process, and move confidently toward the future waiting for you."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 6 Weeks to 6 Months",
+    "reversed": "Delayed Until You Embrace Change"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Mercury",
+    "zodiac": "Aquarius",
+    "numerology": 6
+  },
+
+  "affirmation": "I release the past with gratitude, trust the journey ahead, and welcome peace, healing, and positive transformation into every area of my life."
+}

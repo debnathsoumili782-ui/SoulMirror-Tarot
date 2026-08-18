@@ -1,0 +1,84 @@
+{
+  "id": 33,
+  "name": "Knight of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 12,
+  "image": "cards/wands/knight-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Action",
+      "Adventure",
+      "Ambition",
+      "Confidence",
+      "Passion",
+      "Courage",
+      "Energy",
+      "Determination"
+    ],
+    "reversed": [
+      "Impulsiveness",
+      "Recklessness",
+      "Impatience",
+      "Frustration",
+      "Inconsistency",
+      "Arrogance",
+      "Delays",
+      "Lack of Direction"
+    ]
+  },
+
+  "overview": "The Knight of Wands represents bold action, fearless ambition, and the courage to pursue exciting opportunities. Full of energy and passion, this card encourages taking initiative, embracing adventure, and confidently moving toward your goals. While enthusiasm is one of its greatest strengths, the Knight also reminds you to balance speed with wisdom. Success comes through combining passion with thoughtful planning rather than acting impulsively.",
+
+  "upright": {
+    "meaning": "The Knight of Wands Upright represents confidence, action, ambition, and rapid progress. You are ready to pursue your goals with determination and enthusiasm. This card encourages taking bold steps, trusting your abilities, and remaining adaptable as new opportunities arise.",
+
+    "love": "In relationships, the Knight of Wands signifies excitement, passion, romance, and adventure. Singles may experience an intense attraction or exciting new romance, while couples can reignite passion through shared experiences and open communication. Avoid rushing commitment before building a solid emotional foundation.",
+
+    "career": "Professionally, this card indicates career advancement, business expansion, leadership opportunities, travel for work, or exciting new projects. Your confidence and determination attract success, provided you remain focused and disciplined.",
+
+    "finance": "Financially, the Knight of Wands suggests new opportunities to increase income through bold but well-planned decisions. Avoid impulsive spending or risky investments. Careful planning combined with confidence leads to lasting prosperity.",
+
+    "health": "This card represents increased vitality, motivation, physical strength, and renewed enthusiasm for healthy habits. It encourages staying active while avoiding overexertion or unnecessary risk-taking.",
+
+    "spiritual": "Spiritually, the Knight of Wands encourages boldly exploring your spiritual path with curiosity and confidence. New experiences, travel, learning, or personal challenges may significantly accelerate your spiritual growth.",
+
+    "advice": "Act with confidence, but don't confuse speed with progress. Channel your passion into focused action, remain adaptable, and think before making major decisions."
+  },
+
+  "reversed": {
+    "meaning": "The Knight of Wands Reversed suggests impulsiveness, impatience, lack of focus, or acting without considering the consequences. You may feel frustrated by delays or become distracted by constantly changing goals. Slow down, regain clarity, and develop a realistic strategy before moving forward.",
+
+    "love": "Relationships may experience inconsistency, emotional immaturity, commitment issues, or unnecessary drama. Honest communication and emotional stability are necessary before making long-term commitments. Singles should avoid rushing into relationships based solely on attraction.",
+
+    "career": "Career-wise, rushing decisions, changing directions too often, or poor planning may delay success. Stay focused on your long-term goals and avoid abandoning opportunities because of temporary frustration.",
+
+    "finance": "Financially, avoid impulsive purchases, risky investments, or making emotional financial decisions. Careful budgeting and disciplined planning will provide greater long-term security.",
+
+    "health": "Stress, burnout, accidents caused by rushing, or inconsistent health routines may affect your well-being. Slow down, prioritize rest, and create sustainable healthy habits.",
+
+    "spiritual": "Spiritually, impatience may cause you to search endlessly without committing to meaningful personal growth. Slow your pace, remain consistent, and trust that true wisdom develops gradually.",
+
+    "advice": "Control your impulses before they control you. Slow down, stay focused, and remember that thoughtful action creates stronger results than reckless speed."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Not Yet"
+  },
+
+  "timing": {
+    "upright": "Within 2–8 Weeks",
+    "reversed": "Delayed Until Better Focus Is Achieved"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Fire of Fire",
+    "zodiac": "Sagittarius",
+    "numerology": 12
+  },
+
+  "affirmation": "I pursue my dreams with courage, passion, and confidence. My energy is focused, my actions are wise, and every step brings me closer to my highest purpose."
+}

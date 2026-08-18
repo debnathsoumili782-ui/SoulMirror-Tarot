@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% block title %} Simple-Love Reading{% endblock %}
+{% block content %}
+<section class="yesno-page">
+    <div class="container">
+        <!-- ================= QUESTION ================= -->
+        <section id="questionSection">
+            <h1 class="yesno-title">
+                Simple Love Reading
+            </h1>
+            <p class="yesno-subtitle">
+                Focus on your relationship and choose three cards to reveal the energies between you.
+            </p>
+            <form
+                id="questionForm"
+                method="POST"
+                action="{{ url_for('main.generate_love_reading') }}">
+                <div id="questionError" class="question-error"></div>
+
+                <textarea
+                    id="question"
+                    name="question"
+                    required
+                    maxlength="200"
+                    placeholder="Type your question here..."
+                ></textarea>
+
+                <input
+                    type="hidden"
+                    name="reading_type"
+                    value="single">
+                <input type="hidden" name="card1" id="card1">
+                <input type="hidden" name="card2" id="card2">
+                <input type="hidden" name="card3" id="card3">
+
+                <input type="hidden" name="orientation1" id="orientation1">
+                <input type="hidden" name="orientation2" id="orientation2">
+                <input type="hidden" name="orientation3" id="orientation3">
+                <button
+                    type="submit"
+                    class="btn btn-gold">
+                    Continue
+                </button>
+            </form>
+        </section>
+        <!-- ================= FOCUS ================= -->
+        <section id="focusScreen">
+            <div class="focus-box">
+                <h2>
+                    ✨ Focus on your question
+                </h2>
+                <p>
+                    Take a deep breath.<br>
+                    Concentrate on your intention.<br><br>
+                    The cards are preparing your answer...
+                </p>
+            </div>
+        </section>
+        <!-- ================= SHUFFLE ================= -->
+        <section id="shuffleSection">
+            <div class="deck-wrapper">
+                <div id="deck"></div>
+            </div>
+            <h2>
+                Shuffle the deck as many times as you wish.
+            </h2>
+            <p>
+                Trust your intuition.
+                When you feel the energy is right,
+                continue your reading.
+            </p>
+            <div class="shuffle-buttons">
+                <button
+                    id="shuffleBtn"
+                    class="btn btn-gold">
+                    🔀 Shuffle Again
+                </button>
+                <button
+                    id="readyBtn"
+                    class="btn btn-outline-light">
+                    ✨ I'm Ready
+                </button>
+            </div>
+            <script id="tarot-data" type="application/json">
+            {{ cards|tojson }}
+            </script>
+        </section>
+        <!-- ================= SELECTED SLOTS ================= -->
+
+        <section id="selectedSlots">
+            <div class="love-slot">
+                <div class="slot-card">
+                    <img id="slot1">
+                </div>
+                <p>Your Energy❤️</p>
+            </div>
+            <div class="love-slot">
+                <div class="slot-card">
+                    <img id="slot2">
+                </div>
+                <p>Their Energy💞</p>
+            </div>
+            <div class="love-slot">
+                <div class="slot-card">
+                    <img id="slot3">
+                </div>
+                <p>Relationship Guidance✨</p>
+            </div>
+        </section>
+        <!-- ================= FAN ================= -->
+        <section id="fanSection">
+            <h2>
+                Choose Your Card
+            </h2>
+            <p>
+                One card holds the message meant for you.
+            </p>
+            <div id="fanCards"></div>
+        </section>
+
+        <!-- ================= RESULT ================= -->
+        <section id="resultSection">
+            <div id="selectedCard">
+                <img id="revealedCard">
+            </div>
+            <div id="readingResult">
+            </div>
+        </section>
+    </div>
+    <div id="readingLoader" class="reading-loader">
+        <div class="loader-box">
+            <div class="loader-orb"></div>
+            <p id="loaderText">
+                ✨ The cards have been chosen...
+            </p>
+        </div>
+    </div>
+</section>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/simple-love.css') }}">
+<script src="{{ url_for('static', filename='js/simple-love.js') }}"></script>
+{% endblock %}

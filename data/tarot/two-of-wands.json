@@ -1,0 +1,84 @@
+{
+  "id": 23,
+  "name": "Two of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 2,
+  "image": "cards/wands/two-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Planning",
+      "Future",
+      "Decision",
+      "Expansion",
+      "Discovery",
+      "Ambition",
+      "Progress",
+      "Vision"
+    ],
+    "reversed": [
+      "Fear of Change",
+      "Poor Planning",
+      "Indecision",
+      "Limited Vision",
+      "Delays",
+      "Lack of Confidence",
+      "Missed Opportunities",
+      "Comfort Zone"
+    ]
+  },
+
+  "overview": "The Two of Wands represents planning, ambition, and preparing for future success. It symbolizes standing at the edge of new possibilities and deciding which direction to take. This card encourages thinking beyond your comfort zone, setting long-term goals, and believing in your ability to achieve something greater. Although the first step has already been taken, careful planning and confidence are needed before moving forward.",
+
+  "upright": {
+    "meaning": "The Two of Wands Upright signifies vision, preparation, and expansion. You are beginning to see bigger opportunities and are ready to make important decisions about your future. Success comes through careful planning, confidence, and taking calculated risks.",
+
+    "love": "In relationships, this card suggests planning a future together, discussing long-term goals, or taking the next step in commitment. Singles may meet someone through travel, education, or exploring new experiences. Open communication strengthens emotional connections.",
+
+    "career": "Professionally, the Two of Wands indicates career growth, promotions, international opportunities, business expansion, or pursuing higher education. Strategic planning and confidence will lead to long-term success.",
+
+    "finance": "Financially, this card encourages long-term investments, savings, and careful planning. Reviewing financial goals today will create greater stability in the future.",
+
+    "health": "Health improves through consistency and long-term planning. Establishing healthy routines now will produce lasting physical and emotional benefits.",
+
+    "spiritual": "Spiritually, this card encourages exploring new philosophies, expanding your consciousness, and trusting your intuition as you move toward personal growth and self-discovery.",
+
+    "advice": "Think beyond your current situation. Plan carefully, trust your abilities, and don't allow fear to stop you from pursuing greater opportunities."
+  },
+
+  "reversed": {
+    "meaning": "The Two of Wands Reversed suggests hesitation, poor planning, fear of change, or limiting yourself by staying within your comfort zone. Opportunities may be missed because of self-doubt or lack of preparation. Regain confidence before making important decisions.",
+
+    "love": "Relationships may feel uncertain due to different future goals or fear of commitment. Honest conversations about expectations will help create clarity. Singles should avoid letting past disappointments prevent new connections.",
+
+    "career": "Career progress may slow because of indecision, fear of taking risks, or lack of preparation. Review your long-term goals and improve your skills before pursuing new opportunities.",
+
+    "finance": "Financial uncertainty may result from poor planning or hesitation. Avoid impulsive decisions, review your budget carefully, and focus on creating a realistic financial strategy.",
+
+    "health": "Stress caused by uncertainty or overthinking may affect your well-being. Establishing healthy daily routines and reducing unnecessary worry will improve both physical and emotional health.",
+
+    "spiritual": "Spiritually, you may hesitate to explore new paths because of fear or uncertainty. Trust your intuition and remember that growth often begins outside your comfort zone.",
+
+    "advice": "Don't allow fear to make your decisions. Expand your vision, prepare carefully, and trust that you are capable of achieving far more than you currently believe."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 2 Months",
+    "reversed": "Delayed Until Better Planning"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Mars",
+    "zodiac": "Aries",
+    "numerology": 2
+  },
+
+  "affirmation": "I confidently plan my future, embrace new opportunities, and trust my vision to guide me toward lasting success."
+}

@@ -1,0 +1,84 @@
+{
+  "id": 31,
+  "name": "Ten of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 10,
+  "image": "cards/wands/ten-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Responsibility",
+      "Burden",
+      "Hard Work",
+      "Pressure",
+      "Persistence",
+      "Achievement",
+      "Commitment",
+      "Completion"
+    ],
+    "reversed": [
+      "Burnout",
+      "Release",
+      "Delegation",
+      "Overwhelm",
+      "Relief",
+      "Letting Go",
+      "Reduced Pressure",
+      "Recovery"
+    ]
+  },
+
+  "overview": "The Ten of Wands represents responsibility, perseverance, and carrying heavy burdens on the journey toward success. It often appears when you have taken on more than you can comfortably manage. Although your goals are within reach, the weight of your obligations may leave you feeling exhausted. This card reminds you that strength includes knowing when to ask for help, set healthy boundaries, and release responsibilities that no longer belong to you. Success is meaningful only when it does not come at the cost of your well-being.",
+
+  "upright": {
+    "meaning": "The Ten of Wands Upright signifies hard work, responsibility, and determination. You are approaching the successful completion of an important goal, but the journey may feel physically or emotionally exhausting. The card encourages prioritizing your responsibilities, maintaining balance, and remembering that you do not have to carry every burden alone.",
+
+    "love": "In relationships, this card suggests that responsibilities, stress, or outside pressures may affect emotional connection. Couples should share responsibilities equally and communicate openly instead of allowing stress to build. Singles may need to release emotional baggage before welcoming a healthy new relationship.",
+
+    "career": "Professionally, the Ten of Wands represents heavy workloads, leadership responsibilities, deadlines, and career success achieved through persistence. While recognition is near, avoid burnout by delegating tasks and maintaining a healthy work-life balance.",
+
+    "finance": "Financially, this card suggests managing multiple financial obligations, loans, or family responsibilities. Although money pressures may feel overwhelming, careful budgeting and consistent planning will gradually restore stability.",
+
+    "health": "Stress, fatigue, muscle tension, or emotional exhaustion may affect your health. Prioritize rest, proper nutrition, exercise, and relaxation before pushing yourself beyond healthy limits.",
+
+    "spiritual": "Spiritually, the Ten of Wands reminds you to release emotional burdens, forgive yourself for past mistakes, and trust that you don't have to carry every problem alone. Letting go creates space for healing and peace.",
+
+    "advice": "You don't have to prove your strength by carrying everything yourself. Prioritize what truly matters, ask for support when needed, and remember that balance is essential for lasting success."
+  },
+
+  "reversed": {
+    "meaning": "The Ten of Wands Reversed represents releasing burdens, recovering from burnout, and learning to create healthier boundaries. You may finally be letting go of unnecessary responsibilities or realizing that asking for help is a sign of wisdom rather than weakness. Relief and renewed energy are beginning to return.",
+
+    "love": "Relationships improve as emotional pressure decreases and communication becomes more open. Couples who share responsibilities fairly will experience greater harmony. Singles may finally release past emotional baggage and become ready for a healthier relationship.",
+
+    "career": "Career-wise, this card indicates reducing workload, improving work-life balance, delegating responsibilities, or leaving a stressful environment. Positive changes allow you to regain motivation and productivity.",
+
+    "finance": "Financial burdens begin to ease through better budgeting, paying off debts, or reducing unnecessary expenses. Continue making practical financial decisions to maintain long-term stability.",
+
+    "health": "Recovery from stress, burnout, or physical exhaustion becomes possible when you prioritize rest and self-care. Healing accelerates once unnecessary pressure is removed from your life.",
+
+    "spiritual": "Spiritually, you are releasing old fears, emotional baggage, and limiting beliefs that have weighed you down. This creates space for peace, healing, and renewed spiritual growth.",
+
+    "advice": "Release what no longer belongs to you. Trust others to help, establish healthy boundaries, and remember that true strength includes knowing when it's time to let go."
+  },
+
+  "yes_no": {
+    "upright": "Yes — But It Requires Effort",
+    "reversed": "Yes — After Releasing Burdens"
+  },
+
+  "timing": {
+    "upright": "Within 10 Weeks",
+    "reversed": "Within 1–2 Months"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Saturn",
+    "zodiac": "Sagittarius",
+    "numerology": 10
+  },
+
+  "affirmation": "I release unnecessary burdens, honor my limits, and trust that balance, support, and perseverance will lead me to lasting success and peace."
+}

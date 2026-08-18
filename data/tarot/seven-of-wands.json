@@ -1,0 +1,84 @@
+{
+  "id": 28,
+  "name": "Seven of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 7,
+  "image": "cards/wands/seven-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Perseverance",
+      "Defense",
+      "Courage",
+      "Determination",
+      "Resilience",
+      "Standing Your Ground",
+      "Confidence",
+      "Challenge"
+    ],
+    "reversed": [
+      "Giving Up",
+      "Overwhelmed",
+      "Self-Doubt",
+      "Exhaustion",
+      "Lack of Confidence",
+      "Defensiveness",
+      "Pressure",
+      "Vulnerability"
+    ]
+  },
+
+  "overview": "The Seven of Wands represents standing your ground, defending your beliefs, and remaining confident despite opposition. It often appears after achieving success, reminding you that maintaining your position requires courage, persistence, and self-belief. Challenges may arise, but this card assures you that you already possess the strength needed to overcome them. Stay focused, trust yourself, and refuse to let fear or criticism prevent you from achieving your goals.",
+
+  "upright": {
+    "meaning": "The Seven of Wands Upright signifies perseverance, confidence, and successfully defending your position. Although competition or challenges may arise, your determination and inner strength allow you to overcome obstacles. This card encourages remaining true to your values even when others disagree.",
+
+    "love": "In relationships, the Seven of Wands represents protecting your relationship, standing together through challenges, and maintaining healthy boundaries. Couples become stronger by facing difficulties as a team. Singles should remain confident and never lower their standards simply to avoid being alone.",
+
+    "career": "Professionally, this card suggests workplace competition, leadership challenges, or defending your ideas. Your hard work may attract attention or criticism, but staying confident and maintaining professionalism will ultimately strengthen your reputation.",
+
+    "finance": "Financially, the Seven of Wands encourages protecting your financial stability through careful planning, disciplined budgeting, and avoiding unnecessary risks. Continue defending the progress you've already made.",
+
+    "health": "Health improves through persistence and consistency. Recovery may require patience, but maintaining healthy habits and refusing to give up will lead to positive long-term results.",
+
+    "spiritual": "Spiritually, this card represents remaining faithful to your beliefs despite outside opinions. Your personal growth strengthens when you trust your intuition and continue following your authentic spiritual path.",
+
+    "advice": "Stand your ground with confidence. Don't allow criticism, competition, or fear to distract you from your goals. You are stronger and more capable than you realize."
+  },
+
+  "reversed": {
+    "meaning": "The Seven of Wands Reversed suggests feeling overwhelmed, exhausted, or questioning your ability to handle ongoing challenges. Constant pressure may weaken your confidence, but this card reminds you that asking for help is not a sign of weakness. Rest, regain your strength, and continue moving forward with renewed determination.",
+
+    "love": "Relationship stress, emotional exhaustion, or difficulty maintaining healthy boundaries may create tension. Honest communication and mutual support are essential. Singles should avoid settling for unhealthy relationships because of loneliness or insecurity.",
+
+    "career": "Career-wise, workplace pressure, burnout, or feeling unsupported may reduce motivation. Prioritize organization, seek guidance when necessary, and avoid trying to solve every problem alone.",
+
+    "finance": "Financial pressure or unexpected expenses may temporarily create stress. Stay disciplined, avoid emotional spending, and focus on protecting your long-term financial security.",
+
+    "health": "Physical fatigue, emotional burnout, or prolonged stress may affect your well-being. Give yourself permission to rest, recover, and seek support when needed before pushing yourself further.",
+
+    "spiritual": "Spiritually, you may question your beliefs because of external pressure or self-doubt. Reconnect with practices that strengthen your confidence, and remember that your spiritual journey is uniquely your own.",
+
+    "advice": "Don't let temporary exhaustion convince you to give up. Rest if necessary, strengthen your confidence, and continue fighting for what truly matters to you."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 7 Weeks",
+    "reversed": "Delayed Until Confidence Returns"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Mars",
+    "zodiac": "Leo",
+    "numerology": 7
+  },
+
+  "affirmation": "I stand firmly in my truth, trust my inner strength, and overcome every challenge with courage, resilience, and unwavering confidence."
+}

@@ -1,0 +1,370 @@
+/*======================================
+        YES / NO PAGE
+======================================*/
+.yesno-page{
+    min-height:100vh;
+    padding:120px 20px 80px;
+}
+.container{
+    max-width:1300px;
+    margin:auto;
+}
+/*======================================
+            QUESTION
+======================================*/
+#questionSection{
+    text-align:center;
+    max-width:850px;
+    margin:auto;
+}
+.yesno-title{
+    font-family:"Cinzel",serif;
+    font-size:58px;
+    color:white;
+    margin-bottom:20px;
+}
+.yesno-subtitle{
+    color:#d4d4d4;
+    font-size:20px;
+    margin-bottom:45px;
+}
+#questionForm{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+#questionInput{
+    width:100%;
+    height:180px;
+    padding:25px;
+    resize:none;
+    border:none;
+    outline:none;
+    border-radius:22px;
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(18px);
+    color:white;
+    font-size:18px;
+}
+#questionInput::placeholder{
+    color:#999;
+}
+/*======================================
+            FOCUS
+======================================*/
+#focusScreen{
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:
+        linear-gradient(
+            rgba(8,6,20,.75),
+            rgba(8,6,20,.75)
+        ),
+        url("../images/backgrounds/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+    z-index: 9999;
+}
+.focus-box{
+    text-align:center;
+}
+.focus-box h2{
+    color:white;
+    font-size:54px;
+    font-family:"Cinzel",serif;
+}
+.focus-box p{
+    margin-top:25px;
+    color:#d6d6d6;
+    font-size:21px;
+    line-height:2;
+}
+/*======================================
+            SHUFFLE
+======================================*/
+#shuffleSection{
+    display:none;
+    text-align:center;
+}
+.deck-wrapper{
+    width:260px;
+    height:420px;
+    margin:40px auto;
+    position:relative;
+}
+#deck{
+    position:relative;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}
+.deck-card{
+    position:absolute;
+    width:100%;
+    left:0;
+    top:0;
+    border-radius:18px;
+    transition:.45s;
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.45);
+}
+#shuffleSection h2{
+    color:white;
+    font-family:"Cinzel",serif;
+    font-size:34px;
+    margin-top:20px;
+}
+#shuffleSection p{
+    margin-top:20px;
+    color:#cfcfcf;
+    font-size:18px;
+    line-height:1.8;
+}
+/*======================================
+        BUTTONS
+======================================*/
+.shuffle-buttons{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:45px;
+}
+#shuffleBtn,
+#readyBtn{
+    display:none;
+}
+/*======================================
+        FAN
+======================================*/
+#fanSection{
+    display:none;
+    text-align:center;
+    margin-top:0;
+}
+#fanSection h2{
+    color:white;
+    font-size:42px;
+    font-family:"Cinzel",serif
+}
+#fanSection p{
+    color:#d0d0d0;
+    margin:10px 0 15px;
+}
+#fanCards{
+    position:relative;
+    width:1200px;
+    max-width:100%;
+    height:520px;
+    margin:auto;
+}
+/*======================================
+        RESULT
+======================================*/
+#resultSection{
+    display:none;
+    text-align:center;
+    padding:50px 0;
+}
+/*======================================
+        RESPONSIVE
+======================================*/
+@media(max-width:768px){
+    .yesno-title{
+        font-size:42px;
+    }
+    .focus-box h2{
+        font-size:38px;
+    }
+    .deck-wrapper{
+        width:190px;
+        height:310px;
+    }
+}
+.fan-card{
+    position:absolute;
+    width:180px;
+    left:50%;
+    bottom:0;
+    opacity:0;
+    transform-origin:center 420px;
+    transition:.25s ease;
+    cursor:pointer;
+    border-radius:18px;
+    box-shadow:0 12px 30px rgba(0,0,0,.45);
+}
+#selectedCard{
+    display:flex;
+    justify-content:center;
+    margin:40px auto;
+}
+#revealedCard{
+    width:260px;
+    display:none;
+    border-radius:18px;
+    box-shadow:
+    0 0 40px rgba(212,175,55,.45);
+    transition:.7s;
+}
+.question-error{
+    display:none;
+    width:fit-content;
+    margin:0 auto 15px;
+    padding:10px 18px;
+    background:#251734;
+    color:#fff;
+    border:1px solid rgba(212,175,55,.4);
+    border-radius:12px;
+    font-size:15px;
+    font-weight:600;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+    animation:fadeDown .25s ease;
+}
+
+@keyframes fadeDown{
+    from{
+        opacity:0;
+        transform:translateY(-10px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+#question{
+    width:100%;
+    min-height:140px;
+    padding:20px 24px;
+    background:rgba(18,12,32,.75);
+    backdrop-filter:blur(12px);
+    border:1.5px solid rgba(212,175,55,.35);
+    border-radius:22px;
+    color:#ffffff;
+    font-size:18px;
+    line-height:1.7;
+    font-family:"Inter",sans-serif;
+    resize:none;
+    outline:none;
+    transition:.35s;
+}
+#question::placeholder{
+    color:rgba(255,255,255,.45);
+    font-style:italic;
+}
+#question:focus{
+    border-color:#D4AF37;
+    box-shadow:
+        0 0 0 2px rgba(212,175,55,.18),
+        0 0 35px rgba(212,175,55,.25);
+}
+/*======================================
+        LOVE SLOTS
+======================================*/
+
+#selectedSlots{
+    display:none;
+    justify-content:center;
+    align-items:flex-start;
+    gap:40px;
+    margin:10px auto 10px;
+    flex-wrap:wrap;
+}
+.love-slot{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.slot-card{
+    width:170px;
+    height:280px;
+    border-radius:20px;
+    background:rgba(255,255,255,.04);
+    border:2px dashed rgba(212,175,55,.30);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    transition:.35s;
+}
+.slot-card:hover{
+    border-color:#D4AF37;
+    box-shadow:
+        0 0 20px rgba(212,175,55,.25);
+}
+.slot-card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:none;
+}
+.love-slot p{
+    margin-top:18px;
+    color:#E8C86A;
+    font-family:"Cinzel",serif;
+    font-size:18px;
+    text-align:center;
+    line-height:1.5;
+}
+/*==============================
+        REVEAL TEXT
+==============================*/
+#revealText{
+    margin-top:45px;
+    text-align:center;
+    color:#E8C86A;
+    font-size:24px;
+    font-family:"Cinzel",serif;
+    animation:pulseReveal 1.8s infinite;
+}
+@keyframes pulseReveal{
+    0%{
+        opacity:.45;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:.45;
+    }
+}
+.reading-loader{
+    position:fixed;
+    inset:0;
+    background:
+    radial-gradient(circle at center,
+    rgba(35,22,65,.96),
+    rgba(8,8,18,.98));
+    display:none;
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+}
+.loader-box{
+    text-align:center;
+}
+.loader-orb{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    border:3px solid rgba(212,175,55,.25);
+    border-top-color:#D4AF37;
+    margin:auto auto 28px;
+    animation:spin 1.2s linear infinite;
+}
+#loaderText{
+    color:#F7E7A5;
+    font-size:1.15rem;
+    font-family:"Cinzel",serif;
+    letter-spacing:.6px;
+}
+@keyframes spin{
+    to{
+        transform:rotate(360deg);
+    }
+}

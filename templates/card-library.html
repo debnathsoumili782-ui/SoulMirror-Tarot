@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}
+Card Library | SoulMirror Tarot
+{% endblock %}
+
+{% block content %}
+
+<section class="library-page">
+
+    <h1>Card Library</h1>
+    <div class="library-search">
+
+        <input
+            type="text"
+            id="cardSearch"
+            placeholder="🔍 Search cards...">
+
+    </div>
+    <div class="library-filters">
+
+    <button class="filter-btn active" data-filter="all">
+        All
+    </button>
+
+    <button class="filter-btn" data-filter="major">
+        Major Arcana
+    </button>
+
+    <button class="filter-btn" data-filter="cups">
+        Cups
+    </button>
+
+    <button class="filter-btn" data-filter="wands">
+        Wands
+    </button>
+
+    <button class="filter-btn" data-filter="swords">
+        Swords
+    </button>
+
+    <button class="filter-btn" data-filter="pentacles">
+        Pentacles
+    </button>
+
+</div>
+<div class="library-grid">
+    {% for card in cards %}
+<a href="{{ url_for('main.card_details', slug=card.slug) }}"
+    class="library-card"
+    data-name="{{ card.name|lower }}"
+    data-category="{% if card.arcana == 'Major Arcana' %}major{% else %}{{ card.category|lower }}{% endif %}">
+        <img
+            src="{{ url_for('static', filename='images/' + card.image) }}"
+            alt="{{ card.name }}">
+        <h3>{{ card.name }}</h3>
+    </a>
+    {% endfor %}
+</div>
+
+</section>
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/card-library.css') }}">
+<script src="{{ url_for('static', filename='js/card-library.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,84 @@
+{
+  "id": 53,
+  "name": "Four of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 4,
+  "image": "cards/swords/four-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Rest",
+      "Recovery",
+      "Healing",
+      "Meditation",
+      "Peace",
+      "Reflection",
+      "Restoration",
+      "Mental Clarity"
+    ],
+    "reversed": [
+      "Burnout",
+      "Restlessness",
+      "Exhaustion",
+      "Stress",
+      "Recovery Delayed",
+      "Overwork",
+      "Mental Fatigue",
+      "Isolation"
+    ]
+  },
+
+  "overview": "The Four of Swords represents rest, recovery, and the importance of stepping back to restore your physical, emotional, and mental energy. It reminds you that constant action without proper rest eventually leads to exhaustion. This card encourages taking a temporary pause—not as a sign of weakness, but as a necessary step toward greater strength and clarity. Whether recovering from stress, conflict, or illness, healing becomes possible when you give yourself permission to slow down and recharge.",
+
+  "upright": {
+    "meaning": "The Four of Swords Upright signifies rest, healing, reflection, and recovery. It encourages temporarily stepping away from stressful situations to regain clarity, strength, and emotional balance. Taking time for yourself now will prepare you for future success.",
+
+    "love": "In relationships, this card suggests taking space to heal after conflict or emotional stress. Couples benefit from calm communication and giving each other room to reflect. Singles should focus on emotional healing and self-love before seeking a new relationship.",
+
+    "career": "Professionally, the Four of Swords advises taking a break from excessive workload or workplace stress. Avoid burnout by maintaining a healthy work-life balance. Planning quietly behind the scenes may be more productive than forcing immediate action.",
+
+    "finance": "Financially, this card encourages pausing before making major financial decisions. Review your plans carefully, avoid impulsive spending, and focus on rebuilding long-term stability through patience and thoughtful planning.",
+
+    "health": "This is one of the strongest healing cards in Tarot. It represents recovery, rest, stress reduction, improved mental health, and allowing the body to heal naturally. Prioritize sleep, relaxation, and following professional medical advice.",
+
+    "spiritual": "Spiritually, the Four of Swords encourages meditation, prayer, mindfulness, and quiet reflection. Inner peace develops when you create space away from distractions and reconnect with your higher self.",
+
+    "advice": "Don't mistake rest for weakness. Give yourself time to heal, clear your mind, and restore your energy before taking the next important step."
+  },
+
+  "reversed": {
+    "meaning": "The Four of Swords Reversed suggests burnout, prolonged stress, difficulty relaxing, or returning to activity before fully recovering. You may be ignoring your need for rest or feeling trapped in exhaustion. Balance can only return when you prioritize your well-being.",
+
+    "love": "Relationships may suffer because stress, emotional exhaustion, or lack of communication is preventing genuine connection. Slow down, reconnect emotionally, and avoid making important relationship decisions while overwhelmed.",
+
+    "career": "Career-wise, overworking, workplace pressure, or refusing to take breaks may reduce productivity and motivation. Delegating responsibilities and creating healthier boundaries will improve long-term success.",
+
+    "finance": "Financial anxiety may tempt you to make rushed decisions. Stay calm, avoid panic-driven choices, and remember that thoughtful planning produces better results than acting from fear.",
+
+    "health": "Stress, insomnia, anxiety, or burnout may negatively affect both physical and emotional health. Prioritize recovery immediately instead of pushing yourself beyond healthy limits.",
+
+    "spiritual": "Spiritually, constant mental activity may disconnect you from your intuition. Create quiet moments for meditation, reflection, and emotional healing to restore your inner balance.",
+
+    "advice": "Your body and mind are asking for rest. Listen before exhaustion forces you to stop. Recovery is an investment that strengthens every area of your life."
+  },
+
+  "yes_no": {
+    "upright": "Maybe — Wait",
+    "reversed": "No — Rest First"
+  },
+
+  "timing": {
+    "upright": "Within 4 Weeks",
+    "reversed": "Delayed Until Recovery Is Complete"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Jupiter",
+    "zodiac": "Libra",
+    "numerology": 4
+  },
+
+  "affirmation": "I honor my need for rest, trust the healing process, and allow peace, clarity, and renewed strength to flow naturally into my life."
+}

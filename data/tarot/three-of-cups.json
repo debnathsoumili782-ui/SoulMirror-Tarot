@@ -1,0 +1,84 @@
+{
+  "id": 38,
+  "name": "Three of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 3,
+  "image": "cards/cups/three-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Celebration",
+      "Friendship",
+      "Joy",
+      "Community",
+      "Support",
+      "Happiness",
+      "Reunion",
+      "Gratitude"
+    ],
+    "reversed": [
+      "Isolation",
+      "Overindulgence",
+      "Gossip",
+      "Conflict",
+      "Third-Party Issues",
+      "Loneliness",
+      "Misunderstanding",
+      "Emotional Distance"
+    ]
+  },
+
+  "overview": "The Three of Cups represents celebration, friendship, emotional support, and shared happiness. It reminds you that life's greatest joys are often experienced with the people who truly care about you. This card symbolizes reunions, achievements, celebrations, weddings, birthdays, family gatherings, and meaningful friendships. It encourages gratitude, laughter, and appreciating the relationships that bring positivity into your life while reminding you that emotional support is one of life's greatest blessings.",
+
+  "upright": {
+    "meaning": "The Three of Cups Upright signifies celebration, emotional fulfillment, friendship, and joyful connections. It represents a time of happiness, appreciation, and positive social interactions. This card encourages celebrating your achievements and strengthening the relationships that support your growth.",
+
+    "love": "In relationships, the Three of Cups represents happiness, emotional harmony, celebrations, engagement, marriage, reconciliation, and spending joyful moments together. Singles may meet someone through friends, social events, or celebrations. Existing relationships grow stronger through shared experiences and mutual support.",
+
+    "career": "Professionally, this card indicates successful teamwork, workplace recognition, promotions, project completion, networking opportunities, and celebrating career achievements. Strong professional relationships contribute to long-term success.",
+
+    "finance": "Financially, the Three of Cups represents financial stability, shared prosperity, profitable collaborations, or celebrating financial achievements. It encourages enjoying your success while maintaining responsible financial habits.",
+
+    "health": "Health improves through emotional happiness, supportive relationships, reduced stress, and maintaining a healthy social life. Positive emotions contribute significantly to physical and mental well-being.",
+
+    "spiritual": "Spiritually, this card symbolizes gratitude, emotional healing, community, and recognizing the blessings already present in your life. Sharing kindness and positive energy strengthens your spiritual connection.",
+
+    "advice": "Celebrate your progress and appreciate the people who support you. Joy becomes even more meaningful when shared with others. Express gratitude, nurture your friendships, and allow yourself to enjoy life's beautiful moments."
+  },
+
+  "reversed": {
+    "meaning": "The Three of Cups Reversed suggests emotional distance, misunderstandings, gossip, unhealthy social influences, or feeling disconnected from supportive relationships. It may also warn against excessive partying, emotional avoidance, or allowing outside influences to create unnecessary conflict.",
+
+    "love": "Relationships may experience misunderstandings, interference from others, jealousy, or communication issues. Honest conversations and healthy boundaries help restore trust and emotional balance. Singles should avoid relationships complicated by third-party situations or emotional uncertainty.",
+
+    "career": "Career-wise, workplace gossip, team conflicts, or communication problems may temporarily reduce productivity. Remain professional, avoid unnecessary drama, and focus on cooperation rather than competition.",
+
+    "finance": "Financially, avoid unnecessary spending on entertainment or social pressure. Focus on responsible budgeting and avoid making financial decisions simply to impress others.",
+
+    "health": "Stress caused by unhealthy relationships, emotional isolation, or overindulgence may affect your well-being. Prioritize emotional balance, healthy habits, and spending time with genuinely supportive people.",
+
+    "spiritual": "Spiritually, you may feel disconnected because of negative influences or emotional distractions. Return to gratitude, meditation, and meaningful relationships that encourage personal growth rather than emotional exhaustion.",
+
+    "advice": "Choose your company wisely. Let go of unnecessary drama, protect your emotional peace, and surround yourself with people who genuinely encourage your happiness and personal growth."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 3 Weeks to 3 Months",
+    "reversed": "Delayed Until Relationships Improve"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Mercury",
+    "zodiac": "Cancer",
+    "numerology": 3
+  },
+
+  "affirmation": "I celebrate my blessings with gratitude, attract loving and supportive relationships, and welcome joy, abundance, and meaningful connections into my life."
+}

@@ -1,0 +1,84 @@
+{
+  "id": 26,
+  "name": "Five of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 5,
+  "image": "cards/wands/five-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Competition",
+      "Conflict",
+      "Challenges",
+      "Disagreement",
+      "Rivalry",
+      "Growth",
+      "Ambition",
+      "Learning"
+    ],
+    "reversed": [
+      "Resolution",
+      "Compromise",
+      "Peace",
+      "Avoiding Conflict",
+      "Inner Harmony",
+      "Reconciliation",
+      "Cooperation",
+      "Understanding"
+    ]
+  },
+
+  "overview": "The Five of Wands represents healthy competition, personal challenges, differing opinions, and situations that test your patience and determination. While conflict may arise, this card rarely indicates serious hostility. Instead, it encourages learning through experience, improving your skills, and developing resilience. Every challenge you face becomes an opportunity for growth, helping you become stronger, wiser, and better prepared for future success.",
+
+  "upright": {
+    "meaning": "The Five of Wands Upright signifies competition, disagreements, and temporary obstacles. Different viewpoints or rivalries may create tension, but these experiences ultimately strengthen your character and abilities. Success comes through persistence, teamwork, and maintaining a positive attitude despite challenges.",
+
+    "love": "In relationships, minor arguments, misunderstandings, or differences of opinion may arise. Honest communication, patience, and mutual respect can quickly resolve conflicts. Singles may experience competition for someone's attention or uncertainty before a relationship develops.",
+
+    "career": "Professionally, this card often represents workplace competition, interviews, promotions, debates, or challenging projects. Healthy competition can motivate you to improve your skills and achieve greater success if handled professionally.",
+
+    "finance": "Financially, unexpected expenses or competitive business situations may require careful planning. Avoid impulsive decisions and focus on long-term financial stability rather than short-term victories.",
+
+    "health": "Stress caused by pressure, overwork, or emotional tension may temporarily affect your well-being. Regular exercise, relaxation, and healthy routines will help restore balance.",
+
+    "spiritual": "Spiritually, this card teaches that inner conflict often precedes personal growth. By facing challenges honestly and learning from difficult experiences, you become stronger and more spiritually aware.",
+
+    "advice": "Don't fear challenges or competition. Stay calm, remain respectful, continue improving yourself, and remember that every obstacle offers valuable lessons for your future success."
+  },
+
+  "reversed": {
+    "meaning": "The Five of Wands Reversed represents conflict resolution, compromise, reconciliation, and finding common ground. Tensions begin to ease as communication improves and unnecessary struggles come to an end. It encourages choosing peace over pride and cooperation over competition.",
+
+    "love": "Relationship conflicts begin to heal through forgiveness, understanding, and honest conversations. Couples can rebuild trust, while singles become more emotionally available after resolving past emotional baggage.",
+
+    "career": "Workplace disagreements, competition, or stressful projects gradually settle. Teamwork improves, allowing greater productivity and professional growth. Collaboration becomes more beneficial than rivalry.",
+
+    "finance": "Financial pressure begins to ease through better planning, budgeting, and responsible decision-making. Avoid comparing yourself to others and focus on your own financial progress.",
+
+    "health": "Reduced stress, emotional healing, and improved balance support both physical and mental recovery. Continue maintaining healthy habits and avoid returning to unhealthy routines.",
+
+    "spiritual": "Spiritually, you are finding greater inner peace by letting go of unnecessary conflict and emotional resistance. Personal growth comes through forgiveness, acceptance, and emotional maturity.",
+
+    "advice": "Choose understanding instead of conflict. Let go of unnecessary arguments, focus on cooperation, and remember that lasting success comes through wisdom rather than proving yourself to others."
+  },
+
+  "yes_no": {
+    "upright": "Maybe",
+    "reversed": "Yes"
+  },
+
+  "timing": {
+    "upright": "Within 5 Weeks",
+    "reversed": "Within 1–2 Months"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Saturn",
+    "zodiac": "Leo",
+    "numerology": 5
+  },
+
+  "affirmation": "I face every challenge with confidence, learn from every experience, and transform obstacles into opportunities for growth, wisdom, and lasting success."
+}

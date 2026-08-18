@@ -1,0 +1,84 @@
+{
+  "id": 69,
+  "name": "Six of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 6,
+  "image": "cards/pentacles/six-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Generosity",
+      "Charity",
+      "Balance",
+      "Giving",
+      "Receiving",
+      "Prosperity",
+      "Support",
+      "Gratitude"
+    ],
+    "reversed": [
+      "Selfishness",
+      "Debt",
+      "Unfairness",
+      "Strings Attached",
+      "Imbalance",
+      "Greed",
+      "Dependency",
+      "Financial Inequality"
+    ]
+  },
+
+  "overview": "The Six of Pentacles represents generosity, balance, and the healthy exchange of resources, kindness, and support. It reminds you that abundance flows most naturally when there is harmony between giving and receiving. Whether you are offering help or accepting assistance, this card encourages generosity without expectation and gratitude without guilt. True wealth is measured not only by what you possess but also by your willingness to share, uplift others, and create balance in your relationships and finances.",
+
+  "upright": {
+    "meaning": "The Six of Pentacles Upright signifies generosity, financial stability, mutual support, and balanced relationships. You may receive assistance when you need it or find yourself in a position to help others. This card encourages fairness, gratitude, and creating prosperity that benefits everyone involved.",
+
+    "love": "In relationships, the Six of Pentacles represents equality, mutual respect, emotional generosity, and balanced effort. Healthy partnerships thrive when both people give and receive love, support, and understanding equally. Singles may attract someone kind, generous, and emotionally available.",
+
+    "career": "Professionally, this card indicates promotions, mentorship, teamwork, bonuses, salary increases, or receiving valuable guidance from experienced individuals. It also encourages sharing your knowledge and supporting others in their professional growth.",
+
+    "finance": "Financially, the Six of Pentacles is an excellent sign of improved financial balance, successful investments, fair agreements, gifts, scholarships, loans, or financial assistance. It encourages responsible generosity while maintaining your own financial security.",
+
+    "health": "Health improves through proper support, following professional advice, and maintaining balance in your daily routine. Accepting help when needed contributes positively to your recovery and overall well-being.",
+
+    "spiritual": "Spiritually, this card teaches that giving and receiving are both sacred acts. Gratitude, generosity, compassion, and serving others strengthen your connection with the universe while attracting greater abundance into your own life.",
+
+    "advice": "Give with kindness, receive with gratitude, and maintain balance in every area of your life. Generosity becomes even more powerful when it is offered freely and received with appreciation."
+  },
+
+  "reversed": {
+    "meaning": "The Six of Pentacles Reversed suggests imbalance, unfairness, selfishness, financial inequality, or receiving help with hidden expectations. It may indicate giving too much without receiving support in return or becoming overly dependent on others. Healthy boundaries and fairness are needed to restore balance.",
+
+    "love": "Relationships may feel one-sided if one partner consistently gives more than the other. Emotional imbalance, dependency, or controlling behavior can create tension. Honest communication and equal effort are essential for restoring harmony. Singles should seek relationships based on mutual respect rather than emotional dependence.",
+
+    "career": "Career-wise, workplace favoritism, unequal opportunities, unfair treatment, or lack of recognition may cause frustration. Continue demonstrating professionalism while advocating for fair treatment and healthy boundaries.",
+
+    "finance": "Financially, be cautious with loans, borrowing, lending money, or agreements that contain hidden conditions. Avoid overspending to please others, and maintain healthy financial boundaries while rebuilding stability.",
+
+    "health": "Neglecting your own well-being while caring for others may lead to exhaustion. Balance giving with self-care, and don't hesitate to accept support when you genuinely need it.",
+
+    "spiritual": "Spiritually, this card reminds you that generosity should come from genuine compassion rather than obligation or expectation. Release guilt, maintain healthy boundaries, and remember that receiving is just as important as giving.",
+
+    "advice": "Create healthy balance in your relationships, finances, and responsibilities. Give without expecting rewards, receive without guilt, and never allow generosity to become self-sacrifice."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 6 Weeks to 6 Months",
+    "reversed": "Delayed Until Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Moon",
+    "zodiac": "Taurus",
+    "numerology": 6
+  },
+
+  "affirmation": "I give with generosity, receive with gratitude, and trust that abundance flows freely through every balanced exchange in my life."
+}

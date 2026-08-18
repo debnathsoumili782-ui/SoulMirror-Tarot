@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+{% block title %}Your Reading | SoulMirror Tarot{% endblock %}
+{% block content %}
+<section class="reading-page">
+    <div class="reading-container">
+        <div class="reading-card-area">
+            <img id="readingCard"
+                 src="{{ url_for('static', filename='images/' + card.image) }}"
+                 class="{% if card.orientation == 'reversed' %}reversed-card{% endif %}"
+                 alt="{{ card.name }}">
+
+        </div>
+        <div class="reading-content">
+            <span class="reading-badge">
+                ✨ Your Reading
+            </span>
+            <div class="user-question">
+                <h3>❓ Your Question</h3>
+                <p>{{ question }}</p>
+            </div>
+            <h1 id="cardTitle">
+                {{ card.name }}
+            </h1>
+            <p class="card-orientation">
+                {{ card.orientation|title }}
+            </p>
+            <div class="keywords">
+                {% for keyword in card.keywords[card.orientation] %}
+                    <span>{{ keyword }}</span>
+                {% endfor %}
+            </div>
+            <div class="yesno-box">
+                <h2>Yes / No Guidance</h2>
+                <div id="yesNoAnswer"
+                     class="answer {% if 'Yes' in card.yes_no[card.orientation] %}yes{% else %}no{% endif %}">
+                    {{ card.yes_no[card.orientation] }}
+                </div>
+            </div>
+            <div class="reading-section">
+                <h2>General Meaning</h2>
+                <p id="generalMeaning">
+                    {% if card.orientation == "upright" %}
+                        {{ card.upright.meaning }}
+                    {% else %}
+                        {{ card.reversed.meaning }}
+                    {% endif %}
+                </p>
+            </div>
+            <div class="reading-section">
+                <h2>🤖 AI Interpretation</h2>
+
+                <div class="ai-reading">
+                    {{ ai_reading | replace('\n', '<br>') | safe }}
+                </div>
+            </div>
+            <div class="reading-section">
+                <h2>Love</h2>
+                <p id="loveMeaning">
+                    {% if card.orientation == "upright" %}
+                        {{ card.upright.love }}
+                    {% else %}
+                        {{ card.reversed.love }}
+                    {% endif %}
+                </p>
+            </div>
+            <div class="reading-section">
+                <h2>Career</h2>
+                <p id="careerMeaning">
+                    {% if card.orientation == "upright" %}
+                        {{ card.upright.career }}
+                    {% else %}
+                        {{ card.reversed.career }}
+                    {% endif %}
+                </p>
+            </div>
+            <div class="reading-section">
+                <h2>Money</h2>
+                <p id="moneyMeaning">
+                        {% if card.orientation == "upright" %}
+                            {{ card.upright.finance }}
+                        {% else %}
+                            {{ card.reversed.finance }}
+                        {% endif %}
+                </p>
+            </div>
+            <div class="reading-section">
+                <h2>Advice</h2>
+                <p id="adviceMeaning">
+                    {% if card.orientation == "upright" %}
+                        {{ card.upright.advice }}
+                    {% else %}
+                        {{ card.reversed.advice }}
+                    {% endif %}
+                </p>
+            </div>
+
+            <div class="reading-section">
+                    <h2>Timing</h2>
+                    <p>
+                        {{ card.timing[card.orientation] }}
+                    </p>
+            </div>
+            <div class="reading-section">
+                <h2>Affirmation</h2>
+                <p>
+                    {{ card.affirmation }}
+                </p>
+            </div>
+            <div class="reading-buttons">
+                <a href="/yes-no" class="reading-btn">
+                    🔄 Draw Again
+                </a>
+                <a href="/" class="reading-btn secondary">
+                    🏠 Back Home
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!---
+<script src="{{ url_for('static', filename='js/reading.js') }}"></script>
+--->
+{% endblock %}

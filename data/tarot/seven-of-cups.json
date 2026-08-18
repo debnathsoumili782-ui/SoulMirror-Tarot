@@ -1,0 +1,84 @@
+{
+  "id": 42,
+  "name": "Seven of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 7,
+  "image": "cards/cups/seven-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Choices",
+      "Opportunities",
+      "Dreams",
+      "Imagination",
+      "Illusion",
+      "Temptation",
+      "Possibilities",
+      "Vision"
+    ],
+    "reversed": [
+      "Clarity",
+      "Decision",
+      "Focus",
+      "Reality",
+      "Commitment",
+      "Determination",
+      "Confidence",
+      "Priorities"
+    ]
+  },
+
+  "overview": "The Seven of Cups represents imagination, choices, dreams, and the many possibilities life places before you. While opportunities can be exciting, this card reminds you that not every option is as wonderful as it appears. Some choices are genuine blessings, while others are distractions or illusions. The Seven of Cups encourages balancing dreams with practicality, trusting your intuition, and carefully evaluating every opportunity before making important decisions. True success comes from choosing wisely rather than chasing every possibility.",
+
+  "upright": {
+    "meaning": "The Seven of Cups Upright signifies having many options, opportunities, dreams, or desires. While abundance is positive, too many choices may create confusion or unrealistic expectations. This card encourages looking beyond appearances, staying grounded, and making decisions based on wisdom rather than fantasy.",
+
+    "love": "In relationships, the Seven of Cups may indicate multiple romantic options, uncertainty about commitment, unrealistic expectations, or confusion regarding emotions. Existing relationships require honesty and clear communication. Singles should avoid idealizing potential partners and take time to truly know someone before making emotional commitments.",
+
+    "career": "Professionally, this card suggests exciting opportunities, creative ideas, multiple job offers, or several possible career paths. While these opportunities are promising, careful evaluation is necessary before making important professional decisions.",
+
+    "finance": "Financially, the Seven of Cups advises caution with investments, business proposals, or opportunities that appear too good to be true. Carefully research every financial decision and avoid acting on unrealistic promises or emotional impulses.",
+
+    "health": "Health may be affected by emotional overwhelm, stress, or difficulty maintaining focus. Establish realistic wellness goals, maintain healthy routines, and avoid becoming distracted by quick-fix solutions that lack long-term value.",
+
+    "spiritual": "Spiritually, this card represents expanded imagination, intuitive visions, vivid dreams, and spiritual exploration. However, it also encourages discernment, reminding you to distinguish genuine intuition from wishful thinking or illusion.",
+
+    "advice": "Take your time before making important decisions. Not every opportunity deserves your attention. Trust your intuition, stay grounded in reality, and choose the path that aligns with your long-term values."
+  },
+
+  "reversed": {
+    "meaning": "The Seven of Cups Reversed represents gaining clarity, making confident decisions, and finally recognizing which opportunities truly matter. Confusion fades as you become more focused, realistic, and committed to your goals. This card marks a shift from dreaming to taking meaningful action.",
+
+    "love": "Relationship confusion begins to clear. Couples gain a better understanding of each other's needs, while singles become more selective and emotionally mature, attracting healthier and more genuine relationships.",
+
+    "career": "Career-wise, uncertainty is replaced by confidence and direction. You may finally choose the right career path, accept an important opportunity, or commit to a long-term professional goal with renewed determination.",
+
+    "finance": "Financial clarity allows you to make smarter investments, avoid unnecessary risks, and focus on practical long-term financial planning. Wise decisions bring greater stability and confidence.",
+
+    "health": "Mental clarity improves as stress decreases and healthy routines become more consistent. Focusing on one realistic goal at a time creates better physical and emotional well-being.",
+
+    "spiritual": "Spiritually, you develop stronger discernment and learn to trust your intuition without becoming distracted by illusion or unrealistic expectations. Your spiritual path becomes clearer and more meaningful.",
+
+    "advice": "Stop overthinking and make the decision you've been postponing. Trust your wisdom, focus your energy on what truly matters, and move forward with confidence."
+  },
+
+  "yes_no": {
+    "upright": "Maybe",
+    "reversed": "Yes"
+  },
+
+  "timing": {
+    "upright": "Within 7 Weeks to 7 Months",
+    "reversed": "Soon After a Clear Decision Is Made"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Venus",
+    "zodiac": "Scorpio",
+    "numerology": 7
+  },
+
+  "affirmation": "I trust my intuition, make wise decisions with confidence, and choose the opportunities that align with my highest purpose and greatest good."
+}

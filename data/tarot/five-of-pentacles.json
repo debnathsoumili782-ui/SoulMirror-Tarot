@@ -1,0 +1,84 @@
+{
+  "id": 68,
+  "name": "Five of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 5,
+  "image": "cards/pentacles/five-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Hardship",
+      "Financial Loss",
+      "Isolation",
+      "Struggle",
+      "Insecurity",
+      "Recovery",
+      "Support",
+      "Perseverance"
+    ],
+    "reversed": [
+      "Recovery",
+      "Improvement",
+      "Renewed Hope",
+      "Financial Stability",
+      "Healing",
+      "Positive Change",
+      "Opportunity",
+      "Renewal"
+    ]
+  },
+
+  "overview": "The Five of Pentacles represents temporary hardship, financial challenges, emotional isolation, or feelings of insecurity. Although life may feel difficult, this card carries an important message of hope: help is available, even if you cannot see it yet. The struggle shown in this card is never permanent. By accepting support, believing in yourself, and continuing to move forward, you gradually rebuild stability, confidence, and abundance. Every difficult season eventually gives way to growth and renewal.",
+
+  "upright": {
+    "meaning": "The Five of Pentacles Upright signifies temporary financial difficulties, emotional struggles, setbacks, or feeling unsupported. You may experience insecurity or uncertainty, but this card reminds you that your current circumstances do not define your future. Support, recovery, and better opportunities are available if you remain open to receiving help.",
+
+    "love": "In relationships, the Five of Pentacles may indicate emotional distance, loneliness, financial stress affecting the partnership, or feeling misunderstood. Honest communication and supporting one another through difficult times strengthen relationships. Singles may feel lonely or discouraged but should remember that healing creates space for healthier love.",
+
+    "career": "Professionally, this card may represent job insecurity, financial setbacks, workplace stress, or career uncertainty. While challenges exist, they are temporary. Continue developing your skills, remain determined, and be open to new opportunities that may appear unexpectedly.",
+
+    "finance": "Financially, the Five of Pentacles advises careful budgeting, avoiding unnecessary expenses, and seeking financial guidance if needed. Although money may feel limited now, responsible planning and persistence gradually restore financial security.",
+
+    "health": "Health may require greater attention, particularly if stress, exhaustion, or financial pressure is affecting your well-being. Prioritize rest, proper care, and don't hesitate to seek professional support when necessary.",
+
+    "spiritual": "Spiritually, this card teaches resilience, humility, and faith during difficult times. Even when life feels uncertain, the universe continues to provide guidance and opportunities for growth. Trust that every challenge strengthens your character and wisdom.",
+
+    "advice": "Don't face your struggles alone. Accept support when it's offered, remain hopeful, and remember that temporary hardships often lead to lasting strength and greater appreciation for future blessings."
+  },
+
+  "reversed": {
+    "meaning": "The Five of Pentacles Reversed represents recovery, financial improvement, renewed confidence, and leaving difficult times behind. Hope returns as opportunities begin appearing and your efforts start producing positive results. This card signifies rebuilding your life one step at a time.",
+
+    "love": "Relationships improve through mutual support, forgiveness, and renewed emotional closeness. Couples overcome previous hardships together, while singles regain confidence and become emotionally ready for meaningful relationships.",
+
+    "career": "Career opportunities begin improving after a difficult period. New employment, promotions, business growth, or increased financial stability become possible through persistence and renewed confidence.",
+
+    "finance": "Financial recovery is underway. Better budgeting, increased income, successful planning, or unexpected assistance helps restore long-term stability. Continue making responsible financial choices to maintain your progress.",
+
+    "health": "Physical and emotional recovery accelerates as stress decreases and healthier routines become consistent. Continue prioritizing self-care, rest, and professional guidance when necessary.",
+
+    "spiritual": "Spiritually, this card represents renewed faith, gratitude, and recognizing that even your hardest experiences have contributed to your personal growth. Your resilience becomes one of your greatest strengths.",
+
+    "advice": "Leave scarcity behind and welcome new opportunities with confidence. Continue moving forward with patience, gratitude, and trust that brighter days are already unfolding."
+  },
+
+  "yes_no": {
+    "upright": "No",
+    "reversed": "Yes"
+  },
+
+  "timing": {
+    "upright": "Within 5 Months",
+    "reversed": "Improvement Begins Soon"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Mercury",
+    "zodiac": "Taurus",
+    "numerology": 5
+  },
+
+  "affirmation": "I trust that every challenge is temporary. I welcome support, remain hopeful, and confidently build a future filled with stability, abundance, and renewed strength."
+}

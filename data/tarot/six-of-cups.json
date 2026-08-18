@@ -1,0 +1,84 @@
+{
+  "id": 41,
+  "name": "Six of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 6,
+  "image": "cards/cups/six-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Nostalgia",
+      "Childhood",
+      "Kindness",
+      "Memories",
+      "Innocence",
+      "Reunion",
+      "Generosity",
+      "Comfort"
+    ],
+    "reversed": [
+      "Living in the Past",
+      "Immaturity",
+      "Moving Forward",
+      "Unresolved Memories",
+      "Letting Go",
+      "Stagnation",
+      "Growing Up",
+      "Emotional Baggage"
+    ]
+  },
+
+  "overview": "The Six of Cups represents nostalgia, happy memories, kindness, and reconnecting with the past. It often appears when childhood experiences, old friends, family, or past relationships influence your present situation. While remembering joyful moments can bring comfort and wisdom, this card also reminds you not to become trapped in the past. Honor your memories, learn from them, and continue moving toward a brighter future with an open heart.",
+
+  "upright": {
+    "meaning": "The Six of Cups Upright signifies nostalgia, emotional warmth, generosity, and reconnecting with people or experiences from the past. It encourages embracing kindness, appreciating meaningful memories, and allowing positive past experiences to inspire your future.",
+
+    "love": "In relationships, the Six of Cups often represents reconciliation, rekindled romance, soulmate connections, or someone from the past returning. Existing relationships become more affectionate and emotionally secure, while singles may reconnect with a former partner or meet someone who feels instantly familiar.",
+
+    "career": "Professionally, this card suggests returning to previous opportunities, reconnecting with former colleagues, mentoring others, or finding success by applying lessons learned from past experiences. Old skills may become valuable again.",
+
+    "finance": "Financially, the Six of Cups represents stability through careful planning and learning from previous financial experiences. Financial support from family or trusted individuals may also be available when needed.",
+
+    "health": "This card encourages emotional healing by addressing unresolved feelings from the past. Positive memories, family support, and inner peace contribute to improved emotional and physical well-being.",
+
+    "spiritual": "Spiritually, the Six of Cups symbolizes reconnecting with your inner child, practicing forgiveness, and appreciating the lessons of your past without allowing them to define your future. Healing comes through compassion and gratitude.",
+
+    "advice": "Cherish your memories, but don't live in them. Let the wisdom of your past strengthen your future while remaining fully present for the opportunities unfolding before you."
+  },
+
+  "reversed": {
+    "meaning": "The Six of Cups Reversed suggests difficulty letting go of the past, emotional immaturity, unresolved childhood issues, or allowing old memories to prevent personal growth. Healing begins when you accept the past without allowing it to control your future.",
+
+    "love": "Old emotional wounds, unresolved relationships, or unrealistic comparisons may affect your current love life. Release past disappointments and focus on building healthy relationships based on the present rather than memories.",
+
+    "career": "Career progress may be limited by fear of change or relying too heavily on outdated methods. Be willing to learn new skills while appreciating the experience you've already gained.",
+
+    "finance": "Financial habits developed in the past may no longer serve your current goals. Review your spending patterns, update your financial strategy, and remain open to better opportunities.",
+
+    "health": "Emotional stress linked to unresolved memories or past trauma may affect your well-being. Healing requires self-compassion, emotional support, and focusing on the present moment.",
+
+    "spiritual": "Spiritually, this card encourages releasing emotional baggage and embracing personal growth. The past has shaped you, but it does not have to limit who you become.",
+
+    "advice": "Honor your past, but don't allow it to hold you back. Forgive what cannot be changed, embrace personal growth, and confidently step into the future."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 6 Weeks to 6 Months",
+    "reversed": "Delayed Until the Past Is Released"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Sun",
+    "zodiac": "Scorpio",
+    "numerology": 6
+  },
+
+  "affirmation": "I honor my past with gratitude, embrace the present with love, and confidently create a future filled with peace, joy, and meaningful connections."
+}

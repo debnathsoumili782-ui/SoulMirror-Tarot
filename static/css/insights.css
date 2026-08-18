@@ -1,0 +1,70 @@
+.insights-page{
+
+    min-height:100vh;
+
+    padding:150px 0 80px;
+
+    background:
+    linear-gradient(rgba(8,5,18,.82),
+    rgba(8,5,18,.88)),
+    url("../images/backgrounds/nebula-background.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.insights-header{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.insights-header .badge{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    border-radius:999px;
+
+    background:rgba(212,175,55,.12);
+
+    color:#d4af37;
+
+    border:1px solid rgba(212,175,55,.25);
+
+}
+
+.insights-header h1{
+
+    margin-top:22px;
+
+    font-family:"Cinzel",serif;
+
+    font-size:4rem;
+
+    color:#d4af37;
+
+}
+
+.insights-header p{
+
+    color:#ddd;
+
+    font-size:18px;
+
+}
+.nav-actions{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    margin-left:30px;
+}
+
+.navbar-nav .nav-link{
+    white-space:nowrap;
+}

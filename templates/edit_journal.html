@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Journal{% endblock %}
+
+{% block content %}
+
+<section class="journal-page">
+
+    <div class="container">
+
+        <div class="journal-card">
+
+            <h1>Edit Journal</h1>
+
+            <form method="POST">
+
+                <input
+                    type="text"
+                    name="title"
+                    value="{{ journal.title }}"
+                    required
+                >
+
+                <textarea
+                    name="content"
+                    rows="12"
+                    required>{{ journal.content }}</textarea>
+
+                <div class="journal-actions">
+
+                    <button
+                        type="submit"
+                        class="journal-btn">
+
+                        💾 Save Changes
+
+                    </button>
+                    <form
+                        action="{{ url_for('main.delete_journal', journal_id=journal.id) }}"
+                        method="POST"
+                        onsubmit="return confirm('Delete this journal permanently?');">
+                        <button
+                            type="submit"
+                            class="journal-btn danger">
+                            🗑 Delete
+                        </button>
+                    </form>
+                    <a
+                        href="{{ url_for('main.view_journal', journal_id=journal.id) }}"
+                        class="journal-btn secondary">
+                        Cancel
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/journal.css') }}">
+
+{% endblock %}

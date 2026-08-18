@@ -1,0 +1,84 @@
+{
+  "id": 47,
+  "name": "Knight of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 12,
+  "image": "cards/cups/knight-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Romance",
+      "Charm",
+      "Invitation",
+      "Compassion",
+      "Idealism",
+      "Creativity",
+      "Emotional Balance",
+      "Following the Heart"
+    ],
+    "reversed": [
+      "Moodiness",
+      "Emotional Manipulation",
+      "Unrealistic Expectations",
+      "Disappointment",
+      "Jealousy",
+      "Indecision",
+      "Broken Promises",
+      "Emotional Instability"
+    ]
+  },
+
+  "overview": "The Knight of Cups represents romance, emotional intelligence, creativity, and pursuing your dreams with an open heart. Unlike the fiery Knight of Wands, this knight is guided by compassion, intuition, and emotional wisdom. He often brings heartfelt messages, invitations, proposals, or opportunities that inspire emotional growth. This card encourages balancing your emotions with practicality, following your heart while remaining grounded, and expressing kindness in both your actions and relationships.",
+
+  "upright": {
+    "meaning": "The Knight of Cups Upright signifies romance, emotional maturity, creativity, and pursuing your goals with compassion and sincerity. It often indicates receiving positive news, heartfelt offers, invitations, or opportunities that align with your emotions and values. Trust your intuition while taking meaningful action.",
+
+    "love": "One of the strongest romance cards in the Tarot, the Knight of Cups often represents love proposals, new relationships, emotional commitment, reconciliation, and deep romantic gestures. Existing relationships become more affectionate and emotionally connected, while singles may meet someone kind, romantic, and emotionally mature.",
+
+    "career": "Professionally, this card suggests creative success, job offers, promotions, artistic opportunities, meaningful collaborations, or work that aligns with your passion. Following your intuition while remaining professional brings long-term success.",
+
+    "finance": "Financially, the Knight of Cups encourages making balanced financial decisions based on both logic and intuition. Creative talents or passion projects may become profitable with patience and careful planning.",
+
+    "health": "Health improves through emotional balance, stress reduction, creative expression, and maintaining healthy relationships. Emotional well-being positively supports physical recovery and overall vitality.",
+
+    "spiritual": "Spiritually, this card represents heightened intuition, compassion, emotional healing, and following your soul's purpose. Meditation, creativity, and acts of kindness strengthen your spiritual journey.",
+
+    "advice": "Follow your heart, but don't ignore practical wisdom. Be honest with your emotions, express your feelings openly, and allow compassion to guide your decisions."
+  },
+
+  "reversed": {
+    "meaning": "The Knight of Cups Reversed suggests emotional instability, unrealistic expectations, broken promises, or allowing emotions to cloud judgment. You may be idealizing people or situations instead of seeing them clearly. Balance your heart with logic before making important decisions.",
+
+    "love": "Relationships may experience mixed signals, emotional inconsistency, unrealistic expectations, jealousy, or disappointment. Honest communication and emotional maturity are essential for rebuilding trust. Singles should avoid idealizing new partners or rushing into romance without truly knowing the other person.",
+
+    "career": "Career-wise, emotional decisions, lack of commitment, or unrealistic expectations may delay success. Stay focused, honor your responsibilities, and avoid making career choices based solely on temporary emotions.",
+
+    "finance": "Financially, avoid emotional spending, risky investments, or trusting financial promises without proper research. Careful planning and practical thinking create lasting stability.",
+
+    "health": "Stress, emotional overwhelm, mood swings, or neglecting emotional well-being may affect your health. Prioritize emotional healing, proper rest, and healthy coping mechanisms.",
+
+    "spiritual": "Spiritually, you may struggle to distinguish genuine intuition from emotional wishful thinking. Slow down, meditate, and allow clarity to develop naturally before acting on spiritual insights.",
+
+    "advice": "Don't allow emotions alone to guide major decisions. Balance compassion with wisdom, remain honest with yourself, and choose relationships and opportunities that demonstrate consistency rather than empty promises."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Emotional Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Air of Water",
+    "zodiac": "Cancer, Scorpio, Pisces",
+    "numerology": 12
+  },
+
+  "affirmation": "I trust my heart, honor my intuition, and express my emotions with wisdom, compassion, and authenticity. Love and meaningful opportunities flow naturally into my life."
+}

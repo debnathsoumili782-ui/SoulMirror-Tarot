@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% block title %}Single Card Reading{% endblock %}
+{% block content %}
+<section class="yesno-page">
+    <div class="container">
+        <!-- ================= QUESTION ================= -->
+        <section id="questionSection">
+            <h1 class="yesno-title">
+                Single Card Tarot Reading
+            </h1>
+            <p class="yesno-subtitle">
+                Ask any question and allow a single card to reveal the guidance you need.
+            </p>
+            <form
+                id="questionForm"
+                method="POST"
+                action="{{ url_for('main.generate_single_reading_route') }}">
+                <div id="questionError" class="question-error"></div>
+
+                <textarea
+                    id="question"
+                    name="question"
+                    required
+                    maxlength="200"
+                    placeholder="Type your question here..."
+                ></textarea>
+
+                <input
+                    type="hidden"
+                    name="reading_type"
+                    value="single">
+
+                <button
+                    type="submit"
+                    class="btn btn-gold">
+                    Continue
+                </button>
+            </form>
+        </section>
+        <!-- ================= FOCUS ================= -->
+        <section id="focusScreen">
+            <div class="focus-box">
+                <h2>
+                    ✨ Focus on your question
+                </h2>
+                <p>
+                    Take a deep breath.<br>
+                    Concentrate on your intention.<br><br>
+                    The cards are preparing your answer...
+                </p>
+            </div>
+        </section>
+        <!-- ================= SHUFFLE ================= -->
+        <section id="shuffleSection">
+            <div class="deck-wrapper">
+                <div id="deck"></div>
+            </div>
+            <h2>
+                Shuffle the deck as many times as you wish.
+            </h2>
+            <p>
+                Trust your intuition.
+                When you feel the energy is right,
+                continue your reading.
+            </p>
+            <div class="shuffle-buttons">
+                <button
+                    id="shuffleBtn"
+                    class="btn btn-gold">
+                    🔀 Shuffle Again
+                </button>
+                <button
+                    id="readyBtn"
+                    class="btn btn-outline-light">
+                    ✨ I'm Ready
+                </button>
+            </div>
+            <script id="tarot-data" type="application/json">
+            {{ cards|tojson }}
+            </script>
+        </section>
+        <!-- ================= FAN ================= -->
+        <section id="fanSection">
+
+            <div class="fan-header">
+
+                <h2>
+                    Choose ONE Card
+                </h2>
+
+                <p>
+                    Let your intuition decide.
+                </p>
+
+            </div>
+
+
+            <!-- ======================================
+                 SELECTED CARD SLOT
+            ======================================= -->
+
+            <div id="selectedSlotWrapper">
+
+                <div class="slot-title">
+                    ✨ YOUR CARD ✨
+                </div>
+
+                <div class="selected-slot">
+
+                    <img
+                        id="selectedCard"
+                        src=""
+                        alt="Selected Tarot Card"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- ======================================
+                 FAN
+            ======================================= -->
+
+            <div id="fanContainer">
+
+                <div id="fanOverlay"></div>
+
+                <div id="flashOverlay"></div>
+
+                <div id="fanCards"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESULT ================= -->
+        <section id="resultSection">
+
+            <div id="readingResult"></div>
+
+        </section>
+    </div>
+</section>
+<link rel="stylesheet" href="{{ url_for('static',filename='css/single-reading.css') }}">
+<!-- ================= READING LOADER ================= -->
+
+<div id="readingLoader">
+
+    <div class="loader-box">
+
+        <div class="loader-orb"></div>
+
+        <h3>
+            Preparing Your Reading
+        </h3>
+
+        <p id="loaderText">
+            ✨ The cards have been chosen...
+        </p>
+
+    </div>
+
+</div>
+<script src="{{ url_for('static', filename='js/single-card.js') }}"></script>
+{% endblock %}

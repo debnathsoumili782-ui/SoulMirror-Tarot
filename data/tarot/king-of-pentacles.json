@@ -1,0 +1,84 @@
+{
+  "id": 77,
+  "name": "King of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 14,
+  "image": "cards/pentacles/king-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "Abundance",
+      "Leadership",
+      "Prosperity",
+      "Success",
+      "Security",
+      "Discipline",
+      "Responsibility",
+      "Wisdom"
+    ],
+    "reversed": [
+      "Greed",
+      "Materialism",
+      "Control",
+      "Stubbornness",
+      "Financial Mismanagement",
+      "Workaholism",
+      "Possessiveness",
+      "Corruption"
+    ]
+  },
+
+  "overview": "The King of Pentacles represents mastery of the material world through wisdom, discipline, and integrity. He symbolizes financial success, responsible leadership, long-term security, and the ability to create lasting prosperity while remaining grounded and dependable. This card encourages building wealth with honesty, leading by example, and using your success to support others. True abundance is measured not only by what you own but also by the stability, generosity, and positive legacy you create throughout your life.",
+
+  "upright": {
+    "meaning": "The King of Pentacles Upright signifies financial success, leadership, stability, and long-term achievement. Through patience, responsibility, and practical decision-making, you have the ability to build lasting prosperity. This card encourages wise leadership, disciplined action, and creating security for yourself and those who depend on you.",
+
+    "love": "In relationships, the King of Pentacles represents loyalty, commitment, emotional maturity, and building a secure future together. Couples enjoy stability, trust, and shared long-term goals. Singles may attract someone dependable, successful, generous, and genuinely interested in creating a lasting relationship based on mutual respect and security.",
+
+    "career": "Professionally, this is one of the strongest career cards in Tarot. It represents promotions, executive leadership, successful businesses, entrepreneurship, financial expertise, and professional recognition. Your experience, integrity, and reliability make you a respected leader capable of creating lasting success.",
+
+    "finance": "Financially, the King of Pentacles is a powerful symbol of wealth, financial independence, wise investments, successful businesses, property ownership, and long-term abundance. Continue making practical financial decisions while remaining generous and responsible with your resources.",
+
+    "health": "Health remains stable through disciplined routines, balanced nutrition, regular exercise, stress management, and maintaining a healthy work-life balance. Long-term consistency supports lasting physical and emotional well-being.",
+
+    "spiritual": "Spiritually, the King of Pentacles teaches that true abundance combines material success with wisdom, gratitude, generosity, and service. Lasting fulfillment comes from using your blessings to improve both your own life and the lives of others.",
+
+    "advice": "Lead with integrity, remain grounded, and continue building your future through patience and responsibility. Success becomes truly meaningful when it creates stability, generosity, and a positive legacy for others."
+  },
+
+  "reversed": {
+    "meaning": "The King of Pentacles Reversed suggests greed, excessive attachment to wealth, misuse of authority, stubbornness, or allowing material success to become more important than personal values. It may also indicate financial mismanagement or neglecting relationships because of work. Reevaluate your priorities and restore balance between ambition and personal well-being.",
+
+    "love": "Relationships may suffer because work, money, or control takes priority over emotional connection. Possessiveness, stubbornness, or neglect may create distance. Healthy partnerships require generosity, emotional availability, and mutual respect. Singles should avoid judging potential partners solely by financial status or external success.",
+
+    "career": "Career-wise, workplace power struggles, poor leadership, unethical decisions, or becoming overly focused on money may limit long-term success. Lead with honesty, humility, and fairness rather than control or pride.",
+
+    "finance": "Financially, avoid risky investments, greed, overspending, or becoming obsessed with accumulating wealth. Create balance by making responsible financial decisions while remembering that money is a tool—not your identity.",
+
+    "health": "Overworking, chronic stress, neglecting self-care, or allowing career pressures to dominate your life may affect your health. Prioritize rest, healthy habits, and maintaining balance between work and personal life.",
+
+    "spiritual": "Spiritually, attachment to status, possessions, or material success may distance you from your deeper purpose. Practice gratitude, generosity, humility, and remember that lasting fulfillment comes from inner peace rather than external achievements.",
+
+    "advice": "Success is most meaningful when guided by integrity and compassion. Balance ambition with gratitude, wealth with generosity, and leadership with humility. Build not only financial security but also a legacy of kindness and wisdom."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 3–12 Months",
+    "reversed": "Delayed Until Priorities Are Realigned"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Fire of Earth",
+    "zodiac": "Taurus",
+    "numerology": 14
+  },
+
+  "affirmation": "I create lasting abundance through wisdom, integrity, and disciplined action. I lead with generosity, remain grounded in gratitude, and build a legacy of prosperity, stability, and compassion."
+}

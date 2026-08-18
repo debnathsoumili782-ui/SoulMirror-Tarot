@@ -1,0 +1,84 @@
+{
+  "id": 19,
+  "name": "The Sun",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 19,
+  "image": "cards/major/the-sun.png",
+
+  "keywords": {
+    "upright": [
+      "Success",
+      "Joy",
+      "Happiness",
+      "Positivity",
+      "Vitality",
+      "Confidence",
+      "Achievement",
+      "Optimism"
+    ],
+    "reversed": [
+      "Temporary Setback",
+      "Delayed Success",
+      "Self-Doubt",
+      "Negativity",
+      "Overconfidence",
+      "Unrealistic Expectations",
+      "Clouded Joy",
+      "Minor Obstacles"
+    ]
+  },
+
+  "overview": "The Sun is one of the most positive and joyful cards in the Tarot. It represents happiness, success, confidence, abundance, and personal fulfillment. After periods of uncertainty and challenge, The Sun brings clarity, warmth, and optimism. It reminds you to celebrate your achievements, embrace your authentic self, and trust that brighter days are ahead. This card symbolizes truth, vitality, and the powerful energy of living life with confidence and gratitude.",
+
+  "upright": {
+    "meaning": "The Sun Upright signifies happiness, success, confidence, clarity, and abundance. It indicates that your hard work is paying off and that you are entering a period of positivity and fulfillment. Obstacles begin to disappear, allowing you to move forward with renewed energy and optimism.",
+
+    "love": "In relationships, The Sun represents joy, trust, emotional security, commitment, and long-lasting happiness. Couples experience greater harmony and deeper emotional connection, while singles are likely to attract a genuine, healthy, and fulfilling relationship. This is one of the strongest positive love cards in the deck.",
+
+    "career": "Professionally, The Sun indicates career success, promotions, recognition, leadership opportunities, business growth, and achieving important goals. Your talents are noticed, and your confidence attracts new opportunities.",
+
+    "finance": "Financially, The Sun represents prosperity, financial growth, successful investments, and long-term stability. Wise decisions made in the past begin producing rewarding results.",
+
+    "health": "The Sun is an excellent health card, symbolizing recovery, vitality, physical strength, emotional wellness, and renewed motivation. It encourages maintaining healthy habits that support long-term well-being.",
+
+    "spiritual": "Spiritually, The Sun represents enlightenment, inner peace, gratitude, higher consciousness, and living in alignment with your authentic self. You feel connected to the universe and confident in your spiritual path.",
+
+    "advice": "Celebrate your achievements, remain optimistic, and continue sharing your light with others. Confidence, gratitude, and authenticity will attract even greater success into your life."
+  },
+
+  "reversed": {
+    "meaning": "The Sun Reversed suggests temporary delays, self-doubt, or difficulty recognizing your own success. While happiness may seem slightly blocked, the positive energy of The Sun remains present. Minor obstacles or unrealistic expectations may temporarily cloud your perspective, but brighter days are still ahead.",
+
+    "love": "In relationships, misunderstandings or emotional distance may temporarily affect happiness. Honest communication, patience, and appreciation for one another will quickly restore harmony. Singles should build self-confidence before seeking validation from others.",
+
+    "career": "Career progress may feel slower than expected, or you may underestimate your accomplishments. Continue working toward your goals with confidence because recognition and success are still within reach.",
+
+    "finance": "Financial growth may be delayed due to unnecessary worries or cautious decision-making. Stay patient, continue managing money responsibly, and avoid letting temporary setbacks discourage you.",
+
+    "health": "Stress, fatigue, or emotional exhaustion may temporarily reduce your energy levels. Rest, healthy routines, and maintaining a positive outlook will support recovery and renewed vitality.",
+
+    "spiritual": "Spiritually, you may feel disconnected from your inner joy or question your purpose. Practicing gratitude, mindfulness, and reconnecting with nature will help restore your inner light.",
+
+    "advice": "Don't allow temporary setbacks to overshadow your progress. Focus on gratitude, trust your abilities, and remember that the light you're seeking already exists within you."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Yes — With Minor Delays"
+  },
+
+  "timing": {
+    "upright": "Within 1 Month",
+    "reversed": "Within 2–3 Months"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Sun",
+    "zodiac": "Leo",
+    "numerology": 19
+  },
+
+  "affirmation": "I radiate confidence, joy, and positivity. Success flows naturally into my life, and I embrace every new day with gratitude, courage, and limitless optimism."
+}

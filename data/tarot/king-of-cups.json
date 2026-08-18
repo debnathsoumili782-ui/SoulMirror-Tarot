@@ -1,0 +1,84 @@
+{
+  "id": 49,
+  "name": "King of Cups",
+  "arcana": "Minor Arcana",
+  "category": "cups",
+  "number": 14,
+  "image": "cards/cups/king-of-cups.png",
+
+  "keywords": {
+    "upright": [
+      "Emotional Mastery",
+      "Wisdom",
+      "Compassion",
+      "Leadership",
+      "Diplomacy",
+      "Balance",
+      "Integrity",
+      "Understanding"
+    ],
+    "reversed": [
+      "Emotional Manipulation",
+      "Moodiness",
+      "Coldness",
+      "Suppressed Emotions",
+      "Dishonesty",
+      "Instability",
+      "Control",
+      "Emotional Immaturity"
+    ]
+  },
+
+  "overview": "The King of Cups represents emotional maturity, wisdom, compassion, and balanced leadership. He has mastered his emotions without suppressing them, making decisions with both logic and empathy. This card symbolizes someone who remains calm during difficult situations, offers wise guidance, and inspires trust through integrity rather than authority. The King of Cups reminds you that true strength comes from emotional intelligence, self-control, and leading with kindness while remaining firm in your values.",
+
+  "upright": {
+    "meaning": "The King of Cups Upright signifies emotional stability, wisdom, compassion, and mature leadership. You are encouraged to trust both your heart and your intellect when making important decisions. Your calm nature allows you to handle challenges with patience, understanding, and confidence.",
+
+    "love": "In relationships, the King of Cups represents deep emotional commitment, loyalty, trust, and unconditional support. Couples experience emotional security, mutual respect, and mature communication. Singles may attract a wise, dependable, and emotionally available partner capable of building a lasting relationship.",
+
+    "career": "Professionally, this card indicates respected leadership, successful negotiations, diplomacy, mentoring, counseling, management, or careers involving helping others. Your emotional intelligence allows you to solve problems effectively while earning the trust and respect of colleagues.",
+
+    "finance": "Financially, the King of Cups represents wise money management, careful investments, long-term financial security, and balanced decision-making. Emotional discipline helps create lasting prosperity and financial confidence.",
+
+    "health": "The King of Cups signifies emotional balance, stress management, mental resilience, and overall well-being. Maintaining healthy emotional habits, mindfulness, and self-care supports excellent physical and emotional health.",
+
+    "spiritual": "Spiritually, this card represents inner peace, emotional mastery, compassion, and deep intuitive wisdom. You are learning to trust your higher self while remaining grounded in reality. Your spiritual maturity allows you to guide others with kindness and understanding.",
+
+    "advice": "Lead with compassion, remain emotionally balanced, and trust your wisdom. Strength is found not in controlling emotions but in understanding and expressing them with maturity and integrity."
+  },
+
+  "reversed": {
+    "meaning": "The King of Cups Reversed suggests emotional imbalance, manipulation, suppressed feelings, or difficulty managing emotions. You may be allowing emotions to control your decisions or hiding your true feelings behind a calm exterior. The card encourages honest emotional expression and restoring inner balance.",
+
+    "love": "Relationships may experience emotional distance, manipulation, poor communication, or difficulty expressing genuine feelings. Rebuilding trust requires honesty, emotional maturity, and healthy vulnerability. Singles should avoid emotionally unavailable or manipulative partners.",
+
+    "career": "Career-wise, workplace tension, poor leadership, emotional decision-making, or unresolved conflicts may slow progress. Focus on professionalism, emotional control, and respectful communication to restore stability and success.",
+
+    "finance": "Financial decisions influenced by emotions, pride, or impulsiveness may create unnecessary challenges. Slow down, review your plans carefully, and seek practical advice before making major financial commitments.",
+
+    "health": "Stress, emotional suppression, anxiety, or burnout may affect your well-being. Prioritize emotional healing, healthy coping strategies, therapy if needed, and maintaining a balanced lifestyle.",
+
+    "spiritual": "Spiritually, emotional confusion may temporarily weaken your intuition. Spend time in meditation, prayer, or quiet reflection to reconnect with your inner wisdom and restore emotional harmony.",
+
+    "advice": "Don't hide or ignore your emotions. True wisdom comes from understanding your feelings rather than controlling or denying them. Balance compassion with honesty, and allow emotional healing to strengthen your life."
+  },
+
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Emotional Balance Is Restored"
+  },
+
+  "correspondence": {
+    "element": "Water",
+    "planet": "Fire of Water",
+    "zodiac": "Cancer, Scorpio, Pisces",
+    "numerology": 14
+  },
+
+  "affirmation": "I lead with wisdom, compassion, and emotional balance. My heart and mind work together in harmony, guiding me toward peace, meaningful relationships, and lasting success."
+}

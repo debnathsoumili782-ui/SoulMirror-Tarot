@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}
+Welcome | SoulMirror
+{% endblock %}
+{% block content %}
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/account-created.css') }}">
+<section class="account-created-page">
+    <div class="welcome-card">
+        <div class="success-icon">
+            ✨
+        </div>
+        <h1>
+            Welcome to SoulMirror
+        </h1>
+        <h2>
+            {{ username }}
+        </h2>
+        <p>
+            Your account has been created successfully.
+        </p>
+        <p class="loading-text">
+            Preparing your mystical journey...
+        </p>
+        <p id="redirectText" class="redirect-text">
+            Redirecting in 2...
+        </p>
+        <div class="loader"></div>
+    </div>
+</section>
+<script>
+
+let seconds = 2;
+
+const text = document.getElementById("redirectText");
+
+const timer = setInterval(function(){
+
+    seconds--;
+
+    if(seconds > 0){
+
+        text.innerHTML =
+        "Redirecting in " + seconds + "...";
+
+    }
+
+},1000);
+
+setTimeout(function(){
+
+    clearInterval(timer);
+
+    window.location.href="/";
+
+},2000);
+
+</script>
+{% endblock %}

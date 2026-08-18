@@ -1,0 +1,84 @@
+{
+  "id": 57,
+  "name": "Eight of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 8,
+  "image": "cards/swords/eight-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Restriction",
+      "Self-Limiting Beliefs",
+      "Fear",
+      "Feeling Trapped",
+      "Confusion",
+      "Powerlessness",
+      "Overthinking",
+      "Mental Prison"
+    ],
+    "reversed": [
+      "Freedom",
+      "Empowerment",
+      "Clarity",
+      "Self-Confidence",
+      "Breaking Free",
+      "Release",
+      "New Perspective",
+      "Inner Strength"
+    ]
+  },
+
+  "overview": "The Eight of Swords represents feeling trapped, restricted, or powerless, often because of fear, doubt, or limiting beliefs rather than external circumstances. Although the situation may appear hopeless, the card reminds you that many of the barriers you face exist only in your mind. By changing your perspective, trusting yourself, and taking small but courageous steps, you can free yourself from fear and regain control of your life. The key to freedom already lies within you.",
+
+  "upright": {
+    "meaning": "The Eight of Swords Upright signifies feeling stuck, overwhelmed, or unable to move forward because of fear, anxiety, or self-doubt. You may believe your options are limited, but this card reminds you that your greatest obstacle is often your own perception. With courage and a fresh perspective, you can break free from these limitations.",
+
+    "love": "In relationships, the Eight of Swords suggests emotional insecurity, fear of vulnerability, or feeling trapped in unhealthy relationship patterns. Honest communication and self-confidence can help restore balance. Singles may avoid new relationships because of past heartbreak or fear of rejection.",
+
+    "career": "Professionally, this card may indicate feeling stuck in your job, lacking confidence, or believing you have no better options. Instead of focusing on limitations, recognize your skills, seek new opportunities, and trust your ability to create positive change.",
+
+    "finance": "Financially, fear or limiting beliefs may prevent you from improving your situation. Careful planning, learning new skills, and asking for guidance can help you regain financial confidence and stability.",
+
+    "health": "Stress, anxiety, overthinking, or negative thought patterns may affect your overall well-being. Prioritize mental health, mindfulness, and professional support if needed. Small positive habits can create significant long-term improvements.",
+
+    "spiritual": "Spiritually, this card encourages releasing limiting beliefs and recognizing your inner strength. You are far more capable than your fears suggest. Meditation and self-reflection will help you reconnect with your true power.",
+
+    "advice": "Don't let fear decide your future. Challenge negative thoughts, trust your abilities, and remember that you are stronger and more capable than you currently believe."
+  },
+
+  "reversed": {
+    "meaning": "The Eight of Swords Reversed represents liberation, gaining confidence, overcoming fear, and finally recognizing your own power. Mental barriers begin to dissolve as you take responsibility for your future and embrace new possibilities. This is a card of personal empowerment and emotional freedom.",
+
+    "love": "Relationships improve as insecurity fades and honest communication becomes easier. Couples overcome emotional barriers together, while singles become more confident, emotionally available, and ready to welcome healthy love.",
+
+    "career": "Career-wise, new opportunities appear as self-confidence grows. You may finally leave an unfulfilling job, pursue a promotion, or begin believing in your own abilities. Confidence becomes the key to professional success.",
+
+    "finance": "Financial worries begin to ease as you gain greater control over your decisions. Better planning, increased confidence, and practical action gradually improve long-term financial stability.",
+
+    "health": "Recovery accelerates as emotional stress decreases and mental clarity returns. Healthy routines, positive thinking, and self-care contribute to improved physical and emotional well-being.",
+
+    "spiritual": "Spiritually, this card represents awakening, self-belief, and releasing old fears that have limited your growth. You begin trusting your intuition and recognizing your true potential.",
+
+    "advice": "Free yourself from fear and self-doubt. Believe in your strength, embrace new opportunities, and remember that the only prison stronger than reality is the one created by your own mind."
+  },
+
+  "yes_no": {
+    "upright": "No",
+    "reversed": "Yes"
+  },
+
+  "timing": {
+    "upright": "Delayed Until Mental Blocks Are Cleared",
+    "reversed": "Very Soon"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Jupiter",
+    "zodiac": "Gemini",
+    "numerology": 8
+  },
+
+  "affirmation": "I release fear, trust my inner strength, and recognize that I have the power to overcome every limitation. I am free to create the life I truly deserve."
+}

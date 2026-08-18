@@ -1,0 +1,64 @@
+{
+  "id": 1,
+  "name": "The Magician",
+  "arcana": "Major Arcana",
+  "category": "major",
+  "number": 1,
+  "image": "cards/major/the-magician.png",
+  "keywords": {
+    "upright": [
+      "Manifestation",
+      "Power",
+      "Skill",
+      "Confidence",
+      "Action",
+      "Resourcefulness",
+      "Creativity",
+      "Willpower"
+    ],
+    "reversed": [
+      "Manipulation",
+      "Deception",
+      "Self-Doubt",
+      "Untapped Potential",
+      "Misuse of Power",
+      "Confusion",
+      "Illusion",
+      "Poor Planning"
+    ]
+  },
+  "overview": "The Magician represents personal power, confidence, and the ability to transform ideas into reality. This card symbolizes the perfect balance of knowledge, skill, determination, and action. It reminds you that you already possess the resources needed to achieve your goals. Success depends not on luck, but on your willingness to take focused action and use your talents wisely.",
+  "upright": {
+    "meaning": "The Magician Upright signifies manifestation, confidence, and the ability to create the future you desire. It indicates that your talents, intelligence, and determination are aligned, allowing you to achieve success through focused effort. This card encourages taking initiative, believing in yourself, and making the most of every opportunity.",
+    "love": "The Magician Upright suggests attraction, strong communication, and exciting romantic opportunities. Singles may attract someone through confidence and authenticity, while couples can strengthen their relationship through honest conversations and shared goals. It encourages taking the initiative rather than waiting for love to happen.",
+    "career": "Professionally, this is one of the strongest success cards. It indicates promotions, leadership, successful interviews, business growth, entrepreneurship, and recognition for your abilities. Your skills will help you stand out if you take action with confidence.",
+    "finance": "Financially, The Magician indicates positive opportunities for growth through smart planning and wise investments. It encourages using your knowledge and creativity to improve your financial situation while avoiding unnecessary risks.",
+    "health": "This card suggests increased vitality, motivation, and the ability to improve your physical and mental health through discipline and positive lifestyle changes. It reminds you that consistent effort produces lasting results.",
+    "spiritual": "Spiritually, The Magician represents discovering your inner power and recognizing your ability to shape your own reality. Meditation, visualization, manifestation, and conscious intention become especially powerful during this period.",
+    "advice": "Believe in your abilities and take action. Stop waiting for the perfect moment because you already possess everything necessary to succeed. Focus your energy, remain disciplined, and trust yourself."
+  },
+  "reversed": {
+    "meaning": "The Magician Reversed indicates self-doubt, lack of direction, manipulation, or the misuse of personal abilities. You may underestimate your own potential or become distracted by false promises. It reminds you to act with honesty, regain confidence, and focus your energy wisely.",
+    "love": "In relationships, this card may suggest manipulation, poor communication, emotional games, or unrealistic expectations. Trust should be rebuilt through honesty and openness. Avoid controlling behavior or making promises you cannot keep.",
+    "career": "Career-wise, The Magician Reversed warns against procrastination, lack of preparation, workplace politics, or failing to recognize your own talents. Success is still possible, but only through discipline and self-belief.",
+    "finance": "Financially, avoid scams, unrealistic investment schemes, impulsive business decisions, or trusting unreliable financial advice. Double-check contracts and remain cautious with money.",
+    "health": "This card suggests that stress, lack of motivation, or neglecting healthy habits may affect your well-being. Pay attention to both physical and emotional health before small issues become larger concerns.",
+    "spiritual": "Spiritually, you may feel disconnected from your intuition or become overly focused on external validation. Return to practices that strengthen your inner awareness and authenticity.",
+    "advice": "Avoid shortcuts and manipulation. Rebuild your confidence, trust your genuine abilities, and use your talents responsibly. Success comes through integrity, preparation, and focused action."
+  },
+  "yes_no": {
+    "upright": "Strong Yes",
+    "reversed": "Uncertain"
+  },
+  "timing": {
+    "upright": "Within 1 Month",
+    "reversed": "Delayed Until Proper Action Is Taken"
+  },
+  "correspondence": {
+    "element": "Air",
+    "planet": "Mercury",
+    "zodiac": "Gemini",
+    "numerology": 1
+  },
+  "affirmation": "I possess the knowledge, confidence, and power to transform my dreams into reality through focused action."
+}

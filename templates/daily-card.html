@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block title %}
+Daily Card | SoulMirror Tarot
+{% endblock %}
+
+{% block content %}
+
+<link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/daily-card.css') }}">
+
+<section class="daily-page">
+
+    <!-- ========================= -->
+    <!-- INTRO -->
+    <!-- ========================= -->
+
+    <div
+            id="dailyIntro"
+            class="daily-intro">
+
+        <div class="daily-intro-box">
+
+            <span class="daily-badge">
+                🌙 Daily Guidance
+            </span>
+
+            <h1>
+                Today's Card
+            </h1>
+
+            <p>
+
+                Every sunrise carries a message.
+
+                <br><br>
+
+                Pause for a moment.
+                Take a slow breath.
+                Allow your intuition to become still.
+
+                <br><br>
+
+                The universe has already chosen
+                today's card for you.
+
+            </p>
+
+            <button
+                    id="revealDailyCard"
+                    class="btn btn-gold">
+
+                Reveal Today's Card
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- READING -->
+    <!-- ========================= -->
+
+    <div id="dailyReading"
+            class="daily-reading">
+
+        <div class="daily-card">
+
+                <img
+                    id="dailyCardImage"
+                    class="{% if card.orientation=='reversed' %}reversed-card{% endif %}"
+                    src="{{ url_for('static', filename='images/' + card.image) }}"
+                    alt="{{ card.name }}">
+
+            </div>
+
+        <div class="daily-content">
+
+            <span class="daily-badge">
+                ✨ Daily Message
+            </span>
+            <h1>{{ card.name }}</h1>
+            <p class="orientation">
+                {{ card.orientation|title }}
+            </p>
+            <div class="daily-message">
+                {% if card.orientation=="upright" %}
+                    {{ card.upright.meaning }}
+                {% else %}
+                    {{ card.reversed.meaning }}
+                {% endif %}
+            </div>
+            <p class="daily-note">
+                ✨ This message is yours for today.
+                <br>
+                Return tomorrow to receive a new daily card
+            </p>
+            <div class="countdown">
+
+                New card available in
+
+                <span id="countdownTimer"></span>
+
+            </div>
+            <div class="daily-buttons">
+                <a href="/" class="reading-btn secondary">
+                    🏠 Back Home
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="{{ url_for('static', filename='js/daily-card.js') }}"></script>
+{% endblock %}

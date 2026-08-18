@@ -1,0 +1,84 @@
+{
+  "id": 52,
+  "name": "Three of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 3,
+  "image": "cards/swords/three-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Heartbreak",
+      "Grief",
+      "Emotional Pain",
+      "Separation",
+      "Sorrow",
+      "Truth",
+      "Healing",
+      "Acceptance"
+    ],
+    "reversed": [
+      "Recovery",
+      "Forgiveness",
+      "Emotional Healing",
+      "Moving On",
+      "Reconciliation",
+      "Release",
+      "Hope",
+      "Inner Peace"
+    ]
+  },
+
+  "overview": "The Three of Swords represents emotional pain, heartbreak, disappointment, and the difficult truths that life sometimes brings. Although this card acknowledges sorrow, it is ultimately a card of healing and growth. Painful experiences often reveal important lessons, strengthen emotional resilience, and prepare you for healthier relationships and greater wisdom. The Three of Swords reminds you that healing takes time, but every wound can become a source of strength when faced with honesty, compassion, and self-love.",
+
+  "upright": {
+    "meaning": "The Three of Swords Upright signifies heartbreak, disappointment, grief, emotional pain, or difficult truths. Although the situation may feel overwhelming, this card encourages accepting your emotions instead of suppressing them. Healing begins through honesty, forgiveness, and allowing yourself the time needed to recover.",
+
+    "love": "In relationships, the Three of Swords often represents heartbreak, separation, betrayal, painful misunderstandings, or emotional distance. Existing relationships require honest communication and mutual effort to heal. Singles may still be carrying emotional wounds from the past and should focus on healing before opening their heart again.",
+
+    "career": "Professionally, this card may indicate workplace disappointment, rejection, career setbacks, criticism, or conflicts with colleagues. Although the experience may be painful, valuable lessons learned now will strengthen your future success.",
+
+    "finance": "Financially, the Three of Swords warns of temporary financial disappointment, unexpected expenses, or regret over previous financial decisions. Stay calm, learn from mistakes, and rebuild with patience rather than fear.",
+
+    "health": "Emotional stress, anxiety, grief, or heartbreak may affect both physical and mental health. Prioritize emotional healing, proper rest, supportive relationships, and professional help if needed. Recovery is possible through patience and self-care.",
+
+    "spiritual": "Spiritually, this card represents healing through acceptance. Difficult experiences often become powerful teachers, helping you develop compassion, wisdom, forgiveness, and a deeper understanding of yourself.",
+
+    "advice": "Allow yourself to feel your emotions without judgment. Healing cannot be rushed. Accept the lesson, forgive where possible, and trust that brighter days are waiting beyond this difficult chapter."
+  },
+
+  "reversed": {
+    "meaning": "The Three of Swords Reversed represents emotional recovery, forgiveness, releasing pain, and gradually moving forward after heartbreak. Although healing may still be ongoing, hope is returning. You are learning to let go of emotional burdens and create space for peace and happiness.",
+
+    "love": "Relationships may begin healing after conflict or separation through honest communication and forgiveness. Reconciliation is possible if both individuals are willing to grow. Singles become emotionally stronger and more prepared for healthy, lasting love.",
+
+    "career": "Career disappointments begin to fade as new opportunities emerge. Confidence returns, allowing you to apply past lessons with greater wisdom and resilience. Professional healing leads to renewed motivation.",
+
+    "finance": "Financial recovery becomes possible through smarter decisions, improved planning, and learning from previous mistakes. Stability gradually replaces uncertainty as confidence grows.",
+
+    "health": "Emotional healing positively influences physical health. Stress decreases, inner peace returns, and healthy habits become easier to maintain. Continue prioritizing self-care throughout the recovery process.",
+
+    "spiritual": "Spiritually, you are releasing emotional pain, practicing forgiveness, and discovering inner peace through acceptance. Past wounds become valuable sources of wisdom and personal transformation.",
+
+    "advice": "Choose healing over bitterness. Release what no longer serves your heart, forgive yourself and others when possible, and trust that every ending creates space for a healthier beginning."
+  },
+
+  "yes_no": {
+    "upright": "No",
+    "reversed": "Yes — After Healing"
+  },
+
+  "timing": {
+    "upright": "Within 3 Weeks to 3 Months",
+    "reversed": "Healing Begins Soon"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Saturn",
+    "zodiac": "Libra",
+    "numerology": 3
+  },
+
+  "affirmation": "I honor my emotions, release past pain with compassion, and welcome healing, peace, and new beginnings into my heart. Every challenge strengthens my wisdom and resilience."
+}

@@ -1,0 +1,271 @@
+{% extends "base.html" %}
+
+{% block title %}Premium | SoulMirror Tarot{% endblock %}
+
+{% block content %}
+
+<section class="premium-page">
+
+    <div class="premium-overlay"></div>
+
+    <div class="container">
+
+        <div class="premium-header text-center">
+        <div class="premium-icon">👑</div>
+            <h1 class="premium-title">
+                ✨ Unlock Your Destiny
+            </h1>
+            <div class="premium-divider">
+                <span></span>✦<span></span>
+            </div>
+            <p class="premium-subtitle">
+                Get unlimited tarot readings, AI spiritual guidance, exclusive rituals,
+                personalized reports and much more.
+            </p>
+
+        </div>
+        <div class="pricing-wrapper">
+
+                <!-- Free -->
+                <div class="pricing-card small-card">
+
+                    <h2>Free</h2>
+
+                    <div class="price">
+                        ₹0
+                    </div>
+
+                    <ul class="premium-features">
+                        <li>✔ Daily Card</li>
+                        <li>✔ Limited Readings</li>
+                        <li>✔ Card Library</li>
+                        <li>✔ Basic Journal</li>
+                    </ul>
+
+                    <a href="{{ url_for('main.home') }}" class="btn btn-outline-light premium-btn">
+                        Current Plan
+                    </a>
+
+                </div>
+
+
+                <!-- Premium -->
+                <div class="pricing-card featured">
+
+                    <div class="premium-badge">
+                          MOST POPULAR
+                    </div>
+                    <div class="best-value">
+                        ⭐ BEST VALUE
+                    </div>
+                    <h2>SoulMirror Premium</h2>
+
+                    <div class="price">
+                        ₹199 <span>/month</span>
+                    </div>
+
+                    <ul class="premium-features">
+                        <li>✔ Unlimited Tarot Readings</li>
+                        <li>✔ AI Love Compatibility</li>
+                        <li>✔ AI Career Guidance</li>
+                        <li>✔ Personalized Predictions</li>
+                        <li>✔ Premium Card Library</li>
+                        <li>✔ Reading History</li>
+                        <li>✔ Priority Support</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-gold premium-btn">
+                        Upgrade Now
+                    </a>
+
+                </div>
+
+
+                <!-- Lifetime -->
+                <div class="pricing-card small-card">
+
+                    <h2>One Year</h2>
+
+                    <div class="price">
+                        ₹999
+                    </div>
+
+                    <ul class="premium-features">
+                        <li>✔ Everything in Premium</li>
+                        <li>✔ Oneyear Full Access</li>
+                        <li>✔ Future Updates</li>
+                        <li>✔ VIP Badge</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-outline-light premium-btn">
+                        Buy Once In A Year
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+                <section class="compare-section">
+
+                <h2>Compare Plans</h2>
+
+                <div class="compare-table">
+
+                    <div>Feature</div>
+                    <div>Free</div>
+                    <div>Monthly</div>
+                    <div>One Year</div>
+
+                    <div>Daily Card</div>
+                    <div>✔</div>
+                    <div>✔</div>
+                    <div>✔</div>
+
+                    <div>Unlimited Readings</div>
+                    <div>✖</div>
+                    <div>✔</div>
+                    <div>✔</div>
+
+                    <div>AI Tarot</div>
+                    <div>✖</div>
+                    <div>✔</div>
+                    <div>✔</div>
+
+                    <div>Reading History</div>
+                    <div>✖</div>
+                    <div>✔</div>
+                    <div>✔</div>
+
+                    <div>Future Updates</div>
+                    <div>✖</div>
+                    <div>✖</div>
+                    <div>✔</div>
+
+                </div>
+
+            </section>
+                <section class="faq-section">
+
+                <h2>Frequently Asked Questions</h2>
+
+                <div class="faq-container">
+
+                    <details>
+                        <summary>Can I cancel my subscription anytime?</summary>
+                        <p>Yes. You can cancel your Premium subscription anytime from your account settings.</p>
+                    </details>
+
+                    <details>
+                        <summary>Do I get unlimited AI Tarot readings?</summary>
+                        <p>Yes. Premium and Lifetime members get unlimited AI-powered tarot readings.</p>
+                    </details>
+
+                    <details>
+                        <summary>Will my reading history be saved?</summary>
+                        <p>Yes. Your complete reading history is securely stored in your account.</p>
+                    </details>
+
+                    <details>
+                        <summary>What's included in the Lifetime plan?</summary>
+                        <p>Everything in Premium, plus all future updates with a one-time payment.</p>
+                    </details>
+
+                </div>
+
+            </section>
+                    <section class="testimonial-section">
+
+                <h2>Loved by Our Members</h2>
+
+                <div class="testimonial-wrapper">
+
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"The AI readings are surprisingly accurate. I use SoulMirror every morning."</p>
+                        <h4>— Sophia Moretti</h4>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Beautiful interface, calming experience, and the Premium plan is worth every penny."</p>
+                        <h4>— Olivia D'souza</h4>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"The Daily Guidance feature has become part of my routine."</p>
+                        <h4>— Seraphina Vance</h4>
+                    </div>
+
+                </div>
+
+            </section>
+                        <section class="benefits-section">
+
+                <h2>Why Go Premium?</h2>
+
+                <div class="benefits-grid">
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🔮</div>
+                        <h4>Unlimited Readings</h4>
+                        <p>Ask as many questions as you want without daily limits.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">💖</div>
+                        <h4>Love Compatibility</h4>
+                        <p>Discover relationship insights with AI-powered tarot analysis.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🌙</div>
+                        <h4>Daily Guidance</h4>
+                        <p>Receive personalized spiritual guidance every single day.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">📖</div>
+                        <h4>Reading History</h4>
+                        <p>Access and revisit all your past tarot readings anytime.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">✨</div>
+                        <h4>Exclusive Decks</h4>
+                        <p>Unlock beautifully designed premium tarot decks.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">⚡</div>
+                        <h4>Priority Support</h4>
+                        <p>Get faster responses and priority assistance whenever needed.</p>
+                    </div>
+
+                </div>
+
+            </section>
+            <section class="premium-cta">
+
+            <h2>Ready to Unlock Your Destiny?</h2>
+
+            <p>
+                Join thousands of seekers discovering clarity, guidance,
+                and spiritual insight with SoulMirror Premium.
+            </p>
+
+            <a href="#" class="btn btn-gold premium-cta-btn">
+                ✨ Become Premium Today
+            </a>
+
+            <div class="premium-guarantee">
+                🔒 Secure Payment • Cancel Anytime • Instant Access
+            </div>
+
+        </section>
+    </div>
+
+</section>
+
+{% endblock %}

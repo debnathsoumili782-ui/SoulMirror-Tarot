@@ -1,0 +1,84 @@
+{
+  "id": 74,
+  "name": "Page of Pentacles",
+  "arcana": "Minor Arcana",
+  "category": "pentacles",
+  "number": 11,
+  "image": "cards/pentacles/page-of-pentacles.png",
+
+  "keywords": {
+    "upright": [
+      "New Opportunities",
+      "Learning",
+      "Ambition",
+      "Manifestation",
+      "Practicality",
+      "Growth",
+      "Discipline",
+      "Potential"
+    ],
+    "reversed": [
+      "Procrastination",
+      "Lack of Focus",
+      "Missed Opportunities",
+      "Immaturity",
+      "Poor Planning",
+      "Distraction",
+      "Unrealized Potential",
+      "Carelessness"
+    ]
+  },
+
+  "overview": "The Page of Pentacles represents ambition, learning, and the exciting beginning of a journey toward long-term success. It symbolizes curiosity, dedication, and the willingness to develop new skills that create lasting rewards. Whether it appears in career, education, finances, or personal growth, this card encourages taking practical steps toward your goals. Success comes through patience, discipline, and a genuine desire to keep learning. Every great achievement begins with a single decision to start.",
+
+  "upright": {
+    "meaning": "The Page of Pentacles Upright signifies new opportunities, education, career growth, and the beginning of something with strong long-term potential. It encourages you to stay curious, work consistently, and invest in your future. Your willingness to learn today creates tomorrow's success.",
+
+    "love": "In relationships, the Page of Pentacles represents loyalty, sincerity, and building a stable future together. Couples may begin discussing long-term goals or taking practical steps toward commitment. Singles may meet someone dependable, hardworking, and genuinely interested in creating a meaningful relationship rather than temporary excitement.",
+
+    "career": "Professionally, this card is excellent for students, job seekers, apprenticeships, certifications, interviews, new careers, or business opportunities. Your dedication and eagerness to improve will be recognized and rewarded over time.",
+
+    "finance": "Financially, the Page of Pentacles encourages saving, learning about investments, budgeting wisely, and creating long-term financial security. Small financial decisions made today can produce significant future rewards.",
+
+    "health": "Health improves through learning healthier habits, following professional guidance, maintaining regular exercise, and creating sustainable routines. Consistency matters more than perfection.",
+
+    "spiritual": "Spiritually, this card encourages grounding yourself while remaining open to learning. Growth happens through patience, daily practice, gratitude, and applying spiritual wisdom to everyday life.",
+
+    "advice": "Stay curious and never stop learning. Every skill you develop and every opportunity you embrace brings you one step closer to the future you are working to create."
+  },
+
+  "reversed": {
+    "meaning": "The Page of Pentacles Reversed suggests procrastination, lack of focus, poor planning, or failing to take advantage of valuable opportunities. You may know what you want but struggle to stay disciplined. Refocus your energy, create a clear plan, and begin taking consistent action.",
+
+    "love": "Relationships may lack commitment, consistency, or clear long-term direction. Honest conversations about future goals help strengthen emotional security. Singles should avoid investing in relationships where effort is one-sided or intentions remain unclear.",
+
+    "career": "Career-wise, distractions, poor preparation, unfinished projects, or lack of motivation may delay success. Continue improving your skills, remain disciplined, and avoid expecting immediate results without consistent effort.",
+
+    "finance": "Financially, avoid careless spending, ignoring budgets, or postponing important financial decisions. Focus on creating practical financial habits that support long-term security rather than temporary satisfaction.",
+
+    "health": "Neglecting healthy routines or delaying necessary lifestyle changes may affect your well-being. Begin with small, manageable improvements and remain consistent with your self-care.",
+
+    "spiritual": "Spiritually, you may become distracted from your personal growth or struggle to apply what you've learned. Return to simple daily practices and allow steady progress to replace unrealistic expectations.",
+
+    "advice": "Stop waiting for the perfect moment. Begin where you are, stay disciplined, and remember that consistent action always creates greater success than perfect intentions."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within 1–3 Months",
+    "reversed": "Delayed Until Consistent Effort Is Applied"
+  },
+
+  "correspondence": {
+    "element": "Earth",
+    "planet": "Earth of Earth",
+    "zodiac": "Taurus, Virgo, Capricorn",
+    "numerology": 11
+  },
+
+  "affirmation": "I embrace every opportunity to learn, grow, and build a secure future. My dedication, patience, and consistent effort create lasting abundance and success."
+}

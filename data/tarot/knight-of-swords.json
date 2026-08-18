@@ -1,0 +1,84 @@
+{
+  "id": 61,
+  "name": "Knight of Swords",
+  "arcana": "Minor Arcana",
+  "category": "swords",
+  "number": 12,
+  "image": "cards/swords/knight-of-swords.png",
+
+  "keywords": {
+    "upright": [
+      "Ambition",
+      "Action",
+      "Determination",
+      "Courage",
+      "Speed",
+      "Focus",
+      "Assertiveness",
+      "Mental Strength"
+    ],
+    "reversed": [
+      "Impulsiveness",
+      "Recklessness",
+      "Aggression",
+      "Impatience",
+      "Poor Planning",
+      "Conflict",
+      "Carelessness",
+      "Burnout"
+    ]
+  },
+
+  "overview": "The Knight of Swords represents determination, ambition, and the courage to pursue your goals without hesitation. Driven by logic, confidence, and a strong sense of purpose, this knight charges forward when others hesitate. However, while decisive action creates success, acting too quickly without considering the consequences can create unnecessary problems. This card reminds you to combine confidence with wisdom, allowing both intelligence and patience to guide your actions.",
+
+  "upright": {
+    "meaning": "The Knight of Swords Upright signifies ambition, swift progress, confidence, and taking decisive action. You possess the determination and mental clarity needed to overcome obstacles and achieve your goals. This card encourages acting boldly while remaining thoughtful and focused on long-term success.",
+
+    "love": "In relationships, the Knight of Swords represents honest communication, passionate conversations, and moving a relationship forward quickly. Singles may meet someone intelligent, confident, and direct. Existing relationships benefit from openness, but avoid speaking without considering your partner's feelings.",
+
+    "career": "Professionally, this card indicates rapid career progress, promotions, successful interviews, leadership opportunities, and achieving goals through intelligence and determination. Stay focused, but avoid becoming impatient with colleagues or rushing important decisions.",
+
+    "finance": "Financially, the Knight of Swords encourages making informed decisions quickly when good opportunities arise. Careful research combined with confident action can lead to financial growth, but avoid reckless investments or impulsive spending.",
+
+    "health": "Health improves through discipline, motivation, and taking immediate action to address concerns. Maintain balance by avoiding overworking yourself or pushing beyond healthy physical limits.",
+
+    "spiritual": "Spiritually, the Knight of Swords represents seeking truth, intellectual growth, and confidently pursuing wisdom. Stay open to learning while remembering that true understanding develops through both knowledge and experience.",
+
+    "advice": "Act with confidence, but don't allow speed to replace wisdom. Think clearly, communicate honestly, and let determination guide your actions without becoming reckless."
+  },
+
+  "reversed": {
+    "meaning": "The Knight of Swords Reversed suggests impulsiveness, impatience, poor judgment, or rushing into situations without considering the consequences. You may feel frustrated by delays or become overly aggressive in pursuing your goals. Slow down and allow thoughtful planning to replace emotional reactions.",
+
+    "love": "Relationships may experience arguments, harsh words, impatience, or emotional misunderstandings. Practice active listening and think before speaking. Singles should avoid rushing into relationships based solely on attraction or excitement.",
+
+    "career": "Career-wise, workplace conflict, poor communication, unrealistic deadlines, or acting without preparation may create setbacks. Focus on organization, teamwork, and making thoughtful professional decisions rather than reacting impulsively.",
+
+    "finance": "Financially, avoid risky investments, impulsive purchases, or making decisions under pressure. Review financial plans carefully and seek reliable advice before committing to major expenses.",
+
+    "health": "Stress, burnout, accidents caused by rushing, or mental exhaustion may affect your well-being. Slow your pace, prioritize rest, and develop sustainable healthy routines.",
+
+    "spiritual": "Spiritually, impatience may cause you to seek quick answers rather than allowing genuine growth to unfold naturally. Trust divine timing and remember that wisdom develops through patience and consistent practice.",
+
+    "advice": "Slow down before acting. Careful planning, emotional balance, and thoughtful communication will produce far better results than rushing toward immediate outcomes."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "No"
+  },
+
+  "timing": {
+    "upright": "Within 2–6 Weeks",
+    "reversed": "Delayed Until Better Planning"
+  },
+
+  "correspondence": {
+    "element": "Air",
+    "planet": "Fire of Air",
+    "zodiac": "Gemini",
+    "numerology": 12
+  },
+
+  "affirmation": "I move forward with confidence, clarity, and purpose. My actions are guided by wisdom, my mind remains focused, and I achieve my goals with courage and integrity."
+}

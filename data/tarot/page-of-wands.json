@@ -1,0 +1,84 @@
+{
+  "id": 32,
+  "name": "Page of Wands",
+  "arcana": "Minor Arcana",
+  "category": "wands",
+  "number": 11,
+  "image": "cards/wands/page-of-wands.png",
+
+  "keywords": {
+    "upright": [
+      "Adventure",
+      "Inspiration",
+      "Enthusiasm",
+      "Exploration",
+      "Creativity",
+      "Good News",
+      "Curiosity",
+      "Potential"
+    ],
+    "reversed": [
+      "Immaturity",
+      "Lack of Direction",
+      "Creative Block",
+      "Bad News",
+      "Impulsiveness",
+      "Delay",
+      "Insecurity",
+      "Frustration"
+    ]
+  },
+
+  "overview": "The Page of Wands represents youthful energy, curiosity, creativity, and exciting new opportunities. It symbolizes the beginning of an inspiring journey where passion, learning, and exploration take center stage. This card encourages embracing new experiences with confidence while remaining open to growth and discovery. It often appears when good news, fresh ideas, or unexpected opportunities are about to arrive, reminding you that every expert was once a beginner who chose to take the first step.",
+
+  "upright": {
+    "meaning": "The Page of Wands Upright signifies inspiration, enthusiasm, and exciting new beginnings. You are filled with creative energy and a desire to explore new possibilities. This card encourages taking action on your ideas with confidence while remaining open to learning along the way.",
+
+    "love": "In relationships, the Page of Wands represents excitement, flirtation, playful romance, and emotional curiosity. Singles may meet someone adventurous and energetic, while existing relationships experience renewed passion, fun, and honest communication.",
+
+    "career": "Professionally, this card indicates new job opportunities, internships, promotions, creative projects, business ideas, or learning new skills. It encourages embracing challenges with optimism and confidence because growth comes through experience.",
+
+    "finance": "Financially, the Page of Wands suggests new income opportunities, side businesses, creative ventures, or learning valuable financial skills. Avoid impulsive spending while exploring exciting opportunities for growth.",
+
+    "health": "The Page of Wands represents renewed energy, motivation, and beginning healthier routines. It encourages physical activity, positive habits, and maintaining an optimistic mindset that supports long-term well-being.",
+
+    "spiritual": "Spiritually, this card signifies curiosity, personal discovery, and exploring new spiritual practices. It encourages trusting your intuition, remaining open-minded, and enjoying the journey of self-discovery.",
+
+    "advice": "Follow your curiosity and don't be afraid to try something new. Every opportunity offers valuable experience. Stay enthusiastic, remain teachable, and trust your ability to grow."
+  },
+
+  "reversed": {
+    "meaning": "The Page of Wands Reversed suggests creative blocks, self-doubt, lack of direction, or difficulty committing to new opportunities. Exciting ideas may exist, but fear or poor planning could prevent progress. Focus on building confidence and creating a practical plan before moving forward.",
+
+    "love": "Relationships may experience immaturity, inconsistent communication, or uncertainty about future commitment. Honest conversations and emotional maturity will strengthen trust. Singles should avoid rushing into relationships without understanding their true feelings.",
+
+    "career": "Career-wise, delays, lack of motivation, or fear of failure may slow progress. Improve your skills, organize your goals, and avoid abandoning projects before giving them a fair chance to succeed.",
+
+    "finance": "Financial opportunities may require additional preparation before becoming profitable. Avoid risky spending, impulsive investments, or chasing unrealistic promises. Focus on building long-term stability.",
+
+    "health": "Low motivation, stress, or inconsistent healthy habits may affect your overall well-being. Re-establish positive routines gradually rather than expecting immediate results.",
+
+    "spiritual": "Spiritually, you may feel uncertain about your path or disconnected from your inspiration. Spend time reconnecting with your inner self through meditation, journaling, or creative expression.",
+
+    "advice": "Don't allow fear or inexperience to stop you from growing. Learn from mistakes, stay patient with yourself, and remember that confidence develops through action, not perfection."
+  },
+
+  "yes_no": {
+    "upright": "Yes",
+    "reversed": "Maybe"
+  },
+
+  "timing": {
+    "upright": "Within a Few Weeks",
+    "reversed": "Delayed Until Better Preparation"
+  },
+
+  "correspondence": {
+    "element": "Fire",
+    "planet": "Earth of Fire",
+    "zodiac": "Aries, Leo, Sagittarius",
+    "numerology": 11
+  },
+
+  "affirmation": "I embrace every new opportunity with confidence, curiosity, and enthusiasm. My creativity guides me toward exciting experiences, meaningful growth, and limitless possibilities."
+}
