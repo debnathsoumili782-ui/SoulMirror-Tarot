@@ -163,6 +163,48 @@ The frontend is built using standard web technologies without React or other fro
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Landing Page — Before Login
+
+![SoulMirror Landing Page](docs/screenshots/home-before-login.png)
+
+### 🔐 Authentication
+
+#### Create Account
+
+![SoulMirror Sign Up](docs/screenshots/signup.png)
+
+#### Login & Google Authentication
+
+![SoulMirror Login](docs/screenshots/login.png)
+
+### 🔮 Reading Selection
+
+![SoulMirror Reading Selection](docs/screenshots/reading-selection.png)
+
+### 🃏 Single Card Reading
+
+![SoulMirror Reading Result](docs/screenshots/reading-result.png)
+
+### ❤️ Simple Love Reading
+
+![SoulMirror Simple Love Reading](docs/screenshots/simple-love.png)
+
+### 💜 Deep Love Reading
+
+![SoulMirror Deep Love Reading](docs/screenshots/deep-love.png)
+
+### 📱 Mobile Love Reading
+
+![SoulMirror Mobile Love Reading](docs/screenshots/love-reading-mobile.png)
+
+### 📖 Reading History
+
+![SoulMirror Reading History](docs/screenshots/reading-history.png)  
+
+---
+
 ## 🏗️ Project Architecture
 
 ```text
