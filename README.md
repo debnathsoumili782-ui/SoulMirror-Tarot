@@ -2,9 +2,9 @@
 
 ### AI-Powered Tarot Reading & Self-Reflection Platform
 
-SoulMirror Tarot is a full-stack web application that combines a digital tarot experience with AI-assisted interpretations, personalized readings, and a mystical interactive interface.
+SoulMirror Tarot is a full-stack web application that combines a digital tarot experience with AI-assisted interpretations, personalized readings, and an immersive mystical interface.
 
-Built with **Python, Flask, HTML, CSS, JavaScript, and SQLite**, SoulMirror provides multiple tarot reading experiences while allowing users to securely manage their accounts and revisit their previous readings.
+Built with **Python, Flask, HTML, CSS, JavaScript, and SQLite**, SoulMirror Tarot provides multiple tarot reading experiences while allowing users to securely manage their accounts, explore the complete tarot deck, maintain personal reflections, and revisit previous readings.
 
 ---
 
@@ -12,12 +12,12 @@ Built with **Python, Flask, HTML, CSS, JavaScript, and SQLite**, SoulMirror prov
 
 ### 🔮 Multiple Reading Experiences
 
-SoulMirror offers different reading formats designed for different types of questions and situations:
+SoulMirror Tarot offers different reading formats designed for different questions, situations, and areas of life:
 
 - 🃏 Single Card Reading
 - ❤️ Simple Love Reading
 - 💞 Deep Love Reading
-- ❓ Yes / No Reading
+- ❓ Yes / No Guidance
 - ⏳ Time Oracle
 - 💼 Career Reading
 - 💰 Money Reading
@@ -25,11 +25,13 @@ SoulMirror offers different reading formats designed for different types of ques
 - 🧘 Spiritual Guidance
 - 🌟 Daily Card
 
+Each reading experience provides a dedicated interface and spread designed around its specific purpose.
+
 ---
 
 ### 🤖 AI-Assisted Tarot Interpretations
 
-SoulMirror uses an AI-assisted reading system to interpret tarot cards in the context of the user's question.
+SoulMirror Tarot uses an AI-assisted interpretation system to provide contextual tarot readings based on the user's question and selected cards.
 
 The application maintains a structured tarot knowledge base containing card-specific information such as:
 
@@ -37,87 +39,151 @@ The application maintains a structured tarot knowledge base containing card-spec
 - Reversed meanings
 - Keywords
 - Timing guidance
-- Yes/No guidance
+- Yes / No guidance
 - Card correspondences
 - Affirmations
 
-The interpretation system uses the selected card and the user's question to generate a contextual reading.
+The interpretation system combines the user's question with the selected tarot card information to generate a contextual reading.
 
 ---
 
 ### 🃏 Complete 78-Card Tarot Deck
 
-The project includes a structured tarot knowledge base covering the complete traditional 78-card deck:
+SoulMirror Tarot includes a structured tarot knowledge base covering the complete traditional 78-card tarot deck.
 
-**Major Arcana**
+#### Major Arcana
+
 - 22 cards
 
-**Minor Arcana**
-- 14 Cups
-- 14 Pentacles
-- 14 Swords
-- 14 Wands
+#### Minor Arcana
 
-Each card is represented using structured JSON data.
+- 14 Cups
+- 14 Wands
+- 14 Swords
+- 14 Pentacles
+
+**Total: 78 Tarot Cards**
+
+Each card is represented using structured data containing information used throughout the reading system.
+
+---
+
+### 📚 Card Library
+
+The Card Library provides an interactive visual collection of the complete tarot deck.
+
+Users can:
+
+- Browse the Major Arcana
+- Browse Cups
+- Browse Wands
+- Browse Swords
+- Browse Pentacles
+- Search for cards
+- Filter cards by category
+- Explore the cards visually
+
+The library is designed to provide a dedicated space for learning about and exploring the SoulMirror tarot deck.
 
 ---
 
 ### 🔐 Authentication
 
-SoulMirror includes a complete user authentication system.
+SoulMirror Tarot includes a complete user authentication system.
 
 Users can:
 
 - Create an account
 - Log in using email and password
 - Continue with Google
+- Use Remember Me
 - Log out securely
-- Maintain personalized reading history
+- Reset forgotten passwords
+- Access personalized features through authenticated sessions
 
-Google authentication is implemented using **Google OAuth 2.0 / Google Identity Services**.
+Passwords are securely hashed before being stored.
+
+Google authentication is implemented using **Google Identity Services / OAuth 2.0**.
 
 ---
 
 ### 📖 Personalized Reading History
 
-Authenticated users can revisit their previous readings.
+Authenticated users can revisit their previous readings through the Reading History section.
 
-The history system stores information including:
+Stored reading information can include:
 
 - Reading type
 - User question
-- Selected tarot card
+- Selected tarot cards
 - Card orientation
-- AI-generated interpretation
+- Generated interpretation
 - Reading timestamp
 
-Users can also:
+Users can:
 
 - View previous readings
 - Download readings as PDF
-- Delete individual readings
+- Select multiple readings
+- Delete reading records
 
-All timestamps displayed in the reading history are converted to **Indian Standard Time (IST)**.
+Reading timestamps displayed in the history interface are converted to **Indian Standard Time (IST)**.
 
 ---
 
 ### 📄 PDF Export
 
-Users can export their readings as PDF documents for offline reference and personal reflection.
+Users can export generated tarot readings as PDF documents.
+
+PDF export allows users to keep their readings for:
+
+- Offline reference
+- Personal reflection
+- Future review
+- Personal records
 
 ---
 
-### 🌙 Mystical Interactive UI
+### 📓 Personal Journal
 
-The interface is designed around a dark celestial aesthetic featuring:
+SoulMirror Tarot includes a personal Journal space designed for reflection.
+
+Users can record thoughts, experiences, and personal reflections alongside their tarot journey.
+
+The Journal complements the reading experience by allowing users to maintain their own reflective notes.
+
+---
+
+### 🌙 Daily Card
+
+The Daily Card experience provides a dedicated tarot message for the day.
+
+Users can reveal their daily card and receive its corresponding interpretation.
+
+The experience includes:
+
+- Daily card reveal
+- Card orientation
+- Daily message
+- Countdown until the next available card
+
+---
+
+### 🎨 Mystical Interactive UI
+
+SoulMirror Tarot follows a dark celestial visual identity inspired by tarot, astrology, and the night sky.
+
+The interface features:
 
 - Cosmic backgrounds
-- Tarot card visuals
-- Animated effects
-- Star particles
+- Purple and gold visual theme
+- Tarot card artwork
+- Star and particle effects
 - Interactive card experiences
-- Responsive layouts
+- Animated transitions
 - Themed reading pages
+- Responsive layouts
+- Consistent navigation and authentication UI
 
 The frontend is built using standard web technologies without React or other frontend frameworks.
 
@@ -144,12 +210,15 @@ The frontend is built using standard web technologies without React or other fro
 
 - SQLite
 - SQLAlchemy ORM
-- Flask-Migrate / Alembic
+- Flask-Migrate
+- Alembic
 
 ### Authentication
 
 - Google OAuth 2.0
 - Google Identity Services
+- Flask-Login
+- Flask-Bcrypt
 
 ### AI
 
@@ -159,7 +228,7 @@ The frontend is built using standard web technologies without React or other fro
 
 ### PDF
 
-- Python PDF generation service
+- Python-based PDF generation service
 
 ---
 
@@ -169,7 +238,7 @@ The frontend is built using standard web technologies without React or other fro
 
 ![SoulMirror Tarot Landing Page](docs/screenshots/home-before-login.png)
 
-The SoulMirror Tarot landing page introduces the platform with its celestial tarot-themed interface and provides access to the main reading experience.
+The landing page introduces SoulMirror Tarot through its celestial interface and provides access to the primary tarot experience.
 
 ---
 
@@ -185,7 +254,7 @@ Users can create a personalized SoulMirror Tarot account using their username, e
 
 ![SoulMirror Tarot Login](docs/screenshots/login.png)
 
-The login interface supports email/password authentication as well as Google authentication.
+The login interface supports email/password authentication and Google authentication.
 
 ---
 
@@ -193,7 +262,7 @@ The login interface supports email/password authentication as well as Google aut
 
 ![SoulMirror Tarot Reading Selection](docs/screenshots/reading-selection.png)
 
-Users can choose from multiple tarot reading experiences based on the type of guidance they are looking for.
+Users can choose from multiple tarot reading experiences depending on the type of guidance they are looking for.
 
 Available reading experiences include:
 
@@ -213,7 +282,7 @@ Available reading experiences include:
 
 ![SoulMirror Tarot Reading Result](docs/screenshots/reading-result.png)
 
-A generated tarot reading presents the selected card, its orientation, and the contextual interpretation for the user's question.
+The reading result interface presents the selected tarot card, its orientation, and the contextual interpretation generated for the user's question.
 
 ---
 
@@ -229,13 +298,13 @@ A three-card love reading designed to explore relationship-related questions and
 
 ![SoulMirror Tarot Deep Love Reading](docs/screenshots/deep-love.png)
 
-A five-card deep love spread exploring different dimensions of a relationship, including:
+A five-card relationship spread exploring:
 
-- Your Energy
-- Their Energy
-- The Challenge
-- The Bridge
-- The Outcome
+- ❤️ Your Energy
+- 💞 Their Energy
+- 💔 The Challenge
+- 🌉 The Bridge
+- ✨ The Outcome
 
 ---
 
@@ -243,7 +312,7 @@ A five-card deep love spread exploring different dimensions of a relationship, i
 
 ![SoulMirror Tarot Reading History](docs/screenshots/reading-history.png)
 
-Authenticated users can revisit their previous tarot readings from their personalized reading history.
+Authenticated users can revisit their previous readings through their personalized Reading History.
 
 The history interface allows users to:
 
@@ -256,7 +325,7 @@ The history interface allows users to:
 
 ### 🃏 Card Library
 
-SoulMirror Tarot includes a visual card library containing the complete traditional 78-card tarot deck.
+SoulMirror Tarot includes a visual library containing the complete traditional 78-card tarot deck.
 
 #### Major Arcana
 
@@ -288,20 +357,13 @@ The Swords collection contains the 14 cards of the Swords suit.
 
 The Pentacles collection contains the 14 cards of the Pentacles suit.
 
-The Card Library also provides:
-
-- Card search
-- Arcana filtering
-- Suit-based filtering
-- Visual card browsing
-
 ---
 
 ### 📓 Journal
 
 ![SoulMirror Tarot Journal](docs/screenshots/journal.png)
 
-The Journal provides a personal space for users to record thoughts, reflections, and experiences alongside their tarot journey.
+The Journal provides a personal space where users can record thoughts, experiences, and reflections alongside their tarot journey.
 
 ---
 
@@ -309,13 +371,13 @@ The Journal provides a personal space for users to record thoughts, reflections,
 
 ![SoulMirror Tarot About Page](docs/screenshots/about.png)
 
-The About page introduces the concept and purpose behind SoulMirror Tarot and its approach to tarot-based self-reflection.
+The About page introduces the concept behind SoulMirror Tarot and its approach to tarot-based self-reflection.
 
 ---
 
 ## 🏗️ Project Architecture
 
-```text
+
 SoulMirror-Tarot/
 │
 ├── ai/
@@ -366,6 +428,9 @@ SoulMirror-Tarot/
 │
 ├── utils/
 │
+├── docs/
+│   └── screenshots/
+│
 ├── app.py
 ├── config.py
 ├── extensions.py
@@ -374,13 +439,13 @@ SoulMirror-Tarot/
 
 ## 🔄 Application Flow
 
+
 User
  │
  ▼
 Authentication
  │
  ├── Email / Password
- │
  └── Google OAuth
  │
  ▼
@@ -388,6 +453,16 @@ SoulMirror Dashboard
  │
  ▼
 Choose Reading Type
+ │
+ ├── Single Card
+ ├── Simple Love
+ ├── Deep Love
+ ├── Yes / No
+ ├── Time Oracle
+ ├── Career
+ ├── Money
+ ├── Spiritual
+ └── Decision
  │
  ▼
 Enter Question
@@ -404,3 +479,6 @@ Reading Result
  ├── Save Reading
  ├── Download PDF
  └── View Later
+ │
+ ▼
+Reading History
