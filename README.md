@@ -377,7 +377,7 @@ The About page introduces the concept behind SoulMirror Tarot and its approach t
 
 ## 🏗️ Project Architecture
 
-
+```text
 SoulMirror-Tarot/
 │
 ├── ai/
@@ -388,11 +388,17 @@ SoulMirror-Tarot/
 │   └── prompts.py
 │
 ├── blueprints/
-│   ├── admin/
 │   ├── auth/
+│   │   └── routes.py
+│   │
 │   ├── dashboard/
+│   │   └── routes.py
+│   │
 │   ├── main/
+│   │   └── routes.py
+│   │
 │   └── reading/
+│       └── routes.py
 │
 ├── data/
 │   ├── tarot/
@@ -425,6 +431,8 @@ SoulMirror-Tarot/
 │   └── js/
 │
 ├── templates/
+│   ├── auth/
+│   └── ...
 │
 ├── utils/
 │
@@ -439,46 +447,50 @@ SoulMirror-Tarot/
 
 ## 🔄 Application Flow
 
-
+```text
 User
- │
- ▼
-Authentication
- │
- ├── Email / Password
- └── Google OAuth
- │
- ▼
+│
+├── Authentication
+│   ├── Email / Password
+│   └── Google OAuth
+│
+▼
 SoulMirror Dashboard
- │
- ▼
+│
+▼
 Choose Reading Type
- │
- ├── Single Card
- ├── Simple Love
- ├── Deep Love
- ├── Yes / No
- ├── Time Oracle
- ├── Career
- ├── Money
- ├── Spiritual
- └── Decision
- │
- ▼
+│
+├── Single Card
+├── Simple Love
+├── Deep Love
+├── Yes / No
+├── Time Oracle
+├── Career
+├── Money
+├── Decision
+└── Spiritual
+│
+▼
 Enter Question
- │
- ▼
+│
+▼
 Tarot Card Selection
- │
- ▼
+│
+▼
+Card Orientation
+│
+├── Upright
+└── Reversed
+│
+▼
 AI-Assisted Interpretation
- │
- ▼
+│
+▼
 Reading Result
- │
- ├── Save Reading
- ├── Download PDF
- └── View Later
- │
- ▼
+│
+├── Save Reading
+├── Download PDF
+└── View Later
+│
+▼
 Reading History
