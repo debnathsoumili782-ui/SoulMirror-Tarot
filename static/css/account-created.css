@@ -1,171 +1,336 @@
-/*==========================================
-        ACCOUNT CREATED
-==========================================*/
+/* ==========================================
+        ACCOUNT CREATED — SOULMIRROR
+========================================== */
 
 .account-created-page{
 
     min-height:100vh;
 
     display:flex;
-
     justify-content:center;
-
     align-items:center;
 
-    padding:40px;
+    padding:35px 20px;
 
     background:
-    linear-gradient(rgba(8,8,18,.78),rgba(8,8,18,.92)),
-    url("../images/backgrounds/nebula-background.png");
+        radial-gradient(
+            circle at 50% 35%,
+            rgba(112,65,180,.16),
+            transparent 42%
+        ),
+        linear-gradient(
+            rgba(7,5,16,.62),
+            rgba(7,5,16,.86)
+        ),
+        url("../images/backgrounds/nebula-background.png");
 
     background-size:cover;
-
     background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 
     overflow:hidden;
-
 }
 
 
-/*==========================================
-            CARD
-==========================================*/
+/* ==========================================
+            WELCOME CARD
+========================================== */
 
 .welcome-card{
 
     width:100%;
+    max-width:520px;
 
-    max-width:650px;
+    padding:42px 42px 36px;
 
     text-align:center;
 
-    padding:65px 55px;
+    border-radius:28px;
 
-    border-radius:32px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(38,23,60,.78),
+            rgba(14,9,27,.88)
+        );
 
-    background:rgba(22,14,38,.72);
+    border:1px solid rgba(212,175,55,.28);
 
-    border:1px solid rgba(212,175,55,.25);
-
-    backdrop-filter:blur(18px);
+    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
 
     box-shadow:
-    0 25px 80px rgba(0,0,0,.45),
-    0 0 50px rgba(212,175,55,.08);
+        0 25px 70px rgba(0,0,0,.55),
+        0 0 45px rgba(212,175,55,.10);
 
+    animation:
+        welcomeAppear .8s ease forwards;
 }
 
 
-/*==========================================
-            ICON
-==========================================*/
+/* ==========================================
+            SUCCESS ICON
+========================================== */
 
 .success-icon{
 
-    width:95px;
+    width:72px;
+    height:72px;
 
-    height:95px;
+    margin:0 auto 22px;
 
-    margin:auto;
-
-    margin-bottom:28px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
     border-radius:50%;
 
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    font-size:42px;
+    font-size:32px;
 
     color:#FFD86B;
 
-    background:rgba(212,175,55,.12);
+    background:
+        radial-gradient(
+            circle,
+            rgba(212,175,55,.18),
+            rgba(212,175,55,.05)
+        );
 
-    border:1px solid rgba(212,175,55,.30);
+    border:1px solid rgba(212,175,55,.38);
 
-    animation:pulse 2s infinite;
+    box-shadow:
+        0 0 22px rgba(212,175,55,.14),
+        inset 0 0 18px rgba(212,175,55,.05);
 
+    animation:
+        iconGlow 2.5s ease-in-out infinite;
 }
 
 
-/*==========================================
-            TEXT
-==========================================*/
+/* ==========================================
+            MAIN HEADING
+========================================== */
 
 .welcome-card h1{
 
-    color:#FFD86B;
+    margin:0 0 8px;
 
     font-family:"Cinzel",serif;
 
-    font-size:46px;
-
-    margin-bottom:15px;
-
-}
-
-.welcome-card h2{
-
-    color:#fff;
-
-    font-size:28px;
-
-    margin-bottom:25px;
+    font-size:38px;
 
     font-weight:600;
 
+    letter-spacing:.8px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #FFF8D9 0%,
+            #F2D36A 38%,
+            #D4AF37 72%,
+            #B88720 100%
+        );
+
+    -webkit-background-clip:text;
+    background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        0 0 12px rgba(255,221,112,.28),
+        0 0 28px rgba(212,175,55,.16);
 }
+
+
+/* ==========================================
+            USERNAME
+========================================== */
+
+.welcome-card h2{
+
+    margin:0 0 20px;
+
+    color:#F5F1E8;
+
+    font-family:"Cinzel",serif;
+
+    font-size:24px;
+
+    font-weight:500;
+
+    letter-spacing:.5px;
+}
+
+
+/* ==========================================
+            MESSAGE
+========================================== */
 
 .welcome-card p{
 
-    color:#ddd;
+    max-width:390px;
 
-    font-size:18px;
+    margin:0 auto;
 
-    line-height:1.8;
+    color:#D8D3DF;
 
+    font-size:16px;
+
+    line-height:1.75;
 }
+
+
+/* ==========================================
+            LOADING MESSAGE
+========================================== */
 
 .loading-text{
 
-    margin-top:28px;
+    margin-top:22px !important;
 
-    color:#FFD86B !important;
+    color:#E6C15A !important;
+
+    font-size:14px !important;
 
     letter-spacing:1px;
 
+    text-shadow:
+        0 0 10px rgba(212,175,55,.22);
 }
 
 
-/*==========================================
+/* ==========================================
             LOADER
-==========================================*/
+========================================== */
 
 .loader{
 
-    width:56px;
+    width:48px;
+    height:48px;
 
-    height:56px;
-
-    margin:35px auto 0;
+    margin:25px auto 0;
 
     border-radius:50%;
 
-    border:4px solid rgba(255,255,255,.12);
+    border:3px solid rgba(255,255,255,.10);
 
-    border-top:4px solid #FFD86B;
+    border-top-color:#D4AF37;
 
-    animation:spin .9s linear infinite;
+    border-right-color:rgba(212,175,55,.35);
+
+    box-shadow:
+        0 0 18px rgba(212,175,55,.12);
+
+    animation:
+        spin .9s linear infinite;
+}
+
+
+/* ==========================================
+            REDIRECT TEXT
+========================================== */
+
+.redirect-text{
+
+    margin-top:16px !important;
+
+    color:#AAA4B5 !important;
+
+    font-size:13px !important;
+
+    letter-spacing:.6px;
+
+    opacity:.8;
+}
+
+
+/* ==========================================
+            CARD GLOW
+========================================== */
+
+.welcome-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:240px;
+    height:240px;
+
+    left:50%;
+    top:50%;
+
+    transform:translate(-50%,-50%);
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(212,175,55,.055),
+            transparent 70%
+        );
+
+    pointer-events:none;
+
+    z-index:-1;
+}
+
+
+/* ==========================================
+            ANIMATIONS
+========================================== */
+
+@keyframes welcomeAppear{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            translateY(20px)
+            scale(.98);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+            translateY(0)
+            scale(1);
+
+    }
 
 }
 
 
-/*==========================================
-            ANIMATION
-==========================================*/
+@keyframes iconGlow{
+
+    0%,
+    100%{
+
+        transform:scale(1);
+
+        box-shadow:
+            0 0 18px rgba(212,175,55,.10),
+            inset 0 0 15px rgba(212,175,55,.04);
+
+    }
+
+    50%{
+
+        transform:scale(1.045);
+
+        box-shadow:
+            0 0 30px rgba(212,175,55,.25),
+            inset 0 0 18px rgba(212,175,55,.08);
+
+    }
+
+}
+
 
 @keyframes spin{
 
@@ -177,70 +342,56 @@
 
 }
 
-@keyframes pulse{
 
-    0%{
-
-        transform:scale(1);
-
-        box-shadow:0 0 0 rgba(212,175,55,.35);
-
-    }
-
-    50%{
-
-        transform:scale(1.08);
-
-        box-shadow:0 0 30px rgba(212,175,55,.30);
-
-    }
-
-    100%{
-
-        transform:scale(1);
-
-        box-shadow:0 0 0 rgba(212,175,55,0);
-
-    }
-
-}
-
-
-/*==========================================
+/* ==========================================
             MOBILE
-==========================================*/
+========================================== */
 
 @media(max-width:768px){
 
+    .account-created-page{
+
+        padding:25px 16px;
+
+    }
+
     .welcome-card{
 
-        padding:45px 28px;
+        max-width:450px;
+
+        padding:36px 25px 30px;
+
+        border-radius:24px;
+
+    }
+
+    .success-icon{
+
+        width:64px;
+        height:64px;
+
+        font-size:28px;
+
+        margin-bottom:18px;
 
     }
 
     .welcome-card h1{
 
-        font-size:34px;
+        font-size:32px;
 
     }
 
     .welcome-card h2{
 
-        font-size:22px;
+        font-size:21px;
 
     }
 
-}
-.redirect-text{
+    .welcome-card p{
 
-    margin-top:18px;
+        font-size:15px;
 
-    color:#cfcfcf;
-
-    font-size:15px;
-
-    letter-spacing:1px;
-
-    opacity:.85;
+    }
 
 }

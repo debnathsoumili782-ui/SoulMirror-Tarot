@@ -4,13 +4,50 @@
 
 {% block content %}
 
-<section class="history-page">
+<section class="history-page" style="padding-bottom:300px;">
 
     <div class="container">
 
         <div class="history-header">
             <h1>Reading History</h1>
             <p>Revisit your past readings and reflect on your journey.</p>
+        </div>
+        <div class="selection-toolbar">
+
+            <button type="button"
+                    id="selectModeBtn"
+                    class="select-mode-btn">
+                ☑ Select
+            </button>
+
+            <div id="bulkActions" class="bulk-actions">
+
+                <span id="selectedCount">
+                    0 Selected
+                </span>
+
+                <button type="button" id="selectAllBtn">
+                    Select All
+                </button>
+
+                <button type="button"
+                        id="deleteSelectedBtn"
+                        disabled>
+                    🗑 Delete Selected
+                </button>
+
+                <button type="button"
+                        id="deleteAllBtn">
+                    🗑 Delete All
+                </button>
+
+                <button type="button"
+                        id="cancelSelectBtn">
+                    Cancel
+                </button>
+
+            </div>
+
         </div>
 
         <div class="history-list">
@@ -20,7 +57,14 @@
                 {% for reading in readings %}
 
                     <div class="history-card">
+                        <label class="reading-select-box">
 
+                            <input
+                                type="checkbox"
+                                class="reading-checkbox"
+                                value="{% if reading.reading_type == 'simple-love' %}love:{% elif reading.reading_type == 'deep-love' %}deep-love:{% else %}regular:{% endif %}{{ reading.id }}">
+
+                        </label>
                         <div class="history-top">
 
                             <span class="history-type">
@@ -53,7 +97,6 @@
                                 </a>
                                 <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
                                    class="history-btn download-btn">
-                                    <i class="fa-solid fa-file-pdf"></i>
                                     PDF
                                 </a>
 
@@ -64,7 +107,6 @@
                                 </a>
                                 <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
                                    class="history-btn download-btn">
-                                    <i class="fa-solid fa-file-pdf"></i>
                                     PDF
                                 </a>
 
@@ -76,7 +118,6 @@
                                 </a>
                                 <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
                                    class="history-btn download-btn">
-                                    <i class="fa-solid fa-file-pdf"></i>
                                     PDF
                                 </a>
 
@@ -89,7 +130,6 @@
 
                                 <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
                                    class="history-btn download-btn">
-                                    <i class="fa-solid fa-file-pdf"></i>
                                     PDF
                                 </a>
 
@@ -102,7 +142,6 @@
 
                                 <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
                                    class="history-btn download-btn">
-                                    <i class="fa-solid fa-file-pdf"></i>
                                     PDF
                                 </a>
 
@@ -114,23 +153,10 @@
                                 </a>
                                 <a href="{{ url_for('main.download_reading', reading_id=reading.id) }}"
                                    class="history-btn download-btn">
-                                    <i class="fa-solid fa-file-pdf"></i>
                                     PDF
                                 </a>
-
                             {% endif %}
 
-                            <form
-                                action="{{ url_for('main.delete_reading', reading_id=reading.id) }}"
-                                method="POST"
-                                onsubmit="return confirm('Are you sure you want to delete this reading?');">
-
-                                <button
-                                    type="submit"
-                                    class="history-btn danger">
-                                    🗑 Delete
-                                </button>
-                            </form>
                         </div>
                     </div>
 
@@ -145,10 +171,300 @@
         </div>
 
     </div>
+        {% if total_pages > 1 %}
 
+            <div class="history-pagination">
+
+                {% if page > 1 %}
+                    <a href="{{ url_for('main.history', page=page-1) }}"
+                       class="pagination-btn">
+                        ← Previous
+                    </a>
+                {% endif %}
+
+                <div class="pagination-pages">
+
+                    {% for p in range(1, total_pages + 1) %}
+
+                        <a href="{{ url_for('main.history', page=p) }}"
+                           class="pagination-number {% if p == page %}active{% endif %}">
+                            {{ p }}
+                        </a>
+
+                    {% endfor %}
+
+                </div>
+
+                {% if page < total_pages %}
+                    <a href="{{ url_for('main.history', page=page+1) }}"
+                       class="pagination-btn">
+                        Next →
+                    </a>
+                {% endif %}
+
+            </div>
+
+        {% endif %}
+    <div id="deleteAllModal" class="delete-all-modal">
+
+    <div class="delete-all-box">
+
+        <div class="delete-warning-icon">
+            ⚠
+        </div>
+
+        <h2>Delete All Readings?</h2>
+
+        <p>
+            This will permanently delete all of your saved readings.
+            <strong>This action cannot be undone.</strong>
+        </p>
+
+        <div class="delete-all-actions">
+
+            <button type="button"
+                    id="cancelDeleteAll"
+                    class="modal-cancel-btn">
+                Cancel
+            </button>
+
+            <button type="button"
+                    id="confirmDeleteAll"
+                    class="modal-delete-btn">
+                Delete All
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
 </section>
 
 <link rel="stylesheet"
       href="{{ url_for('static', filename='css/history.css') }}">
+<script>
+document.documentElement.style.overflowY = "auto";
+document.body.style.overflowY = "auto";
+document.body.style.overflowX = "hidden";
 
+console.log("BODY HEIGHT:", document.body.scrollHeight);
+console.log("WINDOW HEIGHT:", window.innerHeight);
+console.log("DOCUMENT HEIGHT:", document.documentElement.scrollHeight);
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const selectModeBtn =
+        document.getElementById("selectModeBtn");
+
+    const bulkActions =
+        document.getElementById("bulkActions");
+
+    const cancelSelectBtn =
+        document.getElementById("cancelSelectBtn");
+
+    const selectAllBtn =
+        document.getElementById("selectAllBtn");
+
+    const deleteSelectedBtn =
+        document.getElementById("deleteSelectedBtn");
+
+    const deleteAllBtn =
+        document.getElementById("deleteAllBtn");
+
+    const selectedCount =
+        document.getElementById("selectedCount");
+
+    const checkboxes =
+        document.querySelectorAll(".reading-checkbox");
+
+
+    /* ENTER SELECTION MODE */
+
+    selectModeBtn.addEventListener("click", function () {
+
+        document.body.classList.add("selection-mode");
+
+        bulkActions.classList.add("show");
+
+        selectModeBtn.classList.add("hide");
+
+    });
+
+
+    /* CANCEL */
+
+    cancelSelectBtn.addEventListener("click", function () {
+
+        document.body.classList.remove("selection-mode");
+
+        bulkActions.classList.remove("show");
+
+        selectModeBtn.classList.remove("hide");
+
+        checkboxes.forEach(function (checkbox) {
+            checkbox.checked = false;
+        });
+
+        updateSelection();
+
+    });
+
+
+    /* UPDATE COUNT */
+
+    function updateSelection() {
+
+        const selected =
+            document.querySelectorAll(
+                ".reading-checkbox:checked"
+            );
+
+        const count = selected.length;
+
+        selectedCount.textContent =
+            `${count} Selected`;
+
+        deleteSelectedBtn.disabled =
+            count === 0;
+
+        if (count === checkboxes.length && count > 0) {
+
+            selectAllBtn.textContent =
+                "Deselect All";
+
+        } else {
+
+            selectAllBtn.textContent =
+                "Select All";
+
+        }
+    }
+
+
+    /* INDIVIDUAL CHECKBOX */
+
+    checkboxes.forEach(function (checkbox) {
+
+        checkbox.addEventListener(
+            "change",
+            updateSelection
+        );
+
+    });
+
+
+    /* SELECT ALL */
+
+    selectAllBtn.addEventListener("click", function () {
+
+        const allSelected =
+            document.querySelectorAll(
+                ".reading-checkbox:checked"
+            ).length === checkboxes.length;
+
+        checkboxes.forEach(function (checkbox) {
+
+            checkbox.checked = !allSelected;
+
+        });
+
+        updateSelection();
+
+    });
+
+
+    /* DELETE SELECTED */
+
+    deleteSelectedBtn.addEventListener(
+        "click",
+        function () {
+
+            const selected =
+                Array.from(
+                    document.querySelectorAll(
+                        ".reading-checkbox:checked"
+                    )
+                ).map(function (checkbox) {
+                    return checkbox.value;
+                });
+
+
+            if (!selected.length) {
+                return;
+            }
+
+
+            if (!confirm(
+                `Delete ${selected.length} selected reading${selected.length > 1 ? "s" : ""}?`
+            )) {
+                return;
+            }
+
+
+            const form =
+                document.createElement("form");
+
+            form.method = "POST";
+
+            form.action =
+                "{{ url_for('main.delete_selected_readings') }}";
+
+
+            selected.forEach(function (id) {
+
+                const input =
+                    document.createElement("input");
+
+                input.type = "hidden";
+
+                input.name = "reading_keys";
+
+                input.value = id;
+
+                form.appendChild(input);
+
+            });
+
+
+            document.body.appendChild(form);
+
+            form.submit();
+
+        }
+    );
+
+
+    /* DELETE ALL */
+
+    deleteAllBtn.addEventListener(
+        "click",
+        function () {
+
+            if (!confirm(
+                "Are you sure you want to delete all your readings? This action cannot be undone."
+            )) {
+                return;
+            }
+
+
+            const form =
+                document.createElement("form");
+
+            form.method = "POST";
+
+            form.action =
+                "{{ url_for('main.delete_all_readings') }}";
+
+
+            document.body.appendChild(form);
+
+            form.submit();
+
+        }
+    );
+
+});
+
+</script>
 {% endblock %}

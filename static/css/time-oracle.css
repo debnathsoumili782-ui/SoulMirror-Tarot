@@ -29,7 +29,7 @@
 
     min-height:100vh;
 
-    padding:120px 20px 80px;
+    padding:50px 20px 80px;
 
     background:
         linear-gradient(
@@ -70,22 +70,52 @@
 
 .time-title{
 
+    position:relative;
+
+    width:max-content;
+    max-width:none;
+
+    margin:0 auto 22px;
+
     font-family:"Cinzel",serif;
 
-    font-size:64px;
+    font-size:clamp(2.5rem,4.0vw,4.8rem);
 
-    color:#fff;
+    line-height:1.15;
 
-    margin-bottom:18px;
+    font-weight:500;
+
+    letter-spacing:1.5px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #FFF8D9 0%,
+            #F2D36A 35%,
+            #D4AF37 70%,
+            #A97C18 100%
+        );
+
+    -webkit-background-clip:text;
+    background-clip:text;
+
+    -webkit-text-fill-color:transparent;
 
     text-shadow:
-        0 0 25px rgba(212,175,55,.25);
+        0 0 12px rgba(255,221,112,.30),
+        0 0 35px rgba(212,175,55,.20);
 
+    animation:
+        heroGlow 4s ease-in-out infinite;
+
+    white-space:nowrap;
 }
 
 .time-subtitle{
 
     color:#d5d5d5;
+
+    font-family:"Cinzel",serif;
 
     font-size:20px;
 

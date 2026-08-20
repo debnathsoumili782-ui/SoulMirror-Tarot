@@ -3,14 +3,15 @@ from flask_login import login_required, current_user, logout_user
 from models.love_reading import LoveReading, DeepLoveReading
 from models.reading import Reading
 from extensions import db
-from datetime import date, timedelta
+from datetime import date, timezone, timedelta
 from types import SimpleNamespace
+from flask import request, jsonify
 from flask import session
 from flask import abort
 from models.journal import Journal
 from services.pdf_service import generate_reading_pdf
 from flask import flash, url_for
-import re
+import re,os
 
 def slugify(text):
     text = text.lower()
@@ -37,14 +38,11 @@ from services.ai_service import (
 )
 main = Blueprint("main", __name__)
 
+
 @main.route("/")
 def home():
     return render_template("index.html")
-@main.route("/premium")
-def premium():
-    return render_template("premium.html")
 
-from datetime import timedelta
 
 @main.route("/history")
 @login_required
@@ -144,9 +142,26 @@ def history():
                 timedelta(hours=5, minutes=30)
             )
 
+    page = request.args.get("page", 1, type=int)
+
+    per_page = 10
+
+    total_readings = len(history_items)
+
+    total_pages = (
+        (total_readings + per_page - 1)
+        // per_page
+    )
+
+    start = (page - 1) * per_page
+    end = start + per_page
+
+    paginated_readings = history_items[start:end]
     return render_template(
         "history.html",
-        readings=history_items
+        readings=paginated_readings,
+        page=page,
+        total_pages=total_pages
     )
 
 @main.route("/delete-reading/<int:reading_id>", methods=["POST"])
@@ -164,6 +179,126 @@ def delete_reading(reading_id):
     flash("Reading deleted successfully.", "success")
 
     return redirect(url_for("main.history"))
+
+
+@main.route("/delete-selected-readings", methods=["POST"])
+@login_required
+def delete_selected_readings():
+
+    reading_keys = request.form.getlist("reading_keys")
+
+    print("SELECTED READING KEYS:", reading_keys)
+
+    if not reading_keys:
+        flash("No readings selected.", "error")
+        return redirect(url_for("main.history"))
+
+    deleted_count = 0
+
+    for key in reading_keys:
+
+        try:
+            reading_type, reading_id = key.split(":", 1)
+            reading_id = int(reading_id)
+
+        except (ValueError, AttributeError):
+            print("INVALID KEY:", key)
+            continue
+
+
+        # REGULAR
+        if reading_type == "regular":
+
+            reading = Reading.query.filter_by(
+                id=reading_id,
+                user_id=current_user.id
+            ).first()
+
+            if reading:
+                db.session.delete(reading)
+                deleted_count += 1
+
+
+        # SIMPLE LOVE
+        elif reading_type == "love":
+
+            reading = LoveReading.query.filter_by(
+                id=reading_id,
+                user_id=current_user.id
+            ).first()
+
+            if reading:
+                db.session.delete(reading)
+                deleted_count += 1
+
+
+        # DEEP LOVE
+        elif reading_type == "deep-love":
+
+            reading = DeepLoveReading.query.filter_by(
+                id=reading_id,
+                user_id=current_user.id
+            ).first()
+
+            if reading:
+                db.session.delete(reading)
+                deleted_count += 1
+
+
+    db.session.commit()
+
+    print("DELETED COUNT:", deleted_count)
+
+    flash(
+        f"{deleted_count} reading"
+        f"{'s' if deleted_count != 1 else ''} deleted successfully.",
+        "success"
+    )
+
+    return redirect(url_for("main.history"))
+
+
+@main.route("/delete-all-readings", methods=["POST"])
+@login_required
+def delete_all_readings():
+
+    regular_readings = Reading.query.filter_by(
+        user_id=current_user.id
+    ).all()
+
+    love_readings = LoveReading.query.filter_by(
+        user_id=current_user.id
+    ).all()
+
+    deep_love_readings = DeepLoveReading.query.filter_by(
+        user_id=current_user.id
+    ).all()
+
+    total_deleted = (
+        len(regular_readings)
+        + len(love_readings)
+        + len(deep_love_readings)
+    )
+
+    for reading in regular_readings:
+        db.session.delete(reading)
+
+    for reading in love_readings:
+        db.session.delete(reading)
+
+    for reading in deep_love_readings:
+        db.session.delete(reading)
+
+    db.session.commit()
+
+    flash(
+        f"{total_deleted} reading"
+        f"{'s' if total_deleted != 1 else ''} deleted successfully.",
+        "success"
+    )
+
+    return redirect(url_for("main.history"))
+
 @main.route("/reading-types")
 def reading_types():
     return render_template("reading-types.html")
@@ -876,11 +1011,17 @@ def journal():
         Journal.created_at.desc()
     ).all()
 
+    ist = timezone(timedelta(hours=5, minutes=30))
+
+    for journal in journals:
+        journal.display_time = journal.created_at.replace(
+            tzinfo=timezone.utc
+        ).astimezone(ist)
+
     return render_template(
         "journal.html",
         journals=journals
     )
-
 @main.route("/journal/new", methods=["GET", "POST"])
 @login_required
 def new_journal():
@@ -1060,4 +1201,3 @@ def delete_account():
     )
 
     return redirect(url_for("main.home"))
-

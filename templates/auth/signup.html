@@ -11,10 +11,44 @@
 </head>
 
 <body>
+{% with messages = get_flashed_messages(with_categories=true) %}
 
+    {% if messages %}
+
+        <div class="login-flash-container">
+
+            {% for category, message in messages %}
+
+                <div class="login-flash {{ category }}">
+
+                    <div class="flash-icon">
+                        ✦
+                    </div>
+
+                    <div class="flash-content">
+                        <strong>Something went wrong</strong>
+                        <span>{{ message }}</span>
+                    </div>
+
+                    <button
+                        type="button"
+                        class="flash-close"
+                        onclick="this.parentElement.remove()">
+                        ×
+                    </button>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    {% endif %}
+
+{% endwith %}
 <div class="auth-container">
 
-    <div class="auth-card">
+    <div class="auth-card signup-card">
 
         <h1>SoulMirror Tarot</h1>
 

@@ -616,6 +616,13 @@ function moveCardToSlot(card, slotNumber){
 
     const currentCard = pickedCards[slotNumber - 1];
 
+    console.log(
+        "CARD:",
+        currentCard.name,
+        "ORIENTATION:",
+        currentCard.orientation
+    );
+
     if(currentCard.orientation === "reversed"){
 
         slot.style.transform = "rotate(180deg) scale(.75)";

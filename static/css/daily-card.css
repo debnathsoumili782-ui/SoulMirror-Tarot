@@ -1,248 +1,550 @@
-/* =========================================
-                DAILY CARD
-========================================= */
+/* =========================================================
+        DAILY CARD — SOULMIRROR TAROT
+========================================================= */
 
 .daily-page{
+
     min-height:100vh;
-    padding:70px 20px;
+
+    padding:0 20px 120px;
+
+    position:relative;
+
+    overflow:hidden;
+
     background:
-            url("../images/backgrounds/nebula-background.png")
-            center/cover no-repeat;
+        linear-gradient(
+            rgba(7,4,18,.42),
+            rgba(7,4,18,.78)
+        ),
+        url("../images/backgrounds/nebula-background.png");
+
+    background-size:cover;
+
+    background-position:center top;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    color:#fff;
+
 }
 
-/* =========================================
+
+/* =========================================================
                 INTRO
-========================================= */
+========================================================= */
 
 .daily-intro{
+
+    min-height:calc(100vh - 100px);
+
     display:flex;
+
     justify-content:center;
+
     align-items:center;
-    min-height:78vh;
+
     text-align:center;
+
+    position:relative;
+
+    z-index:1;
+
 }
+
+
+/* subtle mystical glow behind content */
+
+.daily-intro::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:650px;
+
+    height:650px;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(110,55,180,.20),
+            rgba(110,55,180,.08) 35%,
+            transparent 70%
+        );
+
+    filter:blur(20px);
+
+    pointer-events:none;
+
+}
+
+
+/* =========================================================
+            INTRO CONTENT
+========================================================= */
 
 .daily-intro-box{
+
     width:100%;
-    max-width:760px;
+
+    max-width:900px;
+
+    position:relative;
+
+    z-index:2;
+
+    padding:55px 45px;
+
+    animation:dailyFadeUp .9s ease both;
+
 }
 
+
+/* =========================================================
+                BADGE
+========================================================= */
+
 .daily-badge{
-    display:inline-block;
-    padding:10px 20px;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:11px 23px;
+
     border-radius:999px;
-    background:rgba(212,175,55,.12);
-    color:#D4AF37;
-    border:1px solid rgba(212,175,55,.35);
-    font-size:.95rem;
-    margin-bottom:28px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(212,175,55,.14),
+            rgba(92,45,150,.18)
+        );
+
+    border:1px solid rgba(212,175,55,.38);
+
+    color:#E6C15A;
+
+    font-family:"Outfit",sans-serif;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    letter-spacing:.5px;
+
+    margin-bottom:30px;
+
+    box-shadow:
+        0 0 18px rgba(212,175,55,.12),
+        inset 0 0 15px rgba(212,175,55,.04);
+
+    backdrop-filter:blur(10px);
+
+    text-shadow:
+        0 0 10px rgba(212,175,55,.30);
+
 }
+
+
+/* =========================================================
+                MAIN TITLE
+========================================================= */
 
 .daily-intro h1{
 
+    position:relative;
+
+    margin:0 auto 30px;
+
     font-family:"Cinzel",serif;
-    font-size:72px;
-    color:#fff;
-    margin-bottom:28px;
+
+    font-size:clamp(3.5rem,6vw,5.8rem);
+
+    line-height:1.1;
+
+    font-weight:500;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    background:
+        linear-gradient(
+            180deg,
+            #FFF8D9 0%,
+            #F4D86F 35%,
+            #D4AF37 70%,
+            #A97C18 100%
+        );
+
+    -webkit-background-clip:text;
+
+    background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    /* IMPORTANT — actual glow around the letters */
+
+    text-shadow:
+        0 0 8px rgba(255,240,170,.65),
+        0 0 18px rgba(255,218,100,.48),
+        0 0 35px rgba(212,175,55,.32),
+        0 0 65px rgba(212,175,55,.18);
+
+    animation:
+        dailyTitleGlow 4s ease-in-out infinite;
 
 }
+
+
+/* =========================================================
+                INTRO TEXT
+========================================================= */
 
 .daily-intro p{
 
-    color:#d8d8d8;
-    font-size:1.2rem;
-    line-height:2;
-    max-width:640px;
+    max-width:720px;
+
     margin:0 auto 45px;
 
+    color:#E8E1F1;
+
+    font-family:"Inter",sans-serif;
+
+    font-size:19px;
+
+    font-weight:400;
+
+    line-height:1.95;
+
+    letter-spacing:.2px;
+
+    text-shadow:
+        0 2px 12px rgba(0,0,0,.45);
+
 }
 
-.btn-gold{
 
-    padding:18px 42px;
+/* =========================================================
+                GOLD BUTTON
+========================================================= */
+
+.daily-page .btn-gold{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-width:250px;
+
+    padding:17px 36px;
+
     border:none;
+
     border-radius:999px;
 
-    background:#D4AF37;
-    color:#18121f;
+    background:
+        linear-gradient(
+            135deg,
+            #F8D866,
+            #D4AF37
+        );
 
-    font-size:1rem;
+    color:#17101D;
+
+    font-family:"Outfit",sans-serif;
+
+    font-size:17px;
+
     font-weight:700;
+
+    letter-spacing:.2px;
+
     cursor:pointer;
 
-    transition:.3s;
-
     box-shadow:
-            0 0 35px rgba(212,175,55,.35);
+        0 8px 25px rgba(0,0,0,.30),
+        0 0 30px rgba(212,175,55,.28);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        filter .3s ease;
 
 }
 
-.btn-gold:hover{
+
+.daily-page .btn-gold:hover{
 
     transform:translateY(-4px);
 
+    filter:brightness(1.06);
+
     box-shadow:
-            0 0 45px rgba(212,175,55,.55);
+        0 12px 30px rgba(0,0,0,.35),
+        0 0 48px rgba(212,175,55,.50);
 
 }
 
-/* =========================================
-            READING
-========================================= */
+
+.daily-page .btn-gold:active{
+
+    transform:translateY(-1px);
+
+}
+
+
+/* =========================================================
+            READING SECTION
+========================================================= */
 
 .daily-reading{
 
     display:none;
 
-    max-width:1300px;
-    margin:auto;
+    max-width:1250px;
+
+    margin:80px auto 0;
 
     gap:70px;
 
-    align-items:flex-start;
+    align-items:center;
 
 }
 
+
+/* =========================================================
+                TAROT CARD
+========================================================= */
+
 .daily-card{
 
-    flex:0 0 420px;
+    flex:0 0 400px;
 
     position:sticky;
+
     top:120px;
 
 }
 
+
 .daily-card img{
+
+    display:block;
+
     width:100%;
-    border-radius:22px;
+
+    max-width:400px;
+
+    margin:auto;
+
+    border-radius:20px;
+
+    border:1px solid rgba(212,175,55,.25);
+
     box-shadow:
-            0 0 45px rgba(212,175,55,.22);
-    transition:.4s;
+        0 20px 60px rgba(0,0,0,.55),
+        0 0 35px rgba(212,175,55,.18);
+
+    transition:
+        transform .4s ease,
+        filter .4s ease;
+
 }
+
+
 .daily-card img:not(.reversed-card):hover{
 
-    transform:scale(1.02);
+    transform:scale(1.025);
+
+    filter:
+        drop-shadow(0 0 25px rgba(212,175,55,.42));
 
 }
+
+
+.reversed-card{
+
+    transform:rotate(180deg) !important;
+
+}
+
 
 .reversed-card:hover{
 
-    transform:rotate(180deg) scale(1.02);
+    transform:rotate(180deg) scale(1.025) !important;
 
 }
+
+
+/* =========================================================
+                READING CONTENT
+========================================================= */
 
 .daily-content{
+
     flex:1;
-    background:rgba(18,10,34,.82);
-    backdrop-filter:blur(12px);
-    border:1px solid rgba(212,175,55,.28);
-    border-radius:22px;
-    padding:60px;
-    align-self:center;
+
     max-width:650px;
 
+    padding:50px;
+
+    align-self:center;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(45,23,70,.90),
+            rgba(20,11,35,.94)
+        );
+
+    border:1px solid rgba(212,175,55,.26);
+
+    border-radius:28px;
+
+    backdrop-filter:blur(16px);
+
+    box-shadow:
+        0 25px 70px rgba(0,0,0,.45),
+        0 0 40px rgba(212,175,55,.08);
+
 }
+
+
+/* =========================================================
+            READING TITLE
+========================================================= */
 
 .daily-content h1{
+
+    margin:22px 0 10px;
+
     font-family:"Cinzel",serif;
-    font-size:64px;
-    margin:20px 0 25px;
-}
 
-.orientation{
-    color:#D4AF37;
-    margin-bottom:30px;
+    font-size:clamp(2.7rem,4vw,4rem);
 
-}
+    font-weight:500;
 
-.daily-message{
-    max-width:620px;
-    width:100%;
-    margin:30px auto;
-    padding:35px;
-    background:rgba(255,255,255,.05);
-    border:1px solid rgba(212,175,55,.18);
-    border-radius:18px;
-    color:#f5f5f5;
-    line-height:2;
-    font-size:19px;
-}
-.daily-buttons{
-    display:flex;
-    gap:18px;
-    margin-top:45px;
-}
-
-.reading-btn{
-    padding:14px 28px;
-    border-radius:999px;
-    text-decoration:none;
-    background:#D4AF37;
-    color:#111;
-    font-weight:700;
-}
-
-.reading-btn.secondary{
-    background:transparent;
-    color:#D4AF37;
-    border:1px solid #D4AF37;
-}
-
-/* =========================================
-            RESPONSIVE
-========================================= */
-
-@media(max-width:992px){
-    .daily-reading{
-        flex-direction:column;
-        align-items:center;
-
-    }
-
-    .daily-card{
-
-        position:static;
-        width:340px;
-
-    }
-
-    .daily-content{
-
-        width:100%;
-
-    }
-
-    .daily-intro h1{
-
-        font-size:48px;
-
-    }
-
-}
-.reversed-card{
-    transform: rotate(180deg) !important;
-}
-
-.orientation{
-
-    margin:18px 0 35px;
-
-    color:#D4AF37;
-
-    font-size:22px;
-
-    font-weight:600;
-
-}
-.daily-note{
-
-    margin:35px 0;
+    letter-spacing:1.5px;
 
     text-align:center;
 
-    color:#d9c9a0;
+    background:
+        linear-gradient(
+            180deg,
+            #FFF8D9,
+            #F2D36A 45%,
+            #D4AF37 80%,
+            #A97C18
+        );
 
-    font-size:16px;
+    -webkit-background-clip:text;
+
+    background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        0 0 10px rgba(255,225,120,.45),
+        0 0 25px rgba(212,175,55,.25);
+
+}
+
+
+/* =========================================================
+                ORIENTATION
+========================================================= */
+
+.orientation{
+
+    margin:15px 0 30px;
+
+    text-align:center;
+
+    color:#E6C15A;
+
+    font-family:"Outfit",sans-serif;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    letter-spacing:1.5px;
+
+    text-transform:uppercase;
+
+}
+
+
+/* =========================================================
+                MESSAGE
+========================================================= */
+
+.daily-message{
+
+    max-width:620px;
+
+    width:100%;
+
+    margin:30px auto;
+
+    padding:32px 35px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.055),
+            rgba(92,45,150,.10)
+        );
+
+    border:1px solid rgba(212,175,55,.20);
+
+    border-radius:20px;
+
+    color:#F5F2EA;
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    box-shadow:
+        inset 0 0 25px rgba(212,175,55,.025),
+        0 0 25px rgba(0,0,0,.15);
+
+}
+
+
+/* =========================================================
+                DAILY NOTE
+========================================================= */
+
+.daily-note{
+
+    margin:32px 0;
+
+    text-align:center;
+
+    color:#D9C9A0;
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:18px;
 
     font-style:italic;
 
@@ -250,28 +552,303 @@
 
 }
 
-.daily-reading{
-    animation:fadeUp .8s ease;
-}
-@keyframes fadeUp{
-    from{
-        opacity:0;
-        transform:translateY(30px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
+
+/* =========================================================
+                COUNTDOWN
+========================================================= */
 
 .countdown{
 
-    margin:25px 0;
+    margin:28px 0;
+
+    padding:14px 20px;
 
     text-align:center;
 
     color:#D4AF37;
 
-    font-size:17px;
+    font-family:"Outfit",sans-serif;
+
+    font-size:16px;
+
+    letter-spacing:.5px;
+
+    background:rgba(212,175,55,.06);
+
+    border:1px solid rgba(212,175,55,.16);
+
+    border-radius:999px;
+
+}
+
+
+/* =========================================================
+                BUTTONS
+========================================================= */
+
+.daily-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    margin-top:38px;
+
+}
+
+
+.reading-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-width:170px;
+
+    padding:14px 28px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    font-family:"Outfit",sans-serif;
+
+    font-weight:600;
+
+    transition:.3s ease;
+
+}
+
+
+.reading-btn.secondary{
+
+    background:
+        rgba(212,175,55,.06);
+
+    color:#E6C15A;
+
+    border:1px solid rgba(212,175,55,.45);
+
+    box-shadow:
+        0 0 18px rgba(212,175,55,.08);
+
+}
+
+
+.reading-btn.secondary:hover{
+
+    color:#FFF4C9;
+
+    background:rgba(212,175,55,.13);
+
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 0 28px rgba(212,175,55,.22);
+
+}
+
+
+/* =========================================================
+                ANIMATIONS
+========================================================= */
+
+@keyframes dailyFadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+@keyframes dailyTitleGlow{
+
+    0%,
+    100%{
+
+        text-shadow:
+            0 0 8px rgba(255,240,170,.55),
+            0 0 18px rgba(255,218,100,.38),
+            0 0 35px rgba(212,175,55,.25),
+            0 0 60px rgba(212,175,55,.12);
+
+    }
+
+    50%{
+
+        text-shadow:
+            0 0 10px rgba(255,240,170,.85),
+            0 0 24px rgba(255,218,100,.60),
+            0 0 45px rgba(212,175,55,.38),
+            0 0 75px rgba(212,175,55,.20);
+
+    }
+
+}
+
+
+.daily-reading{
+
+    animation:dailyFadeUp .8s ease both;
+
+}
+
+
+/* =========================================================
+                RESPONSIVE
+========================================================= */
+
+@media(max-width:992px){
+
+    .daily-intro{
+
+        min-height:calc(100vh - 80px);
+
+    }
+
+
+    .daily-intro-box{
+
+        padding:45px 20px;
+
+    }
+
+
+    .daily-intro h1{
+
+        font-size:clamp(3rem,8vw,4.5rem);
+
+    }
+
+
+    .daily-intro p{
+
+        font-size:17px;
+
+        line-height:1.8;
+
+    }
+
+
+    .daily-reading{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        margin-top:50px;
+
+        gap:45px;
+
+    }
+
+
+    .daily-card{
+
+        position:static;
+
+        width:340px;
+
+        flex:0 0 auto;
+
+    }
+
+
+    .daily-content{
+
+        width:100%;
+
+        padding:40px 28px;
+
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .daily-page{
+
+        padding:0 15px 80px;
+
+    }
+
+
+    .daily-badge{
+
+        font-size:14px;
+
+        padding:9px 18px;
+
+    }
+
+
+    .daily-intro h1{
+
+        font-size:2.8rem;
+
+        letter-spacing:1px;
+
+    }
+
+
+    .daily-intro p{
+
+        font-size:16px;
+
+        margin-bottom:35px;
+
+    }
+
+
+    .daily-page .btn-gold{
+
+        min-width:220px;
+
+        padding:15px 28px;
+
+        font-size:16px;
+
+    }
+
+
+    .daily-card{
+
+        width:290px;
+
+    }
+
+
+    .daily-content h1{
+
+        font-size:2.6rem;
+
+    }
+
+
+    .daily-message{
+
+        padding:25px 22px;
+
+        font-size:19px;
+
+    }
 
 }

@@ -31,7 +31,7 @@
                 <div class="journal-card">
                     <h3>{{ journal.title }}</h3>
                     <p class="journal-date">
-                        {{ journal.created_at.strftime('%d %b %Y • %I:%M %p') }}
+                        {{ journal.display_time.strftime('%d %b %Y • %I:%M %p') }}
                     </p>
                     <p class="journal-preview">
                         {{ journal.content[:180] }}...

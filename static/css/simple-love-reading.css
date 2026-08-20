@@ -3,18 +3,27 @@
 ==========================================*/
 
 .simple-love-page{
-
     min-height:100vh;
-
-    padding:130px 20px 80px;
+    padding:0px 0 100px;
 
     background:
-    linear-gradient(rgba(8,8,18,.82),rgba(8,8,18,.94)),
-    url("../images/backgrounds/nebula-background.png");
+        radial-gradient(
+            circle at 50% 15%,
+            rgba(92,45,150,.22),
+            transparent 38%
+        ),
+        linear-gradient(
+            rgba(7,5,16,.68),
+            rgba(7,5,16,.90)
+        ),
+        url("../images/backgrounds/nebula-background.png");
 
     background-size:cover;
-    background-position:center;
+    background-position:center top;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 
+    color:#fff;
 }
 
 .simple-love-page .container{
@@ -32,11 +41,9 @@
 
 .love-reading-hero{
 
-    background:rgba(18,12,38,.65);
-
     border:1px solid rgba(212,175,55,.18);
 
-    backdrop-filter:blur(16px);
+    width:100%;
 
     border-radius:34px;
 
@@ -45,9 +52,55 @@
     box-shadow:
     0 25px 80px rgba(0,0,0,.45);
 
+    text-align:center;
+
 }
 
+.love-reading-hero h1{
 
+    position:relative;
+
+    width:100%;
+
+    max-width:none;
+
+    margin:0 auto 22px;
+
+    font-family:"Cinzel",serif;
+
+    font-size:clamp(3rem,5.2vw,5rem);
+
+    line-height:1.15;
+
+    font-weight:500;
+
+    letter-spacing:1.5px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #FFF8D9 0%,
+            #F2D36A 35%,
+            #D4AF37 70%,
+            #A97C18 100%
+        );
+
+    -webkit-background-clip:text;
+    background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        0 0 12px rgba(255,221,112,.30),
+        0 0 35px rgba(212,175,55,.20);
+
+    animation:
+        heroGlow 4s ease-in-out infinite;
+
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
 /*==========================================
             QUESTION
 ==========================================*/
@@ -331,7 +384,7 @@
 }
 
 .reading-actions{
-    margin-top:30px
+    margin-top:30px;
     display:flex;
     justify-content:center;
 }
@@ -401,4 +454,128 @@
 
     min-height:100vh;
 
+}
+/* =========================================================
+   FINAL LOVE READING — CARD SIZE
+   ========================================================= */
+
+.love-cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 55px;
+
+    align-items: start;
+
+    justify-items: center;
+
+    max-width: 1200px;
+
+    margin: 45px auto 0;
+}
+
+.love-card {
+    width: 100%;
+
+    max-width: 280px;
+
+    text-align: center;
+
+    transform: none;
+}
+
+.love-card img {
+    display: block;
+
+    width: 215px !important;
+    max-width: 215px !important;
+
+    height: auto;
+
+    margin: 0 auto;
+
+    border-radius: 18px;
+
+    filter:
+        drop-shadow(0 15px 35px rgba(0,0,0,.50));
+
+    transition:
+        transform .35s ease,
+        filter .35s ease;
+}
+
+.love-card:hover img {
+    transform: translateY(-6px) scale(1.025);
+
+    filter:
+        drop-shadow(0 18px 35px rgba(212,175,55,.30));
+}
+/* ==========================================
+   PREMIUM LOVE READING BADGE
+========================================== */
+
+.reading-category{
+    display:table;
+    margin:0 auto 25px;
+
+    padding:5px 26px;
+
+    border:1px solid rgba(212,175,55,.55);
+    border-radius:999px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(212,175,55,.16),
+            rgba(73,35,105,.30)
+        );
+
+    color:#F5D76E;
+
+    font-family:"Poppins", sans-serif;
+    font-size:17px;
+    font-weight:600;
+    letter-spacing:.3px;
+
+    backdrop-filter:blur(12px);
+
+    text-shadow:
+        0 0 6px rgba(255,225,120,.7),
+        0 0 14px rgba(212,175,55,.45);
+
+    animation:loveBadgeGlow 3s ease-in-out infinite;
+
+    transition:.35s ease;
+}
+
+
+.reading-category:hover{
+    transform:translateY(-2px);
+
+    border-color:#F5D76E;
+
+    box-shadow:
+        0 0 12px rgba(212,175,55,.55),
+        0 0 28px rgba(212,175,55,.40),
+        0 0 55px rgba(212,175,55,.20),
+        inset 0 0 20px rgba(212,175,55,.12);
+}
+
+
+@keyframes loveTextGlow{
+
+    0%,100%{
+        text-shadow:
+            0 0 5px rgba(255,225,120,.55),
+            0 0 12px rgba(212,175,55,.35),
+            0 0 22px rgba(212,175,55,.20);
+    }
+
+    50%{
+        text-shadow:
+            0 0 8px rgba(255,235,150,.95),
+            0 0 18px rgba(212,175,55,.70),
+            0 0 32px rgba(212,175,55,.45);
+    }
 }

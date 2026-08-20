@@ -25,7 +25,7 @@
 
 .yesno-page{
     min-height:100vh;
-    padding:120px 20px 80px;
+    padding:28px 20px 80px;
 }
 
 .container{
@@ -44,14 +44,50 @@
 }
 
 .yesno-title{
-    font-family:"Cinzel",serif;
-    font-size:58px;
-    color:#fff;
-    margin-bottom:18px;
-}
 
+    position:relative;
+
+    width:max-content;
+    max-width:none;
+
+    margin:0 auto 22px;
+
+    font-family:"Cinzel",serif;
+
+    font-size:clamp(2.5rem,4.0vw,4.8rem);
+
+    line-height:1.15;
+
+    font-weight:500;
+
+    letter-spacing:1.5px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #FFF8D9 0%,
+            #F2D36A 35%,
+            #D4AF37 70%,
+            #A97C18 100%
+        );
+
+    -webkit-background-clip:text;
+    background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        0 0 12px rgba(255,221,112,.30),
+        0 0 35px rgba(212,175,55,.20);
+
+    animation:
+        heroGlow 4s ease-in-out infinite;
+
+    white-space:nowrap;
+}
 .yesno-subtitle{
     color:#cfcfcf;
+    font-family:"Cinzel",serif;
     font-size:20px;
     line-height:1.8;
     margin-bottom:42px;
@@ -261,22 +297,20 @@
 ==============================*/
 
 #selectedSlotWrapper{
-
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
 
-    margin-top:25px;
+    margin-top:-45px;
     margin-bottom:28px;
 
-    transform:translateY(18px);
+    transform:translateY(0);
 
     transition:
         opacity .45s ease,
         transform .45s ease,
         visibility .45s;
-
 }
 #selectedSlotWrapper.active{
 
@@ -676,7 +710,7 @@
 @media(max-width:600px){
 
     .yesno-page{
-        padding:100px 14px 60px;
+        padding:24px 14px 60px;
     }
 
     .yesno-title{
@@ -748,4 +782,282 @@
     to{
         transform:rotate(360deg);
     }
+}
+
+.reading-card-area {
+    transform: translateY(-115px);
+}
+/* ==========================================
+   FINAL READING — MOVE BOTH SIDES UP
+========================================== */
+
+.reading-container {
+    transform: translateY(-80px);
+}
+
+/* ==========================================
+        CINEMATIC FOCUS SCREEN
+========================================== */
+
+#focusScreen{
+    position:fixed;
+    inset:0;
+
+    display:none;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+    text-align:center;
+    overflow:hidden;
+
+    background:
+        linear-gradient(
+            rgba(7,4,18,.58),
+            rgba(7,4,18,.78)
+        ),
+        url("../images/backgrounds/hero-bg.png");
+
+    background-size:cover;
+    background-position:center;
+
+    z-index:9999;
+}
+
+
+/* soft central mystical light */
+
+#focusScreen::before{
+    content:"";
+
+    position:absolute;
+
+    width:650px;
+    height:650px;
+
+    left:50%;
+    top:50%;
+
+    transform:translate(-50%,-50%);
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(212,175,55,.10) 0%,
+            rgba(120,70,180,.06) 32%,
+            transparent 70%
+        );
+
+    filter:blur(18px);
+
+    animation:focusGlow 5s ease-in-out infinite;
+
+    pointer-events:none;
+}
+
+
+/* ==========================================
+            CONTENT
+========================================== */
+
+.focus-box{
+    position:relative;
+    z-index:2;
+
+    width:90%;
+    max-width:1100px;
+
+    text-align:center;
+
+    animation:focusEnter 1.2s ease both;
+}
+
+
+/* ==========================================
+            TITLE
+========================================== */
+
+.focus-box h2{
+
+    margin:0;
+
+    font-family:"Cinzel",serif;
+
+    font-size:clamp(46px,5vw,70px);
+
+    font-weight:650;
+
+    letter-spacing:2px;
+
+    color:#F5E6B3;
+
+    white-space:nowrap;
+
+    text-shadow:
+        0 0 8px rgba(212,175,55,.25),
+        0 0 25px rgba(212,175,55,.12);
+
+    animation:titleBreath 4s ease-in-out infinite;
+}
+
+
+/* ==========================================
+            DESCRIPTION
+========================================== */
+
+.focus-box p{
+
+    margin-top:35px;
+
+    color:#E7E0ED;
+
+    font-family:"Cormorant Garamond","Georgia",serif;
+
+    font-size:24px;
+
+    line-height:2;
+
+    letter-spacing:.5px;
+
+    text-shadow:
+        0 2px 15px rgba(0,0,0,.7);
+
+    animation:
+        paragraphEnter 1.4s ease .25s both;
+}
+
+
+/* ==========================================
+            SUBTLE GOLD LINE
+========================================== */
+
+.focus-box p::before{
+
+    content:"";
+
+    display:block;
+
+    width:90px;
+    height:1px;
+
+    margin:0 auto 28px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #D4AF37,
+            transparent
+        );
+
+    box-shadow:
+        0 0 10px rgba(212,175,55,.35);
+}
+
+
+/* ==========================================
+            ANIMATIONS
+========================================== */
+
+@keyframes focusEnter{
+
+    from{
+        opacity:0;
+        transform:translateY(22px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+
+@keyframes paragraphEnter{
+
+    from{
+        opacity:0;
+        transform:translateY(12px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+
+@keyframes focusGlow{
+
+    0%,
+    100%{
+        opacity:.55;
+        transform:
+            translate(-50%,-50%)
+            scale(.92);
+    }
+
+    50%{
+        opacity:1;
+        transform:
+            translate(-50%,-50%)
+            scale(1.08);
+    }
+
+}
+
+
+@keyframes titleBreath{
+
+    0%,
+    100%{
+        text-shadow:
+            0 0 8px rgba(212,175,55,.20),
+            0 0 22px rgba(212,175,55,.08);
+    }
+
+    50%{
+        text-shadow:
+            0 0 12px rgba(212,175,55,.38),
+            0 0 32px rgba(212,175,55,.16);
+    }
+
+}
+
+
+/* ==========================================
+            MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+    .focus-box h2{
+        font-size:40px;
+        letter-spacing:1px;
+    }
+
+    .focus-box p{
+        font-size:20px;
+    }
+
+}
+
+/* ==========================================
+   YES / NO — MOVE CONTENT CLOSER TO NAVBAR
+========================================== */
+
+.yesno-page{
+    min-height:100vh !important;
+    padding:55px 20px 80px !important;
+}
+
+.yesno-page #questionSection{
+    margin-top:0 !important;
+    padding-top:0 !important;
+}
+
+.yesno-page .yesno-title{
+    margin-top:0 !important;
 }

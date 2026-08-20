@@ -85,3 +85,6 @@ if(successPage){
     },3000);
 
 }
+
+setupPasswordToggle("resetPassword", "toggleResetPassword");
+setupPasswordToggle("confirmResetPassword", "toggleConfirmResetPassword");

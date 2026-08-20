@@ -11,7 +11,29 @@
 </head>
 
 <body>
-
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <div class="login-flash-container">
+            {% for category, message in messages %}
+                <div class="login-flash {{ category }}">
+                    <div class="flash-icon">
+                        ✦
+                    </div>
+                    <div class="flash-content">
+                        <strong>Something went wrong</strong>
+                        <span>{{ message }}</span>
+                    </div>
+                    <button
+                        type="button"
+                        class="flash-close"
+                        onclick="this.parentElement.remove()">
+                        ×
+                    </button>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endwith %}
 <div class="auth-container">
 
     <div class="auth-card">
@@ -43,7 +65,7 @@
             </div>
 
             <div class="forgot-box">
-                <a href="#">Forgot Password?</a>
+                <a href="/forgot-password">Forgot Password?</a>
             </div>
             <div class="remember-box">
                 <label>

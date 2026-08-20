@@ -1,1369 +1,4892 @@
-:root{
-    --bg:#0A0A0F;
-    --gold:#D4AF37;
-    --purple:#2E1A47;
-    --text:#F8FAFC;
-}
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    background:var(--bg);
-    color:var(--text);
-    font-family:"Inter",sans-serif;
-}
-
-h1,h2,h3,h4,h5,h6{
-    font-family:"Cinzel",serif;
-}
-.custom-navbar{
-    background: rgba(10,10,20,.22);
-    backdrop-filter: blur(18px);
-    padding:18px 0;
-    border-bottom: 1px solid rgba(255,255,255,.08);
-}
-
-
-.logo{
-    color:#D4AF37 !important;
-    font-family:"Cinzel",serif;
-    font-size:1.4rem;
-    font-weight:700;
-    letter-spacing:2px;
-}
-
-.nav-link{
-    color:#fff !important;
-    margin-left:18px;
-    transition:.3s;
-    position:relative;
-}
-.nav-link::after{
-
-content:"";
-
-position:absolute;
-
-left:50%;
-
-bottom:-8px;
-
-width:0;
-
-height:2px;
-
-background:#D4AF37;
-
-transition:.35s;
-
-transform:translateX(-50%);
-
-}
-.nav-link:hover::after{
-    width:70%;
-}
-.nav-link:hover{
-    color:#D4AF37 !important;
-}
-.hero{
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-    min-height:105vh;
-
-    background-image:url("../images/backgrounds/nebula-background.png");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-
-    overflow:hidden;
-}
-
-.overlay{
-    position:absolute;
-    inset:0;
-
-    background:
-        radial-gradient(circle at center,
-        rgba(0,0,0,.08),
-        transparent 60%);
-        z-index:1;
-        display:none;
-}
-
-.hero-content{
-
-    position:relative;
-    z-index:20;
-    text-align:center;
-    margin-top:140px;
-}
-
-.hero-title{
-    font-family:"Cinzel",serif;
-    position:relative;
-    z-index:30;
-    font-size:60px;
-    font-weight:700;
-    letter-spacing:2px;
-    line-height:1;
-    margin-top:110px;
-    margin-bottom:18px;
-    color:#fff;
-    animation:titleGlow 5s ease-in-out infinite;
-    text-shadow:
-        0 0 18px rgba(255,255,255,.18);
-}
-
-.hero-subtitle{
-    font-family: "Cormorant Garamond", serif;
-    position:relative;
-    z-index:30;
-    font-size:1.15rem;
-    font-size: 25px;
-    font-weight:400;
-    color:#F5F5F5;
-    opacity:.95;
-    margin-top:5px;
-    margin-bottom:18px;
-}
-
-@keyframes titleGlow{
-
-0%,100%{
-
-text-shadow:
-
-0 0 10px rgba(255,255,255,.25),
-
-0 0 30px rgba(210,180,255,.25);
-
-}
-
-50%{
-
-text-shadow:
-
-0 0 25px rgba(255,255,255,.45),
-
-0 0 70px rgba(190,150,255,.45);
-
-}
-
-}
-.hero-buttons{
-    gap:28px;
-    margin-top:18px;
-
-}
-
-.hero::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:rgba(10,8,18,.25);
-    z-index:1;
-}
-.hero::after{
-    content:"";
-    position:absolute;
-    inset:0;
-
-    background:rgba(15,8,28,.15);
-    backdrop-filter:blur(.1px);
-
-    z-index:1;
-}
-.hero-content{
-    position:relative;
-    z-index:20;
-    text-align:center;
-    margin-top:160px;
-    padding-top:100px;
-}
-.floating-card{
-    filter:
-        drop-shadow(0 0 12px rgba(255,215,120,.15))
-        drop-shadow(0 0 25px rgba(255,255,255,.10));
-}
-.moon{
-    position:relative;
-    z-index:2;
-}
-.btn-gold::before{
-    content:"";
-    position:absolute;
-    top:0;
-    left:-120%;
-    width:45%;
-    height:100%;
-
-    background:linear-gradient(
-        90deg,
-        transparent,
-        rgba(255,255,255,.75),
-        transparent
-    );
-
-    transform:skewX(-25deg);
-    transition:.8s;
-}
-
-.btn-gold:hover::before{
-    left:170%;
-}
-.btn-gold{
-    font-family:"Outfit",sans-serif;
-    background:#D4AF37;
-    color:#111;
-    border-radius:40px;
-    padding:20px 46px;
-    font-weight:700;
-    box-shadow:0 0 30px rgba(212,175,55,.35);
-    transition:.35s;
-    overflow:hidden;
-    position:relative;
-}
-
-.btn-gold:hover{
-
-    transform:translateY(-4px) scale(1.03);
-
-    box-shadow:
-        0 0 25px rgba(214,170,62,.55),
-        0 0 50px rgba(214,170,62,.35);
-
-}
-.btn-gold::before{
-    content:"";
-    position:absolute;
-    top:0;
-    left:-100%;
-    width:60%;
-    height:100%;
-    background:
-    linear-gradient(
-    90deg,
-    transparent,
-    rgba(255,255,255,.6),
-    transparent
-);
-transform:skewX(-25deg);
-transition:.7s;
-}
-.btn-gold:hover::before{
-    left:160%;
-}
-.btn-outline-light{
-     font-family:"Outfit",sans-serif;
-    padding:14px 34px;
-
-    border-radius:40px;
-
-}
-.btn-outline-light:hover{
-
-background:rgba(120,80,180,.25);
-
-box-shadow:
-
-0 0 25px rgba(180,120,255,.45);
-
-}
-.btn-login{
-    padding:10px 22px;
-    margin-left:12px;
-    border-radius:30px;
-    text-decoration:none;
-    color:#fff;
-    font-weight:600;
-    background:rgba(255,255,255,.06);
-    border:1px solid rgba(255,255,255,.15);
-    backdrop-filter:blur(15px);
-    transition:.35s;
-}
-
-.btn-login:hover{
-    color:#fff;
-    border-color:#D4AF37;
-    background:rgba(255,255,255,.12);
-    box-shadow:0 0 18px rgba(212,175,55,.25);
-    transform:translateY(-2px);
-}
-.btn-signup{
-    background:linear-gradient(
-        135deg,
-        #f8d65f,
-        #d6aa3e
-    );
-    color:#111;
-    font-weight:700;
-    padding:11px 28px;
-    border-radius:35px;
-    box-shadow:
-    0 0 30px rgba(214,170,62,.45);
-    transition:.35s;
-    position: relative;
-    overflow: hidden;
-}
-.btn-signup::before{
-    content:"";
-    position:absolute;
-    top:0;
-    left:-120%;
-    width:50%;
-    height:100%;
-    background:linear-gradient(
-        90deg,
-        transparent,
-        rgba(255,255,255,.7),
-        transparent
-    );
-    transform:skewX(-25deg);
-    transition:.8s;
-}
-
-.btn-signup:hover::before{
-    left:170%;
-}
-.btn-signup:hover{
-    transform:translateY(-3px);
-    box-shadow:
-    0 0 45px rgba(214,170,62,.75);
-}
-.moon{
-    position:absolute;
-    width:560px;
-    top:-0.2px;
-    left:50%;
-    transform:translateX(-50%);
-    opacity:.78;
-    z-index:2;
-    pointer-events:none;
-    animation: moonFloat 8s ease-in-out infinite;
-    filter:
-        blur(.3px)
-        drop-shadow(0 0 25px rgba(210,170,255,.25))
-        drop-shadow(0 0 45px rgba(180,140,255,.20));
-}
-.moon-glow{
-    opacity:.45;
-    filter:blur(100px);
-}
-
-@keyframes moonFloat{
-    0%,100%{
-        transform:translateX(-50%) translateY(0);
-    }
-
-    50%{
-        transform:translateX(-50%) translateY(-12px);
-    }
-}
-.hero-content{
-    position: relative;
-    z-index: 5;
-}
-.star{
-    position:absolute;
-    width:2px;
-    height:2px;
-    background:white;
-    border-radius:50%;
-    box-shadow:0 0 8px white;
-    animation:twinkle infinite ease-in-out;
-}
-@keyframes twinkle{
-    0%,100%{
-        opacity:.2;
-        transform:scale(.6);
-    }
-    50%{
-        opacity:1;
-        transform:scale(1.6);
-    }
-}
-.floating-card{
-    position:absolute;
-    width:150px;
-    z-index:15;
-    transition:.4s;
-    animation:floatCard 6s ease-in-out infinite;
-    filter:drop-shadow(0 0 25px rgba(255,255,255,.25));
-}
-.card1{
-    left:6%;
-    top:25%;
-    transform:rotate(-10deg);
-    left:80px;
-    top:95px;
-    width:170px;
-    animation:float1 7s ease-in-out infinite;
-}
-.card2{
-    right:10%;
-    bottom:18%;
-    transform:rotate(10deg);
-    right:80px;
-    top:95px;
-    width:170px;
-    animation:float2 8.5s ease-in-out infinite;
-}
-.card3{
-    left:18%;
-    bottom:12%;
-    transform:rotate(-6deg);
-    left:250px;
-    bottom:20px;
-    width:185px;
-    animation:float3 6.5s ease-in-out infinite;
-}
-.card4{
-    right:250px;
-    bottom:20px;
-    width:185px;
-    transform:rotate(8deg);
-    animation:float4 9s ease-in-out infinite;
-}
-.floating-card{
-    transition: .4s ease;
-    cursor:pointer;
-}
-
-.floating-card:hover{
-     transform:scale(1.07);
-     filter:
-     drop-shadow(0 0 40px rgba(255,223,100,.8));
-}
-@keyframes float1{
-    0%,100%{
-        transform:rotate(-12deg) translateY(0);
-    }
-    50%{
-        transform:rotate(-12deg) translateY(-12px);
-    }
-}
-
-@keyframes float2{
-    0%,100%{
-        transform:rotate(12deg) translateY(0);
-    }
-    50%{
-        transform:rotate(12deg) translateY(-18px);
-    }
-}
-
-@keyframes float3{
-    0%,100%{
-        transform:rotate(-8deg) translateY(0);
-    }
-    50%{
-        transform:rotate(-8deg) translateY(-10px);
-    }
-}
-
-@keyframes float4{
-    0%,100%{
-        transform:rotate(10deg) translateY(0);
-    }
-    50%{
-        transform:rotate(10deg) translateY(-16px);
-    }
-}
-/* =========================
-   HERO DIVIDER
-========================= */
-
-.hero-divider{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:18px;
-    margin:15px 0 25px;
-}
-
-.hero-divider span{
-    width:175px;
-    height:1px;
-    opacity:.85;
-    background:rgba(212,175,55,.45);
-}
-
-.hero-divider i{
-    color:#D4AF37;
-    font-size:14px;
-}
-/* =========================
-   BUTTONS
-========================= */
-
-.hero-buttons{
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    margin-top:45px;
-}
-
-.btn{
-    padding:18px 42px;
-    border-radius:18px;
-    text-decoration:none;
-    font-size:20px;
-    font-weight:600;
-    transition:.35s;
-}
-
-.btn-gold{
-    background:#d6aa3e;
-    color:#111;
-    box-shadow:0 0 30px rgba(214,170,62,.45);
-}
-
-.btn-gold:hover{
-    transform:translateY(-5px);
-    box-shadow:0 0 45px rgba(214,170,62,.7);
-}
-
-.btn-outline-light{
-    color:#fff;
-    border:1px solid rgba(255,255,255,.35);
-    background:rgba(255,255,255,.05);
-    backdrop-filter:blur(8px);
-}
-
-.btn-outline-light:hover{
-    background:rgba(255,255,255,.12);
-}
-.btn-premium{
-    padding:10px 20px;
-    margin-left:15px;
-    border-radius:30px;
-    text-decoration:none;
-
-    color:#FFD86B;
-    font-weight:600;
-
-    border:1px solid rgba(255,215,100,.35);
-
-    background:rgba(212,175,55,.08);
-
-    transition:.35s;
-}
-
-.btn-premium:hover{
-    transform:translateY(-3px);
-
-    color:#FFD86B;
-
-    border-color:#FFD86B;
-
-    background:rgba(212,175,55,.18);
-
-    box-shadow:
-        0 0 20px rgba(255,215,100,.35),
-        0 0 40px rgba(255,215,100,.15);
-}
-/* =========================
-   CARD POSITIONS
-========================= */
-
-.card1{
-    top:120px;
-    left:90px;
-    transform:rotate(-12deg);
-}
-
-.card2{
-    top:120px;
-    right:90px;
-    transform:rotate(12deg);
-}
-
-.card3{
-    bottom:60px;
-    left:260px;
-    transform:rotate(-6deg);
-}
-
-.card4{
-    bottom:60px;
-    right:260px;
-    transform:rotate(8deg);
-}
-.scroll-indicator{
-    position:absolute;
-    bottom:35px;
-    left:50%;
-    transform:translateX(-50%);
-    color:#D4AF37;
-    text-align:center;
-    z-index:20;
-    animation:bounce 2s infinite;
-}
-
-@keyframes bounce{
-    0%,100%{transform:translate(-50%,0);}
-    50%{transform:translate(-50%,-10px);}
-}
-/*==============================
-        PREMIUM PAGE
-==============================*/
-
-.premium-page{
-    min-height:100vh;
-    background:
-        linear-gradient(rgba(8,8,18,.78),rgba(8,8,18,.90)),
-        url("../images/backgrounds/nebula-background.png");
-    background-size:cover;
-    background-position:center;
-    position:relative;
-    padding:140px 20px 80px;
-}
-
-.premium-header{
-    margin-bottom:60px;
-}
-
-.premium-title{
-    font-size:64px;
-    color:#fff;
-    text-shadow:0 0 30px rgba(214,170,62,.35);
-}
-
-.premium-subtitle{
-    max-width:760px;
-    margin:20px auto 0;
-    color:#d5d5d5;
-    font-size:20px;
-    line-height:1.8;
-}
-
-.pricing-card{
-    width:430px;
-    margin:auto;
-    padding:55px 45px;
-    border-radius:28px;
-    background:rgba(28,18,48,.72);
-    backdrop-filter:blur(18px);
-    border:1px solid rgba(214,170,62,.35);
-    box-shadow:
-        0 0 45px rgba(214,170,62,.18),
-        inset 0 0 40px rgba(255,255,255,.03);
-    text-align:center;
-    position:relative;
-    overflow:hidden;
-}
-
-.premium-badge{
-    position:absolute;
-    top:22px;
-    right:-48px;
-    background:#d6aa3e;
-    color:#111;
-    padding:8px 60px;
-    font-weight:700;
-    transform:rotate(45deg);
-    font-size:13px;
-}
-
-.price{
-    font-size:62px;
-    font-weight:700;
-    color:#D4AF37;
-    margin:22px 0;
-}
-
-.price span{
-    font-size:22px;
-    color:#ddd;
-}
-
-.premium-features{
-    list-style:none;
-    padding:0;
-    margin:35px 0;
-}
-
-.premium-features li{
-    margin:18px 0;
-    font-size:18px;
-    color:#eee;
-}
-
-.premium-btn{
-    width:100%;
-    padding:18px;
-    font-size:20px;
-}
-.premium-icon{
-    font-size:55px;
-    margin-bottom:20px;
-    animation: floatIcon 3s ease-in-out infinite;
-}
-
-@keyframes floatIcon{
-    0%,100%{
-        transform:translateY(0);
-    }
-    50%{
-        transform:translateY(-10px);
-    }
-}
-.premium-divider{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:18px;
-    color:#d6aa3e;
-    font-size:20px;
-    margin:22px 0 28px;
-}
-
-.premium-divider span{
-    width:120px;
-    height:2px;
-    background:linear-gradient(to right,
-        transparent,
-        #d6aa3e,
-        transparent);
-    box-shadow:0 0 12px rgba(214,170,62,.6);
-}
-.pricing-card::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    border-radius:28px;
-    padding:1px;
-    background:linear-gradient(
-        135deg,
-        rgba(255,230,150,.9),
-        rgba(214,170,62,.25),
-        rgba(255,230,150,.9)
-    );
-
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
-
-    -webkit-mask-composite:xor;
-    mask-composite:exclude;
-    pointer-events:none;
-}
-.pricing-card:hover{
-
-    transform:translateY(-8px);
-
-    box-shadow:
-        0 0 35px rgba(214,170,62,.35),
-        0 0 80px rgba(214,170,62,.18);
-
-    transition:.4s;
-
-}
-.pricing-wrapper{
-    display:flex;
-    justify-content:center;
-    align-items:stretch;
-    gap:35px;
-    flex-wrap:wrap;
-}
-
-.small-card{
-    width:360px;
-}
-
-.featured{
-    transform:scale(1.08);
-    border:2px solid rgba(214,170,62,.6);
-
-    background:linear-gradient(
-        180deg,
-        rgba(40,25,70,.90),
-        rgba(20,15,35,.90)
-    );
-
-    box-shadow:
-        0 0 40px rgba(214,170,62,.30),
-        0 0 90px rgba(214,170,62,.15);
-}
-.featured:hover{
-    transform:scale(1.1) translateY(-10px);
-}
-.best-value{
-    display:inline-block;
-    padding:8px 18px;
-    margin-bottom:18px;
-    border-radius:25px;
-    background:linear-gradient(135deg,#FFD86B,#D4AF37);
-    color:#111;
-    font-size:13px;
-    font-weight:700;
-    letter-spacing:1px;
-    box-shadow:0 0 20px rgba(214,170,62,.45);
-    animation:pulseBadge 2s infinite;
-}
-
-@keyframes pulseBadge{
-    0%,100%{
-        transform:scale(1);
-    }
-    50%{
-        transform:scale(1.05);
-    }
-}
-.compare-section{
-    margin-top:100px;
-    text-align:center;
-}
-
-.compare-section h2{
-    color:#fff;
-    margin-bottom:35px;
-}
-
-.compare-table{
-    display:grid;
-    grid-template-columns:2fr 1fr 1fr 1fr;
-    max-width:900px;
-    margin:auto;
+/* =========================================================
+   SOULMIRROR TAROT
+   CLEAN / REFINED MASTER STYLESHEET
+   ========================================================= */
 
-    background:rgba(255,255,255,.05);
-    backdrop-filter:blur(18px);
 
-    border-radius:20px;
-    overflow:hidden;
-}
-
-.compare-table div{
-    padding:18px;
-    border:1px solid rgba(255,255,255,.08);
-}
-
-.compare-table div:nth-child(-n+4){
-    background:rgba(214,170,62,.15);
-    font-weight:700;
-}
-
-/* FAQ */
-
-.faq-section{
-    margin:100px auto;
-    max-width:900px;
-}
+/* =========================================================
+   ROOT + GLOBAL
+   ========================================================= */
 
-.faq-section h2{
-    text-align:center;
-    margin-bottom:40px;
+:root {
+    --bg: #0a0a0f;
+    --gold: #d4af37;
+    --gold-light: #f4d66f;
+    --gold-bright: #fff1a0;
+    --purple: #2e1a47;
+    --text: #f8fafc;
+    --muted: #d6d6d6;
 }
 
-.faq-container details{
-    background:rgba(255,255,255,.05);
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:16px;
-    margin-bottom:18px;
-    padding:18px 24px;
-    backdrop-filter:blur(12px);
-    transition:.3s;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.faq-container details:hover{
-    border-color:#D4AF37;
-}
-
-.faq-container summary{
-    cursor:pointer;
-    font-size:18px;
-    font-weight:600;
-    color:#fff;
-}
-
-.faq-container p{
-    margin-top:15px;
-    color:#d6d6d6;
-    line-height:1.7;
-}
-/* Testimonials */
-
-.testimonial-section{
-    margin:120px auto;
-    text-align:center;
-}
-
-.testimonial-wrapper{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    flex-wrap:wrap;
-    margin-top:50px;
-}
-.testimonial-card{
-    width:320px;
-    padding:30px;
-    border-radius:22px;
-    background:rgba(255,255,255,.05);
-    backdrop-filter:blur(18px);
-    border:1px solid rgba(255,255,255,.08);
-    transition:.35s;
+html {
+    scroll-behavior: smooth;
 }
-.testimonial-card:hover{
-    transform:translateY(-8px);
-    border-color:#D4AF37;
-    box-shadow:0 0 30px rgba(212,175,55,.25);
-}
-.stars{
-    color:#FFD86B;
-    font-size:22px;
-    margin-bottom:20px;
-}
-.testimonial-card p{
-    color:#ddd;
-    line-height:1.8;
-    margin-bottom:20px;
-}
-.testimonial-card h4{
-    color:#fff;
-}
-/* Why Go Premium */
-.benefits-section{
-    margin:120px auto;
-    text-align:center;
-}
-.benefits-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:28px;
-    margin-top:50px;
-}
-.benefit-card{
-    background:rgba(255,255,255,.05);
-    backdrop-filter:blur(16px);
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:22px;
-    padding:35px 25px;
-    transition:.35s;
-}
-.benefit-card:hover{
-    transform:translateY(-8px);
-    border-color:#D4AF37;
-    box-shadow:0 0 30px rgba(212,175,55,.25);
-}
-.benefit-icon{
-    font-size:42px;
-    margin-bottom:20px;
-}
-.benefit-card h4{
-    color:#fff;
-    margin-bottom:12px;
-}
-.benefit-card p{
-    color:#d5d5d5;
-    line-height:1.7;
-}
-/*==============================
-        FINAL CTA
-==============================*/
-.premium-cta{
-    text-align:center;
-    padding:120px 20px;
-    margin-top:120px;
-    background:linear-gradient(
-        180deg,
-        rgba(255,255,255,0),
-        rgba(214,170,62,.05)
-    );
-}
-.premium-cta h2{
-    font-size:54px;
-    color:#fff;
-    margin-bottom:25px;
-}
-.premium-cta p{
-    max-width:700px;
-    margin:0 auto 40px;
-    color:#d8d8d8;
-    font-size:20px;
-    line-height:1.8;
-}
-.premium-cta-btn{
-    padding:20px 60px;
-    font-size:22px;
-    border-radius:50px;
-}
-.premium-guarantee{
-    margin-top:30px;
-    color:#bfbfbf;
-    font-size:15px;
-    letter-spacing:.5px;
-}
-/*==============================
-    READING TYPES
-==============================*/
 
-.reading-types{
-    min-height:100vh;
-    padding:140px 20px 80px;
-    background:
-        linear-gradient(rgba(8,8,18,.75),rgba(8,8,18,.9)),
-        url("../images/backgrounds/nebula-background.png");
-    background-size:cover;
-    background-position:center;
-    text-align:center;
-}
-.reading-title{
-    font-size:64px;
-    color:#fff;
-    text-shadow:0 0 30px rgba(214,170,62,.3);
-}
-.reading-subtitle{
-    margin-top:20px;
-    font-size:20px;
-    color:#d7d7d7;
-}
-.reading-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:30px;
-    margin-top:70px;
-}
-.reading-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:30px;
-    margin-top:70px;
-}
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Inter", sans-serif;
 
-.reading-card{
-    min-height:340px;
-    padding:35px 25px;
-    border-radius:22px;
-    background:rgba(255,255,255,.05);
-    backdrop-filter:blur(16px);
-    border:1px solid rgba(255,255,255,.08);
-    text-decoration:none;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:space-between;
-    transition:.35s;
-}
-.reading-card:hover{
-    transform:translateY(-10px);
-    border-color:#D4AF37;
-    box-shadow:0 0 35px rgba(212,175,55,.25);
-}
-.reading-icon{
-    font-size:46px;
-}
-.reading-card h3{
-    color:white;
-    font-size:28px;
-    margin:15px 0;
-}
-.reading-card p{
-    color:#d6d6d6;
-    text-align:center;
-    line-height:1.7;
-    font-size:16px;
-    flex:1;
+    /* IMPORTANT:
+       Keep normal page scrolling enabled */
+    overflow-x: hidden;
+    overflow-y: auto;
 }
-.reading-btn{
-    display:inline-block;
-    padding:12px 28px;
-    border-radius:40px;
-    background:#D4AF37;
-    color:#111;
-    font-weight:700;
 
-    position:relative;
-    top:17px;
-    transition:.3s;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cinzel", serif;
 }
-.reading-card:hover .reading-btn{
-    background:white;
-}
-/*=========================
-    YES / NO PAGE
-=========================*/
 
-.yesno-page{
-    min-height:100vh;
-    padding:150px 20px 80px;
-    background:
-        linear-gradient(rgba(8,8,18,.75),rgba(8,8,18,.9)),
-        url("../images/backgrounds/nebula-background.png");
-    background-size:cover;
-    background-position:center;
-    text-align:center;
-}
-.yesno-title{
-    font-size:60px;
-    color:#fff;
-    text-shadow:0 0 25px rgba(212,175,55,.35);
-}
-.yesno-subtitle{
-    margin-top:18px;
-    font-size:20px;
-    color:#d8d8d8;
-}
-.question-box{
-    max-width:750px;
-    margin:60px auto 0;
-}
-.question-box textarea{
-    width:100%;
-    background:rgba(255,255,255,.06);
-    border:1px solid rgba(255,255,255,.12);
-    backdrop-filter:blur(18px);
-    border-radius:20px;
-    padding:22px;
-    color:#fff;
-    font-size:18px;
-    resize:none;
-    outline:none;
-    margin-bottom:30px;
-}
-.question-box textarea::placeholder{
-    color:#bdbdbd;
-}
-.deck-area{
-    margin-top:60px;
-    text-align:center;
-}
-.tarot-deck{
-    width:180px;
-    height:auto;
-    cursor:pointer;
-    transition:.35s;
-    filter:drop-shadow(0 0 20px rgba(212,175,55,.35));
-}
-.tarot-deck:hover{
-    transform:scale(1.08);
-}
-/*==============================
-        FOCUS SCREEN
-==============================*/
-#focus-screen{
-    position:fixed;
-    inset:0;
-    display:none;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    background:
-        radial-gradient(circle,
-        rgba(40,20,70,.95),
-        rgba(8,8,18,.98));
-    backdrop-filter:blur(10px);
-    z-index:9999;
-    text-align:center;
-}
-#focus-screen h2{
-    color:#fff;
-    font-size:48px;
-    font-family:"Cinzel",serif;
-    text-shadow:0 0 25px rgba(212,175,55,.4);
-}
-#focus-screen p{
-    margin-top:20px;
-    color:#d5d5d5;
-    font-size:20px;
-}
-/* ===========================
-   READING TYPES
-=========================== */
-.reading-types{
-    width:100%;
-    padding:70px 8%;
-}
-.reading-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:35px;
-}
-/* ===========================
-   CARD
-=========================== */
-.reading-card{
-    position:relative;
-    height:650px;
-    border-radius:22px;
-    overflow:hidden;
-    cursor:pointer;
-    background:#120c1d;
-    transition:.45s;
-    box-shadow:
-        0 0 25px rgba(0,0,0,.45),
-        0 0 8px rgba(212,175,55,.12);
-}
-.reading-card:hover{
-    transform:translateY(-10px);
-    box-shadow:
-        0 18px 40px rgba(0,0,0,.55),
-        0 0 20px rgba(212,175,55,.35);
-}
-/* ===========================
-   IMAGE
-=========================== */
-.reading-card{
-    position:relative;
-    overflow:hidden;
-    border-radius:22px;
-    aspect-ratio:2/3;
-    height:auto;
-}
-.reading-card img{
-    width:100%;
-    height:100%;
-    object-fit:contain;
-    object-position:center;
-    display:block;
-    transition:.6s;
-    margin-top:-18px;
-}
-.reading-card:hover img{
-    transform:scale(1.05);
-}
-.reading-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:35px;
-}
-/* ===========================
-   OVERLAY
-=========================== */
-.reading-overlay{
-    position:absolute;
-    inset:0;
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
-    flex-direction:column;
-    padding-bottom:18px;   /* 15-25px adjust korte paro */
-    background:linear-gradient(
-        to top,
-        rgba(8,5,15,.15) 0%,
-        rgba(8,5,15,0) 35%
-    );
-}
-/* ===========================
-   BUTTON
-=========================== */
-.reading-btn{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    padding:14px 34px;
-    border-radius:999px;
-    text-decoration:none;
-    background:#D4AF37;
-    color:#111;
-    font-weight:700;
-    transition:.35s;
-}
-.reading-btn:hover{
-    background:#f1cb57;
-    color:#000;
-    transform:translateY(-3px);
-    box-shadow:
-        0 0 20px rgba(212,175,55,.55);
-}
-/* ===========================
-   RESPONSIVE
-=========================== */
-@media(max-width:1400px){
-    .reading-grid{
-        grid-template-columns:repeat(3,1fr);
-    }
-}
-@media(max-width:992px){
-    .reading-grid{
-        grid-template-columns:repeat(2,1fr);
-    }
-}
-@media(max-width:650px){
-    .reading-grid{
-        grid-template-columns:1fr;
-    }
-}
-/*.user-greeting{
-    color:#fff;
-    font-weight:600;
-    display:flex;
-    align-items:center;
-    margin:0 18px;
-    white-space:nowrap;
+a {
     text-decoration: none;
-    color: inherit;
-    cursor: pointer;
 }
-.user-greeting:hover{
-    opacity: .85;
-}*/
-.user-greeting{
+
+img {
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   NAVBAR
+   KEEPING EXISTING NAVBAR STYLE
+   ========================================================= */
+
+.custom-navbar {
+    position: relative;
+    z-index: 1000;
+
+    width: 100%;
+    height: 92px;
+    padding: 0;
+
+    background:
+        radial-gradient(
+            ellipse at 50% 100%,
+            rgba(116, 45, 160, 0.32),
+            transparent 42%
+        ),
+        linear-gradient(
+            90deg,
+            #090313 0%,
+            #11051f 50%,
+            #090313 100%
+        );
+
+    border-bottom: 1px solid rgba(212, 175, 55, 0.18);
+
+    box-shadow:
+        0 8px 35px rgba(0, 0, 0, 0.45),
+        0 0 45px rgba(103, 42, 150, 0.14);
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+
+.navbar-inner {
+    width: 100%;
+    max-width: 1450px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+.custom-navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    margin: 0;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.logo-symbol {
+    width: 48px;
+    height: 60px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px;
+    border: 1px solid rgba(222, 177, 52, 0.75);
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(212, 175, 55, 0.10),
+            rgba(66, 26, 92, 0.38)
+        );
+
+    color: #e8c24f;
+
+    font-family: Georgia, serif;
+    font-size: 31px;
+
+    box-shadow:
+        0 0 12px rgba(212, 175, 55, 0.12),
+        inset 0 0 18px rgba(212, 175, 55, 0.06);
+}
+
+.logo-star {
+    position: absolute;
+
+    top: 8px;
+    right: 7px;
+
+    color: #fff1a4;
+    font-size: 10px;
+
+    text-shadow: 0 0 8px rgba(255, 228, 117, 0.9);
+}
+
+.logo-text {
+    font-family: "Cinzel", Georgia, serif;
+
+    color: #ddb53f;
+
+    font-size: 26px;
+    font-weight: 700;
+
+    letter-spacing: 1.2px;
+
+    text-shadow:
+        0 0 18px rgba(218, 177, 59, 0.18);
+}
+
+
+/* =========================================================
+   NAV LINKS
+   ========================================================= */
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+    gap: 0;
+}
+
+.navbar-links .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.custom-navbar .nav-link {
+    position: relative;
+
+    padding: 12px 24px !important;
+
+    color: rgba(255, 255, 255, 0.92) !important;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition:
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: var(--gold-light) !important;
+    transform: translateY(-1px);
+}
+
+.custom-navbar .nav-link::after {
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+    bottom: 0;
+
+    width: 40px;
+    height: 2px;
+
+    transform: translateX(-50%) scaleX(0);
+
+    opacity: 0;
+
+    border-radius: 999px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            var(--gold-bright) 22%,
+            #e9c653 50%,
+            var(--gold-bright) 78%,
+            transparent
+        );
+
+    box-shadow:
+        0 0 4px rgba(255, 239, 157, 0.95),
+        0 0 9px rgba(238, 204, 82, 0.85),
+        0 0 18px rgba(214, 175, 55, 0.55),
+        0 0 28px rgba(170, 95, 220, 0.25);
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+}
+
+.custom-navbar .nav-link:hover::after,
+.custom-navbar .nav-link.active::after {
+    opacity: 1;
+    transform: translateX(-50%) scaleX(1);
+}
+
+.custom-navbar .nav-link.active {
+    color: var(--gold-light) !important;
+}
+
+.nav-divider {
+    width: 1px;
+    height: 22px;
+
+    margin: 0 2px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(214, 175, 55, 0.30),
+            transparent
+        );
+}
+
+
+/* =========================================================
+   NAV AUTH
+   ========================================================= */
+
+.nav-auth {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    gap: 14px;
+    margin-left: 22px;
+}
+
+.nav-login {
+    min-height: 48px;
+    padding: 0 23px;
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 18px;
-    border-radius: 999px;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid rgba(255,255,255,.18);
-    background: rgba(255,255,255,.06);
-    transition: .3s ease;
-    margin-left: 16px;
+
+    gap: 9px;
+
+    border-radius: 28px;
+    border: 1px solid rgba(214, 175, 55, 0.22);
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.055),
+            rgba(100, 45, 125, 0.15)
+        );
+
+    color: #fff !important;
+
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    box-shadow:
+        inset 0 0 15px rgba(255, 255, 255, 0.025),
+        0 0 18px rgba(116, 52, 145, 0.12);
+
+    transition: 0.25s ease;
 }
 
-.user-greeting:hover{
+.nav-login-icon {
+    color: #e4bd4a;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.nav-login:hover {
+    color: #f5d56a !important;
+
+    border-color: rgba(222, 183, 65, 0.48);
+
     transform: translateY(-2px);
-    background: rgba(255,255,255,.12);
+
+    box-shadow:
+        0 0 22px rgba(135, 61, 170, 0.28),
+        inset 0 0 18px rgba(214, 175, 55, 0.05);
+}
+
+.nav-signup {
+    min-height: 48px;
+    padding: 0 27px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 9px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f5d76a,
+            #d9a92f
+        );
+
+    color: #120c15 !important;
+
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+
+    white-space: nowrap;
+
+    box-shadow:
+        0 7px 24px rgba(212, 175, 55, 0.28),
+        0 0 20px rgba(212, 175, 55, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.45);
+
+    transition: 0.25s ease;
+}
+
+.nav-signup:hover {
+    color: #100a12 !important;
+
+    transform: translateY(-2px);
+
+    filter: brightness(1.08);
+
+    box-shadow:
+        0 10px 30px rgba(212, 175, 55, 0.42),
+        0 0 25px rgba(212, 175, 55, 0.18);
+}
+
+
+/* =========================================================
+   LOGGED-IN USER
+   ========================================================= */
+
+.user-greeting {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 18px;
+    margin-left: 16px;
+
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    color: #fff;
+
+    background: rgba(255, 255, 255, 0.06);
+
+    text-decoration: none;
+    white-space: nowrap;
+
+    transition: 0.3s ease;
+}
+
+.user-greeting:hover {
+    transform: translateY(-2px);
+
+    background: rgba(255, 255, 255, 0.12);
+
     border-color: #9b6dff;
 }
-.flash-container{
-    position:fixed;
-    top:120px;
-    right:30px;
-    z-index:9999;
+
+
+/* =========================================================
+   SOULMIRROR TAROT — HERO / HOME BODY
+   ---------------------------------------------------------
+   NAVBAR IS NOT INCLUDED HERE.
+   Keep your existing navbar CSS exactly as it is.
+   ========================================================= */
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+html {
+    scroll-behavior: smooth;
 }
+
+body {
+    margin: 0;
+    background: #08030f;
+    color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+img {
+    display: block;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero {
+    position: relative;
+
+    width: 100%;
+    min-height: calc(100vh - 92px);
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        url("../images/backgrounds/nebula-background.png")
+        center center / cover no-repeat;
+
+    isolation: isolate;
+}
+
+
+/* =========================================================
+   SOFT ATMOSPHERIC OVERLAY
+   ========================================================= */
+
+.hero .overlay {
+    position: absolute;
+    inset: 0;
+
+    z-index: 1;
+
+    pointer-events: none;
+
+    background:
+        radial-gradient(
+            circle at 50% 45%,
+            rgba(145, 70, 210, 0.07),
+            transparent 42%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(6, 1, 15, 0.02),
+            rgba(6, 1, 15, 0.10)
+        );
+}
+
+
+/* =========================================================
+   CENTER MOON
+   ========================================================= */
+
+.hero .moon {
+    position: absolute;
+
+    width: 800px;
+    height: 800px;
+
+    left: 50%;
+    top: -55px;
+
+    transform: translateX(-50%);
+
+    z-index: 2;
+
+    pointer-events: none;
+
+    object-fit: contain;
+
+    filter:
+        drop-shadow(0 0 18px rgba(232, 215, 255, 0.92))
+        drop-shadow(0 0 40px rgba(195, 145, 255, 0.55))
+        drop-shadow(0 0 75px rgba(145, 70, 255, 0.28));
+}
+
+
+/* =========================================================
+   FLOATING CARDS — COMMON
+   ========================================================= */
+
+.hero .floating-card {
+    position: absolute;
+
+    height: auto;
+
+    z-index: 6;
+
+    pointer-events: none;
+
+    user-select: none;
+
+    filter:
+        drop-shadow(
+            0 10px 18px rgba(0, 0, 0, 0.45)
+        )
+        drop-shadow(
+            0 0 8px rgba(255, 210, 110, 0.18)
+        );
+
+    transition:
+        filter 0.35s ease;
+}
+
+
+/* =========================================================
+   THE FOOL — TOP LEFT
+   ========================================================= */
+
+.hero .card1 {
+    width: 215px;
+
+    left: 34px;
+    top: 28px;
+
+    transform: rotate(-9deg);
+
+    animation: foolFloat 7s ease-in-out infinite;
+}
+
+
+/* =========================================================
+   THE MOON — TOP RIGHT
+   ========================================================= */
+
+.hero .card2 {
+    width: 205px;
+
+    right: 34px;
+    top: 28px;
+
+    transform: rotate(9deg);
+
+    animation: moonCardFloat 8.5s ease-in-out infinite;
+}
+
+
+/* =========================================================
+   THE STAR — BOTTOM LEFT
+   ========================================================= */
+
+.hero .card3 {
+    width: 205px;
+
+    left: 255px;
+    bottom: 10px;
+
+    transform: rotate(-7deg);
+
+    animation: starFloat 6.5s ease-in-out infinite;
+}
+
+
+/* =========================================================
+   THE LOVERS — BOTTOM RIGHT
+   ========================================================= */
+
+.hero .card4 {
+    width: 205px;
+
+    right: 255px;
+    bottom: 10px;
+
+    transform: rotate(7deg);
+
+    animation: loversFloat 8.5s ease-in-out infinite;
+}
+
+
+/* =========================================================
+   CARD ANIMATIONS
+   ========================================================= */
+
+@keyframes foolFloat {
+
+    0%,
+    100% {
+        transform: rotate(-9deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(-9deg) translateY(-9px);
+    }
+}
+
+
+@keyframes moonCardFloat {
+
+    0%,
+    100% {
+        transform: rotate(9deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(9deg) translateY(-11px);
+    }
+}
+
+
+@keyframes starFloat {
+
+    0%,
+    100% {
+        transform: rotate(-7deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(-7deg) translateY(-8px);
+    }
+}
+
+
+@keyframes loversFloat {
+
+    0%,
+    100% {
+        transform: rotate(7deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(7deg) translateY(-10px);
+    }
+}
+
+
+/* =========================================================
+   HERO CONTENT
+   ========================================================= */
+
+.hero .hero-content {
+    position: absolute;
+
+    left: 50%;
+    top: 59%;
+
+    transform: translate(-50%, -50%);
+
+    width: min(760px, 82%);
+
+    z-index: 12;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   MAIN TITLE
+   ========================================================= */
+
+.hero .hero-title {
+    margin: 0;
+
+    font-family:
+        "Cinzel",
+        Georgia,
+        serif;
+
+    font-size: 58px;
+    font-weight: 700;
+
+    line-height: 1.05;
+
+    letter-spacing: 1.5px;
+
+    white-space: nowrap;
+
+    color: #f5c84d;
+
+    text-shadow:
+        0 0 4px rgba(255, 229, 130, 0.90),
+        0 0 10px rgba(255, 205, 75, 0.65),
+        0 0 24px rgba(214, 155, 45, 0.35),
+        0 0 34px rgba(165, 80, 240, 0.18);
+}
+
+
+/* =========================================================
+   DECORATIVE DIVIDER
+   ========================================================= */
+
+.hero .hero-divider {
+    width: 490px;
+    max-width: 75%;
+
+    margin-top: 17px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+}
+
+
+.hero .hero-divider span {
+    flex: 1;
+
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent 0%,
+            rgba(221, 177, 55, 0.40) 18%,
+            #e4bb48 50%,
+            rgba(221, 177, 55, 0.40) 82%,
+            transparent 100%
+        );
+
+    box-shadow:
+        0 0 5px rgba(232, 195, 80, 0.30);
+}
+
+
+.hero .hero-divider div {
+    flex-shrink: 0;
+
+    color: #f5cc57;
+
+    font-size: 17px;
+
+    line-height: 1;
+
+    text-shadow:
+        0 0 7px rgba(255, 220, 100, 0.80),
+        0 0 15px rgba(255, 195, 70, 0.35);
+}
+
+
+/* =========================================================
+   SUBTITLE
+   ========================================================= */
+
+.hero .hero-subtitle {
+    margin: 19px 0 0;
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-size: 24px;
+    font-weight: 500;
+
+    line-height: 1.3;
+
+    letter-spacing: 0.3px;
+
+    white-space: nowrap;
+
+    color: #f1ca63;
+
+    text-shadow:
+        0 0 5px rgba(255, 220, 115, 0.70),
+        0 0 15px rgba(170, 95, 235, 0.28);
+}
+
+
+/* =========================================================
+   BUTTON ROW
+   ========================================================= */
+
+.hero .hero-buttons {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    margin-top: 28px;
+}
+
+
+/* =========================================================
+   BUTTON BASE
+   ========================================================= */
+
+.hero .hero-buttons .btn {
+    width: 275px;
+    height: 68px;
+
+    padding: 0 25px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 17px;
+
+    font-family:
+        "Outfit",
+        sans-serif;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    line-height: 1;
+
+    text-decoration: none;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        filter 0.25s ease;
+}
+
+
+/* =========================================================
+   BEGIN READING
+   ========================================================= */
+
+.hero .hero-buttons .btn-gold {
+    color: #140d18;
+
+    background:
+        linear-gradient(
+            135deg,
+            #edc34d 0%,
+            #f4ce5c 45%,
+            #dda82d 100%
+        );
+
+    border: 1px solid rgba(255, 227, 130, 0.82);
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.34),
+        0 0 20px rgba(235, 190, 65, 0.24),
+        inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+
+.hero .hero-buttons .btn-gold:hover {
+    transform: translateY(-3px);
+
+    filter: brightness(1.06);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.40),
+        0 0 30px rgba(245, 204, 75, 0.45);
+}
+
+
+/* =========================================================
+   DAILY CARD
+   ========================================================= */
+
+.hero .hero-buttons .btn-outline-light {
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(115, 48, 160, 0.78),
+            rgba(72, 24, 115, 0.80)
+        );
+
+    border: 1px solid rgba(226, 189, 255, 0.46);
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.30),
+        inset 0 0 22px rgba(220, 160, 255, 0.07);
+
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+
+.hero .hero-buttons .btn-outline-light:hover {
+    transform: translateY(-3px);
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(133, 58, 183, 0.86),
+            rgba(82, 30, 130, 0.88)
+        );
+
+    border-color: rgba(240, 220, 255, 0.70);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.40),
+        0 0 30px rgba(180, 95, 255, 0.34);
+}
+
+
+/* =========================================================
+   DESKTOP — MATCH REFERENCE COMPOSITION
+   ========================================================= */
+
+@media (min-width: 1450px) {
+
+    .hero .moon {
+        width: 420px;
+        height: 420px;
+        top: -8px;
+    }
+
+    .hero .card1 {
+        width: 215px;
+
+        left: 34px;
+        top: 28px;
+    }
+
+    .hero .card2 {
+        width: 205px;
+
+        right: 34px;
+        top: 28px;
+    }
+
+    .hero .card3 {
+        width: 205px;
+
+        left: 255px;
+        bottom: 10px;
+    }
+
+    .hero .card4 {
+        width: 205px;
+
+        right: 255px;
+        bottom: 10px;
+    }
+
+    .hero .hero-content {
+        top: 59%;
+    }
+}
+
+
+/* =========================================================
+   MEDIUM DESKTOP
+   ========================================================= */
+
+@media (min-width: 1101px) and (max-width: 1449px) {
+
+    .hero .moon {
+        width: 330px;
+        height: 330px;
+
+        top: 18px;
+    }
+
+    .hero .card1 {
+        width: 195px;
+
+        left: 24px;
+        top: 24px;
+    }
+
+    .hero .card2 {
+        width: 185px;
+
+        right: 24px;
+        top: 24px;
+    }
+
+    .hero .card3 {
+        width: 185px;
+
+        left: 180px;
+        bottom: 10px;
+    }
+
+    .hero .card4 {
+        width: 185px;
+
+        right: 180px;
+        bottom: 10px;
+    }
+
+    .hero .hero-content {
+        width: 720px;
+        top: 59%;
+    }
+
+    .hero .hero-title {
+        font-size: 52px;
+    }
+
+    .hero .hero-subtitle {
+        font-size: 22px;
+    }
+
+    .hero .hero-buttons .btn {
+        width: 245px;
+        height: 62px;
+
+        font-size: 18px;
+    }
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+    .hero {
+        min-height: 820px;
+    }
+
+    .hero .moon {
+        width: 300px;
+        height: 300px;
+
+        top: 35px;
+    }
+
+    .hero .card1 {
+        width: 155px;
+
+        left: 15px;
+        top: 28px;
+    }
+
+    .hero .card2 {
+        width: 150px;
+
+        right: 15px;
+        top: 28px;
+    }
+
+    .hero .card3 {
+        width: 160px;
+
+        left: 70px;
+        bottom: 18px;
+    }
+
+    .hero .card4 {
+        width: 160px;
+
+        right: 70px;
+        bottom: 18px;
+    }
+
+    .hero .hero-content {
+        width: 680px;
+        max-width: 82%;
+
+        top: 60%;
+    }
+
+    .hero .hero-title {
+        font-size: 46px;
+    }
+
+    .hero .hero-subtitle {
+        font-size: 20px;
+    }
+
+    .hero .hero-buttons .btn {
+        width: 230px;
+        height: 60px;
+
+        font-size: 18px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .hero {
+        min-height: 780px;
+
+        padding-bottom: 50px;
+    }
+
+    .hero .moon {
+        width: 250px;
+        height: 250px;
+
+        top: 38px;
+    }
+
+    .hero .card1 {
+        width: 110px;
+
+        left: 5px;
+        top: 24px;
+    }
+
+    .hero .card2 {
+        width: 105px;
+
+        right: 5px;
+        top: 24px;
+    }
+
+    .hero .card3 {
+        width: 120px;
+
+        left: 10px;
+        bottom: 20px;
+    }
+
+    .hero .card4 {
+        width: 120px;
+
+        right: 10px;
+        bottom: 20px;
+    }
+
+    .hero .hero-content {
+        width: 92%;
+
+        top: 59%;
+    }
+
+    .hero .hero-title {
+        font-size: 34px;
+
+        white-space: normal;
+    }
+
+    .hero .hero-divider {
+        width: 340px;
+        max-width: 90%;
+    }
+
+    .hero .hero-subtitle {
+        font-size: 18px;
+
+        white-space: normal;
+    }
+
+    .hero .hero-buttons {
+        flex-direction: column;
+
+        gap: 12px;
+
+        margin-top: 24px;
+    }
+
+    .hero .hero-buttons .btn {
+        width: 245px;
+        height: 58px;
+
+        font-size: 17px;
+    }
+}
+
+/* =========================================================
+   FINAL HERO COMPOSITION — REFERENCE MATCH
+   ========================================================= */
+
+.hero {
+    min-height: calc(100vh - 92px);
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* -------------------------
+   MOON
+------------------------- */
+
+.hero .moon {
+    width: 430px;
+    height: 430px;
+
+    left: 50%;
+    top: -5px;
+
+    transform: translateX(-50%);
+
+    z-index: 2;
+}
+
+
+/* -------------------------
+   TOP CARDS
+------------------------- */
+
+.hero .card1 {
+    width: 195px;
+
+    left: 42px;
+    top: 28px;
+
+    transform: rotate(-9deg);
+
+    z-index: 6;
+}
+
+.hero .card2 {
+    width: 185px;
+
+    right: 42px;
+    top: 28px;
+
+    transform: rotate(9deg);
+
+    z-index: 6;
+}
+
+
+/* -------------------------
+   BOTTOM CARDS
+------------------------- */
+
+.hero .card3 {
+    width: 190px;
+
+    left: 250px;
+    bottom: 5px;
+
+    transform: rotate(-7deg);
+
+    z-index: 5;
+}
+
+.hero .card4 {
+    width: 190px;
+
+    right: 250px;
+    bottom: 5px;
+
+    transform: rotate(7deg);
+
+    z-index: 5;
+}
+
+
+/* =========================================================
+   HERO CONTENT — START AFTER MOON
+   ========================================================= */
+
+.hero .hero-content {
+    position: absolute;
+
+    left: 50%;
+
+    /* Moon ends around 448px from hero top */
+    top: 475px;
+
+    transform: translateX(-50%);
+
+    width: min(760px, 82%);
+
+    margin: 0;
+
+    z-index: 12;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* -------------------------
+   TITLE
+------------------------- */
+
+.hero .hero-title {
+    margin: 0;
+
+    font-size: 54px;
+    line-height: 1.05;
+
+    white-space: nowrap;
+
+    color: #f5c84d;
+
+    text-shadow:
+        0 0 4px rgba(255, 228, 125, 0.95),
+        0 0 12px rgba(255, 205, 75, 0.70),
+        0 0 25px rgba(212, 160, 45, 0.35);
+}
+
+
+/* -------------------------
+   DIVIDER
+------------------------- */
+
+.hero .hero-divider {
+    width: 460px;
+    max-width: 80%;
+
+    margin-top: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+}
+
+.hero .hero-divider span {
+    flex: 1;
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #d9af42,
+            transparent
+        );
+
+    box-shadow:
+        0 0 6px rgba(235, 193, 75, .35);
+}
+
+.hero .hero-divider div {
+    color: #f2c74d;
+
+    font-size: 17px;
+
+    text-shadow:
+        0 0 8px rgba(255, 215, 85, .8);
+}
+
+
+/* -------------------------
+   SUBTITLE
+------------------------- */
+
+.hero .hero-subtitle {
+    margin: 16px 0 0;
+
+    font-size: 21px;
+
+    white-space: nowrap;
+
+    color: #efc85c;
+
+    text-shadow:
+        0 0 6px rgba(255, 215, 100, .65);
+}
+
+
+/* -------------------------
+   BUTTONS
+------------------------- */
+
+.hero .hero-buttons {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    margin-top: 24px;
+}
+
+.hero .hero-buttons .btn {
+    width: 250px;
+    height: 64px;
+
+    border-radius: 17px;
+
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+/* -------------------------
+   GOLD BUTTON
+------------------------- */
+
+.hero .btn-gold {
+    background:
+        linear-gradient(
+            135deg,
+            #ecc24d,
+            #dca92f
+        );
+
+    color: #120b16;
+
+    border: 1px solid rgba(255, 225, 120, .7);
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, .32),
+        0 0 20px rgba(235, 190, 55, .20);
+}
+
+
+/* -------------------------
+   PURPLE BUTTON
+------------------------- */
+
+.hero .btn-outline-light {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(115, 48, 160, .72),
+            rgba(70, 25, 110, .75)
+        );
+
+    color: #fff;
+
+    border: 1px solid rgba(225, 190, 255, .45);
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, .28);
+}
+
+
+/* =========================================================
+   ANIMATIONS
+   ========================================================= */
+
+@keyframes float1 {
+    0%,100% {
+        transform: rotate(-9deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(-9deg) translateY(-9px);
+    }
+}
+
+@keyframes float2 {
+    0%,100% {
+        transform: rotate(9deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(9deg) translateY(-11px);
+    }
+}
+
+@keyframes float3 {
+    0%,100% {
+        transform: rotate(-7deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(-7deg) translateY(-8px);
+    }
+}
+
+@keyframes float4 {
+    0%,100% {
+        transform: rotate(7deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(7deg) translateY(-9px);
+    }
+}
+
+/* =========================================================
+   FINAL HERO POSITION ADJUSTMENT
+   ========================================================= */
+
+/* ---------- Bigger Moon ---------- */
+
+.hero .moon {
+    width: 520px;
+    height: 500px;
+
+    left: 50%;
+    top: -12px;
+
+    transform: translateX(-50%);
+
+    z-index: 2;
+}
+
+
+/* ---------- Move Text Down ---------- */
+
+.hero .hero-content {
+    top: 68%;
+}
+
+
+/* ---------- Slightly more spacing below subtitle ---------- */
+
+.hero .hero-subtitle {
+    margin-top: 18px;
+}
+
+
+/* ---------- Move Buttons Down ---------- */
+
+.hero .hero-buttons {
+    margin-top: 32px;
+}
+
+/* =========================================================
+   SOULMIRROR HERO — FINAL DESKTOP OVERRIDE
+   ========================================================= */
+
+/* PAGE MUST SCROLL */
+html,
+body {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+
+/* =========================================================
+   HERO HEIGHT
+   ========================================================= */
+
+.hero {
+    position: relative !important;
+
+    width: 100% !important;
+
+    /* Deliberately taller than viewport so page can scroll */
+    min-height: 900px !important;
+    height: 900px !important;
+
+    overflow: hidden !important;
+
+    display: block !important;
+
+    background:
+        url("../images/backgrounds/nebula-background.png")
+        center center / cover no-repeat !important;
+}
+
+
+/* =========================================================
+   MOON — TOUCHING NAVBAR AREA
+   ========================================================= */
+
+.hero .moon {
+    position: absolute !important;
+
+    width: 440px !important;
+    height: 440px !important;
+
+    max-width: none !important;
+
+    left: 50% !important;
+    top: -22px !important;
+
+    transform: translateX(-50%) !important;
+
+    z-index: 2 !important;
+
+    object-fit: contain !important;
+
+    pointer-events: none !important;
+
+    filter:
+        drop-shadow(0 0 18px rgba(235, 220, 255, 0.95))
+        drop-shadow(0 0 42px rgba(190, 135, 255, 0.55))
+        drop-shadow(0 0 75px rgba(150, 70, 255, 0.25)) !important;
+}
+
+
+/* =========================================================
+   TOP CARDS
+   ========================================================= */
+
+.hero .card1 {
+    position: absolute !important;
+
+    width: 195px !important;
+
+    left: 35px !important;
+    top: 28px !important;
+
+    transform: rotate(-9deg) !important;
+
+    z-index: 6 !important;
+}
+
+
+.hero .card2 {
+    position: absolute !important;
+
+    width: 185px !important;
+
+    right: 35px !important;
+    top: 28px !important;
+
+    transform: rotate(9deg) !important;
+
+    z-index: 6 !important;
+}
+
+
+/* =========================================================
+   BOTTOM CARDS
+   ========================================================= */
+
+.hero .card3 {
+    position: absolute !important;
+
+    width: 190px !important;
+
+    left: 250px !important;
+    bottom: 18px !important;
+
+    transform: rotate(-7deg) !important;
+
+    z-index: 5 !important;
+}
+
+
+.hero .card4 {
+    position: absolute !important;
+
+    width: 190px !important;
+
+    right: 250px !important;
+    bottom: 18px !important;
+
+    transform: rotate(7deg) !important;
+
+    z-index: 5 !important;
+}
+
+
+/* =========================================================
+   CENTER CONTENT
+   ========================================================= */
+
+.hero .hero-content {
+    position: absolute !important;
+
+    left: 50% !important;
+
+    /* Moon: -22 + 440 = 418px
+       Text starts below it with a clean gap */
+    top: 455px !important;
+
+    transform: translateX(-50%) !important;
+
+    width: 760px !important;
+    max-width: 80% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    z-index: 20 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    text-align: center !important;
+}
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
+
+.hero .hero-title {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 54px !important;
+    line-height: 1.05 !important;
+
+    white-space: nowrap !important;
+
+    color: #f4ca50 !important;
+
+    text-shadow:
+        0 0 4px rgba(255, 232, 135, 0.95),
+        0 0 12px rgba(255, 205, 75, 0.70),
+        0 0 26px rgba(210, 155, 45, 0.32) !important;
+}
+
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.hero .hero-divider {
+    width: 470px !important;
+    max-width: 80% !important;
+
+    margin: 14px auto 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 18px !important;
+}
+
+
+.hero .hero-divider span {
+    flex: 1 !important;
+
+    height: 1px !important;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #dcb64a,
+            transparent
+        ) !important;
+}
+
+
+.hero .hero-divider div {
+    color: #f3c94c !important;
+
+    font-size: 17px !important;
+
+    text-shadow:
+        0 0 8px rgba(255, 215, 85, 0.80) !important;
+}
+
+
+/* =========================================================
+   SUBTITLE
+   ========================================================= */
+
+.hero .hero-subtitle {
+    margin: 15px 0 0 !important;
+
+    font-size: 21px !important;
+
+    white-space: nowrap !important;
+
+    color: #efc85c !important;
+
+    text-shadow:
+        0 0 6px rgba(255, 215, 100, 0.65) !important;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.hero .hero-buttons {
+    margin-top: 24px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 20px !important;
+}
+
+
+.hero .hero-buttons .btn {
+    width: 250px !important;
+    min-width: 250px !important;
+
+    height: 64px !important;
+
+    padding: 0 20px !important;
+
+    border-radius: 17px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    font-size: 19px !important;
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   GOLD BUTTON
+   ========================================================= */
+
+.hero .hero-buttons .btn-gold {
+    color: #120b16 !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            #edc34d,
+            #dca92f
+        ) !important;
+
+    border: 1px solid rgba(255, 225, 120, 0.8) !important;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.32),
+        0 0 20px rgba(235, 190, 55, 0.20) !important;
+}
+
+
+/* =========================================================
+   PURPLE BUTTON
+   ========================================================= */
+
+.hero .hero-buttons .btn-outline-light {
+    color: #fff !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(115, 48, 160, 0.74),
+            rgba(72, 24, 115, 0.78)
+        ) !important;
+
+    border: 1px solid rgba(225, 190, 255, 0.45) !important;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.28) !important;
+}
+
+
+/* =========================================================
+   ONLY APPLY THIS DESKTOP OVERRIDE
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+    .hero {
+        min-height: 820px !important;
+        height: 820px !important;
+    }
+
+    .hero .moon {
+        width: 330px !important;
+        height: 330px !important;
+        top: 0 !important;
+    }
+
+    .hero .card1 {
+        width: 155px !important;
+        left: 15px !important;
+    }
+
+    .hero .card2 {
+        width: 150px !important;
+        right: 15px !important;
+    }
+
+    .hero .card3 {
+        width: 155px !important;
+        left: 60px !important;
+    }
+
+    .hero .card4 {
+        width: 155px !important;
+        right: 60px !important;
+    }
+
+    .hero .hero-content {
+        top: 420px !important;
+    }
+
+    .hero .hero-title {
+        font-size: 44px !important;
+    }
+}
+
+/* =========================================================
+   FINAL HERO FIX — BASED ON YOUR SCREEN RECORDING
+   ========================================================= */
+
+html,
+body {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+
+/* =========================================================
+   HERO — FIT THE ACTUAL VIEWPORT
+   ========================================================= */
+
+.hero {
+    position: relative !important;
+
+    width: 100% !important;
+
+    /* IMPORTANT:
+       Do NOT use 900px fixed height */
+    height: calc(100vh - 108px) !important;
+    min-height: 760px !important;
+
+    overflow: hidden !important;
+
+    display: block !important;
+}
+
+
+/* =========================================================
+   MOON — BIGGER + CLOSER TO NAVBAR
+   ========================================================= */
+
+.hero .moon {
+    position: absolute !important;
+
+    width: 470px !important;
+    height: 470px !important;
+
+    left: 50% !important;
+    top: -25px !important;
+
+    transform: translateX(-50%) !important;
+
+    z-index: 2 !important;
+
+    pointer-events: none !important;
+
+    object-fit: contain !important;
+
+    filter:
+        drop-shadow(0 0 20px rgba(235, 220, 255, 0.95))
+        drop-shadow(0 0 45px rgba(195, 145, 255, 0.55))
+        drop-shadow(0 0 80px rgba(150, 70, 255, 0.28)) !important;
+}
+
+
+/* =========================================================
+   TOP CARDS — SMALLER + OUTER
+   ========================================================= */
+
+.hero .card1 {
+    position: absolute !important;
+
+    width: 185px !important;
+
+    left: 38px !important;
+    top: 24px !important;
+
+    transform: rotate(-9deg) !important;
+
+    z-index: 6 !important;
+}
+
+.hero .card2 {
+    position: absolute !important;
+
+    width: 178px !important;
+
+    right: 38px !important;
+    top: 24px !important;
+
+    transform: rotate(9deg) !important;
+
+    z-index: 6 !important;
+}
+
+
+/* =========================================================
+   BOTTOM CARDS — FULLY VISIBLE
+   ========================================================= */
+
+.hero .card3 {
+    position: absolute !important;
+
+    width: 185px !important;
+
+    left: 235px !important;
+    bottom: 12px !important;
+
+    transform: rotate(-7deg) !important;
+
+    z-index: 5 !important;
+}
+
+.hero .card4 {
+    position: absolute !important;
+
+    width: 185px !important;
+
+    right: 235px !important;
+    bottom: 12px !important;
+
+    transform: rotate(7deg) !important;
+
+    z-index: 5 !important;
+}
+
+
+/* =========================================================
+   CENTER CONTENT — BELOW THE MOON
+   ========================================================= */
+
+.hero .hero-content {
+    position: absolute !important;
+
+    left: 50% !important;
+
+    /* Moon ends around 445px.
+       Start text below it. */
+    top: 485px !important;
+
+    transform: translateX(-50%) !important;
+
+    width: 760px !important;
+    max-width: 82% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    z-index: 15 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    text-align: center !important;
+}
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
+
+.hero .hero-title {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 54px !important;
+    line-height: 1.05 !important;
+
+    white-space: nowrap !important;
+
+    color: #f5ca52 !important;
+
+    text-shadow:
+        0 0 4px rgba(255, 232, 135, 0.95),
+        0 0 12px rgba(255, 205, 75, 0.72),
+        0 0 26px rgba(212, 160, 45, 0.35) !important;
+}
+
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.hero .hero-divider {
+    width: 470px !important;
+    max-width: 80% !important;
+
+    margin: 13px auto 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 18px !important;
+}
+
+.hero .hero-divider span {
+    flex: 1 !important;
+
+    height: 1px !important;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #dcb64a,
+            transparent
+        ) !important;
+}
+
+.hero .hero-divider div {
+    color: #f4ca52 !important;
+
+    font-size: 17px !important;
+
+    text-shadow:
+        0 0 8px rgba(255, 215, 85, 0.8) !important;
+}
+
+
+/* =========================================================
+   SUBTITLE
+   ========================================================= */
+
+.hero .hero-subtitle {
+    margin: 15px 0 0 !important;
+
+    font-size: 21px !important;
+
+    white-space: nowrap !important;
+
+    color: #efc95e !important;
+
+    text-shadow:
+        0 0 6px rgba(255, 215, 100, 0.65) !important;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.hero .hero-buttons {
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 20px !important;
+
+    margin-top: 22px !important;
+}
+
+.hero .hero-buttons .btn {
+    width: 250px !important;
+    min-width: 250px !important;
+
+    height: 62px !important;
+
+    padding: 0 20px !important;
+
+    border-radius: 17px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    font-size: 19px !important;
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+    .hero {
+        height: 820px !important;
+        min-height: 820px !important;
+    }
+
+    .hero .moon {
+        width: 350px !important;
+        height: 350px !important;
+
+        top: -5px !important;
+    }
+
+    .hero .card1 {
+        width: 155px !important;
+        left: 15px !important;
+    }
+
+    .hero .card2 {
+        width: 150px !important;
+        right: 15px !important;
+    }
+
+    .hero .card3 {
+        width: 155px !important;
+        left: 70px !important;
+        bottom: 15px !important;
+    }
+
+    .hero .card4 {
+        width: 155px !important;
+        right: 70px !important;
+        bottom: 15px !important;
+    }
+
+    .hero .hero-content {
+        top: 405px !important;
+    }
+}
+
+/* =========================================================
+   SOULMIRROR — RESTORE ANIMATIONS
+   ========================================================= */
+
+
+/* =========================================================
+   MOON FLOAT
+   ========================================================= */
+
+.hero .moon {
+    animation: moonFloat 8s ease-in-out infinite;
+}
+
+@keyframes moonFloat {
+
+    0%,
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+}
+
+
+/* =========================================================
+   CARD 1 — FOOL
+   ========================================================= */
+
+.hero .card1 {
+    animation: foolFloat 7s ease-in-out infinite;
+}
+
+@keyframes foolFloat {
+
+    0%,
+    100% {
+        transform: rotate(-9deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(-9deg) translateY(-12px);
+    }
+}
+
+
+/* =========================================================
+   CARD 2 — MOON
+   ========================================================= */
+
+.hero .card2 {
+    animation: moonCardFloat 8.5s ease-in-out infinite;
+}
+
+@keyframes moonCardFloat {
+
+    0%,
+    100% {
+        transform: rotate(9deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(9deg) translateY(-15px);
+    }
+}
+
+
+/* =========================================================
+   CARD 3 — STAR
+   ========================================================= */
+
+.hero .card3 {
+    animation: starFloat 6.5s ease-in-out infinite;
+}
+
+@keyframes starFloat {
+
+    0%,
+    100% {
+        transform: rotate(-7deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(-7deg) translateY(-11px);
+    }
+}
+
+
+/* =========================================================
+   CARD 4 — LOVERS
+   ========================================================= */
+
+.hero .card4 {
+    animation: loversFloat 9s ease-in-out infinite;
+}
+
+@keyframes loversFloat {
+
+    0%,
+    100% {
+        transform: rotate(7deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(7deg) translateY(-14px);
+    }
+}
+
+/* =========================================================
+   FINAL WORKING ANIMATIONS
+   Uses margin-top so existing transform positioning
+   does not block the animation.
+   ========================================================= */
+
+/* ---------- MOON ---------- */
+
+.hero .moon {
+    animation: moonFloat 8s ease-in-out infinite !important;
+}
+
+@keyframes moonFloat {
+    0%,
+    100% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -12px;
+    }
+}
+
+
+/* ---------- FOOL ---------- */
+
+.hero .card1 {
+    animation: foolFloat 7s ease-in-out infinite !important;
+}
+
+@keyframes foolFloat {
+    0%,
+    100% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -14px;
+    }
+}
+
+
+/* ---------- MOON CARD ---------- */
+
+.hero .card2 {
+    animation: moonCardFloat 8.5s ease-in-out infinite !important;
+}
+
+@keyframes moonCardFloat {
+    0%,
+    100% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -17px;
+    }
+}
+
+
+/* ---------- STAR ---------- */
+
+.hero .card3 {
+    animation: starFloat 6.5s ease-in-out infinite !important;
+}
+
+@keyframes starFloat {
+    0%,
+    100% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -11px;
+    }
+}
+
+
+/* ---------- LOVERS ---------- */
+
+.hero .card4 {
+    animation: loversFloat 9s ease-in-out infinite !important;
+}
+
+@keyframes loversFloat {
+    0%,
+    100% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -14px;
+    }
+}
+
+/* =========================================================
+   SOULMIRROR — FINAL HERO COMPOSITION
+   ========================================================= */
+
+/* Keep page scroll */
+html,
+body {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero {
+    position: relative !important;
+
+    width: 100% !important;
+
+    /*
+       Deliberately taller than the viewport so the page
+       can scroll and the lower cards remain part of the hero.
+    */
+    min-height: 900px !important;
+    height: 900px !important;
+
+    overflow: hidden !important;
+
+    display: block !important;
+}
+
+
+/* =========================================================
+   BIG MOON
+   ========================================================= */
+
+.hero .moon {
+    position: absolute !important;
+
+    width: 560px !important;
+    height: 560px !important;
+
+    max-width: none !important;
+
+    left: 50% !important;
+    top: -80px !important;
+
+    transform: translateX(-50%) !important;
+
+    z-index: 2 !important;
+
+    pointer-events: none !important;
+
+    object-fit: contain !important;
+
+    filter:
+        drop-shadow(0 0 22px rgba(235, 220, 255, 0.95))
+        drop-shadow(0 0 50px rgba(195, 145, 255, 0.60))
+        drop-shadow(0 0 90px rgba(150, 70, 255, 0.28)) !important;
+
+    animation: bigMoonFloat 8s ease-in-out infinite !important;
+}
+
+
+/* Moon animation WITHOUT touching transform */
+@keyframes bigMoonFloat {
+    0%,
+    100% {
+        top: -80px;
+    }
+
+    50% {
+        top: -90px;
+    }
+}
+
+
+/* =========================================================
+   TOP CARDS
+   ========================================================= */
+
+.hero .card1 {
+    position: absolute !important;
+
+    width: 185px !important;
+
+    left: 35px !important;
+
+    top: 24px !important;
+
+    transform: rotate(-9deg) !important;
+
+    z-index: 6 !important;
+
+    animation: foolFloat 7s ease-in-out infinite !important;
+}
+
+
+.hero .card2 {
+    position: absolute !important;
+
+    width: 178px !important;
+
+    right: 35px !important;
+
+    top: 24px !important;
+
+    transform: rotate(9deg) !important;
+
+    z-index: 6 !important;
+
+    animation: moonCardFloat 8.5s ease-in-out infinite !important;
+}
+
+
+/* Top cards move using TOP, not transform */
+@keyframes foolFloat {
+    0%,
+    100% {
+        top: 24px;
+    }
+
+    50% {
+        top: 12px;
+    }
+}
+
+@keyframes moonCardFloat {
+    0%,
+    100% {
+        top: 24px;
+    }
+
+    50% {
+        top: 10px;
+    }
+}
+
+
+/* =========================================================
+   CENTER TEXT AREA
+   ========================================================= */
+
+.hero .hero-content {
+    position: absolute !important;
+
+    left: 50% !important;
+
+    /*
+       Moon occupies the upper centre.
+       Text begins in the empty area below it.
+    */
+    top: 515px !important;
+
+    transform: translateX(-50%) !important;
+
+    width: 760px !important;
+
+    max-width: 82% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    z-index: 15 !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    align-items: center !important;
+
+    text-align: center !important;
+}
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
+
+.hero .hero-title {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 54px !important;
+
+    line-height: 1.05 !important;
+
+    white-space: nowrap !important;
+
+    color: #f5ca52 !important;
+
+    text-shadow:
+        0 0 4px rgba(255, 232, 135, 0.95),
+        0 0 12px rgba(255, 205, 75, 0.72),
+        0 0 26px rgba(212, 160, 45, 0.35) !important;
+}
+
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.hero .hero-divider {
+    width: 470px !important;
+
+    max-width: 80% !important;
+
+    margin: 14px auto 0 !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    gap: 18px !important;
+}
+
+
+.hero .hero-divider span {
+    flex: 1 !important;
+
+    height: 1px !important;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #dcb64a,
+            transparent
+        ) !important;
+
+    box-shadow:
+        0 0 6px rgba(235, 193, 75, 0.35) !important;
+}
+
+
+.hero .hero-divider div {
+    color: #f4ca52 !important;
+
+    font-size: 17px !important;
+
+    text-shadow:
+        0 0 8px rgba(255, 215, 85, 0.8) !important;
+}
+
+
+/* =========================================================
+   SUBTITLE
+   ========================================================= */
+
+.hero .hero-subtitle {
+    margin: 15px 0 0 !important;
+
+    font-size: 30px !important;
+
+    white-space: nowrap !important;
+
+    background:
+    linear-gradient
+    ( 180deg, #FFF8D9 0%, #F2D36A 35%, #D4AF37 70%, #A97C18 100% ) !important;
+
+    text-shadow:
+        0 0 6px rgba(255, 215, 100, 0.65) !important;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.hero .hero-buttons {
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    gap: 20px !important;
+
+    margin-top: 22px !important;
+}
+
+
+.hero .hero-buttons .btn {
+    width: 250px !important;
+
+    min-width: 250px !important;
+
+    height: 62px !important;
+
+    padding: 0 20px !important;
+
+    border-radius: 17px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    font-size: 19px !important;
+
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   BOTTOM CARDS
+   ========================================================= */
+/* =========================================================
+   BOTTOM CARDS — MOVE UP INTO THE EMPTY SPACE
+   ========================================================= */
+
+.hero .card3 {
+    position: absolute !important;
+
+    width: 190px !important;
+
+    left: 250px !important;
+
+    /* MUCH HIGHER than before */
+    bottom: 145px !important;
+
+    transform: rotate(-7deg) !important;
+
+    z-index: 5 !important;
+
+    animation: starFloat 6.5s ease-in-out infinite !important;
+}
+
+
+.hero .card4 {
+    position: absolute !important;
+
+    width: 190px !important;
+
+    right: 250px !important;
+
+    /* MUCH HIGHER than before */
+    bottom: 145px !important;
+
+    transform: rotate(7deg) !important;
+
+    z-index: 5 !important;
+
+    animation: loversFloat 8.5s ease-in-out infinite !important;
+}
+
+
+/* =========================================================
+   BOTTOM CARD ANIMATION
+   ========================================================= */
+
+@keyframes starFloat {
+
+    0%,
+    100% {
+        bottom: 145px;
+    }
+
+    50% {
+        bottom: 160px;
+    }
+}
+
+
+@keyframes loversFloat {
+
+    0%,
+    100% {
+        bottom: 145px;
+    }
+
+    50% {
+        bottom: 162px;
+    }
+}
+
+/* =========================================================
+   BUTTON COLORS
+   ========================================================= */
+
+.hero .btn-gold {
+    color: #120b16 !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            #edc34d,
+            #dca92f
+        ) !important;
+
+    border: 1px solid rgba(255, 225, 120, 0.8) !important;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.32),
+        0 0 20px rgba(235, 190, 55, 0.20) !important;
+}
+
+
+.hero .btn-outline-light {
+    color: #ffffff !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(115, 48, 160, 0.74),
+            rgba(72, 24, 115, 0.78)
+        ) !important;
+
+    border: 1px solid rgba(225, 190, 255, 0.45) !important;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.28) !important;
+}
+
+/* =========================================================
+   SOULMIRROR HERO — FINAL NORMAL VIEWPORT VERSION
+   Navbar untouched
+   ========================================================= */
+
+html,
+body {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero {
+    position: relative !important;
+
+    width: 100% !important;
+
+    /* IMPORTANT:
+       Fits the actual viewport instead of fixed 900px */
+    height: calc(100vh - 108px) !important;
+
+    min-height: 760px !important;
+
+    overflow: hidden !important;
+
+    display: block !important;
+}
+
+
+/* =========================================================
+   BIG MOON
+   ========================================================= */
+
+.hero .moon {
+    position: absolute !important;
+
+    width: 520px !important;
+    height: 520px !important;
+
+    left: 50% !important;
+    top: -95px !important;
+
+    transform: translateX(-50%) !important;
+
+    z-index: 2 !important;
+
+    object-fit: contain !important;
+
+    pointer-events: none !important;
+
+    filter:
+        drop-shadow(0 0 20px rgba(235, 220, 255, .95))
+        drop-shadow(0 0 45px rgba(195, 145, 255, .60))
+        drop-shadow(0 0 80px rgba(150, 70, 255, .28)) !important;
+
+    /* animation uses separate translate property */
+    animation: moonFloat 8s ease-in-out infinite !important;
+}
+
+
+/* ---------------------------------------------------------
+   Moon animation
+   --------------------------------------------------------- */
+
+@keyframes moonFloat {
+
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 -10px;
+    }
+}
+
+
+/* =========================================================
+   TOP CARDS
+   ========================================================= */
+
+.hero .card1 {
+    position: absolute !important;
+
+    width: 185px !important;
+
+    left: 32px !important;
+    top: 20px !important;
+
+    transform: rotate(-9deg) !important;
+
+    z-index: 6 !important;
+
+    animation: topCard1Float 7s ease-in-out infinite !important;
+}
+
+
+.hero .card2 {
+    position: absolute !important;
+
+    width: 178px !important;
+
+    right: 32px !important;
+    top: 20px !important;
+
+    transform: rotate(9deg) !important;
+
+    z-index: 6 !important;
+
+    animation: topCard2Float 8.5s ease-in-out infinite !important;
+}
+
+
+/* Top-card animation */
+
+@keyframes topCard1Float {
+
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 -12px;
+    }
+}
+
+@keyframes topCard2Float {
+
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 -15px;
+    }
+}
+
+
+/* =========================================================
+   CENTER CONTENT
+   ========================================================= */
+
+.hero .hero-content {
+    position: absolute !important;
+
+    left: 50% !important;
+
+    /*
+       Moon bottom is roughly 425px.
+       Text starts below it.
+    */
+    top: 62% !important;
+
+    transform: translate(-50%, -50%) !important;
+
+    width: 760px !important;
+    max-width: 82% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    z-index: 15 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    text-align: center !important;
+}
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
+
+.hero .hero-title {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 54px !important;
+
+    line-height: 1.05 !important;
+
+    white-space: nowrap !important;
+
+    color: #f5ca52 !important;
+
+    text-shadow:
+        0 0 4px rgba(255, 232, 135, .95),
+        0 0 12px rgba(255, 205, 75, .72),
+        0 0 26px rgba(212, 160, 45, .35) !important;
+}
+
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.hero .hero-divider {
+    width: 470px !important;
+    max-width: 80% !important;
+
+    margin: 14px auto 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 18px !important;
+}
+
+.hero .hero-divider span {
+    flex: 1 !important;
+
+    height: 1px !important;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #dcb64a,
+            transparent
+        ) !important;
+
+    box-shadow:
+        0 0 6px rgba(235, 193, 75, .35) !important;
+}
+
+.hero .hero-divider div {
+    color: #f4ca52 !important;
+
+    font-size: 17px !important;
+
+    text-shadow:
+        0 0 8px rgba(255, 215, 85, .8) !important;
+}
+
+
+/* =========================================================
+   SUBTITLE
+   ========================================================= */
+
+.hero .hero-subtitle {
+    margin: 15px 0 0 !important;
+
+    font-size: 21px !important;
+
+    white-space: nowrap !important;
+
+    color: #efc95e !important;
+
+    text-shadow:
+        0 0 6px rgba(255, 215, 100, .65) !important;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.hero .hero-buttons {
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 20px !important;
+
+    margin-top: 24px !important;
+}
+
+.hero .hero-buttons .btn {
+    width: 250px !important;
+    min-width: 250px !important;
+
+    height: 62px !important;
+
+    padding: 0 20px !important;
+
+    border-radius: 17px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    font-size: 19px !important;
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   BOTTOM CARDS
+   ========================================================= */
+
+/* =========================================================
+   LOWER CARDS — PLACE BESIDE CENTER CONTENT
+   ========================================================= */
+
+.hero .card3 {
+    position: absolute !important;
+
+    width: 190px !important;
+
+    /* LEFT SIDE of text/buttons */
+    left: 300px !important;
+
+    /* Move upward */
+    bottom: 180px !important;
+
+    transform: rotate(-7deg) !important;
+
+    z-index: 6 !important;
+
+    animation: starFloatSide 6.5s ease-in-out infinite !important;
+}
+
+
+.hero .card4 {
+    position: absolute !important;
+
+    width: 190px !important;
+
+    /* RIGHT SIDE of text/buttons */
+    right: 300px !important;
+
+    /* Move upward */
+    bottom: 180px !important;
+
+    transform: rotate(7deg) !important;
+
+    z-index: 6 !important;
+
+    animation: loversFloatSide 8.5s ease-in-out infinite !important;
+}
+
+
+/* =========================================================
+   SIDE CARD ANIMATION
+   ========================================================= */
+
+@keyframes starFloatSide {
+
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 -12px;
+    }
+}
+
+
+@keyframes loversFloatSide {
+
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 -15px;
+    }
+}
+
+
+/* Bottom-card animation
+   Uses translate, NOT transform,
+   so rotation stays intact. */
+
+@keyframes bottomCard1Float {
+
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 -14px;
+    }
+}
+
+@keyframes bottomCard2Float {
+
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 -17px;
+    }
+}
+
+
+/* =========================================================
+   BUTTON COLOURS
+   ========================================================= */
+
+.hero .btn-gold {
+    color: #120b16 !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            #edc34d,
+            #dca92f
+        ) !important;
+
+    border: 1px solid rgba(255, 225, 120, .8) !important;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, .32),
+        0 0 20px rgba(235, 190, 55, .20) !important;
+}
+
+
+.hero .btn-outline-light {
+    color: #fff !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(115, 48, 160, .74),
+            rgba(72, 24, 115, .78)
+        ) !important;
+
+    border: 1px solid rgba(225, 190, 255, .45) !important;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, .28) !important;
+}
+
+
+/* =========================================================
+   LARGE SCREEN
+   ========================================================= */
+
+@media (min-width: 1500px) {
+
+    .hero {
+        min-height: 780px !important;
+    }
+
+    .hero .moon {
+        width: 540px !important;
+        height: 540px !important;
+
+        top: -105px !important;
+    }
+
+    .hero .card1 {
+        width: 190px !important;
+    }
+
+    .hero .card2 {
+        width: 183px !important;
+    }
+
+    .hero .card3 {
+        width: 190px !important;
+        left: 245px !important;
+    }
+
+    .hero .card4 {
+        width: 190px !important;
+        right: 245px !important;
+    }
+}
+
+
+/* =========================================================
+   SMALLER SCREEN
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+    .hero {
+        height: 820px !important;
+        min-height: 820px !important;
+    }
+
+    .hero .moon {
+        width: 360px !important;
+        height: 360px !important;
+
+        top: -30px !important;
+    }
+
+    .hero .card1 {
+        width: 155px !important;
+        left: 15px !important;
+    }
+
+    .hero .card2 {
+        width: 150px !important;
+        right: 15px !important;
+    }
+
+    .hero .card3 {
+        width: 155px !important;
+        left: 55px !important;
+    }
+
+    .hero .card4 {
+        width: 155px !important;
+        right: 55px !important;
+    }
+
+    .hero .hero-content {
+        top: 60% !important;
+    }
+}
+
+/* =========================================================
+   SOULMIRROR TAROT — SHARED READING PAGE SYSTEM
+   Navbar is NOT styled here.
+   ========================================================= */
+
+
+/* =========================================================
+   READING PAGE BASE
+   ========================================================= */
+
+.reading-page,
+.yesno-page,
+.single-card-page,
+.focus-page,
+.shuffle-page {
+    position: relative;
+
+    width: 100%;
+    min-height: calc(100vh - 78px);
+
+    padding: 28px 20px 70px;
+
+    background:
+        linear-gradient(
+            rgba(7, 3, 18, 0.60),
+            rgba(7, 3, 18, 0.78)
+        ),
+        url("../images/backgrounds/nebula-background.png");
+
+    background-size: cover;
+    background-position: center;
+
+    background-attachment: fixed;
+
+    text-align: center;
+
+    overflow-x: hidden;
+}
+
+
+/* =========================================================
+   MAIN READING TITLES
+   ========================================================= */
+
+.reading-title,
+.yesno-title,
+.single-card-title,
+.focus-title,
+.shuffle-title {
+    margin: 0 auto;
+
+    font-family:
+        "Cinzel",
+        Georgia,
+        serif;
+
+    font-size: clamp(42px, 4vw, 62px);
+
+    font-weight: 600;
+
+    line-height: 1.08;
+
+    letter-spacing: 1px;
+
+    color: #f3ca55;
+
+    text-shadow:
+        0 0 5px rgba(255, 232, 145, 0.92),
+        0 0 14px rgba(255, 210, 85, 0.62),
+        0 0 28px rgba(221, 170, 55, 0.36),
+        0 0 42px rgba(155, 70, 225, 0.20);
+}
+
+
+/* =========================================================
+   SUBTITLE / DESCRIPTION
+   ========================================================= */
+
+.reading-subtitle,
+.yesno-subtitle,
+.single-card-subtitle,
+.focus-subtitle,
+.shuffle-subtitle {
+    max-width: 850px;
+
+    margin: 14px auto 0;
+
+    color: #e4ddea;
+
+    font-family:
+        "Inter",
+        sans-serif;
+
+    font-size: 18px;
+
+    line-height: 1.65;
+
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.08);
+}
+
+
+/* =========================================================
+   GOLD DIVIDER
+   ========================================================= */
+
+.reading-divider,
+.yesno-divider,
+.single-card-divider,
+.focus-divider,
+.shuffle-divider {
+    width: 430px;
+    max-width: 82%;
+
+    margin: 18px auto 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 16px;
+}
+
+
+.reading-divider span,
+.yesno-divider span,
+.single-card-divider span,
+.focus-divider span,
+.shuffle-divider span {
+    flex: 1;
+
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #d9b04a,
+            #f3d273,
+            #d9b04a,
+            transparent
+        );
+
+    box-shadow:
+        0 0 7px rgba(236, 196, 83, 0.42);
+}
+
+
+.reading-divider::after,
+.yesno-divider::after,
+.single-card-divider::after,
+.focus-divider::after,
+.shuffle-divider::after {
+    content: "✦";
+
+    color: #f2c84f;
+
+    font-size: 16px;
+
+    text-shadow:
+        0 0 8px rgba(255, 220, 90, 0.85);
+}
+
+
+/* =========================================================
+   MAIN CONTENT WRAPPER
+   Keeps everything close to navbar.
+   ========================================================= */
+
+.reading-page .page-content,
+.yesno-page .page-content,
+.single-card-page .page-content,
+.focus-page .page-content,
+.shuffle-page .page-content {
+    width: min(1100px, 92%);
+
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   PREMIUM GOLD BUTTON SYSTEM
+   Used by Continue / Shuffle Again / Begin / Ready
+   ========================================================= */
+
+/* =========================================================
+   CHOOSE READING BUTTON
+   ========================================================= */
+
+.reading-btn {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 190px;
+    height: 48px;
+
+    padding: 0 22px;
+
+    margin: 0 auto;
+
+    box-sizing: border-box;
+
+    border-radius: 999px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #e9bd45 0%,
+            #f1c957 48%,
+            #d9a92f 100%
+        );
+
+    border: 1px solid rgba(255, 227, 130, 0.85);
+
+    color: #17100d;
+
+    font-family:
+        "Outfit",
+        sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    line-height: 1;
+
+    text-decoration: none;
+
+    white-space: nowrap;
+
+    box-shadow:
+        0 6px 18px rgba(0, 0, 0, 0.32),
+        0 0 16px rgba(226, 180, 55, 0.20),
+        inset 0 1px 0 rgba(255, 255, 255, 0.35);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        filter 0.25s ease,
+        background 0.25s ease;
+}
+
+
+/* Hover */
+
+.reading-btn:hover {
+    transform: translateY(-3px);
+
+    color: #100b0e;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f1c94f,
+            #f5d365,
+            #e1b236
+        );
+
+    filter: brightness(1.04);
+
+    box-shadow:
+        0 10px 24px rgba(0, 0, 0, 0.38),
+        0 0 25px rgba(235, 192, 62, 0.42),
+        inset 0 1px 0 rgba(255, 255, 255, 0.42);
+}
+
+
+/* Press */
+
+.reading-btn:active {
+    transform: translateY(0);
+}
+
+
+/* Keep button at bottom of card */
+
+.reading-overlay {
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-end;
+
+    flex-direction: column;
+
+    padding-bottom: 16px;
+}
+.continue-btn,
+.shuffle-btn,
+.btn-continue,
+.btn-shuffle,
+.btn-gold,
+.ready-btn {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 185px;
+
+    min-height: 52px;
+
+    padding: 0 28px;
+
+    border-radius: 15px;
+
+    border: 1px solid rgba(255, 224, 128, 0.68);
+
+    background:
+        linear-gradient(
+            135deg,
+            #e9bd45 0%,
+            #f0cb5d 46%,
+            #d7a72d 100%
+        );
+
+    color: #130d18;
+
+    font-family:
+        "Outfit",
+        sans-serif;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    line-height: 1;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 7px 22px rgba(0, 0, 0, 0.28),
+        0 0 18px rgba(225, 177, 48, 0.23),
+        inset 0 1px 0 rgba(255, 255, 255, 0.36);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        filter 0.25s ease,
+        background 0.25s ease;
+}
+
+
+.reading-btn:hover,
+.continue-btn:hover,
+.shuffle-btn:hover,
+.btn-continue:hover,
+.btn-shuffle:hover,
+.btn-gold:hover,
+.ready-btn:hover {
+    color: #110a13;
+
+    transform: translateY(-3px);
+
+    filter: brightness(1.06);
+
+    box-shadow:
+        0 10px 28px rgba(0, 0, 0, 0.34),
+        0 0 30px rgba(237, 193, 61, 0.42),
+        inset 0 1px 0 rgba(255, 255, 255, 0.45);
+}
+
+
+.reading-btn:active,
+.continue-btn:active,
+.shuffle-btn:active,
+.btn-continue:active,
+.btn-shuffle:active,
+.btn-gold:active,
+.ready-btn:active {
+    transform: translateY(0);
+}
+
+
+/* =========================================================
+   PURPLE SECONDARY BUTTON
+   e.g. I'm Ready / Daily Card
+   ========================================================= */
+
+.btn-secondary,
+.ready-secondary,
+.btn-outline-light,
+.outline-btn {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 185px;
+
+    min-height: 52px;
+
+    padding: 0 28px;
+
+    border-radius: 15px;
+
+    border: 1px solid rgba(223, 190, 255, 0.48);
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(112, 47, 157, 0.70),
+            rgba(67, 27, 105, 0.78)
+        );
+
+    color: #ffffff;
+
+    font-family:
+        "Outfit",
+        sans-serif;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    line-height: 1;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 7px 22px rgba(0, 0, 0, 0.25),
+        inset 0 0 20px rgba(226, 177, 255, 0.05);
+
+    backdrop-filter: blur(8px);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease,
+        background 0.25s ease;
+}
+
+
+.btn-secondary:hover,
+.ready-secondary:hover,
+.btn-outline-light:hover,
+.outline-btn:hover {
+    color: #ffffff;
+
+    transform: translateY(-3px);
+
+    border-color: rgba(242, 220, 255, 0.72);
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(137, 59, 186, 0.82),
+            rgba(79, 31, 123, 0.84)
+        );
+
+    box-shadow:
+        0 10px 28px rgba(0, 0, 0, 0.35),
+        0 0 28px rgba(183, 91, 255, 0.30);
+}
+
+
+/* =========================================================
+   BUTTON ROW
+   ========================================================= */
+
+.reading-actions,
+.question-actions,
+.shuffle-actions,
+.focus-actions,
+.button-row {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    margin-top: 28px;
+}
+
+
+/* =========================================================
+   CONTINUE BUTTON
+   Screenshot-style:
+   compact golden premium button,
+   NOT full width.
+   ========================================================= */
+
+.continue-btn,
+.btn-continue {
+    width: 190px;
+
+    min-width: 190px;
+
+    height: 54px;
+}
+
+
+/* =========================================================
+   SHUFFLE BUTTON
+   Screenshot-style golden button
+   ========================================================= */
+
+.shuffle-btn,
+.btn-shuffle {
+    width: 210px;
+
+    min-width: 210px;
+
+    height: 54px;
+}
+
+
+/* =========================================================
+   I'M READY
+   ========================================================= */
+
+.ready-btn {
+    width: 195px;
+
+    min-width: 195px;
+
+    height: 54px;
+}
+
+
+/* =========================================================
+   QUESTION AREA
+   ========================================================= */
+
+.question-box {
+    width: min(850px, 92%);
+
+    margin: 42px auto 0;
+}
+
+
+.question-box textarea,
+.question-box input {
+    width: 100%;
+
+    min-height: 155px;
+
+    padding: 22px 25px;
+
+    box-sizing: border-box;
+
+    border-radius: 20px;
+
+    border: 1px solid rgba(214, 175, 55, 0.42);
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(20, 10, 35, 0.88),
+            rgba(10, 5, 22, 0.94)
+        );
+
+    color: #ffffff;
+
+    font-family:
+        "Inter",
+        sans-serif;
+
+    font-size: 17px;
+
+    outline: none;
+
+    resize: vertical;
+
+    box-shadow:
+        inset 0 0 20px rgba(160, 80, 220, 0.06),
+        0 0 22px rgba(0, 0, 0, 0.18);
+
+    transition:
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+
+.question-box textarea:focus,
+.question-box input:focus {
+    border-color: rgba(234, 194, 76, 0.72);
+
+    box-shadow:
+        0 0 20px rgba(220, 175, 55, 0.14),
+        inset 0 0 22px rgba(160, 80, 220, 0.08);
+}
+
+
+.question-box textarea::placeholder,
+.question-box input::placeholder {
+    color: #9d94a9;
+}
+
+
+/* =========================================================
+   DECK AREA
+   ========================================================= */
+
+.deck-area {
+    margin: 36px auto 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+.tarot-deck {
+    width: 210px;
+
+    height: auto;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.4s ease,
+        filter 0.4s ease;
+
+    filter:
+        drop-shadow(0 10px 22px rgba(0, 0, 0, 0.45))
+        drop-shadow(0 0 16px rgba(205, 160, 55, 0.14));
+}
+
+
+.tarot-deck:hover {
+    transform: translateY(-5px) scale(1.03);
+
+    filter:
+        drop-shadow(0 15px 30px rgba(0, 0, 0, 0.50))
+        drop-shadow(0 0 25px rgba(212, 175, 55, 0.28));
+}
+
+
+/* =========================================================
+   SHUFFLE / FOCUS MESSAGE
+   ========================================================= */
+
+.shuffle-instruction,
+.focus-message {
+    margin-top: 30px;
+
+    font-family:
+        "Cinzel",
+        Georgia,
+        serif;
+
+    font-size: clamp(30px, 2.6vw, 42px);
+
+    line-height: 1.2;
+
+    color: #f0f0f0;
+
+    text-shadow:
+        0 0 12px rgba(255, 255, 255, 0.08);
+}
+
+
+.shuffle-description,
+.focus-description {
+    margin: 18px auto 0;
+
+    max-width: 850px;
+
+    color: #d8d4de;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   FOCUS SCREEN
+   ========================================================= */
+
+#focus-screen {
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 9999;
+
+    display: none;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(50, 20, 80, 0.94),
+            rgba(7, 3, 18, 0.985)
+        );
+
+    backdrop-filter: blur(10px);
+}
+
+
+#focus-screen h2 {
+    margin: 0;
+
+    font-family:
+        "Cinzel",
+        Georgia,
+        serif;
+
+    font-size: 48px;
+
+    color: #f3ca55;
+
+    text-shadow:
+        0 0 7px rgba(255, 225, 115, 0.8),
+        0 0 24px rgba(212, 175, 55, 0.32);
+}
+
+
+#focus-screen p {
+    margin-top: 18px;
+
+    color: #d5d1dc;
+
+    font-size: 19px;
+}
+
+
+/* =========================================================
+   READING CARD GRID
+   ========================================================= */
+
+.reading-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+
+    gap: 30px;
+
+    width: min(1200px, 92%);
+
+    margin: 55px auto 0;
+}
+
+
+.reading-card {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    overflow: hidden;
+    border-radius: 22px;
+    background: #120c1d;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow:
+        0 0 25px rgba(0, 0, 0, 0.45),
+        0 0 8px rgba(212, 175, 55, 0.10);
+    cursor: pointer;
+    text-decoration: none;
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+.reading-card:hover {
+    transform: translateY(-8px);
+
+    border-color:
+        rgba(212, 175, 55, 0.62);
+
+    box-shadow:
+        0 16px 35px rgba(0, 0, 0, 0.52),
+        0 0 22px rgba(212, 175, 55, 0.28);
+}
+
+
+.reading-card img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+
+    transition:
+        transform 0.55s ease;
+}
+
+
+.reading-card:hover img {
+    transform: scale(1.045);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1400px) {
+
+    .reading-grid {
+        grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    .reading-page,
+    .yesno-page,
+    .single-card-page,
+    .focus-page,
+    .shuffle-page {
+        padding-top: 24px;
+    }
+
+    .reading-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .reading-actions,
+    .question-actions,
+    .shuffle-actions,
+    .focus-actions,
+    .button-row {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .reading-page,
+    .yesno-page,
+    .single-card-page,
+    .focus-page,
+    .shuffle-page {
+        padding: 20px 16px 55px;
+    }
+
+    .reading-grid {
+        grid-template-columns: 1fr;
+
+        width: min(360px, 94%);
+    }
+
+    .reading-title,
+    .yesno-title,
+    .single-card-title,
+    .focus-title,
+    .shuffle-title {
+        font-size: 37px;
+    }
+
+    .reading-subtitle,
+    .yesno-subtitle,
+    .single-card-subtitle,
+    .focus-subtitle,
+    .shuffle-subtitle {
+        font-size: 16px;
+    }
+
+    .reading-actions,
+    .question-actions,
+    .shuffle-actions,
+    .focus-actions,
+    .button-row {
+        flex-direction: column;
+
+        gap: 12px;
+    }
+
+    .continue-btn,
+    .shuffle-btn,
+    .ready-btn,
+    .btn-secondary,
+    .ready-secondary,
+    .btn-outline-light,
+    .outline-btn {
+        width: 230px;
+
+        min-width: 230px;
+    }
+
+    .tarot-deck {
+        width: 175px;
+    }
+}
+
+/* =========================================================
+   FINAL CHOOSE READING BUTTON
+   ========================================================= */
+
+.reading-card .reading-overlay {
+    position: absolute !important;
+    inset: auto 0 0 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+
+    flex-direction: column !important;
+
+    padding: 0 0 14px !important;
+
+    z-index: 20 !important;
+}
+
+
+/* THE BUTTON */
+
+.reading-card .reading-btn {
+    display: inline-flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 190px !important;
+    height: 46px !important;
+
+    padding: 0 20px !important;
+    margin: 0 auto !important;
+
+    box-sizing: border-box !important;
+
+    border-radius: 999px !important;
+
+    background: linear-gradient(
+        135deg,
+        #e8bb40,
+        #f0ca57,
+        #d9a62d
+    ) !important;
+
+    border: 1px solid rgba(255, 230, 145, 0.9) !important;
+
+    color: #17100d !important;
+
+    font-family: "Outfit", sans-serif !important;
+
+    font-size: 15px !important;
+    font-weight: 700 !important;
+
+    line-height: 1 !important;
+
+    text-align: center !important;
+    text-decoration: none !important;
+
+    white-space: nowrap !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    box-shadow:
+        0 6px 18px rgba(0, 0, 0, 0.35),
+        0 0 18px rgba(226, 180, 55, 0.28),
+        inset 0 1px 0 rgba(255, 255, 255, 0.35) !important;
+
+    transform: none !important;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        filter 0.25s ease !important;
+}
+
+
+/* HOVER */
+
+.reading-card .reading-btn:hover {
+    transform: translateY(-3px) !important;
+
+    background: linear-gradient(
+        135deg,
+        #f0c54c,
+        #f5d467,
+        #e1b036
+    ) !important;
+
+    color: #100b0e !important;
+
+    filter: brightness(1.05) !important;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.38),
+        0 0 28px rgba(237, 193, 63, 0.48),
+        inset 0 1px 0 rgba(255, 255, 255, 0.42) !important;
+}
+
+
+/* ACTIVE */
+
+.reading-card .reading-btn:active {
+    transform: translateY(0) !important;
+}
+/* =========================================================
+   READING TYPES — NEBULA BACKGROUND
+   ========================================================= */
+
+.reading-types {
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 28px 8% 80px;
+
+    background:
+        linear-gradient(
+            rgba(8, 3, 20, 0.38),
+            rgba(8, 3, 20, 0.50)
+        ),
+        url("../images/backgrounds/nebula-background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+/* =========================================================
+   SIMPLE / DEEP LOVE — RESTORE ORIGINAL POSITIONING
+   ========================================================= */
+
+.yesno-page {
+    position: static !important;
+
+    min-height: 100vh !important;
+
+    padding: 150px 20px 80px !important;
+}
+/* =========================================================
+   HOME PAGE — PREMIUM BUTTONS + TITLE
+========================================================= */
+
+
+/* =========================
+   SOULMIRROR TAROT TITLE
+========================= */
+
+.hero h1,
+.hero-title,
+.hero .hero-title,
+#hero h1 {
+    font-family: "Cinzel", serif !important;
+
+    font-size: clamp(3rem, 5vw, 5.2rem) !important;
+
+    font-weight: 500 !important;
+
+    letter-spacing: 1px !important;
+
+    color: #d4af37 !important;
+
+    text-transform: none !important;
+
+    text-shadow:
+        0 0 8px rgba(212,175,55,.28),
+        0 0 20px rgba(212,175,55,.16) !important;
+
+    line-height: 1.1 !important;
+
+    margin-bottom: 22px !important;
+}
+
+
+/* =========================
+   HOME HERO BUTTON AREA
+========================= */
+
+.hero-buttons,
+.hero-actions,
+.hero .buttons,
+.hero .button-group {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    gap: 22px !important;
+
+    flex-wrap: wrap !important;
+}
+
+
+/* =========================
+   ALL HOME HERO BUTTONS
+========================= */
+
+.hero a,
+.hero button,
+.hero .btn,
+.hero .hero-btn,
+.hero .primary-btn,
+.hero .secondary-btn {
+
+    display: inline-flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    min-height: 58px !important;
+
+    padding: 0 30px !important;
+
+    border-radius: 999px !important;
+
+    font-family: "Cinzel", serif !important;
+
+    font-size: 16px !important;
+
+    font-weight: 600 !important;
+
+    letter-spacing: .2px !important;
+
+    text-decoration: none !important;
+
+    cursor: pointer !important;
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        border-color .25s ease,
+        background .25s ease !important;
+}
+
+
+/* =========================
+   BEGIN READING — GOLD
+========================= */
+
+.hero .primary-btn,
+.hero a[href*="reading"],
+.hero a[href*="read"] {
+
+    background:
+        linear-gradient(
+            135deg,
+            #f6d45a,
+            #d4af37
+        ) !important;
+
+    color: #171018 !important;
+
+    border: 1px solid rgba(255,230,130,.75) !important;
+
+    box-shadow:
+        0 8px 25px rgba(212,175,55,.22) !important;
+}
+
+
+/* GOLD BUTTON HOVER */
+
+.hero .primary-btn:hover,
+.hero a[href*="reading"]:hover,
+.hero a[href*="read"]:hover {
+
+    transform: translateY(-3px) !important;
+
+    box-shadow:
+        0 12px 32px rgba(212,175,55,.38),
+        0 0 18px rgba(212,175,55,.20) !important;
+
+    color: #111 !important;
+}
+
+
+/* =========================
+   DAILY CARD — PREMIUM PURPLE
+========================= */
+
+.hero .secondary-btn,
+.hero a[href*="daily"] {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(91,45,140,.88),
+            rgba(47,24,72,.92)
+        ) !important;
+
+    color: #f5e9ff !important;
+
+    border: 1px solid rgba(212,175,55,.38) !important;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,.25) !important;
+
+    backdrop-filter: blur(12px) !important;
+}
+
+
+/* PURPLE BUTTON HOVER */
+
+.hero .secondary-btn:hover,
+.hero a[href*="daily"]:hover {
+
+    transform: translateY(-3px) !important;
+
+    border-color: #d4af37 !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(105,52,160,.95),
+            rgba(53,27,82,.96)
+        ) !important;
+
+    box-shadow:
+        0 12px 30px rgba(89,42,137,.35),
+        0 0 15px rgba(212,175,55,.12) !important;
+
+    color: #fff !important;
+}
+
+
+/* =========================
+   BUTTON ICON
+========================= */
+
+.hero a span,
+.hero button span {
+    display: inline-flex !important;
+    align-items: center !important;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .hero h1,
+    .hero-title,
+    .hero .hero-title,
+    #hero h1 {
+        font-size: 2.6rem !important;
+    }
+
+    .hero-buttons,
+    .hero-actions,
+    .hero .buttons,
+    .hero .button-group {
+        gap: 14px !important;
+    }
+
+    .hero a,
+    .hero button,
+    .hero .btn {
+        min-height: 52px !important;
+        padding: 0 24px !important;
+        font-size: 14px !important;
+    }
+}
+/* =========================================================
+   HOME TITLE — MATCH READING HISTORY HEADING
+========================================================= */
+
+.hero h1,
+.hero-title,
+.hero .hero-title,
+#hero h1 {
+    font-family: "Cinzel", serif !important;
+
+    font-size: clamp(2.8rem, 4.5vw, 3.5rem) !important;
+
+    font-weight: 400 !important;
+
+    letter-spacing: 1px !important;
+
+    text-transform: uppercase !important;
+
+    color: #d4af37 !important;
+
+    line-height: 1.1 !important;
+
+    text-align: center !important;
+
+    text-shadow:
+        0 0 8px rgba(212, 175, 55, 0.30),
+        0 0 20px rgba(212, 175, 55, 0.18) !important;
+
+    margin: 0 0 20px !important;
+}
+/* =========================================================
+   SOULMIRROR TAROT — READING HISTORY STYLE GLOW
+========================================================= */
+
+.hero h1,
+.hero-title,
+.hero .hero-title,
+#hero h1 {
+    font-family: "Cinzel", serif !important;
+
+    font-size: clamp(2.5rem, 3.7vw, 3.9rem) !important;
+
+    font-weight: 650 !important;
+
+    letter-spacing: 1.5px !important;
+
+    text-transform: uppercase !important;
+
+      background:
+        linear-gradient(
+            180deg,
+            #FFF8D9 0%,
+            #F2D36A 35%,
+            #D4AF37 70%,
+            #A97C18 100%
+        ) !important;
+
+    -webkit-background-clip:text !important;
+    background-clip:text !important;
+
+    -webkit-text-fill-color:transparent;
+    line-height: 1.15 !important;
+
+    text-align: center !important;
+
+    /* Golden cinematic glow */
+    text-shadow:
+        0 0 12px rgba(255,221,112,.30),
+        0 0 35px rgba(212,175,55,.20) !important;
+
+    margin-bottom: 20px !important;
+    animation:
+        heroGlow 4s ease-in-out infinite;
+}
+/* ==========================================
+   SOULMIRROR FLASH NOTIFICATION
+========================================== */
+
+.flash-container{
+
+    position:fixed;
+
+    top:105px;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    z-index:9999;
+
+    width:max-content;
+    max-width:90vw;
+
+    pointer-events:none;
+
+}
+
+
+/* ==========================================
+   POPUP
+========================================== */
 
 .flash-message{
-    margin-bottom:12px;
-    padding:14px 20px;
 
-    border-radius:12px;
+    min-width:320px;
 
-    color:#fff;
-    font-weight:600;
+    padding:18px 32px;
 
-    animation:fadeIn .3s ease;
+    text-align:center;
+
+    font-family:"Cinzel", serif;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    letter-spacing:.8px;
+
+    color:#F8E9B0;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(48,25,72,.96),
+            rgba(25,14,43,.97)
+        );
+
+    border:1px solid rgba(212,175,55,.55);
+
+    border-radius:18px;
+
+    backdrop-filter:blur(14px);
+
+    box-shadow:
+
+        0 12px 35px rgba(0,0,0,.45),
+
+        0 0 18px rgba(212,175,55,.16),
+
+        inset 0 0 20px rgba(212,175,55,.035);
+
+    animation:
+        flashAppear .45s ease-out;
+
 }
+
+
+/* ==========================================
+   SUCCESS
+========================================== */
 
 .flash-message.success{
-    background:linear-gradient(135deg,#2e7d32,#43a047);
-    border:1px solid rgba(255,255,255,.15);
-    box-shadow:0 12px 30px rgba(67,160,71,.35);
+
+    color:#F7E7A7;
+
+    border-color:rgba(212,175,55,.60);
+
+    box-shadow:
+
+        0 12px 35px rgba(0,0,0,.45),
+
+        0 0 25px rgba(212,175,55,.20),
+
+        inset 0 0 18px rgba(212,175,55,.04);
+
 }
+
+
+/* ==========================================
+   ERROR
+========================================== */
 
 .flash-message.error{
-    background:#c62828;
+
+    color:#F4D7D7;
+
+    border-color:rgba(180,90,110,.55);
+
 }
 
-.flash-message.warning{
-    background:#ef6c00;
+
+/* ==========================================
+   INFO
+========================================== */
+
+.flash-message.info{
+
+    color:#E9DDF5;
+
+    border-color:rgba(150,110,210,.50);
+
 }
 
-@keyframes fadeIn{
+
+/* ==========================================
+   ANIMATION
+========================================== */
+
+@keyframes flashAppear{
+
     from{
+
         opacity:0;
-        transform:translateY(-10px);
+
+        transform:
+            translateY(-18px)
+            scale(.96);
+
     }
+
     to{
+
         opacity:1;
-        transform:translateY(0);
+
+        transform:
+            translateY(0)
+            scale(1);
+
     }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:600px){
+
+    .flash-container{
+
+        top:90px;
+
+        width:calc(100% - 30px);
+
+    }
+
+    .flash-message{
+
+        min-width:0;
+
+        width:100%;
+
+        padding:16px 20px;
+
+        font-size:13px;
+
+    }
+
 }

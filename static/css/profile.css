@@ -1,41 +1,122 @@
+/* =========================================================
+   SOULMIRROR TAROT — PREMIUM PROFILE PAGE
+========================================================= */
+
+
 /* ===========================
    PROFILE PAGE
 =========================== */
 
 .profile-page {
     min-height: 100vh;
-    padding: 120px 20px 60px;
+
+    padding: 45px 20px 90px;
 
     background:
         linear-gradient(
-            rgba(8, 5, 20, 0.82),
-            rgba(8, 5, 20, 0.90)
+            rgba(8, 5, 20, 0.70),
+            rgba(8, 5, 20, 0.92)
         ),
-        url("../images/backgrounds/nebula-background.png") center center / cover no-repeat;
+        url("../images/backgrounds/nebula-background.png")
+        center center / cover no-repeat;
 
     background-attachment: fixed;
+
+    color: #fff;
 }
 
+
+/* ===========================
+   CONTAINER
+=========================== */
+
 .profile-container {
-    max-width: 1100px;
+    max-width: 1120px;
     margin: auto;
 }
 
+
+/* ===========================
+   PROFILE HEADER
+=========================== */
+
 .profile-header {
     text-align: center;
-    margin-bottom: 50px;
+
+    margin-bottom: 58px;
 }
 
-.profile-header h1 {
-    font-family: "Cinzel", serif;
-    font-size: 42px;
-    color: #FFD86B;
-    margin-bottom: 10px;
+.profile-header h1{
+
+    position:relative;
+
+    max-width:1000px;
+
+    margin:0 auto 22px;
+
+    font-family:"Cinzel",serif;
+
+    font-size:clamp(2.5rem,4.2vw,4rem);
+
+    line-height:1.15;
+
+    font-weight:500;
+
+    letter-spacing:1.5px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #FFF8D9 0%,
+            #F2D36A 35%,
+            #D4AF37 70%,
+            #A97C18 100%
+        );
+
+    -webkit-background-clip:text;
+    background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        0 0 12px rgba(255,221,112,.30),
+        0 0 35px rgba(212,175,55,.20);
+
+    animation:
+        heroGlow 4s ease-in-out infinite;
+
+    white-space: nowrap;
 }
 
+/* Elegant golden underline */
+.profile-header h1::after {
+    content: "";
+    display: block;
+
+    width: 90px;
+    height: 1px;
+
+    margin: 14px auto 0;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #d4af37,
+        transparent
+    );
+
+    box-shadow: 0 0 7px rgba(212, 175, 55, 0.3);
+}
 .profile-header p {
-    color: rgba(255,255,255,.75);
-    font-size: 17px;
+    margin: 0;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 1.25rem;
+
+    letter-spacing: .3px;
+
+    color: rgba(235,225,245,.82);
 }
 
 
@@ -44,70 +125,180 @@
 =========================== */
 
 .stats-grid {
+
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+
     gap: 22px;
+
+    margin-bottom: 22px;
 }
 
 
 /* ===========================
-   CARD
+   PREMIUM STAT CARD
 =========================== */
 
 .stat-card {
 
-    background: rgba(255,255,255,.05);
-    backdrop-filter: blur(16px);
+    position: relative;
 
-    border: 1px solid rgba(255,255,255,.08);
+    min-height: 175px;
 
-    border-radius: 22px;
+    display: flex;
 
-    padding: 28px 24px;
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 30px 24px;
 
     text-align: center;
 
-    transition: .35s ease;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(55,29,84,.82),
+            rgba(20,12,35,.92)
+        );
+
+    backdrop-filter: blur(18px);
+
+    -webkit-backdrop-filter: blur(18px);
+
+    border: 1px solid rgba(212,175,55,.18);
+
+    border-radius: 22px;
 
     box-shadow:
-        0 0 25px rgba(124,58,237,.08);
+        inset 0 1px 0 rgba(255,255,255,.045),
+        0 12px 35px rgba(0,0,0,.30);
+
+    overflow: hidden;
+
+    transition:
+        transform .3s ease,
+        border-color .3s ease,
+        box-shadow .3s ease;
 }
 
-.stat-card:hover{
 
-    transform: translateY(-8px);
+/* soft golden light */
 
-    border-color:#b27cff;
+.stat-card::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: -90px;
+    left: 50%;
+
+    width: 180px;
+    height: 130px;
+
+    transform: translateX(-50%);
+
+    background: rgba(212,175,55,.075);
+
+    filter: blur(40px);
+
+    pointer-events: none;
+}
+
+
+/* subtle bottom glow */
+
+.stat-card::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 15%;
+    right: 15%;
+    bottom: -35px;
+
+    height: 55px;
+
+    background: rgba(92,43,145,.16);
+
+    filter: blur(28px);
+
+    pointer-events: none;
+}
+
+
+/* hover */
+
+.stat-card:hover {
+
+    transform: translateY(-7px);
+
+    border-color: rgba(212,175,55,.48);
 
     box-shadow:
-        0 0 35px rgba(168,85,247,.28);
-
+        inset 0 1px 0 rgba(255,255,255,.06),
+        0 18px 45px rgba(0,0,0,.38),
+        0 0 25px rgba(212,175,55,.08);
 }
 
-.stat-card h3{
 
-    color:#d9c9ff;
+/* ===========================
+   STAT TITLE
+=========================== */
 
-    font-size:18px;
+.stat-card h3 {
 
-    font-weight:600;
+    position: relative;
 
-    margin-bottom:18px;
+    margin: 0 0 18px;
 
+    font-family: "Cinzel", serif;
+
+    font-size: 17px;
+
+    font-weight: 500;
+
+    letter-spacing: .4px;
+
+    text-transform: uppercase;
+
+    color: #ddd2ed;
+
+    z-index: 1;
 }
 
-.stat-card span{
 
-    display:block;
+/* ===========================
+   STAT NUMBER
+=========================== */
 
-    font-size:42px;
+.stat-card span {
 
-    font-weight:700;
+    position: relative;
 
-    color:#FFD86B;
+    display: block;
 
-    font-family:"Cinzel", serif;
+    font-family: "Cormorant Garamond", serif;
 
+    font-size: 3.25rem;
+
+    font-weight: 600;
+
+    line-height: 1;
+
+    color: #f2cd4f;
+
+    text-shadow:
+        0 0 7px rgba(212,175,55,.40),
+        0 0 18px rgba(212,175,55,.17);
+
+    z-index: 1;
 }
 
 
@@ -115,67 +306,375 @@
    DANGER ZONE
 =========================== */
 
-.danger-zone{
+.danger-zone {
 
-    margin-top:70px;
+    position: relative;
 
-    background:rgba(255,70,70,.08);
+    margin-top: 72px;
 
-    border:1px solid rgba(255,70,70,.18);
+    padding: 48px 35px 52px;
 
-    border-radius:24px;
+    text-align: center;
 
-    padding:35px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(52,14,31,.72),
+            rgba(20,8,21,.91)
+        );
 
-    text-align:center;
+    border: 1px solid rgba(255,80,100,.28);
 
+    border-radius: 24px;
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.025),
+        0 15px 40px rgba(0,0,0,.30);
+
+    overflow: hidden;
 }
 
-.danger-zone h2{
 
-    color:#ff6b6b;
+/* danger glow */
 
-    margin-bottom:12px;
+.danger-zone::before {
 
-    font-family:"Cinzel", serif;
+    content: "";
 
+    position: absolute;
+
+    top: -100px;
+    left: 50%;
+
+    width: 300px;
+    height: 170px;
+
+    transform: translateX(-50%);
+
+    background: rgba(255,50,80,.07);
+
+    filter: blur(55px);
+
+    pointer-events: none;
 }
 
-.danger-zone p{
 
-    color:rgba(255,255,255,.72);
+.danger-zone h2 {
 
-    margin-bottom:28px;
+    position: relative;
 
+    margin: 0 0 14px;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 2rem;
+
+    font-weight: 400;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    color: #ff737d;
+
+    text-shadow:
+        0 0 8px rgba(255,70,90,.25);
 }
 
-.delete-btn{
 
-    border:none;
+.danger-zone p {
 
-    padding:14px 32px;
+    position: relative;
 
-    border-radius:999px;
+    margin: 0 auto 28px;
 
-    background:linear-gradient(135deg,#ff4d4d,#d62828);
+    max-width: 700px;
 
-    color:#fff;
+    font-family: "Cormorant Garamond", serif;
 
-    font-size:16px;
+    font-size: 1.2rem;
 
-    font-weight:600;
-
-    cursor:pointer;
-
-    transition:.3s;
-
+    color: rgba(235,225,240,.76);
 }
 
-.delete-btn:hover{
 
-    transform:translateY(-3px);
+/* ===========================
+   DELETE BUTTON
+=========================== */
 
-    box-shadow:0 0 25px rgba(255,0,0,.35);
+.delete-btn {
+
+    position: relative;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 54px;
+
+    padding: 0 32px;
+
+    border: 1px solid rgba(255,125,135,.55);
+
+    border-radius: 999px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f04b55,
+            #d52f3c
+        );
+
+    color: #fff;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    letter-spacing: .2px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 25px rgba(220,45,60,.18);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .25s ease;
+}
+
+
+.delete-btn:hover {
+
+    transform: translateY(-3px);
+
+    background:
+        linear-gradient(
+            135deg,
+            #ff5964,
+            #df3544
+        );
+
+    box-shadow:
+        0 12px 32px rgba(220,45,60,.32),
+        0 0 18px rgba(255,70,90,.12);
+}
+
+
+/* ===========================
+   MODAL OVERLAY
+=========================== */
+
+.modal-overlay {
+
+    position: fixed;
+
+    inset: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 20px;
+
+    background:
+        rgba(5,3,12,.76);
+
+    backdrop-filter: blur(10px);
+
+    -webkit-backdrop-filter: blur(10px);
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    pointer-events: none;
+
+    transition:
+        opacity .3s ease,
+        visibility .3s ease;
+
+    z-index: 9999;
+}
+
+
+.modal-overlay.show {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    pointer-events: auto;
+}
+
+
+/* ===========================
+   DELETE MODAL
+=========================== */
+
+.delete-modal {
+
+    width: 500px;
+
+    max-width: 100%;
+
+    padding: 38px 35px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(48,24,72,.98),
+            rgba(19,11,34,.99)
+        );
+
+    border: 1px solid rgba(212,175,55,.28);
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 25px 70px rgba(0,0,0,.60),
+        0 0 35px rgba(93,42,145,.18);
+
+    backdrop-filter: blur(20px);
+
+    -webkit-backdrop-filter: blur(20px);
+
+    animation: profileModalIn .3s ease-out;
+}
+
+
+.delete-modal h2 {
+
+    margin: 0 0 15px;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 1.8rem;
+
+    font-weight: 400;
+
+    color: #ff727d;
+
+    text-shadow:
+        0 0 10px rgba(255,70,90,.20);
+}
+
+
+.delete-modal p {
+
+    margin: 0 0 20px;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 1.15rem;
+
+    color: #ddd2e5;
+}
+
+
+.delete-modal ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0 0 28px;
+}
+
+
+.delete-modal li {
+
+    margin: 10px 0;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 1.05rem;
+
+    color: #f1eaf5;
+}
+
+
+/* ===========================
+   MODAL BUTTONS
+=========================== */
+
+.modal-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 14px;
+}
+
+
+.cancel-btn {
+
+    min-height: 48px;
+
+    padding: 0 25px;
+
+    border: 1px solid rgba(212,175,55,.30);
+
+    border-radius: 999px;
+
+    background:
+        rgba(255,255,255,.045);
+
+    color: #e7dcef;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        transform .25s ease,
+        border-color .25s ease,
+        background .25s ease;
+}
+
+
+.cancel-btn:hover {
+
+    transform: translateY(-2px);
+
+    border-color: rgba(212,175,55,.60);
+
+    background:
+        rgba(212,175,55,.10);
+}
+
+
+/* ===========================
+   MODAL ANIMATION
+=========================== */
+
+@keyframes profileModalIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(12px) scale(.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
 
 }
 
@@ -184,87 +683,74 @@
    RESPONSIVE
 =========================== */
 
-@media(max-width:768px){
-    .profile-header h1{
-        font-size:32px;
+@media (max-width: 768px) {
+
+    .profile-page {
+        padding: 75px 15px 70px;
     }
-    .stat-card span{
-        font-size:34px;
+
+    .profile-header {
+        margin-bottom: 42px;
     }
-    .danger-zone{
-        padding:25px;
+
+    .profile-header h1 {
+        font-size: 2.7rem;
     }
-}
-/* ===========================
-   MODAL
-=========================== */
 
-.modal-overlay {
-    position: fixed;
-    inset: 0;
+    .profile-header p {
+        font-size: 1.1rem;
+    }
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
 
-    background: rgba(0,0,0,.72);
-    backdrop-filter: blur(8px);
+        gap: 15px;
+    }
 
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    .stat-card {
+        min-height: 150px;
 
-    transition: opacity .3s ease, visibility .3s ease;
+        padding: 24px 15px;
+    }
 
-    z-index: 9999;
+    .stat-card h3 {
+        font-size: 14px;
+    }
+
+    .stat-card span {
+        font-size: 2.7rem;
+    }
+
+    .danger-zone {
+        margin-top: 50px;
+
+        padding: 38px 22px;
+    }
+
 }
 
-.modal-overlay.show {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
-.delete-modal{
-    width:500px;
-    max-width:90%;
-    background:#16122c;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:24px;
-    padding:35px;
-    text-align:center;
-    box-shadow:0 0 45px rgba(128,0,255,.28);
-}
-.delete-modal h2{
-    color:#ff6666;
-    margin-bottom:15px;
-    font-family:"Cinzel", serif;
-}
-.delete-modal p{
-    color:#ddd;
-    margin-bottom:20px;
-}
-.delete-modal ul{
-    list-style:none;
-    padding:0;
-    margin-bottom:28px;
-}
-.delete-modal li{
-    margin:10px 0;
-    color:#f3f3f3;
-}
-.modal-buttons{
-    display:flex;
-    justify-content:center;
-    gap:16px;
-}
-.cancel-btn{
-    padding:12px 24px;
-    border:none;
-    border-radius:999px;
-    background:#444;
-    color:white;
-    cursor:pointer;
-}
-.cancel-btn:hover{
-    background:#666;
+
+@media (max-width: 500px) {
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-header h1 {
+        font-size: 2.35rem;
+    }
+
+    .danger-zone h2 {
+        font-size: 1.65rem;
+    }
+
+    .modal-buttons {
+        flex-direction: column;
+    }
+
+    .cancel-btn,
+    .delete-modal .delete-btn {
+        width: 100%;
+    }
+
 }
