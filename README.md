@@ -167,41 +167,149 @@ The frontend is built using standard web technologies without React or other fro
 
 ### 🏠 Landing Page — Before Login
 
-![SoulMirror Landing Page](docs/screenshots/home-before-login.png)
+![SoulMirror Tarot Landing Page](docs/screenshots/home-before-login.png)
+
+The SoulMirror Tarot landing page introduces the platform with its celestial tarot-themed interface and provides access to the main reading experience.
+
+---
 
 ### 🔐 Authentication
 
 #### Create Account
 
-![SoulMirror Sign Up](docs/screenshots/signup.png)
+![SoulMirror Tarot Sign Up](docs/screenshots/signup.png)
+
+Users can create a personalized SoulMirror Tarot account using their username, email address, and password.
 
 #### Login & Google Authentication
 
-![SoulMirror Login](docs/screenshots/login.png)
+![SoulMirror Tarot Login](docs/screenshots/login.png)
+
+The login interface supports email/password authentication as well as Google authentication.
+
+---
 
 ### 🔮 Reading Selection
 
-![SoulMirror Reading Selection](docs/screenshots/reading-selection.png)
+![SoulMirror Tarot Reading Selection](docs/screenshots/reading-selection.png)
 
-### 🃏 Single Card Reading
+Users can choose from multiple tarot reading experiences based on the type of guidance they are looking for.
 
-![SoulMirror Reading Result](docs/screenshots/reading-result.png)
+Available reading experiences include:
+
+- Single Card Reading
+- Simple Love Reading
+- Deep Love Reading
+- Yes / No Guidance
+- Time Oracle
+- Career Reading
+- Money Reading
+- Spiritual Guidance
+- Decision Reading
+
+---
+
+### 🃏 Reading Result
+
+![SoulMirror Tarot Reading Result](docs/screenshots/reading-result.png)
+
+A generated tarot reading presents the selected card, its orientation, and the contextual interpretation for the user's question.
+
+---
 
 ### ❤️ Simple Love Reading
 
-![SoulMirror Simple Love Reading](docs/screenshots/simple-love.png)
+![SoulMirror Tarot Simple Love Reading](docs/screenshots/simple-love.png)
+
+A three-card love reading designed to explore relationship-related questions and emotional situations.
+
+---
 
 ### 💜 Deep Love Reading
 
-![SoulMirror Deep Love Reading](docs/screenshots/deep-love.png)
+![SoulMirror Tarot Deep Love Reading](docs/screenshots/deep-love.png)
 
-### 📱 Mobile Love Reading
+A five-card deep love spread exploring different dimensions of a relationship, including:
 
-![SoulMirror Mobile Love Reading](docs/screenshots/love-reading-mobile.png)
+- Your Energy
+- Their Energy
+- The Challenge
+- The Bridge
+- The Outcome
+
+---
 
 ### 📖 Reading History
 
-![SoulMirror Reading History](docs/screenshots/reading-history.png)  
+![SoulMirror Tarot Reading History](docs/screenshots/reading-history.png)
+
+Authenticated users can revisit their previous tarot readings from their personalized reading history.
+
+The history interface allows users to:
+
+- View previous readings
+- Export readings as PDF
+- Select multiple readings
+- Manage saved reading records
+
+---
+
+### 🃏 Card Library
+
+SoulMirror Tarot includes a visual card library containing the complete traditional 78-card tarot deck.
+
+#### Major Arcana
+
+![SoulMirror Tarot Major Arcana](docs/screenshots/card-library%20(1).png)
+
+The Major Arcana section provides access to the 22 Major Arcana cards.
+
+#### Cups
+
+![SoulMirror Tarot Cups](docs/screenshots/card-library%20(2).png)
+
+The Cups collection contains the 14 cards of the Cups suit.
+
+#### Wands
+
+![SoulMirror Tarot Wands](docs/screenshots/card-library%20(3).png)
+
+The Wands collection contains the 14 cards of the Wands suit.
+
+#### Swords
+
+![SoulMirror Tarot Swords](docs/screenshots/card-library%20(4).png)
+
+The Swords collection contains the 14 cards of the Swords suit.
+
+#### Pentacles
+
+![SoulMirror Tarot Pentacles](docs/screenshots/card-library%20(5).png)
+
+The Pentacles collection contains the 14 cards of the Pentacles suit.
+
+The Card Library also provides:
+
+- Card search
+- Arcana filtering
+- Suit-based filtering
+- Visual card browsing
+
+---
+
+### 📓 Journal
+
+![SoulMirror Tarot Journal](docs/screenshots/journal.png)
+
+The Journal provides a personal space for users to record thoughts, reflections, and experiences alongside their tarot journey.
+
+---
+
+### ℹ️ About SoulMirror Tarot
+
+![SoulMirror Tarot About Page](docs/screenshots/about.png)
+
+The About page introduces the concept and purpose behind SoulMirror Tarot and its approach to tarot-based self-reflection.
 
 ---
 
