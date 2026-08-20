@@ -444,6 +444,7 @@ SoulMirror-Tarot/
 ├── extensions.py
 ├── requirements.txt
 └── .gitignore
+```
 
 ---
 
