@@ -445,6 +445,8 @@ SoulMirror-Tarot/
 ├── requirements.txt
 └── .gitignore
 
+---
+
 ## 🔄 Application Flow
 
 ```text
