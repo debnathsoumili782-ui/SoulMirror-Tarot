@@ -2,6 +2,8 @@
 
 ### AI-Powered Tarot Reading & Self-Reflection Platform
 
+🌐 **Live Demo:** [Visit SoulMirror Tarot](https://soulmirror-tarot.onrender.com/)
+
 SoulMirror Tarot is a full-stack web application that combines a digital tarot experience with AI-assisted interpretations, personalized readings, and an immersive mystical interface.
 
 Built with **Python, Flask, HTML, CSS, JavaScript, and SQLite**, SoulMirror Tarot provides multiple tarot reading experiences while allowing users to securely manage their accounts, explore the complete tarot deck, maintain personal reflections, and revisit previous readings.
