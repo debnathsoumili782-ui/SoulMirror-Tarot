@@ -462,4 +462,4 @@ SoulMirror Tarot follows a simple, guided journey from authentication to persona
 - **Reading Result** — Save, download as PDF, or revisit later
 - **Reading History** — Access previous readings
 
-![SoulMirror Tarot Application Flow](assets/application-flow.png)
+![SoulMirror Tarot Application Flow](docs/screenshots/application-flow.png)
