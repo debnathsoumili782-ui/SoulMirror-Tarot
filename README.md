@@ -10,6 +10,54 @@ Built with **Python, Flask, HTML, CSS, JavaScript, and SQLite**, SoulMirror Taro
 
 ---
 
+## 🔮 What is Tarot?
+
+Tarot is a symbolic card system that is widely used for reflection, guidance, and exploring personal situations. Its documented origins can be traced to **15th-century Europe**, where tarot cards were originally created as playing cards. Over time, tarot became associated with divination, spirituality, and various esoteric traditions.
+
+### ✦ A Brief History
+
+The earliest known tarot decks appeared in **Renaissance Italy during the 1400s**. The cards were initially used for games and entertainment rather than fortune-telling. Their use for divination and occult practices developed much later, particularly from the 18th century onward.
+
+There is no historically established evidence that tarot was created or introduced by a specific angel or spiritual being. However, later occult and spiritual traditions developed symbolic connections between tarot and figures such as **Archangel Michael**.
+
+### ✦ The 78 Tarot Cards
+
+A traditional tarot deck contains **78 cards**:
+
+- **22 Major Arcana** — represent major life themes, transitions, lessons, archetypes, and significant experiences.
+- **56 Minor Arcana** — divided into four suits:
+  - **Wands** — action, creativity, ambition, and energy
+  - **Cups** — emotions, relationships, intuition, and feelings
+  - **Swords** — thoughts, communication, decisions, and challenges
+  - **Pentacles** — work, finances, stability, and the material world
+
+### ✦ How Does Tarot Work?
+
+A reading usually begins with a **question, intention, or situation**. Cards are drawn from the deck and interpreted according to their symbolism, position within a spread, orientation, and relationship with the surrounding cards.
+
+A card may appear:
+
+- **Upright** — expressing its traditional or direct meaning.
+- **Reversed** — representing a blocked, internal, contrasting, or alternative expression of its symbolism.
+
+Different tarot spreads are designed to explore different areas such as **love, relationships, career, money, decisions, spirituality, timing, and personal growth**.
+
+Tarot is not scientifically proven to predict the future. Instead, it can be approached as a **tool for introspection and self-reflection**, helping people explore their thoughts, emotions, perspectives, and possible paths.
+
+---
+
+## 🌙 What is SoulMirror Tarot?
+
+**SoulMirror Tarot** brings the traditional tarot experience into an interactive digital platform.
+
+It combines a structured **78-card tarot knowledge base** with **AI-assisted contextual interpretation**, allowing users to explore their questions through different tarot reading experiences.
+
+Users can choose a reading type, enter a personal question, draw cards, explore upright or reversed interpretations, and receive contextual insights. Readings can also be **saved, downloaded as PDFs, revisited through Reading History, and complemented with personal Journal entries**.
+
+> **Discover What Your Soul Already Knows.**
+
+---
+
 ## ✨ Features
 
 ### 🔮 Multiple Reading Experiences
