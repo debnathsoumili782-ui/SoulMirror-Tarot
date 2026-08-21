@@ -1,12 +1,12 @@
 from flask import render_template, request, redirect, url_for, current_app,flash
 from . import auth
-from extensions import bcrypt, db, mail
+from extensions import bcrypt, db
 from models.user import User
 from flask_login import login_user, login_required, current_user
 from flask_login import logout_user
 from itsdangerous import URLSafeTimedSerializer
-from flask_mail import Message
-import secrets
+
+import secrets, resend
 from google.oauth2 import id_token
 from google.auth.transport import requests
 
@@ -64,28 +64,52 @@ def forgot_password():
             _external=True
         )
 
-        msg = Message(
-            subject="SoulMirror Tarot — Password Reset",
-            recipients=[user.email]
-        )
+        resend.api_key = current_app.config["RESEND_API_KEY"]
 
-        msg.body = f"""
-Hello {user.username},
+        resend.Emails.send({
+            "from": "SoulMirror Tarot <onboarding@resend.dev>",
+            "to": [user.email],
+            "subject": "SoulMirror Tarot — Password Reset",
+            "html": f"""
+                <h2>Hello {user.username},</h2>
 
-We received a request to reset your SoulMirror Tarot password.
+                <p>
+                    We received a request to reset your
+                    SoulMirror Tarot password.
+                </p>
 
-Click the link below to create a new password:
+                <p>
+                    Click the button below to create a new password:
+                </p>
 
-{reset_url}
+                <p>
+                    <a href="{reset_url}"
+                       style="
+                       display:inline-block;
+                       padding:12px 22px;
+                       background:#D4AF37;
+                       color:#18121f;
+                       text-decoration:none;
+                       border-radius:8px;
+                       font-weight:700;">
+                        Reset Password
+                    </a>
+                </p>
 
-This link will expire in 30 minutes.
+                <p>
+                    This link will expire in 30 minutes.
+                </p>
 
-If you did not request a password reset, you can safely ignore this email.
+                <p>
+                    If you did not request a password reset,
+                    you can safely ignore this email.
+                </p>
 
-— SoulMirror Tarot
-"""
-
-        mail.send(msg)
+                <p>
+                    — SoulMirror Tarot
+                </p>
+            """
+        })
 
         return render_template(
             "auth/forgot-password.html",
