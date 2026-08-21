@@ -450,52 +450,16 @@ SoulMirror-Tarot/
 
 ---
 
-## 🔄 Application Flow
+## 🔮 Application Flow
 
-```text
-User
-│
-├── Authentication
-│   ├── Email / Password
-│   └── Google OAuth
-│
-▼
-SoulMirror Dashboard
-│
-▼
-Choose Reading Type
-│
-├── Single Card
-├── Simple Love
-├── Deep Love
-├── Yes / No
-├── Time Oracle
-├── Career
-├── Money
-├── Decision
-└── Spiritual
-│
-▼
-Enter Question
-│
-▼
-Tarot Card Selection
-│
-▼
-Card Orientation
-│
-├── Upright
-└── Reversed
-│
-▼
-AI-Assisted Interpretation
-│
-▼
-Reading Result
-│
-├── Save Reading
-├── Download PDF
-└── View Later
-│
-▼
-Reading History
+SoulMirror Tarot follows a simple, guided journey from authentication to personalized tarot insights.
+
+- **Authentication** — Email/Password or Google OAuth
+- **Reading Selection** — Choose from multiple tarot reading types
+- **Question & Card Selection** — Enter your question and draw cards
+- **Card Orientation** — Upright or Reversed
+- **AI-Assisted Interpretation** — Contextual interpretation based on the question and cards
+- **Reading Result** — Save, download as PDF, or revisit later
+- **Reading History** — Access previous readings
+
+![SoulMirror Tarot Application Flow](assets/application-flow.png)
