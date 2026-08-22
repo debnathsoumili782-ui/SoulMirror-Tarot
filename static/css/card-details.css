@@ -494,3 +494,329 @@
     color:#f2f2f2;
 
 }
+
+/* =========================================
+   CARD DETAILS — MOBILE RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .card-details-page {
+        min-height: 100vh !important;
+
+        padding: 105px 16px 55px !important;
+
+        background-attachment: scroll !important;
+    }
+
+
+    /* ---------- MAIN CONTAINER ---------- */
+
+    .card-details-container {
+        width: 100% !important;
+        max-width: 430px !important;
+
+        margin: 0 auto !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        gap: 30px !important;
+
+        align-items: stretch !important;
+    }
+
+
+    /* ---------- CARD IMAGE ---------- */
+
+    .card-image-area {
+        position: static !important;
+
+        width: 245px !important;
+        max-width: 75% !important;
+
+        margin: 0 auto !important;
+    }
+
+    .card-image-area img {
+        width: 100% !important;
+
+        border-radius: 18px !important;
+
+        box-shadow:
+            0 0 40px rgba(212,175,55,.18) !important;
+    }
+
+
+    /* ---------- CONTENT ---------- */
+
+    .card-content {
+        width: 100% !important;
+
+        padding-top: 0 !important;
+
+        text-align: center !important;
+    }
+
+
+    /* ---------- BADGE ---------- */
+
+    .details-badge {
+        padding: 8px 16px !important;
+
+        margin-bottom: 14px !important;
+
+        font-size: 12px !important;
+    }
+
+
+    /* ---------- TITLE ---------- */
+
+    .card-content h1 {
+        margin: 8px 0 10px !important;
+
+        font-size: 38px !important;
+
+        line-height: 1.15 !important;
+
+        word-break: break-word !important;
+    }
+
+
+    /* ---------- ORIENTATION ---------- */
+
+    .orientation-switch {
+        justify-content: center !important;
+
+        gap: 10px !important;
+
+        margin: 18px 0 20px !important;
+    }
+
+    .orientation-btn {
+        padding: 10px 22px !important;
+
+        font-size: 14px !important;
+    }
+
+
+    /* ---------- ARCANA ---------- */
+
+    .card-type {
+        margin-bottom: 22px !important;
+
+        font-size: 15px !important;
+    }
+
+
+    /* ---------- OVERVIEW ---------- */
+
+    .overview-box {
+        margin-top: 20px !important;
+
+        padding: 22px 18px !important;
+
+        border-radius: 18px !important;
+
+        font-size: 15px !important;
+
+        line-height: 1.8 !important;
+
+        text-align: left !important;
+    }
+
+
+    /* ---------- KEYWORDS ---------- */
+
+    .keywords-box {
+        margin-top: 26px !important;
+
+        text-align: left !important;
+    }
+
+    .keywords-box h3 {
+        margin-bottom: 14px !important;
+
+        font-size: 20px !important;
+    }
+
+    .keyword-list {
+        gap: 8px !important;
+    }
+
+    .keyword-list span {
+        padding: 8px 13px !important;
+
+        font-size: 12px !important;
+    }
+
+
+    /* ---------- ACCORDION ---------- */
+
+    .accordion {
+        margin-top: 30px !important;
+
+        text-align: left !important;
+    }
+
+    .accordion-item {
+        margin-bottom: 12px !important;
+
+        border-radius: 15px !important;
+    }
+
+    .accordion-header {
+        padding: 17px 18px !important;
+
+        font-size: 17px !important;
+    }
+
+    .accordion-body {
+        padding: 0 18px 20px !important;
+
+        font-size: 14px !important;
+
+        line-height: 1.8 !important;
+    }
+
+
+    /* ---------- INFO GRID ---------- */
+
+    .info-grid {
+        grid-template-columns: 1fr !important;
+
+        gap: 12px !important;
+
+        margin: 28px 0 !important;
+
+        text-align: left !important;
+    }
+
+    .info-card {
+        padding: 19px !important;
+
+        border-radius: 16px !important;
+    }
+
+    .info-card h4 {
+        margin-bottom: 8px !important;
+
+        font-size: 17px !important;
+    }
+
+    .info-card p {
+        font-size: 15px !important;
+
+        line-height: 1.7 !important;
+    }
+
+    #yesNoText {
+        font-size: 19px !important;
+    }
+
+    #timingText {
+        font-size: 17px !important;
+    }
+
+
+    /* ---------- AFFIRMATION ---------- */
+
+    .affirmation-box {
+        margin: 28px 0 !important;
+
+        padding: 24px 19px !important;
+
+        border-radius: 18px !important;
+
+        text-align: left !important;
+    }
+
+    .affirmation-box h3 {
+        margin-bottom: 12px !important;
+
+        font-size: 19px !important;
+    }
+
+    .affirmation-box p {
+        font-size: 15px !important;
+
+        line-height: 1.8 !important;
+    }
+
+
+    /* ---------- CORRESPONDENCE ---------- */
+
+    .correspondence-box {
+        margin: 30px 0 !important;
+
+        text-align: left !important;
+    }
+
+    .correspondence-box h3 {
+        margin-bottom: 16px !important;
+
+        font-size: 19px !important;
+    }
+
+    .correspondence-grid {
+        grid-template-columns: 1fr !important;
+
+        gap: 10px !important;
+    }
+
+    .correspondence-grid div {
+        padding: 17px !important;
+
+        border-radius: 15px !important;
+    }
+
+    .correspondence-grid strong {
+        margin-bottom: 5px !important;
+
+        font-size: 13px !important;
+    }
+
+    .correspondence-grid span {
+        font-size: 14px !important;
+    }
+}
+
+
+/* =========================================
+   SMALL PHONES
+========================================= */
+
+@media (max-width: 400px) {
+
+    .card-details-page {
+        padding: 100px 12px 45px !important;
+    }
+
+    .card-details-container {
+        max-width: 360px !important;
+    }
+
+    .card-image-area {
+        width: 220px !important;
+    }
+
+    .card-content h1 {
+        font-size: 34px !important;
+    }
+
+    .orientation-btn {
+        padding: 9px 18px !important;
+
+        font-size: 13px !important;
+    }
+
+    .overview-box {
+        padding: 19px 16px !important;
+
+        font-size: 14px !important;
+    }
+
+    .keyword-list span {
+        font-size: 11px !important;
+    }
+}

@@ -68,3 +68,127 @@
 .navbar-nav .nav-link{
     white-space:nowrap;
 }
+
+/* =========================================================
+   INSIGHTS — MOBILE RESPONSIVE
+========================================================= */
+
+@media (max-width: 768px){
+
+    .insights-page{
+
+        min-height:100vh;
+
+        padding:110px 18px 60px;
+
+        background-position:center;
+
+        background-attachment:scroll;
+
+    }
+
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    .insights-header{
+
+        margin-bottom:40px;
+
+        padding:0 5px;
+
+    }
+
+
+    .insights-header .badge{
+
+        padding:8px 16px;
+
+        font-size:12px;
+
+        line-height:1.4;
+
+    }
+
+
+    .insights-header h1{
+
+        margin-top:18px;
+
+        font-size:2.8rem;
+
+        line-height:1.2;
+
+    }
+
+
+    .insights-header p{
+
+        margin-top:12px;
+
+        font-size:15px;
+
+        line-height:1.7;
+
+    }
+
+
+    /* =========================
+       NAVIGATION
+    ========================= */
+
+    .nav-actions{
+
+        flex-direction:column;
+
+        align-items:stretch;
+
+        gap:10px;
+
+        margin-left:0;
+
+    }
+
+    .navbar-nav .nav-link{
+
+        white-space:normal;
+
+    }
+
+}
+
+
+/* =========================================================
+   SMALL PHONES
+========================================================= */
+
+@media (max-width:400px){
+
+    .insights-page{
+
+        padding:95px 12px 50px;
+
+    }
+
+    .insights-header .badge{
+
+        font-size:11px;
+
+        padding:7px 13px;
+
+    }
+
+    .insights-header h1{
+
+        font-size:2.35rem;
+
+    }
+
+    .insights-header p{
+
+        font-size:14px;
+
+    }
+
+}

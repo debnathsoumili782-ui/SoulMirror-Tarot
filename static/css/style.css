@@ -4890,3 +4890,482 @@ body {
     }
 
 }
+/* =========================================================
+   MOBILE — SOULMIRROR HERO — PREMIUM COMPOSITION
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .hero {
+        width: 100% !important;
+        height: 780px !important;
+        min-height: 780px !important;
+        position: relative !important;
+        overflow: hidden !important;
+    }
+
+
+    /* =====================================================
+       MOON
+       ===================================================== */
+
+    .hero .moon {
+        width: 245px !important;
+        height: 245px !important;
+
+        left: 50% !important;
+        top: 8px !important;
+
+        transform: translateX(-50%) !important;
+
+        z-index: 2 !important;
+    }
+
+
+    /* =====================================================
+       TOP CARDS
+       ===================================================== */
+
+    .hero .card1 {
+        width: 92px !important;
+
+        left: 12px !important;
+        top: 48px !important;
+
+        transform: rotate(-10deg) !important;
+
+        z-index: 6 !important;
+    }
+
+
+    .hero .card2 {
+        width: 88px !important;
+
+        right: 12px !important;
+        top: 48px !important;
+
+        transform: rotate(10deg) !important;
+
+        z-index: 6 !important;
+    }
+
+
+    /* =====================================================
+       HERO CONTENT
+       ===================================================== */
+
+    .hero .hero-content {
+        position: absolute !important;
+
+        left: 50% !important;
+        top: 55% !important;
+
+        transform: translateX(-50%) !important;
+
+        width: 90% !important;
+        max-width: 90% !important;
+
+        margin: 0 !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+
+        text-align: center !important;
+
+        z-index: 12 !important;
+    }
+
+
+    /* =====================================================
+       TITLE
+       ===================================================== */
+
+    .hero .hero-title {
+        width: 100% !important;
+
+        margin: 0 !important;
+
+        font-size: 32px !important;
+        line-height: 1.08 !important;
+
+        white-space: normal !important;
+
+        text-align: center !important;
+
+        letter-spacing: 0.5px !important;
+    }
+
+
+    /* =====================================================
+       DIVIDER
+       ===================================================== */
+
+    .hero .hero-divider {
+        width: 260px !important;
+        max-width: 82% !important;
+
+        margin-top: 13px !important;
+
+        gap: 10px !important;
+    }
+
+
+    .hero .hero-divider div {
+        font-size: 14px !important;
+    }
+
+
+    /* =====================================================
+       SUBTITLE
+       ===================================================== */
+
+    .hero .hero-subtitle {
+        width: 100% !important;
+
+        margin: 13px 0 0 !important;
+
+        font-size: 15px !important;
+        line-height: 1.4 !important;
+
+        white-space: normal !important;
+
+        text-align: center !important;
+    }
+
+
+    /* =====================================================
+       BUTTONS
+       ===================================================== */
+
+    .hero .hero-buttons {
+        width: 100% !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+
+        gap: 11px !important;
+
+        margin-top: 20px !important;
+    }
+
+
+    .hero .hero-buttons .btn {
+        width: 215px !important;
+        min-width: 215px !important;
+
+        height: 54px !important;
+
+        padding: 0 16px !important;
+
+        border-radius: 15px !important;
+
+        font-size: 15px !important;
+
+        letter-spacing: 0.2px !important;
+    }
+
+
+    /* =====================================================
+       BOTTOM CARDS
+       Decorative framing — kept behind content
+       ===================================================== */
+
+    .hero .card3 {
+        width: 92px !important;
+
+        left: 4px !important;
+        bottom: -2px !important;
+
+        transform: rotate(-8deg) !important;
+
+        z-index: 5 !important;
+    }
+
+
+    .hero .card4 {
+        width: 92px !important;
+
+        right: 4px !important;
+        bottom: -2px !important;
+
+        transform: rotate(8deg) !important;
+
+        z-index: 5 !important;
+    }
+}
+/* =========================================================
+   MOBILE NAVBAR — CLEAN DROPDOWN
+   ========================================================= */
+
+@media (max-width: 991px) {
+
+    /* ---------- NAVBAR ---------- */
+
+    .custom-navbar {
+        height: 82px !important;
+        min-height: 82px !important;
+        padding: 0 !important;
+        position: relative !important;
+        z-index: 1000 !important;
+    }
+
+    .navbar-inner {
+        height: 82px !important;
+        min-height: 82px !important;
+
+        padding: 0 14px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+
+        flex-wrap: nowrap !important;
+    }
+
+
+    /* ---------- LOGO ---------- */
+
+    .custom-navbar .logo {
+        display: flex !important;
+        align-items: center !important;
+
+        gap: 9px !important;
+
+        margin: 0 !important;
+
+        white-space: nowrap !important;
+    }
+
+    .logo-symbol {
+        width: 48px !important;
+        height: 58px !important;
+
+        flex-shrink: 0 !important;
+    }
+
+    .logo-text {
+        font-size: 21px !important;
+        letter-spacing: .8px !important;
+    }
+
+
+    /* ---------- HAMBURGER ---------- */
+
+    .custom-navbar .navbar-toggler {
+        width: 48px !important;
+        height: 48px !important;
+
+        padding: 0 !important;
+
+        margin: 0 !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        border: 1px solid rgba(212,175,55,.45) !important;
+        border-radius: 12px !important;
+
+        background:
+            linear-gradient(
+                145deg,
+                rgba(66,26,92,.55),
+                rgba(20,7,32,.85)
+            ) !important;
+
+        box-shadow:
+            0 0 14px rgba(212,175,55,.10),
+            inset 0 0 12px rgba(255,255,255,.03) !important;
+    }
+
+    .custom-navbar .navbar-toggler:focus {
+        box-shadow:
+            0 0 0 2px rgba(212,175,55,.20),
+            0 0 18px rgba(212,175,55,.15) !important;
+    }
+
+    .custom-navbar .navbar-toggler-icon {
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+
+    /* =====================================================
+       COLLAPSED MENU
+       ===================================================== */
+
+    .custom-navbar .navbar-collapse {
+        position: absolute !important;
+
+        top: 82px !important;
+        left: 10px !important;
+        right: 10px !important;
+
+        width: auto !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        background:
+            linear-gradient(
+                180deg,
+                rgba(18,6,31,.98),
+                rgba(8,3,16,.99)
+            ) !important;
+
+        border: 1px solid rgba(212,175,55,.25) !important;
+        border-radius: 0 0 18px 18px !important;
+
+        box-shadow:
+            0 20px 45px rgba(0,0,0,.55),
+            0 0 30px rgba(103,42,150,.18) !important;
+
+        backdrop-filter: blur(20px) !important;
+        -webkit-backdrop-filter: blur(20px) !important;
+
+        z-index: 2000 !important;
+    }
+
+
+    /* ---------- MENU LIST ---------- */
+
+    .custom-navbar .navbar-links {
+        width: 100% !important;
+
+        margin: 0 !important;
+        padding: 14px 14px 18px !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+
+        gap: 0 !important;
+
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+
+    /* ---------- MENU ITEMS ---------- */
+
+    .custom-navbar .navbar-links .nav-item {
+        width: 100% !important;
+
+        display: block !important;
+
+        text-align: center !important;
+    }
+
+
+    .custom-navbar .nav-link {
+        width: 100% !important;
+
+        padding: 12px 10px !important;
+
+        text-align: center !important;
+
+        font-size: 16px !important;
+
+        border-radius: 10px !important;
+
+        transform: none !important;
+    }
+
+    .custom-navbar .nav-link:hover {
+        background: rgba(212,175,55,.08) !important;
+        transform: none !important;
+    }
+
+
+    /* ---------- DIVIDERS ---------- */
+
+    .custom-navbar .nav-divider {
+        width: 55% !important;
+        height: 1px !important;
+
+        margin: 2px auto !important;
+
+        background:
+            linear-gradient(
+                90deg,
+                transparent,
+                rgba(212,175,55,.22),
+                transparent
+            ) !important;
+    }
+
+
+    /* ---------- AUTH BUTTONS ---------- */
+
+    .custom-navbar .nav-auth {
+        width: 100% !important;
+
+        margin: 12px 0 0 !important;
+        padding: 0 !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        gap: 10px !important;
+    }
+
+    .custom-navbar .nav-login,
+    .custom-navbar .nav-signup {
+        flex: 1 !important;
+
+        min-height: 46px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        padding: 0 12px !important;
+
+        border-radius: 24px !important;
+    }
+}
+
+
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+    .custom-navbar {
+        height: 78px !important;
+        min-height: 78px !important;
+    }
+
+    .navbar-inner {
+        height: 78px !important;
+        min-height: 78px !important;
+
+        padding: 0 10px !important;
+    }
+
+    .logo-symbol {
+        width: 44px !important;
+        height: 54px !important;
+    }
+
+    .logo-text {
+        font-size: 19px !important;
+        letter-spacing: .5px !important;
+    }
+
+    .custom-navbar .navbar-toggler {
+        width: 44px !important;
+        height: 44px !important;
+    }
+
+    .custom-navbar .navbar-collapse {
+        top: 78px !important;
+        left: 8px !important;
+        right: 8px !important;
+    }
+}

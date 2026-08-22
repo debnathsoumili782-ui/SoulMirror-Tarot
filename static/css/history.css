@@ -1878,3 +1878,360 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/* =========================================================
+   HISTORY PAGE — MOBILE ONLY
+========================================================= */
+
+@media (max-width: 700px){
+
+    /* PAGE */
+    .history-page{
+        padding:55px 0 65px !important;
+    }
+
+    .history-page .container{
+        width:92%;
+    }
+
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    .history-header{
+        margin-bottom:30px;
+    }
+
+    .history-header h1{
+        font-size:2.35rem !important;
+        line-height:1.2;
+        margin-bottom:12px;
+    }
+
+    .history-header p{
+        font-size:1rem !important;
+        line-height:1.6;
+        padding:0 8px;
+    }
+
+
+    /* =========================
+       SELECT TOOLBAR
+    ========================= */
+
+    .selection-toolbar{
+        justify-content:center;
+        margin-bottom:22px;
+        min-height:auto;
+    }
+
+    .select-mode-btn{
+        padding:10px 20px;
+        font-size:13px;
+    }
+
+    .bulk-actions{
+        width:100%;
+        display:none;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:8px;
+        padding:10px;
+        border-radius:18px;
+    }
+
+    .bulk-actions.show{
+        display:flex;
+    }
+
+    #selectedCount{
+        width:100%;
+        text-align:center;
+        padding:2px 0 5px;
+        font-size:13px;
+    }
+
+    .bulk-actions button{
+        padding:8px 11px;
+        font-size:11px;
+    }
+
+
+    /* =========================
+       HISTORY LIST
+    ========================= */
+
+    .history-list{
+        grid-template-columns:1fr !important;
+        gap:16px !important;
+    }
+
+
+    /* =========================
+       HISTORY CARD
+    ========================= */
+
+    .history-card{
+        padding:20px 17px !important;
+        border-radius:19px;
+    }
+
+
+    /* =========================
+       TOP ROW
+    ========================= */
+
+    .history-top{
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+        gap:8px;
+        margin-bottom:14px;
+    }
+
+    .history-type{
+        font-size:11px;
+        padding:7px 12px;
+        letter-spacing:.8px;
+    }
+
+    .history-date{
+        font-size:.82rem !important;
+        white-space:normal;
+    }
+
+
+    /* =========================
+       QUESTION
+    ========================= */
+
+    .history-question{
+        font-size:1.28rem !important;
+        line-height:1.4 !important;
+        margin-bottom:12px;
+        word-break:break-word;
+    }
+
+
+    /* =========================
+       CARD INFO
+    ========================= */
+
+    .history-card-name{
+        font-size:1rem !important;
+        line-height:1.5;
+    }
+
+
+    /* =========================
+       ACTIONS
+    ========================= */
+
+    .history-actions{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:9px;
+        margin-top:18px;
+        padding-top:17px;
+    }
+
+    .history-actions form{
+        width:100%;
+    }
+
+    .history-btn{
+        width:100%;
+        min-width:0 !important;
+        max-width:none !important;
+        height:44px !important;
+        padding:0 10px !important;
+        font-size:.76rem !important;
+        white-space:nowrap;
+    }
+
+    /* View Reading */
+    .history-actions > .history-btn:first-child{
+        width:100% !important;
+    }
+
+    /* PDF */
+    .history-actions a.download-btn{
+        width:100% !important;
+        min-width:0 !important;
+        max-width:none !important;
+        height:44px !important;
+        line-height:1 !important;
+        margin:0 !important;
+        padding:0 10px !important;
+    }
+
+    /* Delete if present */
+    .history-actions .danger{
+        width:100%;
+    }
+
+
+    /* =========================
+       PAGINATION
+    ========================= */
+
+    .history-pagination{
+        margin-top:28px;
+        gap:7px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .pagination-pages{
+        gap:5px;
+    }
+
+    .pagination-btn{
+        min-width:auto;
+        height:38px;
+        padding:0 12px;
+        font-size:.72rem;
+    }
+
+    .pagination-number{
+        width:36px;
+        height:36px;
+        font-size:.78rem;
+    }
+
+
+    /* =========================
+       EMPTY STATE
+    ========================= */
+
+    .history-list > p{
+        padding:45px 20px;
+        font-size:.95rem;
+        line-height:1.7;
+    }
+
+
+    /* =========================
+       CHECKBOX
+    ========================= */
+
+    .selection-mode .reading-select-box{
+        left:17px;
+        top:19px;
+    }
+
+    .reading-checkbox{
+        width:19px;
+        height:19px;
+    }
+
+
+    /* =========================
+       DELETE ALL MODAL
+    ========================= */
+
+    .delete-all-modal{
+        padding:18px;
+    }
+
+    .delete-all-box{
+        max-width:100%;
+        padding:32px 22px;
+        border-radius:22px;
+    }
+
+    .delete-warning-icon{
+        width:55px;
+        height:55px;
+        font-size:23px;
+        margin-bottom:18px;
+    }
+
+    .delete-all-box h2{
+        font-size:23px;
+    }
+
+    .delete-all-box p{
+        font-size:14px;
+        line-height:1.7;
+    }
+
+    .delete-all-actions{
+        flex-direction:column-reverse;
+        gap:10px;
+        margin-top:24px;
+    }
+
+    .modal-cancel-btn,
+    .modal-delete-btn{
+        width:100%;
+        min-width:0;
+    }
+
+
+    /* =========================
+       FLASH MESSAGE
+    ========================= */
+
+    .flash-container{
+        top:85px !important;
+        width:90% !important;
+    }
+
+    .flash-message{
+        min-width:0 !important;
+        width:100% !important;
+        max-width:none !important;
+        padding:13px 16px !important;
+        font-size:.82rem !important;
+        line-height:1.5;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+========================================================= */
+
+@media (max-width:400px){
+
+    .history-page{
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .history-page .container{
+        width:94%;
+    }
+
+    .history-header h1{
+        font-size:2.05rem !important;
+    }
+
+    .history-header p{
+        font-size:.9rem !important;
+    }
+
+    .history-card{
+        padding:18px 15px !important;
+    }
+
+    .history-question{
+        font-size:1.18rem !important;
+    }
+
+    .history-actions{
+        grid-template-columns:1fr;
+    }
+
+    .history-btn,
+    .history-actions a.download-btn{
+        height:42px !important;
+    }
+
+    .pagination-btn{
+        padding:0 10px;
+    }
+}

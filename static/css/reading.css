@@ -264,3 +264,388 @@ RESPONSIVE
     display:block;
     border-radius:20px;
 }
+
+/* =========================================================
+   READING PAGE — MOBILE RESPONSIVE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .reading-page {
+        min-height: 100vh !important;
+
+        padding: 100px 14px 55px !important;
+
+        background-attachment: scroll !important;
+    }
+
+    .reading-container {
+        width: 100% !important;
+        max-width: 430px !important;
+
+        display:flex !important;
+        flex-direction:column !important;
+
+        gap:28px !important;
+
+        margin:auto !important;
+    }
+
+
+    /* =====================================================
+       CARD
+    ===================================================== */
+
+    .reading-card-area {
+        position:static !important;
+
+        width:100% !important;
+
+        display:flex !important;
+        justify-content:center !important;
+
+        order:1 !important;
+    }
+
+    .reading-card-area img {
+        width:210px !important;
+
+        max-width:210px !important;
+
+        margin:auto !important;
+
+        border-radius:17px !important;
+    }
+
+
+    /* =====================================================
+       CONTENT
+    ===================================================== */
+
+    .reading-content {
+        width:100% !important;
+
+        padding:25px 18px !important;
+
+        border-radius:21px !important;
+
+        order:2 !important;
+    }
+
+
+    /* ---------- BADGE ---------- */
+
+    .reading-badge {
+        padding:8px 14px !important;
+
+        margin-bottom:15px !important;
+
+        font-size:12px !important;
+    }
+
+
+    /* ---------- QUESTION ---------- */
+
+    .user-question {
+        margin-bottom:22px !important;
+    }
+
+    .user-question h3 {
+        font-size:17px !important;
+
+        margin-bottom:8px !important;
+    }
+
+    .user-question p {
+        font-size:14px !important;
+
+        line-height:1.7 !important;
+
+        overflow-wrap:break-word !important;
+    }
+
+
+    /* ---------- CARD NAME ---------- */
+
+    .reading-content h1 {
+        font-size:2rem !important;
+
+        line-height:1.2 !important;
+
+        margin-bottom:8px !important;
+
+        overflow-wrap:break-word !important;
+    }
+
+
+    /* ---------- ORIENTATION ---------- */
+
+    .card-orientation {
+        font-size:12px !important;
+
+        letter-spacing:1.5px !important;
+
+        margin-bottom:22px !important;
+    }
+
+
+    /* =====================================================
+       KEYWORDS
+    ===================================================== */
+
+    .keywords {
+        gap:8px !important;
+
+        margin-bottom:25px !important;
+    }
+
+    .keywords span {
+        padding:8px 13px !important;
+
+        font-size:12px !important;
+    }
+
+
+    /* =====================================================
+       AI READING
+    ===================================================== */
+
+    .reading-section {
+        margin-bottom:25px !important;
+    }
+
+    .reading-section h2 {
+        font-size:20px !important;
+
+        margin-top:25px !important;
+
+        margin-bottom:12px !important;
+    }
+
+    .ai-reading {
+        margin-top:12px !important;
+
+        padding:17px 15px !important;
+
+        border-left-width:3px !important;
+
+        border-radius:10px !important;
+
+        font-size:14px !important;
+
+        line-height:1.8 !important;
+
+        overflow-wrap:break-word !important;
+    }
+
+
+    /* =====================================================
+       BUTTONS
+    ===================================================== */
+
+    .reading-buttons {
+        width:100% !important;
+
+        margin-top:30px !important;
+
+        display:flex !important;
+
+        flex-direction:column !important;
+
+        align-items:center !important;
+
+        gap:12px !important;
+    }
+
+    .reading-btn {
+        width:100% !important;
+
+        max-width:260px !important;
+
+        min-width:0 !important;
+
+        padding:13px 20px !important;
+
+        font-size:13px !important;
+
+        text-align:center !important;
+    }
+
+
+    /* =====================================================
+       YES / NO — IF USED
+    ===================================================== */
+
+    .yesno-box {
+        padding:25px 16px !important;
+
+        border-radius:18px !important;
+    }
+
+    .yesno-box h2 {
+        font-size:21px !important;
+    }
+
+    .answer {
+        padding:13px 35px !important;
+
+        font-size:1.4rem !important;
+    }
+}
+
+
+/* =========================================================
+   SMALL PHONES
+========================================================= */
+
+@media (max-width: 400px) {
+
+    .reading-page {
+        padding:95px 10px 45px !important;
+    }
+
+    .reading-container {
+        max-width:390px !important;
+
+        gap:24px !important;
+    }
+
+    .reading-card-area img {
+        width:190px !important;
+
+        max-width:190px !important;
+
+        border-radius:15px !important;
+    }
+
+    .reading-content {
+        padding:22px 15px !important;
+
+        border-radius:19px !important;
+    }
+
+    .reading-content h1 {
+        font-size:1.8rem !important;
+    }
+
+    .reading-badge {
+        font-size:11px !important;
+
+        padding:7px 12px !important;
+    }
+
+    .user-question h3 {
+        font-size:16px !important;
+    }
+
+    .user-question p {
+        font-size:13px !important;
+    }
+
+    .keywords span {
+        padding:7px 11px !important;
+
+        font-size:11px !important;
+    }
+
+    .reading-section h2 {
+        font-size:19px !important;
+    }
+
+    .ai-reading {
+        padding:15px 13px !important;
+
+        font-size:13.5px !important;
+    }
+
+    .reading-btn {
+        max-width:240px !important;
+
+        font-size:12.5px !important;
+    }
+}
+/* =========================================
+        MOBILE — GUIDANCE READING FIX
+========================================= */
+
+@media (max-width:768px){
+
+    .reading-page{
+        padding:210px 12px 60px !important;
+    }
+
+    .reading-container{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        gap:5px;
+    }
+
+    .reading-card-area{
+        position:static !important;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        margin-bottom:0 !important;
+    }
+
+    .reading-card-area img{
+        width:260px;
+        max-width:260px;
+        height:auto;
+        display:block;
+        margin:auto;
+    }
+
+    .reading-content{
+        width:100%;
+        padding:24px 18px;
+        border-radius:22px;
+        box-sizing:border-box;
+        margin-top:0 !important;
+    }
+
+    .reading-content h1{
+        font-size:2rem;
+        text-align:center;
+    }
+
+    .reading-badge{
+        display:block;
+        width:max-content;
+        max-width:100%;
+        margin:0 auto 18px;
+    }
+
+    .user-question{
+        text-align:center;
+    }
+
+    .keywords{
+        justify-content:center;
+    }
+
+    .ai-reading{
+        font-size:15px;
+        padding:18px;
+    }
+
+    .reading-buttons{
+        flex-direction:column;
+        gap:12px;
+    }
+
+    .reading-btn{
+        width:100%;
+        box-sizing:border-box;
+    }
+}
+@media (max-width:768px){
+
+    .reading-content{
+        margin-top:-100px !important;
+        position:relative;
+        z-index:3;
+    }
+
+}

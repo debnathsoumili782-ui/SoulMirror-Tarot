@@ -126,3 +126,594 @@
 .oracle-block:last-child{
     margin-bottom:0;
 }
+
+/* =========================================================
+   TIME ORACLE RESULT — MOBILE RESPONSIVE
+   Desktop untouched
+========================================================= */
+
+@media (max-width: 768px){
+
+    /* =====================================================
+       PAGE / CONTAINER
+    ===================================================== */
+
+    .reading-page{
+        width:100%;
+
+        min-height:100vh;
+
+        padding:
+            65px
+            14px
+            55px;
+
+        box-sizing:border-box;
+
+        overflow-x:hidden;
+    }
+
+
+    .reading-container{
+
+        width:100% !important;
+
+        max-width:430px !important;
+
+        margin:0 auto !important;
+
+        padding:0 !important;
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:30px !important;
+
+        box-sizing:border-box;
+    }
+
+
+    /* =====================================================
+       CARD
+    ===================================================== */
+
+    .reading-card-area{
+
+        position:relative !important;
+
+        top:auto !important;
+
+        left:auto !important;
+
+        right:auto !important;
+
+        width:100% !important;
+
+        max-width:100% !important;
+
+        flex:0 0 auto !important;
+
+        display:flex;
+
+        justify-content:center;
+
+        align-items:center;
+
+        margin:0 auto;
+
+        box-sizing:border-box;
+    }
+
+
+    .reading-card-area img{
+
+        width:200px !important;
+
+        max-width:70vw !important;
+
+        height:auto !important;
+
+        display:block;
+
+        margin:0 auto;
+
+        border-radius:17px;
+
+        box-sizing:border-box;
+
+        box-shadow:
+            0 15px 40px
+            rgba(0,0,0,.5),
+            0 0 35px
+            rgba(212,175,55,.18);
+    }
+
+
+    /* =====================================================
+       CONTENT
+    ===================================================== */
+
+    .reading-content{
+
+        width:100% !important;
+
+        max-width:100% !important;
+
+        margin:0 auto !important;
+
+        padding:0 4px;
+
+        box-sizing:border-box;
+
+        text-align:center;
+    }
+
+
+    /* =====================================================
+       BADGE
+    ===================================================== */
+
+    .reading-badge{
+
+        display:inline-block;
+
+        margin:
+            0 auto 18px;
+
+        padding:
+            7px 15px;
+
+        font-size:12px;
+
+        line-height:1.4;
+
+        border-radius:20px;
+
+        box-sizing:border-box;
+    }
+
+
+    /* =====================================================
+       QUESTION
+    ===================================================== */
+
+    .user-question{
+
+        width:100%;
+
+        max-width:350px;
+
+        margin:
+            0 auto 20px;
+
+        box-sizing:border-box;
+    }
+
+
+    .user-question h3{
+
+        margin:
+            0 0 9px;
+
+        font-size:16px;
+
+        line-height:1.4;
+    }
+
+
+    .user-question p{
+
+        margin:0;
+
+        font-size:14px;
+
+        line-height:1.65;
+
+        overflow-wrap:break-word;
+
+        word-break:normal;
+    }
+
+
+    /* =====================================================
+       CARD TITLE
+    ===================================================== */
+
+    #cardTitle{
+
+        width:100%;
+
+        max-width:100%;
+
+        margin:
+            5px auto 24px !important;
+
+        padding:
+            0 5px;
+
+        box-sizing:border-box;
+
+        font-size:32px !important;
+
+        line-height:1.25 !important;
+
+        white-space:normal !important;
+
+        overflow-wrap:break-word;
+    }
+
+
+    /* =====================================================
+       READING SECTIONS
+    ===================================================== */
+
+    .reading-section{
+
+        width:100%;
+
+        max-width:100%;
+
+        margin:
+            22px auto 0;
+
+        box-sizing:border-box;
+
+        text-align:left;
+    }
+
+
+    .reading-section h2{
+
+        margin:
+            0 0 10px;
+
+        font-size:21px;
+
+        line-height:1.4;
+    }
+
+
+    .reading-section > p{
+
+        margin:0;
+
+        font-size:15px;
+
+        line-height:1.8;
+
+        overflow-wrap:break-word;
+    }
+
+
+    /* =====================================================
+       AI READING BOX
+    ===================================================== */
+
+    .ai-reading{
+
+        width:100% !important;
+
+        max-width:100% !important;
+
+        margin:
+            14px 0 0 !important;
+
+        padding:
+            23px 17px !important;
+
+        box-sizing:border-box;
+
+        border-radius:20px !important;
+
+        overflow:hidden;
+
+        text-align:left;
+
+        background:
+            linear-gradient(
+                180deg,
+                rgba(48,24,74,.96),
+                rgba(25,14,42,.98)
+            );
+    }
+
+
+    .ai-reading section{
+
+        width:100% !important;
+
+        max-width:100% !important;
+
+        margin:0 !important;
+
+        padding:0 !important;
+
+        box-sizing:border-box;
+    }
+
+
+    .ai-reading section + section{
+
+        margin-top:18px !important;
+    }
+
+
+    .ai-reading h2{
+
+        width:100%;
+
+        margin:
+            0 0 10px !important;
+
+        padding:0 !important;
+
+        font-size:20px !important;
+
+        line-height:1.4 !important;
+
+        overflow-wrap:break-word;
+    }
+
+
+    .ai-reading h3{
+
+        font-size:18px !important;
+
+        line-height:1.4;
+
+        margin:
+            18px 0 9px !important;
+    }
+
+
+    .ai-reading p{
+
+        width:100%;
+
+        margin:
+            0 0 16px !important;
+
+        padding:0 !important;
+
+        font-size:14px !important;
+
+        line-height:1.8 !important;
+
+        overflow-wrap:break-word;
+
+        word-break:normal;
+    }
+
+
+    .ai-reading p:last-child{
+
+        margin-bottom:0 !important;
+    }
+
+
+    .ai-reading ul,
+    .ai-reading ol{
+
+        padding-left:20px;
+
+        margin:
+            10px 0 15px;
+    }
+
+
+    .ai-reading li{
+
+        font-size:14px;
+
+        line-height:1.7;
+
+        margin-bottom:7px;
+    }
+
+
+    .oracle-block{
+
+        margin-bottom:18px;
+    }
+
+
+    .oracle-block:last-child{
+
+        margin-bottom:0;
+    }
+
+
+    /* =====================================================
+       BUTTONS
+    ===================================================== */
+
+    .reading-buttons{
+
+        width:100%;
+
+        max-width:350px;
+
+        margin:
+            30px auto 0;
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:12px;
+
+        box-sizing:border-box;
+    }
+
+
+    .reading-btn{
+
+        width:100% !important;
+
+        max-width:350px;
+
+        min-height:50px;
+
+        padding:
+            13px 20px;
+
+        box-sizing:border-box;
+
+        display:flex;
+
+        justify-content:center;
+
+        align-items:center;
+
+        text-align:center;
+
+        border-radius:15px;
+
+        font-size:14px;
+
+        line-height:1.4;
+
+        white-space:normal;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+========================================================= */
+
+@media (max-width:400px){
+
+    .reading-page{
+
+        padding:
+            100px
+            10px
+            45px;
+    }
+
+
+    .reading-container{
+
+        gap:25px !important;
+    }
+
+
+    .reading-card-area img{
+
+        width:180px !important;
+
+        max-width:65vw !important;
+
+        border-radius:15px;
+    }
+
+
+    .reading-badge{
+
+        font-size:11px;
+
+        padding:
+            6px 13px;
+    }
+
+
+    .user-question{
+
+        max-width:310px;
+    }
+
+
+    .user-question h3{
+
+        font-size:15px;
+    }
+
+
+    .user-question p{
+
+        font-size:13px;
+    }
+
+
+    #cardTitle{
+
+        font-size:28px !important;
+
+        margin-bottom:20px !important;
+    }
+
+
+    .reading-section h2{
+
+        font-size:20px;
+    }
+
+
+    .reading-section > p{
+
+        font-size:14px;
+
+        line-height:1.75;
+    }
+
+
+    .ai-reading{
+
+        padding:
+            21px 15px !important;
+
+        border-radius:18px !important;
+    }
+
+
+    .ai-reading h2{
+
+        font-size:19px !important;
+    }
+
+
+    .ai-reading p{
+
+        font-size:13.5px !important;
+
+        line-height:1.75 !important;
+    }
+
+
+    .reading-buttons{
+
+        max-width:320px;
+
+        margin-top:25px;
+    }
+
+
+    .reading-btn{
+
+        max-width:320px;
+
+        font-size:13px;
+
+        min-height:48px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .reading-container{
+        gap:0 !important;
+    }
+
+    .reading-content{
+        margin-top:-75px !important;
+    }
+
+}

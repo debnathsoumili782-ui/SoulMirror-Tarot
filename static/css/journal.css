@@ -1111,3 +1111,727 @@
     }
 
 }
+
+/* =========================================================
+   EDIT JOURNAL — DELETE BUTTON
+========================================================= */
+
+.delete-journal-form{
+
+    margin-top:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+
+/* Delete button */
+
+.delete-journal-form .journal-btn.danger{
+
+    min-width:125px;
+
+    padding:11px 22px;
+
+    border-radius:999px;
+
+    background:transparent;
+
+    border:1px solid rgba(255,100,100,.35);
+
+    color:#FF7373;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s ease;
+}
+
+
+.delete-journal-form .journal-btn.danger:hover{
+
+    transform:translateY(-3px);
+
+    background:#C94444;
+
+    color:white;
+
+    border-color:#C94444;
+
+    box-shadow:
+        0 8px 25px rgba(201,68,68,.25);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media(max-width:600px){
+
+    .delete-journal-form{
+
+        margin-top:12px;
+
+    }
+
+    .delete-journal-form .journal-btn.danger{
+
+        width:100%;
+
+        max-width:250px;
+
+    }
+
+}
+
+/* =========================================================
+   JOURNAL LIST — FINAL MOBILE
+========================================================= */
+
+@media (max-width: 600px){
+
+    .journal-page{
+        padding:100px 0 60px !important;
+    }
+
+    .journal-page .container{
+        padding:0 14px !important;
+    }
+
+    .journal-header{
+        margin-bottom:38px !important;
+    }
+
+    .journal-header h1{
+        font-size:2.6rem !important;
+        line-height:1.2 !important;
+    }
+
+    .journal-header p{
+        font-size:16px !important;
+        line-height:1.7 !important;
+        margin:14px auto 25px !important;
+    }
+
+    .journal-header .journal-btn{
+        width:100% !important;
+        max-width:240px !important;
+        min-width:0 !important;
+
+        padding:13px 20px !important;
+
+        font-size:14px !important;
+    }
+
+
+    /* Journal cards */
+
+    .journal-list{
+        grid-template-columns:1fr !important;
+        gap:18px !important;
+    }
+
+    .journal-card{
+        padding:25px 20px !important;
+        border-radius:21px !important;
+    }
+
+    .journal-card h3{
+        font-size:21px !important;
+        line-height:1.35 !important;
+    }
+
+    .journal-date{
+        font-size:11px !important;
+        letter-spacing:.9px !important;
+        margin-bottom:18px !important;
+    }
+
+    .journal-preview{
+        font-size:16px !important;
+        line-height:1.7 !important;
+    }
+
+    .journal-actions{
+        margin-top:20px !important;
+    }
+
+    .journal-actions .journal-btn{
+        width:100% !important;
+        min-width:0 !important;
+        padding:11px 18px !important;
+        font-size:13px !important;
+    }
+
+
+    /* Empty journal */
+
+    .empty-journal{
+        padding:45px 22px !important;
+        margin-top:10px !important;
+        border-radius:23px !important;
+    }
+
+    .empty-journal h2{
+        font-size:25px !important;
+    }
+
+    .empty-journal p{
+        font-size:17px !important;
+        line-height:1.7 !important;
+    }
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+========================================================= */
+
+@media (max-width:400px){
+
+    .journal-page{
+        padding-top:90px !important;
+    }
+
+    .journal-header h1{
+        font-size:2.3rem !important;
+    }
+
+    .journal-card{
+        padding:22px 17px !important;
+    }
+
+    .journal-card h3{
+        font-size:19px !important;
+    }
+
+    .journal-preview{
+        font-size:15px !important;
+    }
+}
+
+/* ==========================================
+        NEW JOURNAL — MOBILE
+========================================== */
+
+@media (max-width: 600px){
+
+    .journal-form{
+        width:100%;
+        max-width:100%;
+        margin:30px auto 0;
+        padding:25px 18px;
+        box-sizing:border-box;
+        border-radius:22px;
+    }
+
+    .journal-form label{
+        font-size:14px;
+        margin:20px 0 9px;
+    }
+
+    .journal-form input{
+        height:52px;
+        font-size:15px;
+    }
+
+    .journal-form textarea{
+        min-height:260px;
+        font-size:15px;
+        line-height:1.7;
+    }
+
+    .journal-form button{
+        height:54px;
+        margin-top:24px;
+        font-size:15px;
+    }
+
+}
+
+/* =========================================================
+   VIEW JOURNAL — PREMIUM READING STYLE
+========================================================= */
+
+.journal-view-page{
+    padding-top:80px;
+    padding-bottom:100px;
+}
+
+
+/* =========================================================
+   VIEW CARD
+========================================================= */
+
+.journal-view-card{
+
+    position:relative;
+
+    max-width:950px;
+
+    margin:0 auto;
+
+    padding:55px 65px 45px;
+
+    border-radius:30px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(39,22,63,.90),
+            rgba(16,9,29,.94)
+        );
+
+    border:1px solid rgba(212,175,55,.28);
+
+    backdrop-filter:blur(20px);
+
+    box-shadow:
+        0 30px 80px rgba(0,0,0,.50),
+        0 0 45px rgba(212,175,55,.07);
+
+    overflow:hidden;
+
+    animation:journalViewAppear .7s ease both;
+}
+
+
+/* atmospheric glow */
+
+.journal-view-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:400px;
+    height:400px;
+
+    top:-220px;
+    right:-170px;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(212,175,55,.13),
+            transparent 70%
+        );
+
+    pointer-events:none;
+}
+
+
+/* top golden line */
+
+.journal-view-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:10%;
+    right:10%;
+
+    height:1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(212,175,55,.65),
+            transparent
+        );
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.journal-view-header{
+
+    position:relative;
+
+    text-align:center;
+
+    z-index:1;
+
+}
+
+
+.journal-view-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+    justify-content:center;
+
+    padding:8px 18px;
+
+    margin-bottom:22px;
+
+    border-radius:999px;
+
+    background:rgba(212,175,55,.10);
+
+    border:1px solid rgba(212,175,55,.25);
+
+    color:#E6C15A;
+
+    font-family:"Inter",sans-serif;
+
+    font-size:12px;
+
+    font-weight:600;
+
+    letter-spacing:1.2px;
+
+    text-transform:uppercase;
+}
+
+
+.journal-view-header h1{
+
+    margin:0 auto 15px;
+
+    max-width:800px;
+
+    font-family:"Cinzel",serif;
+
+    font-size:clamp(2.2rem,4vw,4rem);
+
+    line-height:1.2;
+
+    font-weight:500;
+
+    letter-spacing:1px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #FFF8D9 0%,
+            #F2D36A 40%,
+            #D4AF37 75%,
+            #A97C18 100%
+        );
+
+    -webkit-background-clip:text;
+    background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        0 0 15px rgba(255,221,112,.22);
+}
+
+
+/* date */
+
+.journal-view-header .journal-date{
+
+    margin:0;
+
+    color:#9E94B2;
+
+    font-family:"Inter",sans-serif;
+
+    font-size:12px;
+
+    letter-spacing:1.4px;
+
+    text-transform:uppercase;
+}
+
+
+.journal-view-header .journal-date::after{
+
+    display:none;
+}
+
+
+/* =========================================================
+   QUOTE
+========================================================= */
+
+.journal-view-card .journal-quote{
+
+    max-width:720px;
+
+    margin:42px auto 45px;
+
+    padding:20px 25px;
+
+    text-align:center;
+
+    border-left:none;
+
+    border-top:1px solid rgba(212,175,55,.22);
+
+    border-bottom:1px solid rgba(212,175,55,.22);
+
+    color:#E6C15A;
+
+    font-family:"Cormorant Garamond","Georgia",serif;
+
+    font-size:21px;
+
+    font-style:italic;
+
+    line-height:1.6;
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.journal-view-card .journal-content{
+
+    max-width:780px;
+
+    margin:0 auto;
+
+    color:#ECE7F7;
+
+    font-family:"Cormorant Garamond","Georgia",serif;
+
+    font-size:22px;
+
+    line-height:2;
+
+    letter-spacing:.15px;
+
+    white-space:pre-wrap;
+
+}
+
+
+/* =========================================================
+   DIVIDER
+========================================================= */
+
+.journal-view-divider{
+
+    width:100%;
+
+    max-width:780px;
+
+    height:1px;
+
+    margin:48px auto 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(212,175,55,.28),
+            transparent
+        );
+}
+
+
+/* =========================================================
+   ACTIONS
+========================================================= */
+
+.journal-view-card .journal-actions{
+
+    justify-content:center;
+
+    margin-top:32px;
+
+    gap:12px;
+}
+
+
+.journal-view-card .journal-actions form{
+
+    margin:0;
+}
+
+
+.journal-view-card .journal-actions .journal-btn{
+
+    min-width:120px;
+
+    padding:12px 24px;
+
+    font-size:13px;
+}
+
+
+/* =========================================================
+   ANIMATION
+========================================================= */
+
+@keyframes journalViewAppear{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            translateY(25px)
+            scale(.985);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+            translateY(0)
+            scale(1);
+
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media(max-width:600px){
+
+    .journal-view-page{
+
+        padding-top:95px;
+
+        padding-bottom:60px;
+    }
+
+
+    .journal-view-card{
+
+        padding:32px 20px 25px;
+
+        border-radius:23px;
+    }
+
+
+    .journal-view-badge{
+
+        font-size:10px;
+
+        padding:7px 14px;
+
+        margin-bottom:18px;
+    }
+
+
+    .journal-view-header h1{
+
+        font-size:2rem;
+
+        line-height:1.3;
+
+        margin-bottom:12px;
+    }
+
+
+    .journal-view-header .journal-date{
+
+        font-size:10px;
+
+        letter-spacing:1px;
+    }
+
+
+    .journal-view-card .journal-quote{
+
+        margin:32px auto 35px;
+
+        padding:17px 10px;
+
+        font-size:18px;
+
+        line-height:1.55;
+    }
+
+
+    .journal-view-card .journal-content{
+
+        font-size:19px;
+
+        line-height:1.85;
+
+        text-align:left;
+    }
+
+
+    .journal-view-divider{
+
+        margin-top:35px;
+    }
+
+
+    .journal-view-card .journal-actions{
+
+        flex-direction:column;
+
+        width:100%;
+
+        gap:10px;
+
+        margin-top:25px;
+    }
+
+
+    .journal-view-card .journal-actions .journal-btn,
+    .journal-view-card .journal-actions form{
+
+        width:100%;
+
+        box-sizing:border-box;
+    }
+
+
+    .journal-view-card .journal-actions .journal-btn{
+
+        min-width:0;
+
+        width:100%;
+
+        padding:12px 18px;
+    }
+
+}
+
+
+@media(max-width:400px){
+
+    .journal-view-card{
+
+        padding:28px 17px 22px;
+    }
+
+
+    .journal-view-header h1{
+
+        font-size:1.8rem;
+    }
+
+
+    .journal-view-card .journal-quote{
+
+        font-size:17px;
+    }
+
+
+    .journal-view-card .journal-content{
+
+        font-size:18px;
+
+        line-height:1.8;
+    }
+
+}

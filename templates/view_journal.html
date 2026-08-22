@@ -1,40 +1,78 @@
 {% extends "base.html" %}
+
 {% block title %}{{ journal.title }}{% endblock %}
+
 {% block content %}
-<section class="journal-page">
+
+<section class="journal-page journal-view-page">
+
     <div class="container">
-        <div class="journal-card">
-            <h1>{{ journal.title }}</h1>
-            <p class="journal-date">
-                {{ journal.created_at.strftime('%d %b %Y • %I:%M %p') }}
-            </p>
-            <p class="journal-quote">
+
+        <article class="journal-view-card">
+
+            <div class="journal-view-header">
+
+                <span class="journal-view-badge">
+                    ✦ Personal Journal
+                </span>
+
+                <h1>
+                    {{ journal.title }}
+                </h1>
+
+                <p class="journal-date">
+                    {{ journal.created_at.strftime('%d %b %Y • %I:%M %p') }}
+                </p>
+
+            </div>
+
+            <div class="journal-quote">
                 ✦ Every page you write becomes a mirror of your soul.
-            </p>
-            <hr>
-            <div class="journal-content">{{ journal.content }}</div>
+            </div>
+
+            <div class="journal-content">
+                {{ journal.content }}
+            </div>
+
+            <div class="journal-view-divider"></div>
+
             <div class="journal-actions">
-                <a href="{{ url_for('main.journal') }}"
-                   class="journal-btn">
+
+                <a
+                    href="{{ url_for('main.journal') }}"
+                    class="journal-btn secondary">
                     ← Back
                 </a>
-                <a href="{{ url_for('main.edit_journal', journal_id=journal.id) }}"
-                   class="journal-btn">
+
+                <a
+                    href="{{ url_for('main.edit_journal', journal_id=journal.id) }}"
+                    class="journal-btn">
                     ✏ Edit
                 </a>
-                <form action="{{ url_for('main.delete_journal', journal_id=journal.id) }}"
-                      method="POST"
-                      onsubmit="return confirm('Delete this journal permanently?');">
-                    <button type="submit"
-                            class="journal-btn danger">
+
+                <form
+                    action="{{ url_for('main.delete_journal', journal_id=journal.id) }}"
+                    method="POST"
+                    onsubmit="return confirm('Delete this journal permanently?');">
+
+                    <button
+                        type="submit"
+                        class="journal-btn danger">
                         🗑 Delete
                     </button>
+
                 </form>
+
             </div>
-        </div>
+
+        </article>
+
     </div>
+
 </section>
-<link rel="stylesheet"
-      href="{{ url_for('static', filename='css/journal.css') }}">
+
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/journal.css') }}">
 
 {% endblock %}

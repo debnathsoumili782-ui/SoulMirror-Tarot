@@ -579,3 +579,329 @@
             0 0 32px rgba(212,175,55,.45);
     }
 }
+
+/* ==========================================
+        SIMPLE LOVE RESULT — MOBILE
+========================================== */
+
+@media (max-width: 768px){
+
+    .love-reading-page{
+        min-height:100vh;
+        padding:0 12px 50px;
+        background-attachment:scroll;
+    }
+
+    .love-reading-hero{
+        padding:28px 14px 35px;
+        border-radius:22px;
+    }
+
+    .love-question{
+        margin-bottom:30px;
+    }
+
+    .love-question h1{
+        font-size:32px;
+        line-height:1.25;
+        margin:16px 0;
+    }
+
+    .reading-pill{
+        font-size:12px;
+        padding:7px 15px;
+    }
+
+    .question-pill{
+        width:100%;
+        max-width:100%;
+        box-sizing:border-box;
+        margin-top:15px;
+        padding:12px 16px;
+        font-size:14px;
+        line-height:1.5;
+        border-radius:20px;
+    }
+
+    /* =========================
+            THREE CARDS
+    ========================= */
+
+    .love-cards{
+        grid-template-columns:1fr;
+        gap:38px;
+        margin-top:25px;
+    }
+
+    .love-card{
+        max-width:100%;
+    }
+
+    .love-card img{
+        width:190px !important;
+        max-width:190px !important;
+        border-radius:16px;
+    }
+
+    .love-card h3{
+        margin-top:16px;
+        margin-bottom:8px;
+        font-size:18px;
+        line-height:1.4;
+    }
+
+    .card-name{
+        font-size:21px;
+        margin:8px 0 12px;
+    }
+
+    .orientation-badge{
+        font-size:11px;
+        padding:6px 14px;
+    }
+
+    /* =========================
+            AI READING
+    ========================= */
+
+    .reading-content{
+        margin:25px 12px 0;
+        transform:none;
+    }
+
+    .reading-box{
+        padding:25px 18px;
+        border-radius:20px;
+    }
+
+    .reading-header{
+        font-size:24px;
+        line-height:1.4;
+        margin-bottom:22px;
+    }
+
+    .reading-body{
+        font-size:15px;
+        line-height:1.8;
+    }
+
+    .reading-body h2{
+        font-size:22px;
+        margin:28px 0 14px;
+    }
+
+    .reading-body h3{
+        font-size:19px;
+        margin:24px 0 10px;
+    }
+
+    .reading-body p{
+        font-size:15px;
+        line-height:1.8;
+    }
+
+    /* =========================
+            REFLECTION
+    ========================= */
+
+    .reflection-box{
+        width:auto;
+        margin:35px 12px 30px;
+        padding:25px 18px;
+        border-radius:20px;
+    }
+
+    .reflection-box h2{
+        font-size:23px;
+    }
+
+    .reflection-box p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .reflection-box blockquote{
+        font-size:20px;
+        line-height:1.5;
+        margin:15px 5px;
+    }
+
+    .reading-actions{
+        margin-top:22px;
+    }
+
+    .reading-actions .btn{
+        width:100%;
+        min-width:0;
+        box-sizing:border-box;
+        padding:13px 20px;
+        font-size:14px;
+    }
+}
+
+
+/* ==========================================
+        VERY SMALL PHONES
+========================================== */
+
+@media (max-width:400px){
+
+    .love-reading-hero{
+        padding:25px 10px 32px;
+    }
+
+    .love-question h1{
+        font-size:28px;
+    }
+
+    .love-card img{
+        width:175px !important;
+        max-width:175px !important;
+    }
+
+    .love-card h3{
+        font-size:16px;
+    }
+
+    .card-name{
+        font-size:19px;
+    }
+
+    .reading-box{
+        padding:22px 15px;
+    }
+
+    .reading-header{
+        font-size:21px;
+    }
+
+    .reflection-box blockquote{
+        font-size:18px;
+    }
+}
+@media (max-width: 768px){
+
+    /* ==============================
+       READING SECTION — MOBILE
+    ============================== */
+
+    .reading-content{
+        width:100% !important;
+        max-width:none !important;
+
+        margin:45px 0 0 !important;
+        padding:0 !important;
+
+        background:transparent !important;
+        border:none !important;
+        box-shadow:none !important;
+
+        transform:none !important;
+    }
+
+    .reading-box{
+        width:calc(100% - 30px) !important;
+        max-width:none !important;
+
+        margin:0 15px !important;
+        box-sizing:border-box !important;
+
+        padding:28px 18px !important;
+
+        background:linear-gradient(
+            180deg,
+            rgba(48,24,74,.96),
+            rgba(28,16,46,.98)
+        ) !important;
+
+        border:1px solid rgba(212,175,55,.30) !important;
+        border-radius:24px !important;
+
+        box-shadow:
+            0 0 40px rgba(212,175,55,.10) !important;
+    }
+
+}
+/* =========================================================
+   SIMPLE LOVE — MOBILE SHUFFLE
+   ========================================================= */
+
+@media (max-width: 600px){
+
+    /* =====================================
+       QUESTION PAGE
+    ===================================== */
+
+    .yesno-page{
+        min-height:100vh;
+        padding:105px 18px 60px;
+        box-sizing:border-box;
+    }
+
+    .yesno-page .container{
+        width:100%;
+        max-width:100%;
+        margin:0 auto;
+    }
+
+    #questionSection{
+        width:100%;
+        max-width:100%;
+        margin:0 auto;
+        text-align:center;
+    }
+
+    .yesno-title{
+        font-size:30px;
+        line-height:1.25;
+        margin-bottom:14px;
+        white-space:normal;
+    }
+
+    .yesno-subtitle{
+        font-size:13px;
+        line-height:1.7;
+        margin:0 auto 28px;
+        max-width:330px;
+    }
+
+    #questionForm{
+        width:100%;
+        gap:20px;
+    }
+
+    #question{
+        width:100%;
+        min-height:115px;
+        padding:16px 18px;
+        box-sizing:border-box;
+        font-size:15px;
+        border-radius:18px;
+    }
+
+
+    /* =====================================
+       FOCUS SCREEN
+    ===================================== */
+
+    #focusScreen{
+        padding:20px;
+        box-sizing:border-box;
+    }
+
+    .focus-box{
+        width:100%;
+        max-width:340px;
+    }
+
+    .focus-box h2{
+        font-size:30px;
+        line-height:1.3;
+    }
+
+    .focus-box p{
+        font-size:15px;
+        line-height:1.9;
+    }
+
+

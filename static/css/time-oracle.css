@@ -1055,3 +1055,607 @@
     }
 
 }
+/* =========================================================
+   TIME ORACLE — MOBILE RESPONSIVE
+   JS UNTOUCHED
+   Desktop untouched
+========================================================= */
+
+@media (max-width: 600px){
+
+    /* =====================================================
+       PAGE
+    ===================================================== */
+
+    .time-page{
+
+        min-height:100vh;
+
+        padding:
+            105px
+            14px
+            55px !important;
+
+        box-sizing:border-box;
+
+        overflow-x:hidden;
+
+        background-attachment:scroll;
+    }
+
+
+    .time-page .container{
+
+        width:100% !important;
+
+        max-width:430px !important;
+
+        margin:0 auto !important;
+
+        padding:0 !important;
+
+        box-sizing:border-box;
+    }
+
+
+    /* =====================================================
+       QUESTION
+    ===================================================== */
+
+    #questionSection{
+
+        width:100%;
+
+        max-width:100%;
+
+        margin:0 auto;
+
+        text-align:center;
+
+        box-sizing:border-box;
+    }
+
+
+    .time-title{
+
+        width:100% !important;
+
+        max-width:100% !important;
+
+        margin:
+            0 auto 15px !important;
+
+        padding:0 4px;
+
+        box-sizing:border-box;
+
+        font-size:32px !important;
+
+        line-height:1.25 !important;
+
+        white-space:normal !important;
+
+        overflow-wrap:break-word;
+    }
+
+
+    .time-subtitle{
+
+        width:100%;
+
+        max-width:340px;
+
+        margin:
+            0 auto 28px !important;
+
+        font-size:15px !important;
+
+        line-height:1.7 !important;
+
+        box-sizing:border-box;
+    }
+
+
+    #questionForm{
+
+        width:100%;
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:20px;
+
+        box-sizing:border-box;
+    }
+
+
+    #question{
+
+        width:100% !important;
+
+        min-height:125px !important;
+
+        height:125px;
+
+        padding:
+            16px
+            17px !important;
+
+        box-sizing:border-box;
+
+        border-radius:18px !important;
+
+        font-size:15px !important;
+
+        line-height:1.65 !important;
+
+        resize:none;
+    }
+
+
+    .question-error{
+
+        max-width:100%;
+
+        box-sizing:border-box;
+
+        padding:
+            9px
+            14px;
+
+        font-size:12px;
+
+        line-height:1.5;
+    }
+
+
+    .reading-actions{
+
+        width:100%;
+
+        display:flex;
+
+        justify-content:center;
+
+        box-sizing:border-box;
+    }
+
+
+    #startOracleBtn{
+
+        width:100%;
+
+        max-width:330px;
+
+        min-height:50px;
+
+        box-sizing:border-box;
+
+        border-radius:15px;
+
+        font-size:14px;
+    }
+
+
+    /* =====================================================
+       FOCUS
+    ===================================================== */
+
+    #focusScreen{
+
+        width:100vw;
+
+        height:100dvh;
+
+        padding:20px;
+
+        box-sizing:border-box;
+
+        overflow:hidden;
+    }
+
+
+    .focus-box{
+
+        width:90%;
+
+        max-width:340px;
+
+        margin:auto;
+
+        text-align:center;
+    }
+
+
+    .focus-box h2{
+
+        margin-bottom:18px;
+
+        font-size:30px;
+
+        line-height:1.3;
+
+        white-space:normal;
+
+        overflow-wrap:break-word;
+    }
+
+
+    .focus-box p{
+
+        margin-top:18px;
+
+        font-size:15px;
+
+        line-height:1.85;
+    }
+
+
+    /* =====================================
+       SHUFFLE
+    ===================================== */
+
+    #shuffleSection{
+
+        width:100%;
+
+        max-width:100%;
+
+        padding:0 5px 40px;
+
+        box-sizing:border-box;
+
+        text-align:center;
+    }
+
+
+    .deck-wrapper{
+
+        width:185px;
+
+        height:300px;
+
+        margin:25px auto 30px;
+    }
+
+
+    .deck-card{
+
+        width:100%;
+
+        max-width:100%;
+    }
+
+
+    #shuffleSection h2{
+
+        width:100%;
+
+        max-width:330px;
+
+        margin:0 auto 15px;
+
+        font-size:22px;
+
+        line-height:1.45;
+    }
+
+
+    #shuffleSection p{
+
+        width:100%;
+
+        max-width:320px;
+
+        margin:0 auto;
+
+        font-size:14px;
+
+        line-height:1.7;
+    }
+
+
+    .shuffle-buttons{
+
+        width:100%;
+
+        display:flex;
+
+        justify-content:center;
+
+        align-items:center;
+
+        gap:10px;
+
+        margin-top:28px;
+    }
+
+
+    #shuffleBtn,
+    #readyBtn{
+
+        width:calc(50% - 5px);
+
+        min-width:0;
+
+        min-height:48px;
+
+        padding:10px 7px;
+
+        box-sizing:border-box;
+
+        font-size:13px;
+
+        line-height:1.2;
+
+        border-radius:14px;
+    }
+
+
+
+/* ======================================
+       FAN SECTION
+    ====================================== */
+
+    #fanSection{
+
+        width:100%;
+
+        max-width:100%;
+
+        box-sizing:border-box;
+
+        overflow:hidden;
+    }
+
+    #fanSection h2{
+
+        font-size:29px;
+
+        line-height:1.3;
+
+        white-space:normal;
+    }
+
+    #fanSection p{
+
+        font-size:14px;
+
+        line-height:1.5;
+
+        margin:8px 0 15px;
+    }
+
+
+    /* ======================================
+       FAN CARDS
+    ====================================== */
+
+    #fanCards{
+
+        position:relative;
+
+        width:100% !important;
+
+        max-width:100% !important;
+
+        height:390px !important;
+
+        margin:auto;
+
+        overflow:visible;
+    }
+
+    .fan-card{
+
+        width:115px !important;
+
+        max-width:115px !important;
+
+        left:50%;
+
+        bottom:20px;
+
+        border-radius:12px;
+
+        transform-origin:center 300px;
+
+    }
+
+    /* =====================================================
+       OVERLAYS
+    ===================================================== */
+
+
+    #fanOverlay,
+    #flashOverlay{
+
+        position:absolute;
+
+        inset:0;
+
+        pointer-events:none;
+    }
+}
+
+
+    /* =====================================================
+       LOADER
+    ===================================================== */
+
+    #readingLoader{
+
+        width:100vw;
+
+        height:100dvh;
+
+        padding:20px;
+
+        box-sizing:border-box;
+    }
+
+
+    .loader-box{
+
+        width:90%;
+
+        max-width:340px;
+
+        padding:
+            34px
+            20px;
+
+        box-sizing:border-box;
+
+        margin:auto;
+
+        text-align:center;
+    }
+
+
+    .loader-orb{
+
+        width:70px;
+
+        height:70px;
+
+        margin:
+            0 auto 22px;
+    }
+
+
+    .loader-box h3{
+
+        font-size:21px;
+
+        line-height:1.4;
+    }
+
+
+    #loaderText{
+
+        font-size:14px;
+
+        line-height:1.6;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+========================================================= */
+
+@media (max-width:400px){
+
+    .time-page{
+
+        padding:
+            100px
+            11px
+            45px !important;
+    }
+
+
+    .time-title{
+
+        font-size:29px !important;
+    }
+
+
+    .time-subtitle{
+
+        font-size:13px !important;
+
+        max-width:300px;
+    }
+
+
+    #question{
+
+        min-height:115px !important;
+
+        height:115px;
+
+        font-size:14px !important;
+
+        padding:
+            15px
+            16px !important;
+    }
+
+
+    /* ---------- FOCUS ---------- */
+
+    .focus-box h2{
+
+        font-size:27px;
+    }
+
+
+    .focus-box p{
+
+        font-size:14px;
+
+        line-height:1.75;
+    }
+
+
+    /* ---------- SHUFFLE ---------- */
+
+    .deck-wrapper{
+
+        width:165px !important;
+
+        height:265px !important;
+    }
+
+
+    #shuffleSection h2{
+
+        font-size:21px !important;
+    }
+
+
+    /* ---------- FAN ---------- */
+
+    .fan-header h2{
+
+        font-size:25px !important;
+    }
+
+    #selectedSlotWrapper{
+        margin-top:5px !important;
+        margin-bottom:6px !important;
+    }
+
+    .selected-slot{
+
+        width:120px !important;
+
+        height:190px !important;
+    }
+
+
+    #fanContainer{
+
+        zoom:.50;
+    }
+
+
+    #fanCards{
+
+        transform:
+            translateX(-50%)
+            scale(.62);
+    }
+
+
+    .fan-card{
+
+        width:165px !important;
+    }
+
+
+}
